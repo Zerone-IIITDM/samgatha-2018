@@ -1,0 +1,19 @@
+{
+  "name": "samgatha-2018",
+  "version": "1.0.0",
+  "description": "Samgatha - annual techno-cultural fest of IIITDM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "zerone-iiitdm",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "nodemon": "^1.14.8"
+  }
+}
