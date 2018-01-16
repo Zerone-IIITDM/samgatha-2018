@@ -10,7 +10,7 @@ class Header extends Component {
             <li><a href="#">About Us</a></li>
             <li><a href="#">Events</a></li>
             <li><a href="#">Workshops</a></li>
-            <li id="heart-trigger" class="heart heart-trigger"><span class="fa fa-heart"></span></li>
+            <li id="heart-trigger" className="heart heart-trigger"><span class="fa fa-heart"></span></li>
             <li><a href="#">Sponsors</a></li>
             <li><a href="#">Social Cause</a></li>
             <li><a href="#">Login/Register</a></li>
