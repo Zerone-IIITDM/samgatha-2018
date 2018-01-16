@@ -10,6 +10,14 @@ app.get('/events', (req, res) => {
     res.send('Events - Coming Soon!');
 });
 
+app.get('/contact', (req, res) => {
+    res.send('Contacts - Coming Soon!');
+});
+
+app.get('/about', (req, res) => {
+    res.send('About - Coming Soon!');
+});
+
 app.listen(PORT, () => {
     console.log(`App listening on ${PORT}...`);
 });

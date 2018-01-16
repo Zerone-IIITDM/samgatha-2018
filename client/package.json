@@ -5,6 +5,12 @@
   "proxy": {
     "/events": {
       "target": "http://localhost:5000"
+    },
+    "/contact": {
+      "target": "http://localhost:5000"
+    },
+    "/about": {
+      "target": "http://localhost:5000"
     }
   },
   "dependencies": {

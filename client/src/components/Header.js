@@ -2,24 +2,23 @@ import React, { Component } from 'react';
 import './Header.css';
 
 class Header extends Component {
-    render() {
-        return (
-              <div className="header"> 
-                <img id="logo" src="http://www.icon2s.com/wp-content/uploads/2013/07/black-white-metro-github-icon.png" alt="Site Logo"/>
-                <ul>
-                  <li><a id="active-page" href="#">Home</a></li>
-                  <li><a href="/events">Events</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
-                </ul>
-                <form>
-                  <input type="text" autoFocus="autofocus" placeholder="Username"/>
-                  <input type="password" placeholder="Password"/>
-                  <input type="submit" name="login" value="Login"/>
-                </form>
-              </div>
-        );
-    }
+  render() {
+    return (
+      <header>
+        <nav role='navigation'>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Workshops</a></li>
+            <li id="heart-trigger" class="heart heart-trigger"><span class="fa fa-heart"></span></li>
+            <li><a href="#">Sponsors</a></li>
+            <li><a href="#">Social Cause</a></li>
+            <li><a href="#">Login/Register</a></li>
+          </ul>
+        </nav>
+      </header>
+    );
+  }
 }
 
 export default Header;
