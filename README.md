@@ -1,7 +1,7 @@
 # Samgatha 2018
 ## How to run?
 * Clone this repository using `git clone https://github.com/Zerone-IIITDM/samgatha-2018.git`
-* Run `npm install` to install all dependencies
+* Run `npm install` in `client` and `main` directories to install all dependencies
 * Run `npm run dev` to start the server in development mode
 
 ## Code structure 
