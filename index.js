@@ -1,22 +1,14 @@
 const express = require('express');
+const keys = require('./config/keys');
+const passport = require('passport');
+require('./services/passport');
+
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
-app.get('/', (req, res) => {
-    res.send('Samgatha 2018');
-});
+app.use(passport.initialize());
 
-app.get('/events', (req, res) => {
-    res.send('Events - Coming Soon!');
-});
-
-app.get('/contact', (req, res) => {
-    res.send('Contacts - Coming Soon!');
-});
-
-app.get('/about', (req, res) => {
-    res.send('About - Coming Soon!');
-});
+require('./routes/authRoutes')(app);
 
 app.listen(PORT, () => {
     console.log(`App listening on ${PORT}...`);
