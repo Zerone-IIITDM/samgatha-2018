@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.headContainer{
+	border: 1px solid white;
+	height: 300px;
+	width:100%;
+	margin-top: 60px;
+}
+.titleText{
+	margin-top: 80px;
+	margin-left: 150px;
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+.aboutUs{
+	display: inline-flex;
+	width: 100%;
+}
+.leftSide{
+	width: 50%;
+	min-height: 500px;
+	background-color: #A9A9A9;
+}
+.rightSide{
+	background-color: lightgrey;
+	width: 50%;
+	min-height: 500px;
+}
+.leftSideText{
+	margin-top: 170px;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Raleway', sans-serif;
+}
+.rightSideHeaderText{
+	font-weight: 400;
+	margin-left: 50px;
+	margin-top: 50px;
+	font-size: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+.rightSideContainerText{
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	width: 600px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.stats{
+	display: inline-flex;
+	width: 600px;
+	margin-left: 50px;
+	margin-top: 50px;
+}
+.circle1{
+	margin-left: 60px;
+	width: 120px;
+	height: 120px;
+}
+.circleStat{
+	background-color: #59C9A5;
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	margin-left: 15px;	
+}
+.statName{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top: 10px;
+}
+.joinUs{
+	height: 350px;
+	width: 100%;
+}
+.joinText{
+	margin-top: 70px;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Raleway', sans-serif;
+}
+.registerBtn{
+	width: 200px;
+	height: 50px;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: lightgrey;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	line-height: 45px;
+	cursor: pointer;
+}
