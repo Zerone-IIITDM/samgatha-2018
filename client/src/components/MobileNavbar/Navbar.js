@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD:client/src/components/Mobile-Navbar/Navbar.js
 import { bubble as Menu} from 'react-burger-menu';
+=======
+import { push as Menu } from 'react-burger-menu';
+>>>>>>> 4eea8e8547ed38ac30df507761c2f2b3b416683d:client/src/components/MobileNavbar/Navbar.js
 import './Navbar.css';
 
 class Navbar extends Component{
