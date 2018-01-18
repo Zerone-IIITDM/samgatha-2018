@@ -11,11 +11,11 @@
 * `/routes` - routes to be handled by express server
 * `/services` - general configuration settings and middlewares to be used by express server
 
-## Top level files
+### Top level files
 * `index.js` - entry point for application
 * `README.md` - readme 
 
-## `client/src` directory
+### `client/src` directory
 * `components` - react components used in app
 
 ## License
