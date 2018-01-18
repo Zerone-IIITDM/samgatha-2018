@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from './Mobile-Navbar/Navbar';
 import './Header.css';
 
 class Header extends Component {
@@ -20,7 +21,7 @@ class Header extends Component {
     const isMobile = width <= 545;
     if(isMobile){
       return(
-        <h1>This is Mobile</h1>
+        <Navbar />
       );
     }
     else{
