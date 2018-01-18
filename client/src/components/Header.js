@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from './Mobile-Navbar/Navbar';
+import Navbar from './MobileNavbar/Navbar';
 import './Header.css';
 
 class Header extends Component {

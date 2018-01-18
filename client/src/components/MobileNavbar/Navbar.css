@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
 
+body{
+  margin: 0;
+}
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
