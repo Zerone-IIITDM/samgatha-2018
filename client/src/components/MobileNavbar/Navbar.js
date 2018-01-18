@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { push as Menu} from 'react-burger-menu';
+import { push as Menu } from 'react-burger-menu';
 import './Navbar.css';
 
 class Navbar extends Component{
