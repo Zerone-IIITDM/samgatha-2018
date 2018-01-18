@@ -2,22 +2,44 @@ import React, { Component } from 'react';
 import './Header.css';
 
 class Header extends Component {
+  constructor(){
+    super();
+    this.state = {width: window.innerWidth };
+  }
+  componentWillMount(){
+    window.addEventListener('resize', this.handleWindowSizeChange);
+  }
+  componentWillUnmount(){
+    window.addEventListener('resize', this.handleWindowSizeChange);
+  }
+  handleWindowSizeChange = () => {
+    this.setState({ width: window.innerWidth });
+  };
   render() {
-    return (
-      <header>
-        <nav role='navigation'>
-          <ul>
-            <li><a href="#">About Us</a></li>
-            <li><a href="/events">Events</a></li>
-            <li><a href="#">Workshops</a></li>
-            <li id="heart-trigger" className="heart heart-trigger"><span className="fa fa-heart"></span></li>
-            <li><a href="#">Sponsors</a></li>
-            <li><a href="#">Social Cause</a></li>
-            <li><a href="/auth/google">Login/Register</a></li>
-          </ul>
-        </nav>
-      </header>
-    );
+    const { width } = this.state;
+    const isMobile = width <= 545;
+    if(isMobile){
+      return(
+        <h1>This is Mobile</h1>
+      );
+    }
+    else{
+      return (
+        <header>
+          <nav role='navigation'>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="/events">Events</a></li>
+              <li><a href="#">Workshops</a></li>
+              <li id="heart-trigger" className="heart heart-trigger"><span className="fa fa-heart"></span></li>
+              <li><a href="#">Sponsors</a></li>
+              <li><a href="#">Social Cause</a></li>
+              <li><a href="/auth/google">Login/Register</a></li>
+            </ul>
+          </nav>
+        </header>
+      );
+    }
   }
 }
 
