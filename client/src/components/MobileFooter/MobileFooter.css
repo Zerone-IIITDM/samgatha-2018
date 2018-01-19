@@ -1,0 +1,25 @@
+.mobileFooterContainer{
+display: inline-flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #001021;
+  border-bottom: 4px solid #145C9E;
+  height: 45px;
+}
+.mobileFooterNav{
+	width: 100%;
+	height: 100%;
+}
+.mobileUl1{
+	list-style-type: none;
+	display: inline-flex;
+	letter-spacing: 30px;
+	margin-top: 5px;
+	height: 100%;	
+	margin-left: 50px;
+}
+.fa{
+	margin-top: 3px;
+}

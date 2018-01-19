@@ -3,28 +3,7 @@ import Navbar from './MobileNavbar/Navbar';
 import './Header.css';
 
 class Header extends Component {
-  constructor(){
-    super();
-    this.state = {width: window.innerWidth };
-  }
-  componentWillMount(){
-    window.addEventListener('resize', this.handleWindowSizeChange);
-  }
-  componentWillUnmount(){
-    window.addEventListener('resize', this.handleWindowSizeChange);
-  }
-  handleWindowSizeChange = () => {
-    this.setState({ width: window.innerWidth });
-  };
   render() {
-    const { width } = this.state;
-    const isMobile = width <= 545;
-    if(isMobile){
-      return(
-        <Navbar />
-      );
-    }
-    else{
       return (
         <header>
           <nav role='navigation'>
@@ -41,7 +20,6 @@ class Header extends Component {
           </nav>
         </header>
       );
-    }
   }
 }
 
