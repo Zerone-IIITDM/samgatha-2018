@@ -19,6 +19,7 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-burger-menu": "^2.2.3",
+    "react-count-to": "^0.10.0",
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2"
   },
