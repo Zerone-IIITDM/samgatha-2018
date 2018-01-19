@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import CountTo from 'react-count-to';
 import './Home.css';
 
 class Home extends Component{
@@ -28,21 +29,21 @@ class Home extends Component{
 								<div className="circleStat">
 								</div>
 								<div className="statName">
-									20+ Events
+									<CountTo to={22} speed={2000} />+ Events
 								</div>
 							</div>
 							<div className="circle1">
 								<div className="circleStat">
 								</div>
 								<div className="statName">
-									20+ Events
+									<CountTo to={22} speed={2000} />+ Events
 								</div>
 							</div>
 							<div className="circle1">
 								<div className="circleStat">
 								</div>
 								<div className="statName">
-									20+ Events
+									<CountTo to={22} speed={2000} />+ Events
 								</div>
 							</div>
 						</div>
