@@ -8,7 +8,6 @@ class Header extends Component {
         <header>
           <nav role='navigation'>
             <ul>
-              <li><a href="#">About Us</a></li>
               <li><a href="/events">Events</a></li>
               <li><a href="#">Workshops</a></li>
               <li><a href="#">Social Cause</a></li>
