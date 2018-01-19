@@ -5,6 +5,7 @@ import Home from './Homepage/Home';
 import Footer from './Footer/Footer';
 import Navbar from './MobileNavbar/Navbar';
 import MobileFooter from './MobileFooter/MobileFooter';
+import MobileHome from './MobileHome/MobileHome';
 
 class App extends Component {
   constructor(){
@@ -29,6 +30,7 @@ class App extends Component {
           <BrowserRouter>
             <div>
               <Navbar />
+              <Route exact={true} path="/" component={MobileHome} />
               <MobileFooter />
             </div>
           </BrowserRouter>
