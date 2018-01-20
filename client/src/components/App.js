@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Header';
+
+import Workshop from './Workshops/Workshop.js';
+
 import Home from './Homepage/Home';
 import Footer from './Footer/Footer';
 import Navbar from './MobileNavbar/Navbar';
@@ -43,9 +46,11 @@ class App extends Component {
           <div>
             <Header />
             <Route exact={true} path="/" component={Home} />
+            <Route path="/workshops" component={Workshop} />
             <Footer />
           </div>
         </BrowserRouter>
+
       </div>
     );
   }
