@@ -45,6 +45,7 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <Header />
+            <Route path="/events" component={Event} />
             <Route exact={true} path="/" component={Home} />
             <Route path="/workshops" component={Workshop} />
             <Footer />
