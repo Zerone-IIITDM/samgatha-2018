@@ -11,7 +11,7 @@ class Header extends Component {
           <nav role='navigation'>
             <ul>
               <li id="heart-trigger" className="heart heart-trigger"><span className="fa fa-heart"></span></li>
-              <li><a href="/events">Events</a></li>
+              <li><Link to="/events">Events</Link></li>
               <li><Link to='/workshops'>Workshops</Link></li>
               <li><a href="#">Social Cause</a></li>
               <li><a href="#">Sponsors</a></li>

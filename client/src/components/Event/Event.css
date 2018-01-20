@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+
+#event_Main {
+   
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+#event_main{
+    padding-top: 20px;
+    width:100%;
+    height:auto;
+    
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    padding: 10px;
+
+}
+
+#Main{
+    text-align: center;
+    width: 8in;
+}
+
+/*Main body part*/
+
+
+.body{
+    display: inline-flex;
+    margin-top:0.2in;
+    height:auto;
+    margin-right: 100px;
+    padding:2px;
+}
+
+h2{
+    text-align: center;
+   
+}
+
+.event_cult{
+    width:300px;
+    margin-left:100px;
+    background-color: rgb(193, 195, 197);
+}
