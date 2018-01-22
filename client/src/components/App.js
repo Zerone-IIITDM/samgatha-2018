@@ -30,6 +30,7 @@ class App extends Component {
     if(isMobile){
       return(
         <div className="container">
+        
           <BrowserRouter>
             <div>
               <Navbar />
@@ -44,9 +45,11 @@ class App extends Component {
       <div className="container">
         <BrowserRouter>
           <div>
+          
             <Header />
             <Route exact={true} path="/" component={Home} />
             <Route path="/workshops" component={Workshop} />
+          
             <Footer />
           </div>
         </BrowserRouter>
