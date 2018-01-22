@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import './Event.css';
+import './Events.css';
 
-class Event extends Component {
+class Events extends Component {
   render() {
       return (
           <div id="event_Main">
@@ -86,4 +86,4 @@ class Event extends Component {
   }
 }
 
-export default Event;
+export default Events;

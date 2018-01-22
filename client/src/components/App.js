@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Header';
-
-import Workshop from './Workshops/Workshop.js';
-
+import Workshop from './Workshops/Workshop';
+import Events from './Events/Events';
 import Home from './Homepage/Home';
 import Footer from './Footer/Footer';
 import Navbar from './MobileNavbar/Navbar';
@@ -45,7 +44,7 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <Header />
-            <Route path="/events" component={Event} />
+            <Route path="/events" component={Events} />
             <Route exact={true} path="/" component={Home} />
             <Route path="/workshops" component={Workshop} />
             <Footer />
