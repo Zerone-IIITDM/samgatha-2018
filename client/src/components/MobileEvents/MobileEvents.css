@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.mobileeventsContainer{
+    width: 100%;
+    height: 750px;
+    border: 0.1px solid white;
+}
+
+.mobileeventsHeader{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+.mobileeventsContent{
+  margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+}
+.mobiletechAndCult{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+}
+
+.mobiletech{
+    cursor: pointer;
+    position: relative;
+    width:50%;
+    border: 1px solid white;
+}
+
+.mobilecult{
+    cursor: pointer;
+    position: relative;
+    width: 50%;
+    border: 1px solid white;
+    
+}
+
+.mobileimage1{
+    background: black;
+    border: 1px solid black;
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+
+.mobileoverlay1{
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 100.5%;
+    height: 0;
+    transition: .5s ease;
+    margin: 0 auto;
+}
+
+.mobileoverlay2{
+    white-space: nowrap;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    overflow: hidden;
+    width: 100.8%;
+    height: 0;
+    transition: .5s ease;
+    margin: 0 auto;
+}
+
+.mobiletech:hover .mobileoverlay1 {
+  height: 18%;
+  background-color: white;
+}
+
+.mobilecult:hover .mobileoverlay2 {
+  height: 18%;
+  background-color: white;
+}
+
+.mobiletextOverlay {
+  color: black !important;
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
