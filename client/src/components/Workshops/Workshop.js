@@ -6,7 +6,8 @@ import '../font-awesome-4.7.0/css/font-awesome.min.css';
 class Card extends Component{
 	render(){
 		return(
-			<li ><a href={this.props.link}><div className='t1' id = 'w1' style={{backgroundImage: 'url('+require(''+this.props.img1+'')+')'}}></div></a></li>	
+
+			<li ><a href = {this.props.link}><div className='t1' id = 'w1' style={{backgroundImage: 'url('+require(''+this.props.img1+'')+')'}}></div></a></li>	
 		);		
 	}
 }
@@ -35,13 +36,16 @@ class Workshop extends Component{
 			<li className='cards'><Card img1 = './img.jpg' link='/workshop1' /></li>
 			<li className='cards'><Card img1 = './img.jpg' link='/workshop2'/></li>
 			<li className='cards'><Card img1 = './img.jpg' link='/workshop3' /></li>
+
 			
 			</div>
 			
 			<div className='workshop'>
+
 			<li className='cards'><Card img1 = './img.jpg' link='/workshop4'/></li>
 			<li className='cards'><Card img1 = './img.jpg' link='/workshop5'/></li>
 			<li className='cards'><Card img1 = './img.jpg' link='/workshop6'/></li>
+
 
 			</div>
 			

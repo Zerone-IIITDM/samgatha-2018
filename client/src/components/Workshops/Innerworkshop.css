@@ -1,0 +1,48 @@
+.outer{
+  position: relative;
+  margin:50px auto;
+  background-color: #001030;
+  padding-top:50px;
+}
+body{ font: 14px/1.5 , sans-serif; }
+.nav ul{
+  list-style: none;
+  width: 150px;
+  font-size: 1em;
+  padding: 0;
+}
+
+
+.nav li a{
+  text-decoration: none;
+  display: block;
+}
+
+
+.nav .parent li a{
+  padding: 10px 12px 10px 20px;
+  background: #333;
+  color: white;
+  border-bottom:1px solid #eee;
+}
+
+
+.nav .child li a{ background: #ddd; color:#333;}
+
+
+.nav .parent a:hover{ background: #555;}
+.nav .child a:hover{ background: #999;}
+
+
+ul.parent > li:hover > ul.child{ 
+  display: block; 
+  position: absolute;
+  left: 150px; top: 0;
+}
+
+ul.parent > li{ position: relative;}
+
+ul.child{ display: none; }
+
+.plus{ float: right; } 
+
