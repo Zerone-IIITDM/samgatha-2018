@@ -32,16 +32,16 @@ class Workshop extends Component{
 			</div>
 			<div className='workshop'>
 			
-			<li><Card img1 = './img.jpg' /></li>
-			<li><Card img1 = './img.jpg' /></li>
-			<li><Card img1 = './img.jpg' /></li>
+			<li className="cards"><Card img1 = './img.jpg' /></li>
+			<li className="cards"><Card img1 = './img.jpg' /></li>
+			<li className="cards"><Card img1 = './img.jpg' /></li>
 			
 			</div>
 			
 			<div className='workshop'>
-			<li><Card img1 = './img.jpg' /></li>
-			<li><Card img1 = './img.jpg' /></li>
-			<li><Card img1 = './img.jpg' /></li>
+			<li className="cards"><Card img1 = './img.jpg' /></li>
+			<li className="cards"><Card img1 = './img.jpg' /></li>
+			<li className="cards"><Card img1 = './img.jpg' /></li>
 
 			</div>
 			
