@@ -1,19 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-
+   
 .outer{
 	background-color:#001030;
 	padding-bottom: 450px;
 }
 
-li{
+.cards{
 	display:inline-block;
 	padding: 7px;
-}
-
-li:hover{
-	padding-right: 0px;
-	padding-left: 0px;
-	transition:padding 2s; 
 }
 
 .t1{
@@ -21,7 +15,7 @@ li:hover{
 	position: relative;
 	display: inline-block;
 	top:100px;
-	left: 50%;
+	left: 100%;
 	width: 250px;
 	height: 150px;
 	background-color:grey;
@@ -48,21 +42,20 @@ li:hover{
 #w1{
 	position: relative;
 	background-size:250px 150px;
-	background-position: 0px;
+	
 	background-repeat: no-repeat;
 	filter: grayscale(100%);
-	transition:all .5s;
+	transition:all 1s;
 	border-radius: 10%;
-
 }
 
 #w1:hover{
 	width:300px;
-	height: 200px;
+	height:200px;
 	top:75px;
-	left:35%;
+	left:75%;
 	background-color:grey;
 	background-size: 300px 200px;
 	filter:grayscale(0%);
+	
 }
-

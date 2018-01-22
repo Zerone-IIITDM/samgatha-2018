@@ -6,7 +6,7 @@ import '../font-awesome-4.7.0/css/font-awesome.min.css';
 class Card extends Component{
 	render(){
 		return(
-			<li><a href="#"><div className='t1' id = 'w1' style={{backgroundImage: 'url('+require(''+this.props.img1+'')+')'}}></div></a></li>	
+			<li ><a href="#"><div className='t1' id = 'w1' style={{backgroundImage: 'url('+require(''+this.props.img1+'')+')'}}></div></a></li>	
 		);		
 	}
 }
@@ -32,16 +32,16 @@ class Workshop extends Component{
 			</div>
 			<div className='workshop'>
 			
-			<li><Card img1 = './img.jpg' /></li>
-			<li><Card img1 = './img.jpg' /></li>
-			<li><Card img1 = './img.jpg' /></li>
+			<li className='cards'><Card img1 = './img.jpg' /></li>
+			<li className='cards'><Card img1 = './img.jpg' /></li>
+			<li className='cards'><Card img1 = './img.jpg' /></li>
 			
 			</div>
 			
 			<div className='workshop'>
-			<li><Card img1 = './img.jpg' /></li>
-			<li><Card img1 = './img.jpg' /></li>
-			<li><Card img1 = './img.jpg' /></li>
+			<li className='cards'><Card img1 = './img.jpg' /></li>
+			<li className='cards'><Card img1 = './img.jpg' /></li>
+			<li className='cards'><Card img1 = './img.jpg' /></li>
 
 			</div>
 			
