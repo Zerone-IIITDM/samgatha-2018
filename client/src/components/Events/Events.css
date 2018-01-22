@@ -1,50 +1,84 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
-
-#event_Main {
-   
-    font-family: Roboto;
-    font-size: 16px;
+.eventsContainer{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
 }
 
-#event_main{
-    padding-top: 20px;
-    width:100%;
-    height:auto;
-    
-}
-
-h1 {
-    font-size: 45px;
+.eventsHeader{
     text-align: center;
-    padding: 10px;
-
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
 }
-
-#Main{
+.eventsContent{
     text-align: center;
-    width: 8in;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
 }
-
-/*Main body part*/
-
-
-.body{
+.techAndCult{
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
     display: inline-flex;
-    margin-top:0.2in;
-    height:auto;
-    margin-right: 100px;
-    padding:2px;
 }
 
-h2{
-    text-align: center;
-   
+.tech{
+    cursor: pointer;
+    position: relative;
+    width: 25%;
+    border: 1px solid white;
+    margin-left: 22%;
 }
 
-.event_cult{
-    width:300px;
-    margin-left:100px;
-    background-color: rgb(193, 195, 197);
+.cult{
+    cursor: pointer;
+    position: relative;
+    width: 25%;
+    border: 1px solid white;
+    margin-left: 5%;
+}
+
+.image1{
+    background: black;
+    border: 1px solid black;
+    display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.overlay1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #C9EDDC;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.tech:hover .overlay1 {
+  height: 18%;
+}
+
+.cult:hover .overlay1 {
+  height: 18%;
+}
+
+.textOverlay {
+  color: black !important;
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
