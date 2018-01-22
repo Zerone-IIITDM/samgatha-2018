@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Header';
 
 import Workshop from './Workshops/Workshop.js';
+import Innerworkshop from './Workshops/Innerworkshop.js';
 
 import Home from './Homepage/Home';
 import Footer from './Footer/Footer';
@@ -47,6 +48,12 @@ class App extends Component {
             <Header />
             <Route exact={true} path="/" component={Home} />
             <Route path="/workshops" component={Workshop} />
+	    <Route path="/workshop1" render={()=><Innerworkshop num = "1" />}/>
+	    <Route path="/workshop2" render={()=><Innerworkshop num = "2" />}/>
+	    <Route path="/workshop3" render={()=><Innerworkshop num = "3" />}/>
+	    <Route path="/workshop4" render={()=><Innerworkshop num = "4" />}/>
+	    <Route path="/workshop5" render={()=><Innerworkshop num = "5" />}/>
+	    <Route path="/workshop6" render={()=><Innerworkshop num = "6" />}/>
             <Footer />
           </div>
         </BrowserRouter>

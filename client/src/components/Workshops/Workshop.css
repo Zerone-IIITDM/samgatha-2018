@@ -42,7 +42,7 @@
 #w1{
 	position: relative;
 	background-size:250px 150px;
-	
+	margin: auto auto;
 	background-repeat: no-repeat;
 	filter: grayscale(100%);
 	transition:all 1s;
@@ -53,7 +53,7 @@
 	width:300px;
 	height:200px;
 	top:75px;
-	left:75%;
+	left: 75%;
 	background-color:grey;
 	background-size: 300px 200px;
 	filter:grayscale(0%);
