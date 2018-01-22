@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Header';
 import Workshop from './Workshops/Workshop';
 import Events from './Events/Events';
+import Sponsors from './Sponsors/Sponsors.js';
 import Home from './Homepage/Home';
 import Footer from './Footer/Footer';
 import Navbar from './MobileNavbar/Navbar';
@@ -47,6 +48,7 @@ class App extends Component {
             <Route path="/events" component={Events} />
             <Route exact={true} path="/" component={Home} />
             <Route path="/workshops" component={Workshop} />
+            <Route path="/sponsors" component={Sponsors} />
             <Footer />
           </div>
         </BrowserRouter>
