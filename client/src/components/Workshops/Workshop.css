@@ -5,12 +5,12 @@
 	padding-bottom: 450px;
 }
 
-li{
+.cards{
 	display:inline-block;
 	padding: 7px;
 }
 
-li:hover{
+.cards:hover{
 	padding-right: 0px;
 	padding-left: 0px;
 	transition:padding 2s; 
