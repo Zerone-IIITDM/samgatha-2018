@@ -57,7 +57,19 @@
     right: 0;
     background-color: #C9EDDC;
     overflow: hidden;
-    width: 100%;
+    width: 100.5%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.overlay2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #C9EDDC;
+    overflow: hidden;
+    width: 100.7%;
     height: 0;
     transition: .5s ease;
 }
@@ -66,7 +78,7 @@
   height: 18%;
 }
 
-.cult:hover .overlay1 {
+.cult:hover .overlay2 {
   height: 18%;
 }
 

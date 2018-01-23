@@ -10,7 +10,7 @@ class Header extends Component {
         <header>
           <nav role='navigation'>
             <ul>
-              <li id="heart-trigger" className="heart heart-trigger"><span className="fa fa-heart"></span></li>
+              <li><Link to="/">Home</Link></li>
               <li><Link to="/events">Events</Link></li>
               <li><Link to='/workshops'>Workshops</Link></li>
               <li><Link to="/social-causes">Social Cause</Link></li>

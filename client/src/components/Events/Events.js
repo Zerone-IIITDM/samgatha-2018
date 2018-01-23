@@ -21,7 +21,7 @@ class Events extends Component {
               </div>
               <div className="cult">
                 <div className="image1"></div>
-                <div className="overlay1">
+                <div className="overlay2">
                   <div className="textOverlay">Cultural Events.</div>
                 </div>
               </div>
