@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-.out{
-	background-color:#880000;
-	padding-bottom: 45px;
-	margin-top : 60px;
-	margin-bottom:15px;
+.mobileout{
+	border: 0.1px solid white;
 }
 
-.con1{
+.mobilecon1{
 	display: flex;
 	background-color:;
 	flex-wrap: wrap;
@@ -21,24 +18,31 @@
 	margin-bottom: 120px;
 }
 
-.con1 > div{
+.mobilecon1 > div{
 	background-color: #f1f1f1;
 	width: 300px;
 	height:180px;
 	margin: 10px;
 }
 
-.con1 > div >img{
+.mobilecon1 > div >img{
 	position: relative;
 	width: 300px;
 	height:180px;
 }
 
-.titext{
+.mobiletitext{
 	position: relative;
 	text-align: center;
-	font-size: 80px;
-	margin-top: 50px;
+	font-size: 60px;
+	margin-top: 100px;
   	font-family: 'Raleway','Roboto','Ariel',sans-serif;
-	color:white;
+	border-bottom: 4px solid #145C9E;
+    border-top: 4px solid #145C9E;
+    background-color: #001021;
+    color: white;
+}
+
+.mobilesponsors{
+	margin-top: 40px;
 }
