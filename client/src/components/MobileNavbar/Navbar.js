@@ -9,11 +9,11 @@ class Navbar extends Component{
 			<Menu width={'250px'} isOpen={false} >
 				<Link to='/' style={styles.links}><div id="events" className="menu-item" href="/">HOME</div></Link>
 		      <Link to='/events' style={styles.links}><div id="events" className="menu-item" href="/">EVENTS</div></Link>
-		      <Link to='/workshops' style={styles.links}><div id="about" className="menu-item" href="/">WORKSHOPS</div></Link>
-		      <div id="contact" className="menu-item" href="/">SOCIAL CAUSE</div>
+		      <Link to='/workshops' style={styles.links}><div id="about" className="menu-item" href="/">WORKSHOPS</div>
+		      <div id="contact" className="menu-item" href="/">SOCIAL CAUSE</div></Link>
 		      <div id="contact" className="menu-item" href="/">SPONSORS</div>
-		      <div id="contact" className="menu-item" href="/">ABOUT US</div>
-		      <div id="contact" className="menu-item" href="/">LOGIN/REGISTER</div>
+		      <Link to='/contacts' style={styles.links}><div id="contact" className="menu-item" href="/">CONTACTS</div></Link>
+		      <div id="contact" className="menu-item" href="/auth/google">LOGIN/REGISTER</div>
 		      <div id="faq" className="menu-item" href="/">FAQ</div>
 		      <div id="brochure" className="menu-item" href="/">BROCHURE</div>
 		    </Menu>
