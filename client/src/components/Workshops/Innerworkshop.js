@@ -3,45 +3,74 @@ import './Innerworkshop.css';
 import '../font-awesome-4.7.0/css/font-awesome.min.css';
 class Innerworkshop extends Component{
 
-	
+	about()
+	{
+		return(
+			 <div className='about'>
+        <br/><br/><br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dui eros, 
+			vehicula eu pellentesque id, dapibus non lacus. Quisque commodo sed dolor posuere consectetur. 
+			Duis dignissim tempor erat, maximus elementum sapien mattis eget. Aliquam lacus erat,
+			 suscipit sit amet lacus ac, pellentesque 
+			 convallis nunc. Integer pellentesque libero vitae nisi placerat, sed placerat enim finibus.
+			 Proin et lorem eros. <br/>Vestibulum sed magna ullamcorper, semper velit in, pretium tellus. Proin vel bibendum 
+			 orci.
+			</div>
+			);
+	}
+	venue()
+	{
+		return(
+			 <div className='venue'>
+          <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dui eros, 
+			vehicula eu pellentesque id, dapibus non lacus. Quisque commodo sed dolor posuere consectetur. 
+			Duis dignissim tempor erat, maximus elementum sapien mattis eget. Aliquam lacus erat,
+			 suscipit sit amet lacus ac, pellentesque 
+			 convallis nunc. Integer pellentesque libero vitae nisi placerat, sed placerat enim finibus.
+			 Proin et lorem eros. <br/>Vestibulum sed magna ullamcorper, semper velit in, pretium tellus. Proin vel bibendum 
+			 orci.</b>
+			</div>
+			);
+	}
 	common()
 	{
 
 		return(
 
-		<div className='outer'>  
+		<div className='outerdiv'>  
 <div class="wrapper">
   <div class="content">
     <div id="mainMenu">
       <ul>
+        <li id='about'>
+          <div  className='item highlighted'>
+            <a className='links'  href="#">About</a>
+             
+          </div>
+        
+      
+        </li>
+           
+     	
+        <li id='venue' >
+          <div class="item">
+            <a className='links'  href="#">Venue and Timings</a>
+          </div>
+        </li>
         <li>
-          <div class="item highlighted">
-            <a href="#" >About</a>
+          <div class="item">
+            <a className='links' href="#">Register</a>
           </div>
         </li>
         
+    <div id='aboutcontent'> {this.about()} </div>
+    <div id='venuecontent'> {this.venue()}</div>
+			
+     
+      
 
-        <li>
-          <div class="item">
-            <a href="#">Venue and Timings</a>
-          </div>
-        </li>
-        <li>
-          <div class="item">
-            <a href="#">Register</a>
-          </div>
-        </li>
       </ul>
       
-      <div id="menuContent">
-     	<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dui eros, 
-			vehicula eu pellentesque id, dapibus non lacus. <br/>Quisque commodo sed dolor posuere consectetur. 
-			Duis dignissim tempor erat, maximus elementum sapien mattis eget.<br/> Aliquam lacus erat,
-			 suscipit sit amet lacus ac, pellentesque 
-			 convallis nunc.<br/> Integer pellentesque libero vitae nisi placerat, sed placerat enim finibus.
-			 Proin et lorem eros. <br/>Vestibulum sed magna ullamcorper, semper velit in, pretium tellus. Proin vel bibendum 
-			 orci. 
-      </div>
+     
       
     </div>
   </div>

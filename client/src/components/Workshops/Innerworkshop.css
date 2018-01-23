@@ -1,23 +1,21 @@
-.outer{
+.outerdiv{
   position: relative;
-  top:100px;
+  margin:60px;
+  background-color:grey;
+  padding-bottom: 100%;
 }
-body {
-  height: 100%;
-}
-
-body {
-  margin: 0px;
-  width: 100%;
-}
-
 .wrapper {
   height: 100%;
   width: 100%;
   background-color: grey;
+
 }
 
-
+.links{
+  background-color:grey;
+  border-style: solid;
+  border-color: grey;
+}
 
 .content {
   width: 90%;
@@ -55,16 +53,39 @@ body {
   color: black;
   font-family: 'Roboto', sans-serif;
 }
+#aboutcontent{
+  color:black;
+}
+#about:hover ~ #aboutcontent{
+  color: black;
 
+}
+#venuecontent{
+  position: relative;
+  top:-150px;
+
+
+  color:transparent;
+}
+#venue:hover ~ #venuecontent{
+  color: black;
+
+}
+#venue:hover ~ #aboutcontent{
+  color: transparent;
+
+}
 #menuContent {
+
   background-color: #f5f5f5;
   padding: 15px;
   font-family: 'Roboto', sans-serif;
 }
 
 #mainMenu {
+  
   position: relative;
-  background-color: #e0e0e0;
+  background-color: grey;
 }
 
 #mainMenu ul {
@@ -74,13 +95,7 @@ body {
   width: 60%;
 }
 
-.highlighted {
-  border-color: #0091EA;
-}
 
-.highlighted a {
-  color: #0091EA !important;
-}
 
 #mainMenu li {
   float: left;
