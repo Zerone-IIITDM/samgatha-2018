@@ -11,6 +11,7 @@ import MobileFooter from './MobileFooter/MobileFooter';
 import MobileHome from './MobileHome/MobileHome';
 import MobileWorkshops from './MobileWorkshops/MobileWorkshops';
 import ContactUs from './Contactus/ContactUs';
+import MobileEvents from './MobileEvents/MobileEvents';
 
 class App extends Component {
   constructor(){
@@ -37,6 +38,7 @@ class App extends Component {
               <Navbar />
               <Route exact={true} path="/" component={MobileHome} />
               <Route path="/workshops" component={MobileWorkshops} />
+              <Route path="/events" component={MobileEvents} />
               <MobileFooter />
             </div>
           </BrowserRouter>
