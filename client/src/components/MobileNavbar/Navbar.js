@@ -11,7 +11,7 @@ class Navbar extends Component{
 		      <Link to='/events' style={styles.links}><div id="events" className="menu-item" href="/">EVENTS</div></Link>
 		      <Link to='/workshops' style={styles.links}><div id="about" className="menu-item" href="/">WORKSHOPS</div>
 		      <div id="contact" className="menu-item" href="/">SOCIAL CAUSE</div></Link>
-		      <div id="contact" className="menu-item" href="/">SPONSORS</div>
+		      <Link to='/sponsors' style={styles.links}><div id="contact" className="menu-item" href="/">SPONSORS</div></Link>
 		      <Link to='/contacts' style={styles.links}><div id="contact" className="menu-item" href="/">CONTACTS</div></Link>
 		      <div id="contact" className="menu-item" href="/auth/google">LOGIN/REGISTER</div>
 		      <div id="faq" className="menu-item" href="/">FAQ</div>
