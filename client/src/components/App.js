@@ -13,6 +13,7 @@ import MobileWorkshops from './MobileWorkshops/MobileWorkshops';
 import ContactUs from './Contactus/ContactUs';
 import MobileEvents from './MobileEvents/MobileEvents';
 import MobileContactUs from './MobileContactUs/MobileContactUs';
+import MobileSpons from './MobileSpons/MobileSpons';
 
 class App extends Component {
   constructor(){
@@ -41,6 +42,7 @@ class App extends Component {
               <Route path="/workshops" component={MobileWorkshops} />
               <Route path="/events" component={MobileEvents} />
               <Route path="/contacts" component={MobileContactUs} />
+              <Route path="/sponsors" component={MobileSpons} />
               <MobileFooter />
             </div>
           </BrowserRouter>
