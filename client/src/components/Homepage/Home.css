@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 .headContainer{
-	border: 1px solid white;
+	border: 0.1px solid white;
 	height: 610px;
 	width:100%;
 	margin-top: 60px;

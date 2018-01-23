@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.out{
+	background-color:#880000;
+	padding-bottom: 45px;
+	margin-top : 60px;
+	margin-bottom:30px;
+}
+
+.con1{
+	display: flex;
+	background-color:;
+	flex-wrap: wrap;
+	height:auto;
+	width: auto;
+	justify-content:center;
+	align-items:center;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 50px;
+	margin-bottom: 120px;
+}
+
+.con1 > div{
+	background-color: #f1f1f1;
+  width: 300px;
+  height:180px;
+  margin: 10px;
+  transition:all 1s;
+}
+
+.con1 > div:hover {
+  background-color: #f1f1f1;
+  width: 360px;
+  height:216px;
+  margin: 10px;
+}
+
+.con1 > div >img{
+	position: relative;
+  width: 300px;
+  height:180px;
+  transition:all 1s;
+}
+
+.con1 > div >img:hover {
+	position: relative;
+  width: 360px;
+  height:216px;
+}
+
+.titext{
+	position: relative;
+	text-align: center;
+	font-size: 80px;
+	margin :60px;
+  	font-family: 'Raleway','Roboto','Ariel',sans-serif;
+	color:white;
+}

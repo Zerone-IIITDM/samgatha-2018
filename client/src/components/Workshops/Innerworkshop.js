@@ -56,7 +56,7 @@ class Innerworkshop extends Component{
             <a className='links'  href="#">Venue and Timings</a>
           </div>
         </li>
-        <li>
+        <li id='register'>
           <div class="item">
             <a className='links' href="#">Register</a>
           </div>

@@ -33,9 +33,11 @@ class Workshop extends Component{
 			</div>
 			<div className='workshop'>
 			
+
 			<li className='cards'><Card img1 = './img.jpg' link='/workshop1' /></li>
 			<li className='cards'><Card img1 = './img.jpg' link='/workshop2'/></li>
 			<li className='cards'><Card img1 = './img.jpg' link='/workshop3' /></li>
+
 
 			
 			</div>

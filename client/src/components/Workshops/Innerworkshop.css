@@ -51,18 +51,22 @@
   display: block;
   text-decoration: none;
   color: black;
+  font-size: 0.3em;
   font-family: 'Roboto', sans-serif;
 }
 #aboutcontent{
+  font-size: 0.3em;
   color:black;
 }
 #about:hover ~ #aboutcontent{
+  font-size: 0.3em;
   color: black;
 
 }
 #venuecontent{
+  font-size: 0.3em;
   position: relative;
-  top:-150px;
+  top:-120px;
 
 
   color:transparent;
@@ -74,6 +78,9 @@
 #venue:hover ~ #aboutcontent{
   color: transparent;
 
+}
+#register:hover ~#aboutcontent{
+  color:transparent;
 }
 #menuContent {
 

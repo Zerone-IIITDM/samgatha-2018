@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Navbar from './MobileNavbar/Navbar';
 import './Header.css';
 
@@ -10,12 +10,12 @@ class Header extends Component {
         <header>
           <nav role='navigation'>
             <ul>
-              <li id="heart-trigger" className="heart heart-trigger"><span className="fa fa-heart"></span></li>
-              <li><a href="/events">Events</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/events">Events</Link></li>
               <li><Link to='/workshops'>Workshops</Link></li>
-              <li><a href="#">Social Cause</a></li>
-              <li><a href="#">Sponsors</a></li>
-              <li><a href="#">Contacts</a></li>
+              <li><Link to="/social-causes">Social Cause</Link></li>
+              <li><Link to="/sponsors">Sponsors</Link></li>
+              <li><Link to="/contacts">Contacts</Link></li>
               <li><a href="/auth/google">Login/Register</a></li>
             </ul>
           </nav>

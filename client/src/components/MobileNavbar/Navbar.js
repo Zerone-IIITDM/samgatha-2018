@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { bubble as Menu} from 'react-burger-menu';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 class Navbar extends Component{
 	render(){
 		return(
-			<Menu width={'250px'}>
-				<div id="events" className="menu-item" href="/">HOME</div>
-		      <div id="events" className="menu-item" href="/">EVENTS</div>
-		      <div id="about" className="menu-item" href="/">WORKSHOPS</div>
+			<Menu width={'250px'} isOpen={false} >
+				<Link to='/' style={styles.links}><div id="events" className="menu-item" href="/">HOME</div></Link>
+		      <Link to='/events' style={styles.links}><div id="events" className="menu-item" href="/">EVENTS</div></Link>
+		      <Link to='/workshops' style={styles.links}><div id="about" className="menu-item" href="/">WORKSHOPS</div></Link>
 		      <div id="contact" className="menu-item" href="/">SOCIAL CAUSE</div>
 		      <div id="contact" className="menu-item" href="/">SPONSORS</div>
 		      <div id="contact" className="menu-item" href="/">ABOUT US</div>
@@ -19,5 +20,12 @@ class Navbar extends Component{
 		);
 	}
 }
+
+const styles = {
+	links:{
+		textDecoration:'none',
+		color:'#b8b7ad'
+	},
+};
 
 export default Navbar;
