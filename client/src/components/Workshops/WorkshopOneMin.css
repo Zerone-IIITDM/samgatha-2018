@@ -47,22 +47,21 @@
 	margin-left:400px;
 }
 
-.workshopOneAbout{
+.workshopOne0{
 	font-family: 'Roboto', sans-serif;
-
 }
 
-.workshopOneReg{
-	font-family: 'Roboto', sans-serif;
-	margin-left:50px;
-}
-
-.workshopOneVenue{
+.workshopOne1{
 	font-family: 'Roboto', sans-serif;
 	margin-left:50px;
 }
 
-.workshopOneContacts{
+.workshopOne2{
+	font-family: 'Roboto', sans-serif;
+	margin-left:50px;
+}
+
+.workshopOne3{
 	font-family: 'Roboto', sans-serif;
 	margin-left:50px;
 }
@@ -80,7 +79,15 @@
 	font-style: italic;
 }
 
-
+.workshopDetailContent{
+	border:1px solid black;
+	font-family: 'Roboto', sans-serif;
+	font-size:20px;
+	margin-left:200px;
+	width:70%;
+	margin-top:30px;
+	text-align:center;
+}
 
 .cursor{
 	cursor:pointer;
