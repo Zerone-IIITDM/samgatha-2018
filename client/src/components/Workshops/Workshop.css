@@ -28,6 +28,7 @@
 }
 
 .workshopOne{
+	border:1px solid black;
 	margin-top: 30px;
 	margin-left: 350px;
 	width: auto;
