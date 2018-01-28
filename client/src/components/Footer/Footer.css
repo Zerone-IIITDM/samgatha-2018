@@ -14,10 +14,9 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: #001021;
+  background: #332354;
   z-index: 10000;
-  border-bottom: 4px solid #145C9E;
-  height: 45px;
+  height: 50px;
 }
 .footerNav{
 	width: 100%;
@@ -29,10 +28,25 @@ footer {
 	letter-spacing: 20px;
 	height: 100%;
 }
+.ul1 li:hover{
+	color: white;
+  	background-color:#0CAADC;
+
+}
 .ul2{
 	margin-left: 330px;
 	height: 100%;
 }
 i{
 	cursor: pointer;
+}
+.insta{
+	transition: background 0.5s;
+	height: 100%;
+}
+
+i{
+	margin-left: 20px;
+	width:60%;
+	height: 100%;
 }
