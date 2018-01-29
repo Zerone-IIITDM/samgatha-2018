@@ -15,6 +15,8 @@ import MobileEvents from './MobileEvents/MobileEvents';
 import MobileContactUs from './MobileContactUs/MobileContactUs';
 import MobileSpons from './MobileSpons/MobileSpons';
 import WorkshopOneMin from './Workshops/WorkshopOneMin';
+import SocialCause from './SocialCause/SocialCause';
+
 class App extends Component {
   constructor(){
     super();
@@ -60,6 +62,7 @@ class App extends Component {
             <Route path="/sponsors" component={Sponsors} />
              <Route path="/contacts" component={ContactUs} />
              <Route path="/WorkshopOne" component={WorkshopOneMin} />
+             <Route path="/socialcause" component={SocialCause} />
             <Footer />
           </div>
         </BrowserRouter>
