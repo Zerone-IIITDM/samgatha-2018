@@ -29,6 +29,7 @@ footer {
 	height: 100%;
 }
 .ul1 li:hover{
+	border-top: 3px solid #b1ff64;
 	color: white;
   	background-color:#9d6dcd;
 

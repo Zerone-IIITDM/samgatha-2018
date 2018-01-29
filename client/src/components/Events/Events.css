@@ -4,7 +4,7 @@
 .eventsContainer{
   margin-top: 60px;  
   width: 100%;
-  height: auto;
+  height: 800px;
 }
 
 .eventsHeader{
@@ -30,21 +30,21 @@
 }
 
 .tech{
-  border: 2px solid black;
+  background: lightgrey;
   height: 400px;
   width: 320px; 
 }
 
 .cult{
   margin-left: 5%;
-  border: 2px solid black;
+  background: lightgrey;
   height: 400px;
   width: 320px; 
 }
 
 .techFooter{
+  margin-top: 410px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   font-size: 20px;
-  border: 2px solid black;
 }
