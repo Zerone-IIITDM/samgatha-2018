@@ -8,7 +8,10 @@ class Home extends Component{
 			<div className="mainContainer">
 				<div className="headContainer">
 					<div className="titleText">
-						Welcome To<br />A <span style={{color:'#56E39F'}}>Magical</span> World!
+						The Magic in Everything
+					</div>
+					<div className="lowerTitleText">
+						9th-11th March
 					</div>
 				</div>
 				<div className="aboutUs">

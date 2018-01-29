@@ -10,7 +10,7 @@ class Sponsors extends Component{
 
 				<div className='out' >
 					<div className='titext'>
-						Sponsors<br/><br/>
+						Sponsors
 					</div>
 				<div className='sponsors'>
 					<div className='con1'>

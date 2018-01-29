@@ -12,6 +12,8 @@
 	font-family: 'Raleway', sans-serif;
 	font-size: 50px;
 	font-weight: 700;
+	font-family: Yataghan-Regular;
+	color: #9d6dcd;
 }
 
 .workshopContent{
@@ -42,6 +44,7 @@
 }
 
 .workshopName{
+	color: #9d6dcd;
 	height: auto;
 	font-size: 30px;
 	margin-left: 50px;

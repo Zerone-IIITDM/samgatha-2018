@@ -1,17 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
+@font-face {
+    font-family: Yataghan-Regular;
+    src: url('../Fonts/Yataghan-Regular.otf');
+}
+
 .headContainer{
-	border: 0.1px solid white;
-	height: 610px;
+	background: linear-gradient(#332354,#9d6dcd);
+	border: 0.1px solid #332354;
+	height: 615px;
 	width:100%;
-	margin-top: 60px;
+	margin-top: 56px;
 }
 .titleText{
-	margin-top: 80px;
-	margin-left: 150px;
-	font-size: 50px;
-	font-family: 'Raleway', sans-serif;
+	margin-top: 150px;
+	text-align: center;
+	font-size: 70px;
+	font-family: Yataghan-Regular;
+	color: #b1ff64;
 }
 .aboutUs{
 	display: inline-flex;
@@ -19,13 +26,13 @@
 }
 .leftSide{
 	width: 50%;
-	min-height: 500px;
-	background-color: #A9A9A9;
+	min-height: 540px;
+	background-color: lightgrey;
 }
 .rightSide{
-	background-color: lightgrey;
+	background-color: white;
 	width: 50%;
-	min-height: 500px;
+	min-height: 540px;
 }
 .leftSideText{
 	margin-top: 170px;
@@ -38,7 +45,8 @@
 	margin-left: 50px;
 	margin-top: 50px;
 	font-size: 40px;
-	font-family: 'Roboto', sans-serif;
+	font-family: Yataghan-Regular;
+	color: #9d6dcd;
 }
 .rightSideContainerText{
 	font-family: 'Roboto', sans-serif;
@@ -59,7 +67,7 @@
 	height: 120px;
 }
 .circleStat{
-	background-color: #59C9A5;
+	background-color: #b1ff64;
 	width: 85px;
 	height: 85px;
 	border-radius: 50%;
@@ -72,24 +80,32 @@
 }
 .joinUs{
 	height: 350px;
-	width: 100%;
+	width: 50%;
 }
 .joinText{
+	color: #9d6dcd;
 	margin-top: 70px;
 	text-align: center;
 	font-size: 40px;
 	font-family: 'Raleway', sans-serif;
 }
 .registerBtn{
+	color: #9d6dcd;
 	width: 200px;
 	height: 50px;
-	border-radius: 10px;
+	border: 2px solid #9d6dcd;
 	margin: auto;
 	margin-top: 30px;
-	background-color: lightgrey;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
-	line-height: 45px;
+	line-height: 50px;
 	cursor: pointer;
+}
+
+.lowerTitleText{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	color: #b1ff64;
+	text-align: center;
 }
