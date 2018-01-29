@@ -9,8 +9,8 @@ class Navbar extends Component{
 			<Menu width={'250px'} isOpen={false} >
 				<Link to='/' style={styles.links}><div id="events" className="menu-item" href="/">HOME</div></Link>
 		      <Link to='/events' style={styles.links}><div id="events" className="menu-item" href="/">EVENTS</div></Link>
-		      <Link to='/workshops' style={styles.links}><div id="about" className="menu-item" href="/">WORKSHOPS</div>
-		      <div id="contact" className="menu-item" href="/">SOCIAL CAUSE</div></Link>
+		      <Link to='/workshops' style={styles.links}><div id="about" className="menu-item" href="/">WORKSHOPS</div></Link>
+		      <Link to='/socialcause' style={styles.links}><div id="contact" className="menu-item" href="/">SOCIAL CAUSE</div></Link>
 		      <Link to='/sponsors' style={styles.links}><div id="contact" className="menu-item" href="/">SPONSORS</div></Link>
 		      <Link to='/contacts' style={styles.links}><div id="contact" className="menu-item" href="/">CONTACTS</div></Link>
 		      <div id="contact" className="menu-item" href="/auth/google">LOGIN/REGISTER</div>
@@ -24,7 +24,7 @@ class Navbar extends Component{
 const styles = {
 	links:{
 		textDecoration:'none',
-		color:'#b8b7ad'
+		color:'#b1ff64'
 	},
 };
 

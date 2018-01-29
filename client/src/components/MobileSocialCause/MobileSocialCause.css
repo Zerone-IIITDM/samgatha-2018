@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.mobilescContainer{
+	width: 100%;
+	height: 1200px;
+	border: 0.1px solid white;
+}
+
+.mobilescHeader{
+	color: #9d6dcd;
+	font-family: Yataghan-Regular;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	border-bottom: 4px solid #9d6dcd;
+    border-top: 4px solid #9d6dcd;
+    background-color: #332354;
+    margin-top: 100px;
+}
+
+.mobilescImaCon{
+	background-color: lightgrey;
+	height: 700px;
+	width: 90%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.mobilescImaCon > img{
+	position: absolute;
+	margin: auto;
+	height: 500px;
+	width: 1400px;
+}
+
+.mobilescContent{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}

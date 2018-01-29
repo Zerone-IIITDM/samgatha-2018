@@ -8,7 +8,10 @@ class MobileHome extends Component{
 			<div className="mobilemainContainer">
 				<div className="mobileheadContainer">
 					<div className="mobiletitleText">
-						Welcome To<br />A <span style={{color:'#56E39F'}}>Magical</span> World!
+						The Magic in Everything
+					</div>
+					<div className="mobilelowerTitleText">
+						9th-11th March
 					</div>
 				</div>
 				<div className="mobileaboutUs">
