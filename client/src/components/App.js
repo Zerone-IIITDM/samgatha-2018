@@ -16,6 +16,7 @@ import MobileContactUs from './MobileContactUs/MobileContactUs';
 import MobileSpons from './MobileSpons/MobileSpons';
 import WorkshopOneMin from './Workshops/WorkshopOneMin';
 import SocialCause from './SocialCause/SocialCause';
+import MobileSocialCause from './MobileSocialCause/MobileSocialCause';
 
 class App extends Component {
   constructor(){
@@ -41,10 +42,11 @@ class App extends Component {
             <div>
               <Navbar />
               <Route exact={true} path="/" component={MobileHome} />
-              <Route path="/workshops" component={MobileWorkshops} />
               <Route path="/events" component={MobileEvents} />
-              <Route path="/contacts" component={MobileContactUs} />
+              <Route path="/workshops" component={MobileWorkshops} />
               <Route path="/sponsors" component={MobileSpons} />
+              <Route path="/contacts" component={MobileContactUs} />
+              <Route path="/socialcause" component={MobileSocialCause} />
               <MobileFooter />
             </div>
           </BrowserRouter>
@@ -56,8 +58,8 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <Header />
-            <Route path="/events" component={Events} />
             <Route exact={true} path="/" component={Home} />
+            <Route path="/events" component={Events} />
             <Route path="/workshops" component={Workshop} />
             <Route path="/sponsors" component={Sponsors} />
              <Route path="/contacts" component={ContactUs} />

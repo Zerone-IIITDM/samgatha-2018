@@ -2,15 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 .mobileheadContainer{
-	border: 1px solid white;
+	border: 0.1px solid white;
 	height: 600px;
 	width:100%;
+	background: linear-gradient(#332354,#9d6dcd);
 }
 .mobiletitleText{
 	margin-top: 200px;
 	text-align: center;
 	font-size: 50px;
-	font-family: 'Raleway', sans-serif;
+	font-family: Yataghan-Regular;
+	color: #b1ff64;
 }
 .mobileaboutUs{
 	display: inline-flex;
@@ -19,10 +21,10 @@
 .mobileleftSide{
 	width: 50%;
 	min-height: 500px;
-	background-color: #A9A9A9;
+	background-color: lightgrey;
 }
 .mobilerightSide{
-	background-color: lightgrey;
+	background-color: white;
 	width: 50%;
 	min-height: 500px;
 }
@@ -37,7 +39,7 @@
     margin-left: 20px;
     margin-top:20px;
 	font-size: 20px;
-	font-family: 'Roboto', sans-serif;
+	font-family: Yataghan-Regular;
 }
 .mobilerightSideContainerText{
     height: 200px;
@@ -57,7 +59,7 @@
 	height: 80px;
 }
 .mobilecircleStat{
-	background-color: #59C9A5;
+	background-color: #b1ff64;
 	width: 45px;
 	height: 45px;
 	border-radius: 50%;
@@ -78,17 +80,25 @@ font-size: 10px;
 	text-align: center;
 	font-size: 30px;
 	font-family: 'Raleway', sans-serif;
+	color: #9d6dcd;
 }
 .mobileregisterBtn{
 	width: 200px;
 	height: 50px;
-	border-radius: 10px;
+	border: 2px solid #9d6dcd;
 	margin: auto;
 	margin-top: 30px;
-	background-color: lightgrey;
+	color: #9d6dcd;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 20px;
-	line-height: 45px;
+	line-height: 50px;
 	cursor: pointer;
+}
+
+.mobilelowerTitleText{
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+	color: #b1ff64;
+	text-align: center;
 }

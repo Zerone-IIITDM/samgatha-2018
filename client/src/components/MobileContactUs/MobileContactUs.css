@@ -13,14 +13,14 @@ body{
 	border: 0.1px solid white;
 }
 .mobileheading{
-	border-bottom: 4px solid #145C9E;
-	border-top: 4px solid #145C9E;
-	background-color: #001021;
-	color: white;
+	border-bottom: 4px solid #9d6dcd;
+    border-top: 4px solid #9d6dcd;
+    background-color: #332354;
+    color: #9d6dcd;
 	text-align: center;
 	font-size: 50px;
 	margin-top: 100px;
-	font-family: 'Raleway', sans-serif;
+	font-family: Yataghan-Regular;
 }
 
 .mobileclubName{
