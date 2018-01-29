@@ -7,9 +7,8 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background: #001021;
+  background: #332354;
   z-index: 10000;
-  border-bottom: 4px solid #145C9E;
   height: 56px;
 }
 
@@ -63,9 +62,9 @@ nav ul a {
 }
 nav ul a:hover {
   color: #FEFCFB;
-  background: #0CAADC;
-  -webkit-box-shadow: 0px 4px 0px 0px #145C9E;
-          box-shadow: 0px 4px 0px 0px #145C9E;
+  background: #9d6dcd;
+  -webkit-box-shadow: 0px 4px 0px 0px #b1ff64;
+          box-shadow: 0px 4px 0px 0px #b1ff64;
 }
 @media all and (min-width: 545px) {
   nav ul a {
