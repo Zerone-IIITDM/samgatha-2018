@@ -17,7 +17,8 @@ class Home extends Component{
 				<div className="aboutUs">
 					<div className="leftSide">
 						<div className="leftSideText">
-							ILLUSTRATION<br />TO BE<br />PLACE HERE
+							WEBSITE<br />STILL UNDER<br />CONSTRUCTION.<br/>
+							More content coming soon.
 						</div>
 					</div>
 					<div className="rightSide">
@@ -31,13 +32,13 @@ class Home extends Component{
 							<div className="circle1">
 								<img src={require("../icons/calendar.png")} style={{width:'100px',height:'100px'}} />
 								<div className="statName">
-									<CountTo to={22} speed={1500} />+ Events
+									<CountTo to={40} speed={1500} />+ Events
 								</div>
 							</div>
 							<div className="circle1">
 								<img src={require("../icons/prizes.png")} style={{width:'100px',height:'100px'}} />
 								<div className="statName">
-									<CountTo to={22} speed={1500} />+ Events
+									<CountTo to={3} speed={1000} /> Lakhs+ Prizes
 								</div>
 							</div>
 							<div className="circle1">
