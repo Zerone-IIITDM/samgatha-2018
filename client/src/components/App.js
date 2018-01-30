@@ -3,7 +3,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Header';
 import Workshop from './Workshops/Workshop';
 import Events from './Events/Events';
-import Sponsors from './Sponsors/Sponsors.js';
+import Sponsors from './Sponsors/Sponsors';
 import Home from './Homepage/Home';
 import Footer from './Footer/Footer';
 import Navbar from './MobileNavbar/Navbar';
@@ -68,7 +68,6 @@ class App extends Component {
             <Footer />
           </div>
         </BrowserRouter>
-
       </div>
     );
   }
