@@ -23,6 +23,7 @@
 .aboutUs{
 	display: inline-flex;
 	width: 100%;
+	height: 615px;
 }
 .leftSide{
 	width: 50%;

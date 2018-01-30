@@ -6,7 +6,7 @@ class Home extends Component{
 	render(){
 		return(
 			<div className="mainContainer">
-				<div className="headContainer">
+				<div className="headContainer" id="home-main">
 					<div className="titleText">
 						The Magic in Everything
 					</div>
