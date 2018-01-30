@@ -25,7 +25,7 @@ class Home extends Component{
 							About Us
 						</div>
 						<div className="rightSideContainerText">
-							Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets.
+							Samgatha is the inter college annual Technical and Cultural fest of Indian Institute of Information Technology, Design and Manufacturing(IIITDM) Kancheepuram which is annually held in the month of March. It is a 3 day event featuring a huge bunch of events including Workshops and Tech Talk. This fest has unique themes for every year, where it was "Save Women, Save India" for Samgatha 2014, "Swachh Bharat Abhiyaan" for Samgatha 2015, "Make in India" for Samgatha 2016, "Education for all" for Samgatha 2017 and it is going to be "Depression is curable" for Samgatha 2018.
 						</div>
 						<div className="stats">
 							<div className="circle1">
