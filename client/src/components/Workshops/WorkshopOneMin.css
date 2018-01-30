@@ -7,7 +7,6 @@
 
 .workshopOneHeader{
 	text-align: center;
-	font-family: 'Raleway', sans-serif;
 	font-size: 50px;
 	font-weight: 700;
 	margin-top:50px;
@@ -16,7 +15,7 @@
 }
 
 .workshopOneRegister{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	border:2px solid #B1FF64;
 	height:30px;
 	width:200px;
@@ -34,21 +33,21 @@
 }
 
 .workshopOne0{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .workshopOne1{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin-left:50px;
 }
 
 .workshopOne2{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin-left:50px;
 }
 
 .workshopOne3{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	margin-left:50px;
 }
 
@@ -66,7 +65,7 @@
 }
 
 .workshopDetailContent{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-size:20px;
 	margin-left:200px;
 	width:70%;

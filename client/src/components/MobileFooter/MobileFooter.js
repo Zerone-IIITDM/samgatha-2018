@@ -8,11 +8,14 @@ class MobileFooter extends Component{
 			<div className="mobileFooterContainer">
 				<div className="mobileFooterNav">
 					<ul className="mobileUl1">
-						<li><i className="fa fa-instagram fa-2x" style={{ color: "white" }}> </i></li>
-						<li><i className="fa fa-facebook fa-2x" style={{ color: "white" }}> </i></li>
-						<li><i className="fa fa-twitter fa-2x" style={{ color: "white" }}> </i></li>
-						<li><i className="fa fa-youtube fa-2x " style={{ color: "white" }}> </i></li>
+						<li><i className="fa mobileSocialIcons fa-instagram fa-2x" style={{ color: "white" }}> </i></li>
+						<li><i className="fa mobileSocialIcons fa-facebook fa-2x" style={{ color: "white" }}> </i></li>
+						<li><i className="fa mobileSocialIcons fa-twitter fa-2x" style={{ color: "white" }}> </i></li>
+						<li><i className="fa mobileSocialIcons fa-youtube fa-2x " style={{ color: "white" }}> </i></li>
 					</ul>
+				</div>
+				<div className="mobileWebOps">
+					WebOps, Samgatha
 				</div>
 			</div>
 		);

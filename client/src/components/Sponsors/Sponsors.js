@@ -9,7 +9,7 @@ class Sponsors extends Component {
 					<div className='titext'>
 						Sponsors
 					</div>
-				<div className='sponsors'>
+				{/*<div className='sponsors'>
 					<div className='con1'>
 						<div><img src={require("./1.jpg")} /></div>
 						<div><img src={require("./1.jpg")} /></div>
@@ -19,6 +19,21 @@ class Sponsors extends Component {
 						<div><img src={require("./1.jpg")} /></div>
 						<div><img src={require("./1.jpg")} /></div>
 						<div><img src={require("./1.jpg")} /></div>
+					</div>
+				</div>*/}
+				<div className="comingSoon">
+					<div class="intro">
+						<div class="introText">
+							<b>
+							  <div class="inner-intro">
+							    	Sponsors coming soon!<br />
+							    	Watch out<br />
+							    	this space<br />
+							    	for<br />
+							    	more.
+							    </div>
+							</b>
+						</div>
 					</div>
 				</div>
 			</div>

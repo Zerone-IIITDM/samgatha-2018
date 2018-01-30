@@ -2,31 +2,31 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 .mobileheadContainer{
-	border: 0.1px solid white;
+	border: 0.1px solid #9dcd6d;
 	height: 600px;
 	width:100%;
 	background: linear-gradient(#332354,#9d6dcd);
 }
 .mobiletitleText{
-	margin-top: 200px;
 	text-align: center;
+	margin-top: 200px;
 	font-size: 50px;
 	font-family: Yataghan-Regular;
 	color: #b1ff64;
 }
 .mobileaboutUs{
-	display: inline-flex;
+	
 	width: 100%;
 }
 .mobileleftSide{
-	width: 50%;
-	min-height: 500px;
+	width: 100%;
+	min-height: 300px;
 	background-color: lightgrey;
 }
 .mobilerightSide{
 	background-color: white;
-	width: 50%;
-	min-height: 500px;
+	width: 100%;
+	height: 300px;
 }
 .mobileleftSideText{
 	margin-top: 170px;
@@ -35,23 +35,27 @@
 	font-family: 'Raleway', sans-serif;
 }
 .mobilerightSideHeaderText{
+	color: #9d6dcd;
+	text-align: center;
 	font-weight: 400;
     margin-left: 20px;
     margin-top:20px;
-	font-size: 20px;
+	font-size: 30px;
 	font-family: Yataghan-Regular;
 }
 .mobilerightSideContainerText{
-    height: 200px;
-    width: 150px;
+    height: auto;
+    text-align: center;
+    width: 80%;
 	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
-	margin-left: 20px;
 	margin-top: 20px;
+	margin-left: 40px;
 }
 .mobilestats{
+	display: inline-flex;
     margin-left: 40px;
-	margin-top: 50px;
+    margin-top: 30px
 }
 .mobilecircle1{
 	margin-left: 20px;
@@ -101,4 +105,9 @@ font-size: 10px;
 	font-size: 25px;
 	color: #b1ff64;
 	text-align: center;
+}
+
+.samLogo{
+	margin-left: 10px;
+	line-height: 700px;
 }

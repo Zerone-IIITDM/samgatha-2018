@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 .mobileFooterContainer{
 display: inline-flex;
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100%;
   background: #332354;
   border-bottom: 4px solid #9d6dcd;
@@ -21,4 +20,16 @@ display: inline-flex;
 }
 .fa{
 	margin-top: 3px;
+}
+
+.mobileSocialIcons{
+	margin-left: -18px;
+}
+
+.mobileWebOps{
+	margin-right: 10px;
+	line-height: 45px;
+	color: white;
+	white-space: nowrap;
+	font-family: Futura, Trebuchet MS, Arial, sans-serif;
 }

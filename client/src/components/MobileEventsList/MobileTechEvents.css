@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.mobiletechEventsContaier{
+	border: 0.1px solid white;
+}
+
+.mobileeventsGrid{
+	margin-top: 50px;
+	width: 100%;	
+}
+
+.mobiletechEventBlock{
+	margin-left: 50px;
+	width: 200px;
+	height: 200px;
+	background: black;
+	color: white;
+	text-align: center;
+	font-family: Yataghan-Regular;
+	line-height: 200px;
+	transition: width 0.5s, height 0.5s, margin-left 0.5s, background 0.5s, line-height 0.5s,color 0.5s;
+}
+
+.mobiletechEventBlock:hover{
+	color: black;
+	margin-left:0px;
+	height: 300px;
+	width: 300px;
+	line-height: 300px;
+	background: lightgrey;
+}
+
+.mobileblocks{
+	margin-left: 40px;
+}

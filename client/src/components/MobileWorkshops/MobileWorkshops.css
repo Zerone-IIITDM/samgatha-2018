@@ -42,7 +42,7 @@
 	transition: background 0.5s, width 0.5s, height 0.5s, line-height 0.5s;
 }
 
-.mobilecard:hover{
+.mobilecard:hover, .mobilecard:active{
 	background: grey;
 	width: 300px;
 	height: 300px;
