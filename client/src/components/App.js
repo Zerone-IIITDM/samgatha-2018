@@ -17,6 +17,9 @@ import MobileSpons from './MobileSpons/MobileSpons';
 import WorkshopOneMin from './Workshops/WorkshopOneMin';
 import SocialCause from './SocialCause/SocialCause';
 import MobileSocialCause from './MobileSocialCause/MobileSocialCause';
+import TechEventsList from './EventsList/TechEventsList';
+import MobileTechEventsList from './MobileEventsList/MobileTechEvents';
+import CultEventsList from './EventsList/CultEventsList';
 
 class App extends Component {
   constructor(){
@@ -47,6 +50,7 @@ class App extends Component {
               <Route path="/sponsors" component={MobileSpons} />
               <Route path="/contacts" component={MobileContactUs} />
               <Route path="/socialcause" component={MobileSocialCause} />
+              <Route path="/techeventslist" component={MobileTechEventsList} />
               <MobileFooter />
             </div>
           </BrowserRouter>
@@ -65,6 +69,8 @@ class App extends Component {
              <Route path="/contacts" component={ContactUs} />
              <Route path="/WorkshopOne" component={WorkshopOneMin} />
              <Route path="/socialcause" component={SocialCause} />
+             <Route path="/techeventslist" component={TechEventsList} />
+             <Route path="/culteventslist" component={CultEventsList} />
             <Footer />
           </div>
         </BrowserRouter>

@@ -36,5 +36,10 @@
   font-size: 20px;
   text-align: center;
   margin-top: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+.depressionClass{
+	display: block;
+	margin: 0 auto;
 }

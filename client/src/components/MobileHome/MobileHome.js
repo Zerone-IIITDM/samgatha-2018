@@ -16,9 +16,7 @@ class MobileHome extends Component{
 				</div>
 				<div className="mobileaboutUs">
 					<div className="mobileleftSide">
-						<div className="mobileleftSideText">
-							ILLUSTRATION<br />TO BE<br />PLACE HERE
-						</div>
+						
 					</div>
 					<div className="mobilerightSide">
 						<div className="mobilerightSideHeaderText">
@@ -26,6 +24,10 @@ class MobileHome extends Component{
 						</div>
 						<div className="mobilerightSideContainerText">
 							My name is Nipun bharti.
+							My name is Nipun bharti.
+							My name is Nipun bharti.
+							My name is Nipun bharti.
+							
 						</div>
 						<div className="mobilestats">
 							<div className="mobilecircle1">

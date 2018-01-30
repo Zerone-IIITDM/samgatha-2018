@@ -29,24 +29,21 @@ class Home extends Component{
 						</div>
 						<div className="stats">
 							<div className="circle1">
-								<div className="circleStat">
-								</div>
+								<img src={require("../icons/calendar.png")} style={{width:'100px',height:'100px'}} />
 								<div className="statName">
-									<CountTo to={22} speed={2000} />+ Events
+									<CountTo to={22} speed={1500} />+ Events
 								</div>
 							</div>
 							<div className="circle1">
-								<div className="circleStat">
-								</div>
+								<img src={require("../icons/prizes.png")} style={{width:'100px',height:'100px'}} />
 								<div className="statName">
-									<CountTo to={22} speed={2000} />+ Events
+									<CountTo to={22} speed={1500} />+ Events
 								</div>
 							</div>
 							<div className="circle1">
-								<div className="circleStat">
-								</div>
-								<div className="statName">
-									<CountTo to={22} speed={2000} />+ Events
+								<img src={require("../icons/rock2.png")} style={{width:'107px',height:'105px'}} />
+								<div className="statName" style={{marginTop:'7px'}}>
+									Unlmited Fun!!
 								</div>
 							</div>
 						</div>

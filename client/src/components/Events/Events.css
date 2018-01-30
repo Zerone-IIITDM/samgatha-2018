@@ -4,13 +4,12 @@
 .eventsContainer{
   margin-top: 60px;  
   width: 100%;
-  height: 800px;
+  height: 750px;
 }
 
 .eventsHeader{
   text-align: center;
   font-size: 50px;
-  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-family: Yataghan-Regular;
   color: #9d6dcd;
@@ -20,31 +19,60 @@
   font-size: 20px;
   text-align: center;
   margin-top: 10px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .techAndCult{
+  
   margin-top: 20px;
   margin-left: 27%;
   display: inline-flex;
+  justify-content: center;
 }
 
 .tech{
-  background: lightgrey;
   height: 400px;
   width: 320px; 
 }
 
 .cult{
-  margin-left: 5%;
-  background: lightgrey;
+  margin-left: 12%;
   height: 400px;
   width: 320px; 
 }
 
-.techFooter{
-  margin-top: 410px;
-  font-family: 'Roboto', sans-serif;
+/* .techFooter{
+  margin-top: 100px;
+  font-family: 'Lato', sans-serif;
   text-align: center;
   font-size: 20px;
+}
+ */
+.techImage{
+
+}
+
+.footers{
+  margin-top: 20px;
+  width: 100%;
+  font-family: Yataghan-Regular;
+  font-size: 20px;
+  display: inline-flex;
+}
+
+.techFooter{
+  margin-left: 230px;
+  text-align: center;
+  width: 50%;
+}
+
+.cultFooter{
+  margin-left: 120px;
+  width: 50%;
+}
+
+.division{
+  margin-top: 70px;
+  margin-left: 30px;
+  border: 1px solid #9d6dcd;
 }
