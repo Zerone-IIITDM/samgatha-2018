@@ -9,10 +9,10 @@ class Footer extends Component {
 			<footer>
 				<nav role='navigation' className="footerNav">
 					<ul className="ul1">
-						<li className="insta"><i className="fa fa-instagram fa-2x" style={{ marginTop:'8px',color: "white" }}></i></li>
-						<li className="insta"><i className="fa fa-facebook fa-2x" style={{ marginTop:'8px',color: "white" }}> </i></li>
-						<li className="insta"><i className="fa fa-twitter fa-2x" style={{ marginTop:'8px',color: "white" }}> </i></li>
-						<li className="insta"><i className="fa fa-youtube fa-2x " style={{ marginTop:'8px',color: "white" }}> </i></li>
+						<li className="insta"><i className="fa socialIcons fa-instagram fa-2x" style={{ marginTop:'8px',color: "white" }}></i></li>
+						<li className="insta"><i className="fa socialIcons fa-facebook fa-2x" style={{ marginTop:'8px',color: "white" }}> </i></li>
+						<li className="insta"><i className="fa socialIcons fa-twitter fa-2x" style={{ marginTop:'8px',color: "white" }}> </i></li>
+						<li className="insta"><i className="fa socialIcons fa-youtube fa-2x " style={{ marginTop:'8px',color: "white" }}> </i></li>
 					</ul>
 				</nav>
 				<nav role='navigation' className="footerNav">
@@ -29,8 +29,8 @@ class Footer extends Component {
 						</li>
 						<li>
 							<div className="text1">
-								<i className="fa fa-copyright" style={{ color: "white" }}> </i>
-								WebOps,Samgatha
+								<i className="fa fa-copyright" style={{ color: "white" }}></i>
+								WebOps Samgatha
 							</div>
 						</li>
 					</ul>

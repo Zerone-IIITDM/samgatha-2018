@@ -4,6 +4,7 @@
 	color:white;
 	display: inline-flex;
 	margin-left: 15px;
+	white-space: nowrap;
 }
 .icons{
 	display: inline-flex;
@@ -45,7 +46,7 @@ i{
 	height: 100%;
 }
 
-i{
+.socialIcons{
 	margin-left: 20px;
 	width:60%;
 	height: 100%;
