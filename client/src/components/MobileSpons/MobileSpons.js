@@ -13,16 +13,7 @@ class MobileSpons extends Component{
 						Sponsors
 					</div>
 				<div className='mobilesponsors'>
-						<div className='mobilecon1'>
-							<div><img src={require("./1.jpg")} /></div>
-							<div><img src={require("./1.jpg")} /></div>
-							<div><img src={require("./1.jpg")} /></div>
-							<div><img src={require("./1.jpg")} /></div>
-							<div><img src={require("./1.jpg")} /></div>
-							<div><img src={require("./1.jpg")} /></div>
-							<div><img src={require("./1.jpg")} /></div>
-							<div><img src={require("./1.jpg")} /></div>
-						</div>
+						Sponsors coming soon.<br />Watch out this space for more.
 				</div>
 			</div>
 

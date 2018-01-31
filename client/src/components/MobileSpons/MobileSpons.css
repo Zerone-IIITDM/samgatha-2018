@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 .mobileout{
 	border: 0.1px solid white;
-	
+	height: 600px;
 }
 
 .mobilecon1{
@@ -46,4 +47,7 @@
 
 .mobilesponsors{
 	margin-top: 40px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 30px;
 }
