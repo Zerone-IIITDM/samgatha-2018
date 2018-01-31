@@ -20,6 +20,7 @@ import MobileSocialCause from './MobileSocialCause/MobileSocialCause';
 import TechEventsList from './EventsList/TechEventsList';
 import MobileTechEventsList from './MobileEventsList/MobileTechEvents';
 import CultEventsList from './EventsList/CultEventsList';
+import MobileCultEventsList from './MobileEventsList/MobileCultEvents';
 
 class App extends Component {
   constructor(){
@@ -51,6 +52,7 @@ class App extends Component {
               <Route path="/contacts" component={MobileContactUs} />
               <Route path="/socialcause" component={MobileSocialCause} />
               <Route path="/techeventslist" component={MobileTechEventsList} />
+              <Route path="/culteventslist" component={MobileCultEventsList} />
               <MobileFooter />
             </div>
           </BrowserRouter>
