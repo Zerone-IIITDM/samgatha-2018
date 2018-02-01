@@ -84,6 +84,19 @@ class App extends Component {
              <Route path="/sbc" component={() => (<EventOne eventName="Samgatha Business Challenge" />)} />
              <Route path="/appathon" component={() => (<EventOne eventName="APP-A-THON" />)} />
              <Route path="/codeauction" component={() => (<EventOne eventName="Code Auction" />)} /> 
+             <Route path="/beasuperhero" component={() => (<EventOne eventName="Be a Super Hero" />)} /> 
+             <Route path="/battleofbands" component={() => (<EventOne eventName="Battle of Bands" />)} /> 
+             <Route path="/dancewars" component={() => (<EventOne eventName="Dance Wars" />)} /> 
+             <Route path="/drishyam" component={() => (<EventOne eventName="Drishyam" />)} /> 
+             <Route path="/eloquent" component={() => (<EventOne eventName="Eloquent" />)} /> 
+             <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
+             <Route path="/mayasrishti" component={() => (<EventOne eventName="Mayasristhi" />)} /> 
+             <Route path="/shutterup" component={() => (<EventOne eventName="Shutter Up" />)} /> 
+             <Route path="/samidol" component={() => (<EventOne eventName="Sam Idol" />)} /> 
+             <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
+             <Route path="/maskmaking" component={() => (<EventOne eventName="Mask Making" />)} /> 
+             <Route path="/duetdance" component={() => (<EventOne eventName="Duet Dance" />)} /> 
+           
             <Footer />
           </div>
         </BrowserRouter>
