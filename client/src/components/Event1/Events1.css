@@ -15,6 +15,7 @@
 }
 
 .eventOneRegister{
+	cursor: pointer;
 	font-family: 'Lato', sans-serif;
 	border:2px solid #B1FF64;
 	height:30px;
@@ -29,7 +30,7 @@
 .eventOneBasket{
 	display:inline-flex;
 	margin-top:20px;
-	margin-left:400px;
+	margin-left:625px;
 }
 
 .eventOne0{
@@ -71,7 +72,7 @@
 .eventDetailContent{
 	font-family: 'Lato', sans-serif;
 	font-size:20px;
-	margin-left:200px;
+	margin-left:230px;
 	width:70%;
 	margin-top:30px;
 	text-align:center;

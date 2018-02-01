@@ -9,16 +9,6 @@ var menuItems = [
 					},
 					{
 						key:1,
-						name:'REGISTRATION DETAILS',
-						data:'This is registration'
-					},
-					{
-						key:2,
-						name:'VENUE & TIMING',
-						data:'This is venue'
-					},
-					{
-						key:3,
 						name:'CONTACTS',
 						data:'This is contacts'
 					},
@@ -32,25 +22,27 @@ class EventOne extends Component{
 		main = this;
 
 		this.state = {
-			current: 'About!'
+			current: '',
 		}
-
 		this.changeCurrent = this.changeCurrent.bind(this)
 	}
 
 	changeCurrent(index){
 		this.setState({
-			current: menuItems[index].data
+			current: menuItems[index]
 		})
 	}
 
 	render(){
+		menuItems[0].data = this.props.event.data;
+		menuItems[1].data = this.props.event.contacts;
+
 		const activeStyle = {display: 'block'};
 		const borderStyle = {borderBottom: '2px solid #b1ff64'};
 		return(
 			<div className="eventOneContainer">
 					<div className="eventOneHeader">
-						{this.props.eventName}
+						{this.props.event.eventName}
 					</div>
 					<div className="eventOneRegister">
 					 REGISTER
@@ -68,7 +60,7 @@ class EventOne extends Component{
 			        </div>
 			        <div className="eventDetailContent">
 			        				<div>
-			        					{this.state.current}
+			        					{this.state.current.data}
 			        				</div>
 			        </div>
 		    </div>
