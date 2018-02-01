@@ -23,6 +23,7 @@ import CultEventsList from './EventsList/CultEventsList';
 import MobileCultEventsList from './MobileEventsList/MobileCultEvents';
 import EventOne from './Event1/Event1';
 
+
 class App extends Component {
   constructor(){
     super();
@@ -53,7 +54,7 @@ class App extends Component {
               <Route path="/contacts" component={MobileContactUs} />
               <Route path="/socialcause" component={MobileSocialCause} />
               <Route path="/techeventslist" component={MobileTechEventsList} />
-              <Route path="/culteventslist" component={MobileCultEventsList} />
+              <Route path="/culteventslist" component={MobileCultEventsList } />
               <MobileFooter />
             </div>
           </BrowserRouter>
@@ -74,7 +75,15 @@ class App extends Component {
              <Route path="/socialcause" component={SocialCause} />
              <Route path="/techeventslist" component={TechEventsList} />
              <Route path="/culteventslist" component={CultEventsList} />
-             <Route path="/eventsone" component={EventOne}/>
+             <Route path="/chakarvyuh" component={() => (<EventOne eventName="Chakarvyuh" />)} />
+             <Route path="/warofwatts" component={() => (<EventOne eventName="War of watts" />)} />
+             <Route path="/tech4help" component={() => (<EventOne eventName="tech4help" />)} />
+             <Route path="/designception" component={() => (<EventOne eventName="Designception" />)} />
+             <Route path="/relaycad" component={() => (<EventOne eventName="RelayCAD" />)} />
+             <Route path="/battlezone" component={() => (<EventOne eventName="Battle Zone" />)} />
+             <Route path="/sbc" component={() => (<EventOne eventName="Samgatha Business Challenge" />)} />
+             <Route path="/appathon" component={() => (<EventOne eventName="APP-A-THON" />)} />
+             <Route path="/codeauction" component={() => (<EventOne eventName="Code Auction" />)} /> 
             <Footer />
           </div>
         </BrowserRouter>

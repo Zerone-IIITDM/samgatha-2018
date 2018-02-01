@@ -11,37 +11,37 @@ class TechEventsList extends Component{
 	            </div>
 	            <div className="eventsGrid">
 	            	<div className="blocks">
-		            	<Link to='/eventsone' style={styles.links}><div className="techEventBlock">
+		            	<Link to='/chakarvyuh' style={styles.links}><div className="techEventBlock">
 		            		Chakravyuha
 		            	</div></Link>
-		            	<div className="techEventBlock">
+		            	<Link to='/warofwatts' style={styles.links}><div className="techEventBlock">
 		            		War of Watts
-		            	</div>
-		            	<div className="techEventBlock">
+		            	</div></Link>
+		            	<Link to='/tech4help' style={styles.links}><div className="techEventBlock">
 		            		Tech4Help
-		            	</div>
+		            	</div></Link>
 	            	</div>
 	            	<div className="blocks">
-		            	<div className="techEventBlock">
+		            	<Link to='/designception' style={styles.links}><div className="techEventBlock">
 		            		Designception
-		            	</div>
-		            	<div className="techEventBlock">
+		            	</div></Link>
+		            	<Link to='/relaycad' style={styles.links}><div className="techEventBlock">
 		            		RelayCAD
-		            	</div>
-		            	<div className="techEventBlock">
+		            	</div></Link>
+		            	<Link to='/battlezone' style={styles.links}><div className="techEventBlock">
 		            		Battle Zone
-		            	</div>
+		            	</div></Link>
 	            	</div>
 	            	<div className="blocks">
-		            	<div className="techEventBlock" style={{fontSize:'15px'}}>
+		            	<Link to='/sbc' style={styles.links}><div className="techEventBlock" style={{fontSize:'15px'}}>
 		            		Samgatha Business Challenge
-		            	</div>
-		            	<div className="techEventBlock">
+		            	</div></Link>
+		            	<Link to='/appathon' style={styles.links}><div className="techEventBlock">
 		            		App-A-thon
-		            	</div>
-		            	<div className="techEventBlock">
+		            	</div></Link>
+		            	<Link to='/codeauction' style={styles.links}><div className="techEventBlock">
 		            		Code Auction
-		            	</div>
+		            	</div></Link>
 	            	</div>
 	            </div>
 			</div>

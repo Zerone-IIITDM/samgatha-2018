@@ -50,7 +50,7 @@ class EventOne extends Component{
 		return(
 			<div className="eventOneContainer">
 					<div className="eventOneHeader">
-						EVENT #1
+						{this.props.eventName}
 					</div>
 					<div className="eventOneRegister">
 					 REGISTER
