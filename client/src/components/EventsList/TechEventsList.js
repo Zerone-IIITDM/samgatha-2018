@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { Link,BrowserRouter, Route } from 'react-router-dom';
 import './EventsList.css';
 
 class TechEventsList extends Component{
@@ -11,9 +11,9 @@ class TechEventsList extends Component{
 	            </div>
 	            <div className="eventsGrid">
 	            	<div className="blocks">
-		            	<div className="techEventBlock">
+		            	<Link to='/eventsone' style={styles.links}><div className="techEventBlock">
 		            		Chakravyuha
-		            	</div>
+		            	</div></Link>
 		            	<div className="techEventBlock">
 		            		War of Watts
 		            	</div>
@@ -50,3 +50,10 @@ class TechEventsList extends Component{
 }
 
 export default TechEventsList;
+
+const styles = {
+	links:{
+		textDecoration:'none',
+		color:'white',
+	},
+};
