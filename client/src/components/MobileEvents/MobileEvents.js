@@ -14,17 +14,13 @@ class MobileEvents extends Component {
                   
               </div>
               <div className="mobiletechAndCult">
-                <Link to='techeventslist' className="mobiletech">
-                  <div className="mobileimage1"></div>
-                  <div className="mobileoverlay1">
-                    <div className="mobiletextOverlay">Technical Events.</div>
-                  </div>
+                <Link to='techeventslist' className="mobiletech" style={{textDecoration:'none',color:'black'}}>
+                  <img src={require("../icons/techMobile.png")} />
+                  <div className="techText">Technical Events</div>
                 </Link>
-                <Link to='techeventslist' className="mobilecult">
-                  <div className="mobileimage1"></div>
-                  <div className="mobileoverlay2">
-                    <div className="mobiletextOverlay">Cultural Events.</div>
-                  </div>
+                <Link to='culteventslist' className="mobilecult" style={{textDecoration:'none',color:'black'}}>
+                  <img src={require("../icons/cultMobile.png")} />
+                  <div className="techText">Cultural Events</div>
                 </Link>
               </div>
             </div>

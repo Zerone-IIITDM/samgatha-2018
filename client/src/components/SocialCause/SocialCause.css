@@ -3,7 +3,7 @@
 
 .scContainer{
 	width: 100%;
-	height: 900px;
+	height: 920px;
 	margin-top: 60px;
 }
 
@@ -33,9 +33,10 @@
 }
 
 .scContent{
+	width: 70%;
   font-size: 20px;
   text-align: center;
-  margin-top: 10px;
+  margin: 10px auto;
   font-family: 'Lato', sans-serif;
 }
 

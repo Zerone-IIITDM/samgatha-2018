@@ -15,7 +15,6 @@ body{
 .heading{
 	text-align: center;
 	font-size: 50px;
-	padding:20px;
 	font-family: Yataghan-Regular;
 	color: #9d6dcd;
 }
@@ -32,6 +31,7 @@ body{
 	
 }
 .content{
+	margin-top: 30px;
 	text-align: center;
 	font-size: 50px;
 }

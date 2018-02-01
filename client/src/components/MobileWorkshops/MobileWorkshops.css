@@ -3,6 +3,7 @@
 
 .mobileOuter{
 	border:0.1px solid white;
+	height: 600px;
 }
 
 .mobileTitletext{
@@ -19,7 +20,7 @@
 .mobileText{
 	list-style-type: none;
 	text-align: center;
-	font-size: 18px;
+	font-size: 30px;
 	font-family: 'Raleway', sans-serif;
 	margin:50px;
 }
