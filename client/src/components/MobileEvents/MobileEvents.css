@@ -35,17 +35,13 @@
 
 .mobiletech{
     cursor: pointer;
-    position: relative;
-    width:50%;
-    border: 1px solid white;
+    width:40%;
 }
 
 .mobilecult{
+  margin-left: 23px;
     cursor: pointer;
-    position: relative;
     width: 50%;
-    border: 1px solid white;
-    
 }
 
 .mobileimage1{
@@ -105,4 +101,10 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+}
+
+.techText{
+  text-align: center; 
+  margin-left: 20px;
+  font-family: 'Roboto';
 }

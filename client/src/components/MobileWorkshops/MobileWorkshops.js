@@ -20,20 +20,14 @@ class MobileWorkshops extends Component{
 					<b> WORKSHOPS </b>
 					</div>
 					<div className="mobileText">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc dui eros, 
-					vehicula eu pellentesque id, dapibus non lacus.Quisque commodo sed dolor posuere consectetur. 
-					Duis dignissim tempor erat, maximus elementum sapien mattis eget Aliquam lacus erat,
-			 		suscipit sit amet lacus ac, pellentesque 
-			 		convallis nunc Integer pellentesque libero vitae nisi placerat, sed placerat enim finibus.
-			 		Proin et lorem eros.Vestibulum sed magna ullamcorper, semper velit in, pretium tellus. Proin vel bibendum 
-			 		orci. 
+					Workshops coming soon.
 					</div>
 
-					<div className="mobileWorkshop">
+					{/*<div className="mobileWorkshop">
 						<div className="mobilecard">Workshop</div>
 						<div className="mobilecard">Workshop</div>
 						<div className="mobilecard">Workshop</div>
-					</div>
+					</div>*/}
 			</div>
 
 
