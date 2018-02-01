@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.eventOneContainer{	
+	margin-top: 150px;
+}
+
+.eventOneHeader{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	margin-top:50px;
+	font-family: Yataghan-Regular;
+	color: #9d6dcd;
+}
+
+.eventOneRegister{
+	font-family: 'Lato', sans-serif;
+	border:2px solid #B1FF64;
+	height:30px;
+	width:200px;
+	text-align:center;
+	margin-top: 30px;
+	margin-left: 620px;
+	color: #B1FF64;
+	line-height:30px;	
+}
+
+.eventOneBasket{
+	display:inline-flex;
+	margin-top:20px;
+	margin-left:400px;
+}
+
+.eventOne0{
+	font-family: 'Lato', sans-serif;
+}
+
+.eventOne1{
+	font-family: 'Lato', sans-serif;
+	margin-left:50px;
+}
+
+.eventOne2{
+	font-family: 'Lato', sans-serif;
+	margin-left:50px;
+}
+
+.eventOne3{
+	font-family: 'Lato', sans-serif;
+	margin-left:50px;
+}
+
+.eventName{
+	height: auto;
+	font-size: 30px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.speakerAndShit{
+	margin-top: 40px;
+	margin-left: 50px;
+	font-style: italic;
+}
+
+.eventDetailContent{
+	font-family: 'Lato', sans-serif;
+	font-size:20px;
+	margin-left:200px;
+	width:70%;
+	margin-top:30px;
+	text-align:center;
+}
+
+.cursor{
+	cursor:pointer;
+}

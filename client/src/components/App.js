@@ -21,6 +21,7 @@ import TechEventsList from './EventsList/TechEventsList';
 import MobileTechEventsList from './MobileEventsList/MobileTechEvents';
 import CultEventsList from './EventsList/CultEventsList';
 import MobileCultEventsList from './MobileEventsList/MobileCultEvents';
+import EventOne from './Event1/Event1';
 
 class App extends Component {
   constructor(){
@@ -73,6 +74,7 @@ class App extends Component {
              <Route path="/socialcause" component={SocialCause} />
              <Route path="/techeventslist" component={TechEventsList} />
              <Route path="/culteventslist" component={CultEventsList} />
+             <Route path="/eventsone" component={EventOne}/>
             <Footer />
           </div>
         </BrowserRouter>
