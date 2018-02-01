@@ -24,6 +24,52 @@ import MobileCultEventsList from './MobileEventsList/MobileCultEvents';
 import EventOne from './Event1/Event1';
 
 
+
+var chakarvyuh = {
+  eventName:"Chakarvyuh",
+  data:`Every day we sleep inside our home enjoying the safety provided by our Indian Soldiers.\
+        They give up family and friends and all their comforts for the security of our nation.\ 
+        This event showcases a few such conditions where they work but with an idea of a robot\
+        performing these actions rather than a human and thus ensuring life security of such\
+        border forces. Join us to form a chakravyuha around our nation.\
+        Participating teams need to submit a TDP on or before March 1st 2018.`,
+  
+  contacts:[
+            "Amrutha Manoharan : 09566186673 (esd15i017@iiitdm.ac.in)",
+            <br/>,
+            `Rohan Kumar Panda: 08249639668 (mfd15i013@iiitdm.ac.in )`,
+            <br/>,
+            `Surendra Bharath: 09885782381 (mdm15b031@iiitdm.ac.in )`
+            ],
+}
+
+var warOfWatts = {
+  eventName:"War of Watts",
+  data:[
+        `In the midst of an ecstatic Fest lies an ancient battle ground, a place where several battles were fought, wars waged ,\
+        a place that will test your wits , a place that will test your limits and your command over the legions of components waiting to be\
+        explored and combined to form deadly combinations.  Do you have what it takes to enter the arena and establish your supremacy? Here Survival\
+        is not an option. May the river of electrons come to your aid`,
+        <br />,<br />,
+        <b>Event Format: </b>,
+        `No. of rounds: 2`,
+        <br />,
+        <b>Event Rules: </b>,
+        `A team can have maximum 2 members, \
+        once a team is formed , it cannot be changed, \
+        Quarrelling with judges will lead to disqualification.`
+        ],
+  contacts: [
+              "Aditya Pharande: 9566219050/8605575742 (edm15b012@iiitdm.ac.in)",
+              <br />,
+              `Sakshi Vastrad: 9962287327/8308751733 (evd15i008@iiitdm.ac.in)`,
+              <br />,
+              `Vyshak Nath C A: 9846527056 (evd15i016@iiitdm.ac.in) `
+            ],      
+}
+
+
+
 class App extends Component {
   constructor(){
     super();
@@ -97,8 +143,8 @@ class App extends Component {
              <Route path="/socialcause" component={SocialCause} />
              <Route path="/techeventslist" component={TechEventsList} />
              <Route path="/culteventslist" component={CultEventsList} />
-             <Route path="/chakarvyuh" component={() => (<EventOne eventName="Chakarvyuh" />)} />
-             <Route path="/warofwatts" component={() => (<EventOne eventName="War of watts" />)} />
+             <Route path="/chakarvyuh" component={() => (<EventOne event={chakarvyuh} />)} />
+             <Route path="/warofwatts" component={() => (<EventOne event={warOfWatts} />)} />
              <Route path="/tech4help" component={() => (<EventOne eventName="tech4help" />)} />
              <Route path="/designception" component={() => (<EventOne eventName="Designception" />)} />
              <Route path="/relaycad" component={() => (<EventOne eventName="RelayCAD" />)} />
