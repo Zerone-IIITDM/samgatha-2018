@@ -55,6 +55,28 @@ class App extends Component {
               <Route path="/socialcause" component={MobileSocialCause} />
               <Route path="/techeventslist" component={MobileTechEventsList} />
               <Route path="/culteventslist" component={MobileCultEventsList } />
+              <Route path="/chakarvyuh" component={() => (<EventOne eventName="Chakarvyuh" />)} />
+             <Route path="/warofwatts" component={() => (<EventOne eventName="War of watts" />)} />
+             <Route path="/tech4help" component={() => (<EventOne eventName="tech4help" />)} />
+             <Route path="/designception" component={() => (<EventOne eventName="Designception" />)} />
+             <Route path="/relaycad" component={() => (<EventOne eventName="RelayCAD" />)} />
+             <Route path="/battlezone" component={() => (<EventOne eventName="Battle Zone" />)} />
+             <Route path="/sbc" component={() => (<EventOne eventName="Samgatha Business Challenge" />)} />
+             <Route path="/appathon" component={() => (<EventOne eventName="APP-A-THON" />)} />
+             <Route path="/codeauction" component={() => (<EventOne eventName="Code Auction" />)} /> 
+             <Route path="/beasuperhero" component={() => (<EventOne eventName="Be a Super Hero" />)} /> 
+             <Route path="/battleofbands" component={() => (<EventOne eventName="Battle of Bands" />)} /> 
+             <Route path="/dancewars" component={() => (<EventOne eventName="Dance Wars" />)} /> 
+             <Route path="/drishyam" component={() => (<EventOne eventName="Drishyam" />)} /> 
+             <Route path="/eloquent" component={() => (<EventOne eventName="Eloquent" />)} /> 
+             <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
+             <Route path="/mayasrishti" component={() => (<EventOne eventName="Mayasristhi" />)} /> 
+             <Route path="/shutterup" component={() => (<EventOne eventName="Shutter Up" />)} /> 
+             <Route path="/samidol" component={() => (<EventOne eventName="Sam Idol" />)} /> 
+             <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
+             <Route path="/maskmaking" component={() => (<EventOne eventName="Mask Making" />)} /> 
+             <Route path="/duetdance" component={() => (<EventOne eventName="Duet Dance" />)} /> 
+           
               <MobileFooter />
             </div>
           </BrowserRouter>
@@ -66,10 +88,10 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <Header />
-            <Route exact={true} path="/" component={Home} />
-            <Route path="/events" component={Events} />
-            <Route path="/workshops" component={Workshop} />
-            <Route path="/sponsors" component={Sponsors} />
+             <Route exact={true} path="/" component={Home} />
+             <Route path="/events" component={Events} />
+             <Route path="/workshops" component={Workshop} />
+             <Route path="/sponsors" component={Sponsors} />
              <Route path="/contacts" component={ContactUs} />
              <Route path="/WorkshopOne" component={WorkshopOneMin} />
              <Route path="/socialcause" component={SocialCause} />

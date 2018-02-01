@@ -14,9 +14,9 @@ class MobileCultEventsList extends Component{
 		            	<div className="mobiletechEventBlock">
 		            		Battle of Bands
 		            	</div>
-		            	<div className="mobiletechEventBlock">
+		            	<Link to='/beasuperhero' style={styles.links}><div className="mobiletechEventBlock">
 		            		Be a Superhero
-		            	</div>
+		            	</div></Link>
 		            	<div className="mobiletechEventBlock">
 		            		Dance Wars
 		            	</div>
