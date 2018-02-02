@@ -143,6 +143,51 @@ var duetDance = {
             ],      
 }
 
+var drishyam = {
+  eventName:"Drishyam",
+  data:[
+        `Mass media is effective in every field of life by virtue of their audio-visual powers. 
+        In addition to usage of cinema for entertainment purposes, its educational role has been realized .
+        If you have a knack for getting straight to the point, short films are for you.
+        From extremely crazy, comedic pieces to films that evoke thought and create awareness, 
+        any idea is a brilliant idea if you know what to do with it. 
+        Let the images on screen connect with the people’s mind and soul. 
+        So, set up your cameras, light up the scene, and show us what you have got!`,
+        <br />,<br />,
+        <b>Event Format: </b>,
+        `Participants have to send their entries to samgatha.photography.2018@gmail.com(will be created shortly). 
+        1 round only, there will be screening of the films and the judgement will be done there.`,
+         <br />,<br />,
+        <b>Problem Statement: </b>,
+        `Free- themed short film contest.`, 
+        <br />,<br />,
+        <b>Event Rules: </b>,
+        `1) Language: English, Hindi, Malayalam, Tamil, Telugu.`,
+        <br />,
+        `2)Subtitles are must.`,
+        <br />,
+        `3) Whichever films that have been produced after January 1 2017 are accepted.
+        Films produced before the above specified date are not accepted.`,
+        <br />,
+        `4)Films should be released in India.`,
+        <br />,
+        `5)Once the entry has been submitted it cannot be withdrawn from the fest during the event.`,
+        <br />,
+        `6)All submissions have to be made at __________.`,
+        <br />,
+        `7)Maximum size of the video shouldn’t exceed 700 MB.`,
+        <br />,
+        `8)The format of the video should be MP4.`,
+        <br />,
+        `9)Time limit is 15-20 minutes.`,
+        <br />,<br />
+        ],
+  contacts: [
+              "A Aravind: 7904787923 (mdm15b033@iiitdm.ac.in)",
+              <br />,
+              `Vishal Nayak: 7382327624 (edm15b017@iiitdm.ac.in)`
+            ],
+}
 
 class App extends Component {
   constructor(){
@@ -209,7 +254,7 @@ class App extends Component {
              <Route path="/beasuperhero" component={() => (<EventOne eventName="Be a Super Hero" />)} /> 
              <Route path="/battleofbands" component={() => (<EventOne eventName="Battle of Bands" />)} /> 
              <Route path="/dancewars" component={() => (<EventOne eventName="Dance Wars" />)} /> 
-             <Route path="/drishyam" component={() => (<EventOne eventName="Drishyam" />)} /> 
+             <Route path="/drishyam" component={() => (<EventOne event={drishyam} />)} /> 
              <Route path="/eloquent" component={() => (<EventOne eventName="Eloquent" />)} /> 
              <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
              <Route path="/mayasrishti" component={() => (<EventOne event={mayasrishti} />)} /> 
