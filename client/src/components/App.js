@@ -94,6 +94,30 @@ var mayasrishti={
 
 }
 
+var duetDance = {
+  eventName:"Duet Dance",
+  data:[
+        `Dance ! It's one of the purest and mesmerising form of magic , a gift to mankind to express their various emotions that run through our body straight to our soul !
+        It's time to live your La La Land.
+        Listen to that long forgotten whisper and feel the rise and fall of
+        your breath. Break your shackles. Grab the moment and cast that
+        entrancing spell on us!`,
+        <br />,<br />,
+        <b>Event Rules: </b>,
+        `1) Time limit: 3-5 minutes`,
+        <br />,
+        '2) Clothing that is too short, suggestive or inappropriate for the age of the performer is not allowed',
+        <br />,
+        '3) Judges decision will be final',
+        <br />
+        ],
+  contacts: [
+              "Manasa: 9566187833 (edm15b021@iiitdm.ac.in)",
+              <br />,
+              `Tejasvi Raj: 9566180551 (coe15b026@iiitdm.ac.in)`
+            ],      
+}
+
 
 class App extends Component {
   constructor(){
@@ -163,12 +187,12 @@ class App extends Component {
              <Route path="/drishyam" component={() => (<EventOne eventName="Drishyam" />)} /> 
              <Route path="/eloquent" component={() => (<EventOne eventName="Eloquent" />)} /> 
              <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
-             <Route path="/mayasrishti" component={() => (<EventOne eventName="Mayasristhi" />)} /> 
+             <Route path="/mayasrishti" component={() => (<EventOne event={mayasrishti} />)} /> 
              <Route path="/shutterup" component={() => (<EventOne eventName="Shutter Up" />)} /> 
              <Route path="/samidol" component={() => (<EventOne eventName="Sam Idol" />)} /> 
              <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
              <Route path="/maskmaking" component={() => (<EventOne eventName="Mask Making" />)} /> 
-             <Route path="/duetdance" component={() => (<EventOne eventName="Duet Dance" />)} /> 
+             <Route path="/duetdance" component={() => (<EventOne event={duetDance} />)} /> 
            
             <Footer />
           </div>
