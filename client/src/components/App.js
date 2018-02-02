@@ -94,6 +94,55 @@ var mayasrishti={
 
 }
 
+var duetDance = {
+  eventName:"Duet Dance",
+  data:[
+        `Dance ! It's one of the purest and mesmerising form of magic , a gift to mankind to express their various emotions that run through our body straight to our soul !
+        It's time to live your La La Land.
+        Listen to that long forgotten whisper and feel the rise and fall of
+        your breath. Break your shackles. Grab the moment and cast that
+        entrancing spell on us!`,
+        <br />,<br />,
+        <b>Problem Statement: </b>,
+        `Opportunity dances with those already on the dance floor. Come, 
+        grab it. Come, dance to live, to breathe, to be free, to be YOU.`, 
+        <br />,<br />,
+        <b>Judging Criteria: </b>,
+        `Each team will be evaluated by the judges on the following criteria:`,
+        <br />,
+        `Skills, Street Presentation, Musicality, Performance, Creativity. It is
+        particularly important for the participants to stick with street dance
+        styles.`,
+        <br />,<br />,
+        <b>Event Rules: </b>,
+        `1) Time limit: 3-5 minutes`,
+        <br />,
+        '2) Clothing that is too short, suggestive or inappropriate for the age of the performer is not allowed',
+        <br />,
+        '3) Judges decision will be final',
+        <br />,<br />,
+        <b>FAQ</b>,
+        <br />,
+        <b>1) Is Classical allowed for duet?</b>,
+        <br />,
+        <b>A:</b>, `No. But you're free to do semi-classical`,
+        <br />,
+        <b>2) How many prozes will be awarded?</b>,
+        <br />,
+        <b>A:</b>, `Two, for duet and group. Three, for solo.`,
+        <br />,
+        <b>3) Why should I participate?</b>,
+        <br />,
+        <b>A:</b>, `Prize money upto 50k!`,
+        <br />
+        ],
+  contacts: [
+              "Manasa: 9566187833 (edm15b021@iiitdm.ac.in)",
+              <br />,
+              `Tejasvi Raj: 9566180551 (coe15b026@iiitdm.ac.in)`
+            ],      
+}
+
 var drishyam = {
   eventName:"Drishyam",
   data:[
@@ -137,8 +186,8 @@ var drishyam = {
               "A Aravind: 7904787923 (mdm15b033@iiitdm.ac.in)",
               <br />,
               `Vishal Nayak: 7382327624 (edm15b017@iiitdm.ac.in)`
-            ],      
-}
+            ],
+}  
 
 
 class App extends Component {
@@ -209,12 +258,12 @@ class App extends Component {
              <Route path="/drishyam" component={() => (<EventOne event={drishyam} />)} /> 
              <Route path="/eloquent" component={() => (<EventOne eventName="Eloquent" />)} /> 
              <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
-             <Route path="/mayasrishti" component={() => (<EventOne eventName="Mayasristhi" />)} /> 
+             <Route path="/mayasrishti" component={() => (<EventOne event={mayasrishti} />)} /> 
              <Route path="/shutterup" component={() => (<EventOne eventName="Shutter Up" />)} /> 
              <Route path="/samidol" component={() => (<EventOne eventName="Sam Idol" />)} /> 
              <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
              <Route path="/maskmaking" component={() => (<EventOne eventName="Mask Making" />)} /> 
-             <Route path="/duetdance" component={() => (<EventOne eventName="Duet Dance" />)} /> 
+             <Route path="/duetdance" component={() => (<EventOne event={duetDance} />)} /> 
            
             <Footer />
           </div>
