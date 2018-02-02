@@ -1,6 +1,7 @@
 const express = require('express');
 const keys = require('./config/keys');
 const passport = require('passport');
+const path = require('path');
 require('./services/passport');
 
 const app = express();
