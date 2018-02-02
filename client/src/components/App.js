@@ -68,30 +68,53 @@ var warOfWatts = {
             ],      
 }
 
-
-var mayasrishti={
-  eventName:"Mayasristhi",
-      data:[` It's time to munch on some Chocolate frogs, drink a few butter beers, wield the Elder wand and use the \
-              Quick quotes Quill to create magic on stage!  Welcome to MayaSrishti, the dramatics event of Samgatha 2018.  \
-              It will be the crème de la crème of the opportunities to come, showcase the dramatist in you and create an exotic \
-              world on stage `,
-             <br />,<br />,
-             <b> Event Format : </b>,
-             `No of rounds`,
-             <br />,
-               `Round 1 -  Perform on the prepared skit.\
-               Round 2 - Topics will be given on the spot to your team and you will have to prepare a small play \
-               on the given topic within given time and perform the same.`,
-              <br />,
-       `Event rules:`,
-        `Team size: 3-12 member group,
-        Language: English, Hindi, Tamil, Telugu.`,
+var mayasrishti = {
+  eventName:"Mayasrishti",
+  data:[
+        `Dance ! It's one of the purest and mesmerising form of magic , a gift to mankind to express their various emotions that run through our body straight to our soul !
+        It's time to live your La La Land.
+        Listen to that long forgotten whisper and feel the rise and fall of
+        your breath. Break your shackles. Grab the moment and cast that
+        entrancing spell on us!`,
+        <br />,<br />,
+        <b>Problem Statement: </b>,
+        `Opportunity dances with those already on the dance floor. Come, 
+        grab it. Come, dance to live, to breathe, to be free, to be YOU.`, 
+        <br />,<br />,
+        <b>Judging Criteria: </b>,
+        `Each team will be evaluated by the judges on the following criteria:`,
         <br />,
-        `Time limit:`,
-        `For the first round, minimum 5 minutes and maximum 25 minutes. 
-        For the second round, it will be decided on the spot.`,
+        `Skills, Street Presentation, Musicality, Performance, Creativity. It is
+        particularly important for the participants to stick with street dance
+        styles.`,
+        <br />,<br />,
+        <b>Event Rules: </b>,
+        `1) Time limit: 3-5 minutes`,
+        <br />,
+        '2) Clothing that is too short, suggestive or inappropriate for the age of the performer is not allowed',
+        <br />,
+        '3) Judges decision will be final',
+        <br />,<br />,
+        <b>FAQ</b>,
+        <br />,
+        <b>1) Is Classical allowed for duet?</b>,
+        <br />,
+        <b>A:</b>, `No. But you're free to do semi-classical`,
+        <br />,
+        <b>2) How many prozes will be awarded?</b>,
+        <br />,
+        <b>A:</b>, `Two, for duet and group. Three, for solo.`,
+        <br />,
+        <b>3) Why should I participate?</b>,
+        <br />,
+        <b>A:</b>, `Prize money upto 50k!`,
+        <br />
         ],
-
+  contacts: [
+              "Manasa: 9566187833 (edm15b021@iiitdm.ac.in)",
+              <br />,
+              `Tejasvi Raj: 9566180551 (coe15b026@iiitdm.ac.in)`
+            ],      
 }
 
 var duetDance = {
@@ -239,6 +262,10 @@ class App extends Component {
   constructor(){
     super();
     this.state = {width: window.innerWidth };
+    this.state = {loading: true};
+  }
+  componentDidMount(){
+    setTimeout(() => this.setState({loading: false}),2000);
   }
   componentWillMount(){
     window.addEventListener('resize', this.handleWindowSizeChange);
@@ -250,8 +277,12 @@ class App extends Component {
     this.setState({ width: window.innerWidth });
   };
   render() {
+    const { loading } = this.state;
     const { width } = this.state;
     const isMobile = width <= 545;
+    if(loading){
+      return null;
+    }
     if(isMobile){
       return(
         <div className="container">

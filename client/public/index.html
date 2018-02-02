@@ -19,13 +19,52 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Samgatha'18</title>
+    <style>
+      .loader:empty{
+        width: 100px;
+        height: 100px;
+        animation: rotate .9s linear infinite;
+        margin: 200px auto;
+        border-radius: 50%;
+        border-top:3px solid white;
+        border-bottom:3px solid white;
+        border-right:3px solid red;
+        border-left:3px solid blue;
+      }
+
+      @keyframes rotate{
+        from{
+          transform: rotate(0deg);
+        }
+        to{
+          transform: rotate(360deg);
+        }
+        
+        25%{
+          box-shadow: 0 0 20px red;
+        }
+        50%{
+          box-shadow: 0 0 20px blue;
+        }
+        75%{
+          box-shadow: 0 0 20px blue;
+        }
+        99%{
+          box-shadow: 0 0 20px red;
+        }
+        
+      }
+    </style>
   </head>
   <body>
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
-    <div id="root"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.1/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.1/react-dom.js"></script>
+    <div id="root" class="loader"></div>
+
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
