@@ -69,6 +69,31 @@ var warOfWatts = {
 }
 
 
+var mayasrishti={
+  eventName:"Mayasristhi",
+      data:[` It's time to munch on some Chocolate frogs, drink a few butter beers, wield the Elder wand and use the \
+              Quick quotes Quill to create magic on stage!  Welcome to MayaSrishti, the dramatics event of Samgatha 2018.  \
+              It will be the crème de la crème of the opportunities to come, showcase the dramatist in you and create an exotic \
+              world on stage `,
+             <br />,<br />,
+             <b> Event Format : </b>,
+             `No of rounds`,
+             <br />,
+               `Round 1 -  Perform on the prepared skit.\
+               Round 2 - Topics will be given on the spot to your team and you will have to prepare a small play \
+               on the given topic within given time and perform the same.`,
+              <br />,
+       `Event rules:`,
+        `Team size: 3-12 member group,
+        Language: English, Hindi, Tamil, Telugu.`,
+        <br />,
+        `Time limit:`,
+        `For the first round, minimum 5 minutes and maximum 25 minutes. 
+        For the second round, it will be decided on the spot.`,
+        ],
+
+}
+
 
 class App extends Component {
   constructor(){
@@ -101,27 +126,7 @@ class App extends Component {
               <Route path="/socialcause" component={MobileSocialCause} />
               <Route path="/techeventslist" component={MobileTechEventsList} />
               <Route path="/culteventslist" component={MobileCultEventsList } />
-              <Route path="/chakarvyuh" component={() => (<EventOne eventName="Chakarvyuh" />)} />
-             <Route path="/warofwatts" component={() => (<EventOne eventName="War of watts" />)} />
-             <Route path="/tech4help" component={() => (<EventOne eventName="tech4help" />)} />
-             <Route path="/designception" component={() => (<EventOne eventName="Designception" />)} />
-             <Route path="/relaycad" component={() => (<EventOne eventName="RelayCAD" />)} />
-             <Route path="/battlezone" component={() => (<EventOne eventName="Battle Zone" />)} />
-             <Route path="/sbc" component={() => (<EventOne eventName="Samgatha Business Challenge" />)} />
-             <Route path="/appathon" component={() => (<EventOne eventName="APP-A-THON" />)} />
-             <Route path="/codeauction" component={() => (<EventOne eventName="Code Auction" />)} /> 
-             <Route path="/beasuperhero" component={() => (<EventOne eventName="Be a Super Hero" />)} /> 
-             <Route path="/battleofbands" component={() => (<EventOne eventName="Battle of Bands" />)} /> 
-             <Route path="/dancewars" component={() => (<EventOne eventName="Dance Wars" />)} /> 
-             <Route path="/drishyam" component={() => (<EventOne eventName="Drishyam" />)} /> 
-             <Route path="/eloquent" component={() => (<EventOne eventName="Eloquent" />)} /> 
-             <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
-             <Route path="/mayasrishti" component={() => (<EventOne eventName="Mayasristhi" />)} /> 
-             <Route path="/shutterup" component={() => (<EventOne eventName="Shutter Up" />)} /> 
-             <Route path="/samidol" component={() => (<EventOne eventName="Sam Idol" />)} /> 
-             <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
-             <Route path="/maskmaking" component={() => (<EventOne eventName="Mask Making" />)} /> 
-             <Route path="/duetdance" component={() => (<EventOne eventName="Duet Dance" />)} /> 
+              
            
               <MobileFooter />
             </div>

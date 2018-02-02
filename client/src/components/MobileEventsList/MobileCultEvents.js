@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { Link, BrowserRouter, Route } from 'react-router-dom';
 import './MobileTechEvents.css';
 
 class MobileCultEventsList extends Component{
@@ -14,9 +14,9 @@ class MobileCultEventsList extends Component{
 		            	<div className="mobiletechEventBlock">
 		            		Battle of Bands
 		            	</div>
-		            	<Link to='/beasuperhero' style={styles.links}><div className="mobiletechEventBlock">
+		            	<div className="mobiletechEventBlock">
 		            		Be a Superhero
-		            	</div></Link>
+		            	</div>
 		            	<div className="mobiletechEventBlock">
 		            		Dance Wars
 		            	</div>
@@ -61,3 +61,10 @@ class MobileCultEventsList extends Component{
 }
 
 export default MobileCultEventsList;
+
+const styles = {
+	links:{
+		textDecoration:'none',
+		color:'white',
+	},
+};
