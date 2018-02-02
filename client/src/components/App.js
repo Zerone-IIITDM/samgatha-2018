@@ -189,6 +189,52 @@ var drishyam = {
             ],
 }
 
+{/*
+	ONLY 9 OUT of 20 EVENT RULES points are ADDED in SHUTTERUP
+*/}
+var shutterup = {
+  eventName:"Shutter Up",
+  data:[
+        `Do you think your photos showcase the world in a different light? 
+        Can your pictures transcend emotions? Does your photo have an untold story waiting to be heard and explored ? 
+        If so, here we give you an exotic chance to let the pixels do the talking. 
+        We present to you the online photography contest. 
+        So dig up the pile of photographs that live on your computer and 
+        let them see the light and embrace the glory !`,
+        <br />,<br />,
+        <b>Event Format: </b>,
+        `Participants have to send their entries to samgatha.photography.2018@gmail.com(will be created shortly). Only 1 round.`,
+        <br />,<br />,
+        <b>Problem Statement: </b>,
+        `Free-theme photography event. `, 
+        <br />,<br />,
+        <b>Event Rules: </b>,
+        `1) 2 pictures you’ve taken should be submitted on or before __/__/2018, __ pm.`,
+        <br />,
+        `2)EDITING the original image is PROHIBITED. The entries will be disqualified in that case.`,
+        <br />,
+        `3) WATERMARKS are NOT allowed. Watermarked pictures will lead to disqualification.`,
+        <br />,
+        `4)This is an INDIVIDUAL event and is open to everyone.`,
+        <br />,
+        `5)Entries with offensive or inappropriate content or those which promote any specific brand will be disqualified. `,
+        <br />,
+        `6)The photographs submitted must be the genuine, original work of the participant.`,
+        <br />,
+        `7)Any device can be used to capture the photo.`,
+        <br />,
+        `8)The copyrights of the pictures will stay with the photographer. However, Samgatha has the right to use the pictures for publicity or other activities. `,
+        <br />,
+        `9)Under any circumstance, entries once submitted cannot be taken back for modifications. `,
+        <br />,<br />
+        ],
+  contacts: [
+              "A Aravind: 7904787923 (mdm15b033@iiitdm.ac.in)",
+              <br />,
+              `Vishal Nayak: 7382327624 (edm15b017@iiitdm.ac.in)`
+            ],
+}
+
 class App extends Component {
   constructor(){
     super();
@@ -258,7 +304,7 @@ class App extends Component {
              <Route path="/eloquent" component={() => (<EventOne eventName="Eloquent" />)} /> 
              <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
              <Route path="/mayasrishti" component={() => (<EventOne event={mayasrishti} />)} /> 
-             <Route path="/shutterup" component={() => (<EventOne eventName="Shutter Up" />)} /> 
+             <Route path="/shutterup" component={() => (<EventOne event={shutterup} />)} /> 
              <Route path="/samidol" component={() => (<EventOne eventName="Sam Idol" />)} /> 
              <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
              <Route path="/maskmaking" component={() => (<EventOne eventName="Mask Making" />)} /> 
