@@ -71,49 +71,44 @@ var warOfWatts = {
 var mayasrishti = {
   eventName:"Mayasrishti",
   data:[
-        `Dance ! It's one of the purest and mesmerising form of magic , a gift to mankind to express their various emotions that run through our body straight to our soul !
-        It's time to live your La La Land.
-        Listen to that long forgotten whisper and feel the rise and fall of
-        your breath. Break your shackles. Grab the moment and cast that
-        entrancing spell on us!`,
+        `It's time to munch on some Chocolate frogs, drink a few butter beers, 
+        wield the Elder wand and use the Quick quotes Quill to create magic on stage!
+		Welcome to MayaSrishti, the dramatics event of Samgatha 2018. 
+		It will be the crème de la crème of the opportunities to come, 
+		showcase the dramatist in you and create an exotic world on stage`,
         <br />,<br />,
-        <b>Problem Statement: </b>,
-        `Opportunity dances with those already on the dance floor. Come, 
-        grab it. Come, dance to live, to breathe, to be free, to be YOU.`, 
-        <br />,<br />,
-        <b>Judging Criteria: </b>,
-        `Each team will be evaluated by the judges on the following criteria:`,
+        <b>Event Format: </b>,
+        `Give a brief description of the round. What will be asked to do in each round?`,
         <br />,
-        `Skills, Street Presentation, Musicality, Performance, Creativity. It is
-        particularly important for the participants to stick with street dance
-        styles.`,
+        `Round 1: Perform on the prepared skit.`,
+        <br />,
+        `Round 2: Topics will be given on the spot to your team and you will have to 
+        prepare a small play on the given topic within given time and perform the same.`,
         <br />,<br />,
         <b>Event Rules: </b>,
-        `1) Time limit: 3-5 minutes`,
+        `1) Team size: 3-12 member group`,
         <br />,
-        '2) Clothing that is too short, suggestive or inappropriate for the age of the performer is not allowed',
+        '2) Language: English, Hindi, Tamil, Telugu.',
         <br />,
-        '3) Judges decision will be final',
+        '3) Time limit: For the first round, minimum 5 minutes and maximum 25 minutes. For the second round, it will be decided on the spot.',
+        <br />,<br />,
+        <b>Judging Criteria: </b>,
+        `1)Uniqueness of the skit`,<br />,
+        `2)Expressions/Acting skill`,<br />,
+        `3)Involvement of all the actors(If the actor does justice to his/her assigned role)`,
         <br />,<br />,
         <b>FAQ</b>,
         <br />,
-        <b>1) Is Classical allowed for duet?</b>,
+        <b>1) What if the team size is less than or more than the above 
+        mentioned minimum and maximum team size respectively, or same in the case of team limit?</b>,
         <br />,
-        <b>A:</b>, `No. But you're free to do semi-classical`,
-        <br />,
-        <b>2) How many prozes will be awarded?</b>,
-        <br />,
-        <b>A:</b>, `Two, for duet and group. Three, for solo.`,
-        <br />,
-        <b>3) Why should I participate?</b>,
-        <br />,
-        <b>A:</b>, `Prize money upto 50k!`,
+        <b>A:</b>, `In that case, your team will have to face penalty of a few points, given to you while judging.`,
         <br />
         ],
   contacts: [
-              "Manasa: 9566187833 (edm15b021@iiitdm.ac.in)",
+              "Yutika Kulwe: 9920289853 (ced15i017@iiitdm.ac.in)",
               <br />,
-              `Tejasvi Raj: 9566180551 (coe15b026@iiitdm.ac.in)`
+              `R Sowbarnika: 7200030983 (edm15b040@iiitdm.ac.in)`
             ],      
 }
 
