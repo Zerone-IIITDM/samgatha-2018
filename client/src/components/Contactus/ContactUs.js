@@ -19,7 +19,7 @@ class ContactUs extends Component{
 										<div className="memberInfo">Dheepika K<br />9952035154</div>
 									</div>
 									<div className="member">
-										<div className="memberPhoto"></div>
+										<img src={require("../icons/archana.png")} />
 										<div className="memberInfo">Archana<br />7598492607</div>
 									</div>
 								</div>
