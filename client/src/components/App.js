@@ -187,8 +187,7 @@ var drishyam = {
               <br />,
               `Vishal Nayak: 7382327624 (edm15b017@iiitdm.ac.in)`
             ],
-}  
-
+}
 
 class App extends Component {
   constructor(){
