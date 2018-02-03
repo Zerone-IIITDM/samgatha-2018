@@ -73,9 +73,9 @@ var mayasrishti = {
   data:[
         `It's time to munch on some Chocolate frogs, drink a few butter beers, 
         wield the Elder wand and use the Quick quotes Quill to create magic on stage!
-		Welcome to MayaSrishti, the dramatics event of Samgatha 2018. 
-		It will be the crème de la crème of the opportunities to come, 
-		showcase the dramatist in you and create an exotic world on stage`,
+    Welcome to MayaSrishti, the dramatics event of Samgatha 2018. 
+    It will be the crème de la crème of the opportunities to come, 
+    showcase the dramatist in you and create an exotic world on stage`,
         <br />,<br />,
         <b>Event Format: </b>,
         `Give a brief description of the round. What will be asked to do in each round?`,
@@ -208,7 +208,7 @@ var drishyam = {
 }
 
 {/*
-	ONLY 9 OUT of 20 EVENT RULES points are ADDED in SHUTTERUP
+  ONLY 9 OUT of 20 EVENT RULES points are ADDED in SHUTTERUP
 */}
 var shutterup = {
   eventName:"Shutter Up",
@@ -575,10 +575,10 @@ var battleZone = {
         `This event consists of two rounds:-`,
         <br />,
         `Round 1: Pen and paper based round and a small problem
-		statement`,
-		<br />,
-		`Round 2: The selected teams will be given an on-spot problem
-		statement`,
+    statement`,
+    <br />,
+    `Round 2: The selected teams will be given an on-spot problem
+    statement`,
         <br />,<br />,
         <b>Event Rules:</b>,
         <br />,
@@ -595,36 +595,36 @@ var battleZone = {
         `6. Number of tennis balls(ammo) per team: 10`,
         <br />,
         `7. Each team's territory is a circle of radius 10 feet and the team's
-		equipment at the centre.`,
+    equipment at the centre.`,
         <br />,
         `8. Number of lives per team: 3`,
         <br />,
         `9. A life is lost if a ball falls on a team's territory excluding the
-		defending region.`,
+    defending region.`,
         <br />,
         `10. Use defense to shield your territory and lose no life.`,
         <br />,
         `11. Organizer’s decision is final. Teams must abide by the rules and
-		conduct of the workshop.`,
+    conduct of the workshop.`,
         <br />,<br />,
         <b>Judging Criteria:</b>,
         <br />,
         `1) Participants will be tested on their fabricating skills and team
-		work.`,
+    work.`,
         <br />,
         `2) On completion of the model 5 points are awarded.`,
         <br />,
         `3) During the game, 4 points will be awarded to the team launching
-		the ball,on hitting the opponent's territory in the region of no
-		defence. If it hits the shield 2 points will be awarded to the
-		defending team with an extra turn to play and 2 points will be
-		awarded to the team launching the ball.`,
+    the ball,on hitting the opponent's territory in the region of no
+    defence. If it hits the shield 2 points will be awarded to the
+    defending team with an extra turn to play and 2 points will be
+    awarded to the team launching the ball.`,
         <br />,
         `4) 2 points will be awarded to the team who has lent their shield to
-		their group mates in the due course of the game.`,
+    their group mates in the due course of the game.`,
         <br />,
         `5)The group with the highest points ( which is the sum of team's
-		score ) is the winner.`,
+    score ) is the winner.`,
         <br />,<br />,
         <b>FAQ</b>,
         <br />,
@@ -643,20 +643,126 @@ var battleZone = {
         <b>4) So, what all components will be available?</b>,
         <br />,
         <b>A:</b>, `The standard equipment in workshop, other materials to work with
-		will be mentioned to the finalist on spot, on
-		the day of event.`,
-		<br />,
+    will be mentioned to the finalist on spot, on
+    the day of event.`,
+    <br />,
         <b>5) Is it for UG/PG/PhD?</b>,
         <br />,
         <b>A:</b>, `Any team with its team members having valid Samgatha ID can
-		participate. The team must retain their team
-		members until the finals; any change will lead to disqualification.`,
+    participate. The team must retain their team
+    members until the finals; any change will lead to disqualification.`,
         <br />
         ],
   contacts: [
               "Harichandana K: 8309280761 (mdm15b027@iiitdm.ac.in)",
               <br />,
               `Sai Uday Kiram Y: 8056924626 (mfd15i008@iiitdm.ac.in)`
+            ],
+}
+
+var tech4help = {
+  eventName:"Tech 4 Help",
+  data:[
+        `The enormous potential of technology and it’s huge capacity  to impact millions of lives is yet to be explored completely.\
+        Healthcare is one such domain which awaits the genius in you \
+        to tap the unimaginable potentials of technology to serve the mankind better.\
+        Your idea could be a breakthrough, which could eventually change a person’s life.\
+        So tech 4 help is just the best platform for you  to showcase your innovative ideas. `,
+        <br />,<br />,
+        <b>Problem Statement: </b>,
+        `Participants should make any electronics prototype for solving health related problem existing in society.`,
+        <br />,<br />,
+        <b>Event Format: </b>,
+        `Participants must report in the venue with the prototype. They have to showcase the working of the prototype.`,
+        <br />,<br />,
+        <b>Event Rules:</b>,
+        <br />,
+        `1. A team can have maximum 4 members. Once a team is formed , it cannot be changed.`,
+        <br />,
+        `2. Quarrelling with judges will lead to disqualification.`,
+        <br />,<br />,
+        <b>Judging Criteria: </b>,
+        `Points will be awarded on the following basis:`,
+        <br />,
+        `Idea - 30 points`,
+        <br />,
+        `Working - 40 points`,
+        <br />,
+        `Presentation - 30 points`,
+        <br />,<br />,
+        <b>FAQs:</b>,
+        <br />,
+        `Q. Why should I participate in tech4help?`,
+        <br />,
+        `A. Tech4 help allows participants to work together to design and build prototypes that could help the society at large.`,
+        <br />,
+        `Q. Who can participate?`,
+        <br />,
+        `A. Students from any college& university with valid ID.`,
+        <br />,
+        `Q. Can a team have members from different colleges?`,
+        <br />,
+        `A. Yes,Students from different colleges can firm a team.`,
+        <br />,<br />,<br />
+        ],
+  contacts: [
+              "Aditya Pharande: 9566219050/8605575742 (edm15b012@iiitdm.ac.in)",
+              <br />,
+              `Sakshi Vastrad: 9962287327/8308751733 (evd15i008@iiitdm.ac.in)`,
+              <br />,
+              `Vyshak Nath C A: 9846527056 (evd15i016@iiitdm.ac.in) `
+            ],
+}
+
+var relayCAD = {
+  eventName:"Relay CAD",
+  data:[
+        `Look at something simple.\
+        Something you see every day.\
+        Something that no one ever thinks of redesigning, because it seems pointless to do so.\
+        Do you think you can make it look better?\
+        Then, here's your chance to improvise the design and bring out the best in you to serve the world better !\
+        In this event, you will be given a problem statement based on it you have to come up with a product to design/redesign using design software. \
+        Show off the best of your imagination as you bring everyday items to a more stylish existence, not compromising on their function along the way.`,
+        <br />,<br />,
+        <b>Event Format: </b>,
+        `No. of Rounds: 2`,
+        <br />,
+        `Round 1: A problem statement will be given on the spot of the event. \
+        Based on the problem statement you have to come up with a conceptual design, with a rough sketch  and brief explanation for your design. \
+        Based on your conceptual design you will be selected for the  2nd round.(There will be some filtration of participants in 1st round)`,
+        <br />,
+        `Round 2: In second round you have to make the model that you conceptualised in 1st round in a design software.`,
+        <br />,<br />,
+        <b>Event Rules:</b>,
+        <br />,
+        `1. A team can have minimum 2 and maximum 3 members.`,
+        <br />,
+        `2. Computer for making the model in design software is provided by the college itself. Participants are not allowed to bring their laptops.`,
+        <br />,
+        `3. In second round, each member of the team will be given the same computer in a time rotation for modelling your design. \
+        Each member have to continue with the modelling from where the previous member left and will be trying to complete the design .`,
+        <br />,
+        `4 . The time duration for event is 3 hours.`,
+        <br />,<br />,
+        <b>Judging Criteria: </b>,
+        `Points will be awarded on the basis of conceptual design and 3D modelling`,
+        <br />,<br />,
+        <b>FAQs:</b>,
+        <br />,
+        `Q. What is time rotation?`,
+        <br />,
+        `A. For example if there are  3 members in a group , then each member will be given 60 mins separately but in two intervals.`,
+        <br />,
+        `Q. Which design software will be given?`,
+        <br />,
+        `A. Autodesk Inventor will be the design software for the event.`,
+        <br />,<br />,<br />
+        ],
+  contacts: [
+              "Rokesh.P: 9487230333 (mfd15i011@iiitdm.ac.in)",
+              <br />,
+              `Santhosh kumar S R: 8300653276 (edm15b011@iiitdm.ac.in)`
             ],
 }
 
@@ -723,9 +829,9 @@ class App extends Component {
              <Route path="/culteventslist" component={CultEventsList} />
              <Route path="/chakarvyuh" component={() => (<EventOne event={chakarvyuh} />)} />
              <Route path="/warofwatts" component={() => (<EventOne event={warOfWatts} />)} />
-             <Route path="/tech4help" component={() => (<EventOne eventName="tech4help" />)} />
+             <Route path="/tech4help" component={() => (<EventOne event={tech4help} />)} />
              <Route path="/designception" component={() => (<EventOne eventName="Designception" />)} />
-             <Route path="/relaycad" component={() => (<EventOne eventName="RelayCAD" />)} />
+             <Route path="/relaycad" component={() => (<EventOne event={relayCAD} />)} />
              <Route path="/battlezone" component={() => (<EventOne event={battleZone} />)} />
              <Route path="/sbc" component={() => (<EventOne eventName="Samgatha Business Challenge" />)} />
              <Route path="/appathon" component={() => (<EventOne eventName="APP-A-THON" />)} />
