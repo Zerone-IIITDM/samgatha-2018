@@ -438,6 +438,134 @@ var queenOfSheba = {
             ],
 }
 
+var maskMaking = {
+  eventName:"Mask Making",
+  data:[
+    `Art speaks where words are unable to explain !\
+     Art is not what you see but what you make others see !\
+     So this magical season, bring out the artist in you to spell your magic through your designing\
+      and thinking skills to create creative and interesting masks !\
+      Let's give ourselves the much needed mask makeover and get into a character of our zone !`,
+    <br />,<br />,
+    <b>Event Format: </b>,
+    `No. of rounds: 1`,
+    <br />,
+    `Participants will be given the materials for making the masks and\
+    they have to come up with creative ideas for their masks.`,
+    <br />,<br />,
+    <b>Event Rules:</b>,
+    <br />,
+    `1.  Participants can only use the materials provided.`,
+    <br />,
+    `2.  Use of mobile phones is strictly prohibited.`,
+    <br />,
+    `3.  15 teams can participate and if the registered team doesn’t come on time, their slot be given to the next in line.`,
+    <br />,<br />,
+    <b>Team Description: </b>,
+    `A team can have maximum 3 members.`
+    ],
+contacts: [
+          "Rishikesh M Nandakumar: 9791077064 (rishikeshmnandakumar@gmail.com)",
+          <br />,
+          `R Sampath: 8754556005`
+        ],
+}
+
+var beASuperHero = {
+  eventName:"Be A Superhero",
+  data:[
+        `Everyone once had a dream of become a superhero ,so here is your chance.\
+        Design the costume that you would wear if u became a superhero`,
+        <br />,<br />,
+        <b>Event Format: </b>,
+        `No. of rounds: 2`,
+        <br />,
+        `Round 1: Sketching basic ideas`,
+        <br />,
+        `Round 2: Detailed skecting`,
+        <br />,<br />,
+        <b>Event Rules:</b>,
+        <br />,
+        ` 1. Participants can only use trhe materials provided.`,
+        <br />,
+        `2. Use of mobile phones is strictly prohibited.`
+        ],
+  contacts: [
+              "Rishikesh M Nandakumar: 9791077064 (rishikeshmnandakumar@gmail.com)",
+              <br />,
+              `R Sampath: 8754556005`
+            ],
+}
+
+var battleOfBands = {
+  eventName:"Battle of Bands",
+  data:[
+        `Music speaks what cannot be expressed, soothes the mind,\
+         gives it rest and heals the heart and makes it whole flows from heaven to the soul.\
+         So here’s your chance to hit the right note \
+         and let the musician in you touch thousands of soul \
+         and spread this form of magic to mesmerize the world around you !`,
+        <br />,<br />,
+        <b>Event Format: </b>,
+        `This is a group event which involves all walks of singing.\
+         Singers, instrumentalists come together to bring simple music.`,
+        <br />,<br />,
+        <b>Event Rules:</b>,
+        <br />,
+        `1. A team can have upto 5 members.`,
+        <br />,
+        `2. A team needs to have at least one singer and one instrumentalist.`,
+        <br />,
+        `3. Total time for the performance is 18 minutes (including setup time).`,
+        <br />,
+        `4. Instruments will be provided to the teams.`,
+        <br />,<br />,
+        <b>Judging Criteria:</b>,
+        <br />,
+        `The top 3 teams will be awarded.`
+        ],
+  contacts: [
+              "Varshitha: 9600680611 (evd15i001@iiitdm.ac.in)",
+              <br />,
+              `Ratnanjali: 9176485934 (mpd15i020@iiitdm.ac.in)`,
+              <br />,
+              `Dharmesh: 9962279625 (esd15i018@iiitdm.ac.in)`
+            ],
+}
+
+var samIdol = {
+  eventName:"Sam Idol",
+  data:[
+        `Music speaks what cannot be expressed, soothes the mind,\
+         gives it rest and heals the heart and makes it whole flows from heaven to the soul.\
+         So here’s your chance to hit the right note \
+         and let the musician in you touch thousands of soul \
+         and spread this form of magic to mesmerize the world around you !`,
+        <br />,<br />,
+        <b>Event Format: </b>,
+        `This is a solo singing event with full freedom to the participants.`,
+        <br />,<br />,
+        <b>Event Rules:</b>,
+        <br />,
+        `1. No instruments are allowed.`,
+        <br />,
+        `2. Karaoke may be used if needed.`,
+        <br />,
+        `3. Total time for the performance is 5 minutes.`,
+        <br />,<br />,
+        <b>Judging Criteria:</b>,
+        <br />,
+        `The top 3 teams will be awarded.`
+        ],
+  contacts: [
+              "Varshitha: 9600680611 (evd15i001@iiitdm.ac.in)",
+              <br />,
+              `Ratnanjali: 9176485934 (mpd15i020@iiitdm.ac.in)`,
+              <br />,
+              `Dharmesh: 9962279625 (esd15i018@iiitdm.ac.in)`
+            ],
+}
+
 class App extends Component {
   constructor(){
     super();
@@ -508,17 +636,17 @@ class App extends Component {
              <Route path="/sbc" component={() => (<EventOne eventName="Samgatha Business Challenge" />)} />
              <Route path="/appathon" component={() => (<EventOne eventName="APP-A-THON" />)} />
              <Route path="/codeauction" component={() => (<EventOne eventName="Code Auction" />)} /> 
-             <Route path="/beasuperhero" component={() => (<EventOne eventName="Be a Super Hero" />)} /> 
-             <Route path="/battleofbands" component={() => (<EventOne eventName="Battle of Bands" />)} /> 
+             <Route path="/beasuperhero" component={() => (<EventOne event={beASuperHero} />)} /> 
+             <Route path="/battleofbands" component={() => (<EventOne event={battleOfBands} />)} /> 
              <Route path="/dancewars" component={() => (<EventOne eventName="Dance Wars" />)} /> 
              <Route path="/drishyam" component={() => (<EventOne event={drishyam} />)} /> 
              <Route path="/eloquent" component={() => (<EventOne eventName="Eloquent" />)} /> 
              <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
              <Route path="/mayasrishti" component={() => (<EventOne event={mayasrishti} />)} /> 
              <Route path="/shutterup" component={() => (<EventOne event={shutterup} />)} /> 
-             <Route path="/samidol" component={() => (<EventOne eventName="Sam Idol" />)} /> 
+             <Route path="/samidol" component={() => (<EventOne event={samIdol} />)} /> 
              <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
-             <Route path="/maskmaking" component={() => (<EventOne eventName="Mask Making" />)} /> 
+             <Route path="/maskmaking" component={() => (<EventOne event={maskMaking} />)} /> 
              <Route path="/duetdance" component={() => (<EventOne event={duetDance} />)} /> 
              <Route path="/pictionary" component={() => (<EventOne event={pictionary} />)} /> 
              <Route path="/drracist" component={() => (<EventOne event={drRacist} />)} /> 
