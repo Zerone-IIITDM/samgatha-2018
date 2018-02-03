@@ -566,6 +566,100 @@ var samIdol = {
             ],
 }
 
+var battleZone = {
+  eventName:"Battle Zone",
+  data:[
+        `Let’s build big, bad GUNS!`,
+        <br />,<br />,
+        <b>Event Format: </b>,
+        `This event consists of two rounds:-`,
+        <br />,
+        `Round 1: Pen and paper based round and a small problem
+		statement`,
+		<br />,
+		`Round 2: The selected teams will be given an on-spot problem
+		statement`,
+        <br />,<br />,
+        <b>Event Rules:</b>,
+        <br />,
+        `1. Maximum team size: 5`,
+        <br />,
+        `2. Total number of finalists selected is 8 teams.`,
+        <br />,
+        `3. Competition will be conducted in league format.`,
+        <br />,
+        `4. Time: 6 minutes for league matches and 10 for finals.`,
+        <br />,
+        `5. Construction equipment and materials will be given on site.`,
+        <br />,
+        `6. Number of tennis balls(ammo) per team: 10`,
+        <br />,
+        `7. Each team's territory is a circle of radius 10 feet and the team's
+		equipment at the centre.`,
+        <br />,
+        `8. Number of lives per team: 3`,
+        <br />,
+        `9. A life is lost if a ball falls on a team's territory excluding the
+		defending region.`,
+        <br />,
+        `10. Use defense to shield your territory and lose no life.`,
+        <br />,
+        `11. Organizer’s decision is final. Teams must abide by the rules and
+		conduct of the workshop.`,
+        <br />,<br />,
+        <b>Judging Criteria:</b>,
+        <br />,
+        `1) Participants will be tested on their fabricating skills and team
+		work.`,
+        <br />,
+        `2) On completion of the model 5 points are awarded.`,
+        <br />,
+        `3) During the game, 4 points will be awarded to the team launching
+		the ball,on hitting the opponent's territory in the region of no
+		defence. If it hits the shield 2 points will be awarded to the
+		defending team with an extra turn to play and 2 points will be
+		awarded to the team launching the ball.`,
+        <br />,
+        `4) 2 points will be awarded to the team who has lent their shield to
+		their group mates in the due course of the game.`,
+        <br />,
+        `5)The group with the highest points ( which is the sum of team's
+		score ) is the winner.`,
+        <br />,<br />,
+        <b>FAQ</b>,
+        <br />,
+        <b>1) What should be the team size?</b>,
+        <br />,
+        <b>A:</b>, `3 to 5 per team.`,
+        <br />,
+        <b>2) 2. Is there any registration fee?</b>,
+        <br />,
+        <b>A:</b>, `NONE`,
+        <br />,
+        <b>3) What should I bring with me to the event?</b>,
+        <br />,
+        <b>A:</b>, `Your teammates and your brain.`,
+        <br />,
+        <b>4) So, what all components will be available?</b>,
+        <br />,
+        <b>A:</b>, `The standard equipment in workshop, other materials to work with
+		will be mentioned to the finalist on spot, on
+		the day of event.`,
+		<br />,
+        <b>5) Is it for UG/PG/PhD?</b>,
+        <br />,
+        <b>A:</b>, `Any team with its team members having valid Samgatha ID can
+		participate. The team must retain their team
+		members until the finals; any change will lead to disqualification.`,
+        <br />
+        ],
+  contacts: [
+              "Harichandana K: 8309280761 (mdm15b027@iiitdm.ac.in)",
+              <br />,
+              `Sai Uday Kiram Y: 8056924626 (mfd15i008@iiitdm.ac.in)`
+            ],
+}
+
 class App extends Component {
   constructor(){
     super();
@@ -632,7 +726,7 @@ class App extends Component {
              <Route path="/tech4help" component={() => (<EventOne eventName="tech4help" />)} />
              <Route path="/designception" component={() => (<EventOne eventName="Designception" />)} />
              <Route path="/relaycad" component={() => (<EventOne eventName="RelayCAD" />)} />
-             <Route path="/battlezone" component={() => (<EventOne eventName="Battle Zone" />)} />
+             <Route path="/battlezone" component={() => (<EventOne event={battleZone} />)} />
              <Route path="/sbc" component={() => (<EventOne eventName="Samgatha Business Challenge" />)} />
              <Route path="/appathon" component={() => (<EventOne eventName="APP-A-THON" />)} />
              <Route path="/codeauction" component={() => (<EventOne eventName="Code Auction" />)} /> 
