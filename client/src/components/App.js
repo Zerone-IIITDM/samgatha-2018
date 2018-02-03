@@ -253,6 +253,191 @@ var shutterup = {
             ],
 }
 
+var pictionary = {
+  eventName:"Pictionary",
+  data:[
+        `Bring out your hidden art in picturizing the given word.`,
+        <br />,<br />,<br />,
+        <b><u>  EVENT FORMAT:   </u></b>,<br/>,<br/>,
+        ` A person chooses one card out of deck of pictionary cards and tries to express the word\
+             which is printed on the card. Teammates should try to guess the word, which the drawing\ 
+             is intended to represent.`,
+        <br />,<br />,<br />,
+        <b><u> EVENT RULES: </u></b>,<br/>,<br/>,
+        ` Pictures cannot contain any numbers or letters. Verbal clues and lip movements are not \
+         entertained.`,
+        <br />,<br />,<br />,
+        <b><u> TEAM DESCRIPTION:</u></b>,<br/>,<br/>,
+        `Contains a team of 2 members.`,
+        <br />,<br />,<br />,
+        <b><u> JUDGING CRITERIA :</u></b>,<br/>,<br/>,
+        `Speed and accuracy. The team which guesses the word first will be awarded more points.`,
+        <br />,
+        ],
+  contacts: [
+             
+            ],
+}
+
+var drRacist = {
+  eventName:"DR. RACIST",
+  data:[
+        `Come out to show up your sorting skills!!!!!  
+         Segregate coloured beads as fast as you can.`,
+        <br />,<br />,<br />,
+        <b><u>  EVENT FORMAT:   </u></b>,<br/>,<br/>,
+        `A person will be given a pile of coloured beads and is expected to sort them by colour
+         within a time of 1 minute.`,
+        <br />,<br />,<br />,
+        <b><u> EVENT RULES: </u></b>,<br/>,<br/>,
+        ` A person should sort the beads one at a time.`,
+        <br />,<br />,<br />,
+        <b><u> TEAM DESCRIPTION :</u></b>,<br/>,<br/>,
+        `Individual Event.`,
+        <br />,<br />,<br />,
+        <b><u> JUDGING CRITERIA :</u></b>,<br/>,<br/>,
+        `The person who segregates the maximum number of beads within the defined time 
+        limit are declared as the winners.`,
+        <br />,
+        ],  
+  contacts: [
+             
+            ],
+}
+
+var blindFill = {
+  eventName:"BLIND FILL",
+  data:[
+        `FASTEST FILLER FIRST!!!!`,
+        <br />,<br />,<br />,
+        <b><u>  EVENT FORMAT:   </u></b>,<br/>,<br/>,
+        `All the members of the team are blindfolded and should sit in a row.
+         one should transfer water through a mug into the mug of the person behind him.
+         This process should be continued till the last person. And behind the last person
+         a bucket is placed which is to be filled.`,
+        <br />,<br />,<br />,
+        <b><u> TEAM DESCRIPTION :</u></b>,<br/>,<br/>,
+        `Team of five members`,
+        <br />,<br />,<br />,
+        <b><u> JUDGING CRITERIA :</u></b>,<br/>,<br/>,
+        `The team which fills more amount of water in the bucket within given time limit will
+         be awarded more points.`,
+        <br />,
+        ],  
+  contacts: [
+             
+            ],      
+}
+
+var blowBall = {
+  eventName:"BLOW BALL",
+  data:[
+        `Show us the stamina that you have got in blowing air and your ability to control the
+         power that you have got.`,
+        <br />,<br />,<br />,
+        <b><u>  EVENT FORMAT:   </u></b>,<br/>,<br/>,
+        `5 EMPTY Glasses will be placed in a horizontal row on a table with a ball in the first
+         one. Another glass will be provided  which should be utilised to bring the water from a
+          bucket that is placed at a distance of 5-7 Meters.`,
+        <br />,<br />,<br />,
+        <b>  HOW TO  PLAY </b>,<br/>,<br/>,
+        `The player should fill the glass with the ball first and blow the ball to the next glass.
+         If the ball has been successfully placed in the adjacent glass, then the player should go
+         and fetch  another glass of water and continue the process. If the player fails in transporting
+          the ball at any point of the game, he/she should take the ball and place it in the first glass
+         and should blow the ball till it reaches an empty glass. once the ball reaches  the empty glass
+         he/she can continue playing normally.`,
+        <br />,<br />,<br />,
+        <b><u> JUDGING CRITERIA :</u></b>,<br/>,<br/>,
+        `Player who makes the ball reach the last glass in the least time wins.`,
+
+        <br />,
+        ],  
+  contacts: [
+             
+            ],      
+}
+
+var balloonBash = {
+  eventName:"BALLOON BASH",
+  data:[
+        `Bring out the dominance in you!!!.  Show us your agility.`,
+        <br />,<br />,<br />,
+        <b><u>  EVENT FORMAT:   </u></b>,<br/>,<br/>,
+        `A balloon will be tied to the foot of each participant. He/she will be made to stand with other 
+        participants on a stage. A participant should burst others’ balloons by stamping and defend their
+         own for 5 minutes. Points will be awarded for bursting a balloon.`,
+        <br />,<br />,<br />,
+        <b><u> JUDGING CRITERIA :</u></b>,<br/>,<br/>,
+        `The player whose balloon sustains till the end will be considered as the winner. If more than one
+         player remains till the end, the player scoring more points will be considered as the winner.`,
+        <br />,
+
+        ],  
+  contacts: [
+             
+            ],
+}
+
+var balloonExpress = {
+  eventName:"BALLOON EXPRESS",
+  data:[
+        `You guys have an extraordinary peer group?? Come show us your unity.`,
+        <br />,<br />,<br />,
+        <b><u>  EVENT FORMAT:   </u></b>,<br/>,<br/>,
+        `A team of 5 members should form a human chain with a balloon in between every two persons.
+         The balloon should be placed in such a way that, no hands should be touching the balloon. They should
+         start from a given start point and reach the finish line with a obstacle course in between without 
+         losing their balloons.`,
+         <br />,<br />,<br />,
+        <b><u> EVENT RULES: </u></b>,<br/>,<br/>,
+        ` 1) One should not touch the balloons with hands.
+          2)Loosing or bursting of a balloon is treated as a failure and three such failures 
+          are accepted.The fourth failure leads to the elimination of the team.`,
+        <br />,<br />,<br />,
+        <b><u> TEAM DESCRIPTION :</u></b>,<br/>,<br/>,
+        `Team of five members`,
+        <br />,<br />,<br />,
+        <b><u> JUDGING CRITERIA :</u></b>,<br/>,<br/>,
+        `The team reaching the finish line first will be considered as the winner.`,
+        <br />,
+        
+        ],  
+  contacts: [
+             
+            ],
+}
+
+var queenOfSheba = {
+  eventName:"QUEEN OF SHEBA",
+  data:[
+        `You think you can complete the given task! Come face the unknown challenges.`,
+        <br />,<br />,<br />,
+        <b><u>  EVENT FORMAT:   </u></b>,<br/>,<br/>,
+        `Various tasks will be given to all the teams(For instance bring Headphones of pink colour).
+         Whichever team completes the maximum number of tasks in the given time will be declared as the winner.`,
+        <br />,<br />,<br />,
+        <b><u> EVENT RULES: </u></b>,<br/>,<br/>,
+        ` All the items that are insisted to be brought should be brought physically during the time of
+         evaluation of points.`,
+         <br />,<br />,<br />,
+        <b><u> PROBLEM STATEMENT :</u></b>,<br/>,<br/>,
+        `On Spot`,
+        <br />,<br />,<br />,
+        <b><u> TEAM DESCRIPTION :</u></b>,<br/>,<br/>,
+        `Team of five members`,
+        <br />,<br />,<br />,
+        <b><u> JUDGING CRITERIA :</u></b>,<br/>,<br/>,
+        `Judging will be based on the number of tasks that the group has completed successfully. 
+        And there may be more points for the difficult tasks.`,
+        <br />,
+        
+        ],  
+  contacts: [
+             
+            ],
+}
+
 class App extends Component {
   constructor(){
     super();
@@ -335,6 +520,13 @@ class App extends Component {
              <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
              <Route path="/maskmaking" component={() => (<EventOne eventName="Mask Making" />)} /> 
              <Route path="/duetdance" component={() => (<EventOne event={duetDance} />)} /> 
+             <Route path="/pictionary" component={() => (<EventOne event={pictionary} />)} /> 
+             <Route path="/drracist" component={() => (<EventOne event={drRacist} />)} /> 
+             <Route path="/blindfill" component={() => (<EventOne event={blindFill} />)} /> 
+             <Route path="/blowball" component={() => (<EventOne event={blowBall} />)} /> 
+             <Route path="/balloonbash" component={() => (<EventOne event={balloonBash} />)} /> 
+             <Route path="/balloonexpress" component={() => (<EventOne event={balloonExpress} />)} /> 
+             <Route path="/queenofsheba" component={() => (<EventOne event={queenOfSheba} />)} /> 
            
             <Footer />
           </div>
