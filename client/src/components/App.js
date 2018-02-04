@@ -766,6 +766,52 @@ var relayCAD = {
             ],
 }
 
+var quiz = {
+  eventName:"Quiz",
+  data:[
+        `Knowledge is power. This has never rung truer than in the quizzing world. It’s survival of the smartest, so you have got to bring your A 			game. If you know the answers, you hold all the cards, nothing else to it. Feel the adrenalin rushing through your veins!`,
+        <br />,<br />,
+        <b>Event Format: </b>,
+        `A team event of 2 members per team.`,
+        <br/>,
+        `Played in two rounds.`,
+        <br/>, 
+        `Prelims and Finals.`,
+        <br/>,
+        `The top few teams in the Prelims will be selected for Finals.`,
+        <br/>,
+        `Other rules will be briefed during the event.`, 
+        <br />,<br />,
+        <b>Judging Criteria: </b>,
+        `Each team will be evaluated by the judges on the following criteria:`,
+        <br />,
+        `Skills, Street Presentation, Musicality, Performance, Creativity. It is
+        particularly important for the participants to stick with street dance
+        styles.`,
+        <br />,<br />,
+        <b>Event Rules: </b>,
+        `1) A team can consist of maximum 2 members`,
+        <br />,
+        `2) Any number of teams from an institution are allowed`,
+        <br />,
+        `3) A pre-registered event`,
+        <br/>,
+        `4) Cross college teams are allowed`,
+        <br />,<br />,
+        <b>Team Description Format</b>,
+        <br />,
+        `1. Name of the team`,
+        <br />,
+        `2. Names`,
+        <br />,
+        `3. College`,
+        <br />
+        ],
+  contacts: [
+              "Ajay Y : 9566181885,9110724750 (mdm15b022@iiitdm.ac.in)",
+            ],      
+}
+
 class App extends Component {
   constructor(){
     super();
@@ -855,6 +901,7 @@ class App extends Component {
              <Route path="/balloonbash" component={() => (<EventOne event={balloonBash} />)} /> 
              <Route path="/balloonexpress" component={() => (<EventOne event={balloonExpress} />)} /> 
              <Route path="/queenofsheba" component={() => (<EventOne event={queenOfSheba} />)} /> 
+              <Route path="/quiz" component={() => (<EventOne event={quiz} />)} />
            
             <Footer />
           </div>

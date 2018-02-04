@@ -43,6 +43,11 @@ class TechEventsList extends Component{
 		            		Code Auction
 		            	</div></Link>
 	            	</div>
+	            	<div className="blocks">
+		            	<Link to='/quiz' style={styles.links}><div className="techEventBlock">
+		            		Quiz
+		            	</div></Link>
+	            	</div>
 	            </div>
 			</div>
 		);
