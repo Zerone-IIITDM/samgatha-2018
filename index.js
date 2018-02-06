@@ -9,6 +9,8 @@ const PORT = process.env.PORT || 5000;
 
 app.use(passport.initialize());
 
+require('./routes/authRoutes')(app);
+
 if (process.env.NODE_ENV == 'production') {
     // Serve the static react app files
     app.use(express.static(path.join(__dirname, 'client/build')));
@@ -17,8 +19,6 @@ if (process.env.NODE_ENV == 'production') {
         res.sendFile(path.resolve(__dirname, "client", "build", "index.html"));
     });
 }
-
-require('./routes/authRoutes')(app);
 
 app.listen(PORT, () => {
     console.log(`App listening on ${PORT}...`);
