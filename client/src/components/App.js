@@ -818,9 +818,7 @@ class App extends Component {
     this.state = {width: window.innerWidth };
     this.state = {loading: true};
   }
-  componentDidMount(){
-    setTimeout(() => this.setState({loading: false}),2000);
-  }
+  
   componentWillMount(){
     window.addEventListener('resize', this.handleWindowSizeChange);
   }
@@ -834,9 +832,6 @@ class App extends Component {
     const { loading } = this.state;
     const { width } = this.state;
     const isMobile = width <= 545;
-    if(loading){
-      return null;
-    }
     if(isMobile){
       return(
         <div className="container">
@@ -850,64 +845,64 @@ class App extends Component {
               <Route path="/contacts" component={MobileContactUs} />
               <Route path="/socialcause" component={MobileSocialCause} />
               <Route path="/techeventslist" component={MobileTechEventsList} />
-              <Route path="/culteventslist" component={MobileCultEventsList } />
-              
-           
+              <Route path="/culteventslist" component={MobileCultEventsList } />           
               <MobileFooter />
             </div>
           </BrowserRouter>
         </div>
       );
     }
-    return (
-      <div className="container">
-        <BrowserRouter>
-          <div>
-            <Header />
-             <Route exact={true} path="/" component={Home} />
-             <Route path="/events" component={Events} />
-             <Route path="/workshops" component={Workshop} />
-             <Route path="/sponsors" component={Sponsors} />
-             <Route path="/contacts" component={ContactUs} />
-             <Route path="/WorkshopOne" component={WorkshopOneMin} />
-             <Route path="/socialcause" component={SocialCause} />
-             <Route path="/techeventslist" component={TechEventsList} />
-             <Route path="/culteventslist" component={CultEventsList} />
-             <Route path="/chakarvyuh" component={() => (<EventOne event={chakarvyuh} />)} />
-             <Route path="/warofwatts" component={() => (<EventOne event={warOfWatts} />)} />
-             <Route path="/tech4help" component={() => (<EventOne event={tech4help} />)} />
-             <Route path="/designception" component={() => (<EventOne eventName="Designception" />)} />
-             <Route path="/relaycad" component={() => (<EventOne event={relayCAD} />)} />
-             <Route path="/battlezone" component={() => (<EventOne event={battleZone} />)} />
-             <Route path="/sbc" component={() => (<EventOne eventName="Samgatha Business Challenge" />)} />
-             <Route path="/appathon" component={() => (<EventOne eventName="APP-A-THON" />)} />
-             <Route path="/codeauction" component={() => (<EventOne eventName="Code Auction" />)} /> 
-             <Route path="/beasuperhero" component={() => (<EventOne event={beASuperHero} />)} /> 
-             <Route path="/battleofbands" component={() => (<EventOne event={battleOfBands} />)} /> 
-             <Route path="/dancewars" component={() => (<EventOne eventName="Dance Wars" />)} /> 
-             <Route path="/drishyam" component={() => (<EventOne event={drishyam} />)} /> 
-             <Route path="/eloquent" component={() => (<EventOne eventName="Eloquent" />)} /> 
-             <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
-             <Route path="/mayasrishti" component={() => (<EventOne event={mayasrishti} />)} /> 
-             <Route path="/shutterup" component={() => (<EventOne event={shutterup} />)} /> 
-             <Route path="/samidol" component={() => (<EventOne event={samIdol} />)} /> 
-             <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
-             <Route path="/maskmaking" component={() => (<EventOne event={maskMaking} />)} /> 
-             <Route path="/duetdance" component={() => (<EventOne event={duetDance} />)} /> 
-             <Route path="/pictionary" component={() => (<EventOne event={pictionary} />)} /> 
-             <Route path="/drracist" component={() => (<EventOne event={drRacist} />)} /> 
-             <Route path="/blindfill" component={() => (<EventOne event={blindFill} />)} /> 
-             <Route path="/blowball" component={() => (<EventOne event={blowBall} />)} /> 
-             <Route path="/balloonbash" component={() => (<EventOne event={balloonBash} />)} /> 
-             <Route path="/balloonexpress" component={() => (<EventOne event={balloonExpress} />)} /> 
-             <Route path="/queenofsheba" component={() => (<EventOne event={queenOfSheba} />)} /> 
-              <Route path="/quiz" component={() => (<EventOne event={quiz} />)} />
-           
-            <Footer />
-          </div>
-        </BrowserRouter>
-      </div>
-    );
+    else{
+      return (
+        <div className="container">
+          <BrowserRouter>
+            <div>
+              <Header />
+               <Route exact={true} path="/" component={Home} />
+               <Route path="/events" component={Events} />
+               <Route path="/workshops" component={Workshop} />
+               <Route path="/sponsors" component={Sponsors} />
+               <Route path="/contacts" component={ContactUs} />
+               <Route path="/WorkshopOne" component={WorkshopOneMin} />
+               <Route path="/socialcause" component={SocialCause} />
+               <Route path="/techeventslist" component={TechEventsList} />
+               <Route path="/culteventslist" component={CultEventsList} />
+               <Route path="/chakarvyuh" component={() => (<EventOne event={chakarvyuh} />)} />
+               <Route path="/warofwatts" component={() => (<EventOne event={warOfWatts} />)} />
+               <Route path="/tech4help" component={() => (<EventOne event={tech4help} />)} />
+               <Route path="/designception" component={() => (<EventOne eventName="Designception" />)} />
+               <Route path="/relaycad" component={() => (<EventOne event={relayCAD} />)} />
+               <Route path="/battlezone" component={() => (<EventOne event={battleZone} />)} />
+               <Route path="/sbc" component={() => (<EventOne eventName="Samgatha Business Challenge" />)} />
+               <Route path="/appathon" component={() => (<EventOne eventName="APP-A-THON" />)} />
+               <Route path="/codeauction" component={() => (<EventOne eventName="Code Auction" />)} /> 
+               <Route path="/beasuperhero" component={() => (<EventOne event={beASuperHero} />)} /> 
+               <Route path="/battleofbands" component={() => (<EventOne event={battleOfBands} />)} /> 
+               <Route path="/dancewars" component={() => (<EventOne eventName="Dance Wars" />)} /> 
+               <Route path="/drishyam" component={() => (<EventOne event={drishyam} />)} /> 
+               <Route path="/eloquent" component={() => (<EventOne eventName="Eloquent" />)} /> 
+               <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
+               <Route path="/mayasrishti" component={() => (<EventOne event={mayasrishti} />)} /> 
+               <Route path="/shutterup" component={() => (<EventOne event={shutterup} />)} /> 
+               <Route path="/samidol" component={() => (<EventOne event={samIdol} />)} /> 
+               <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
+               <Route path="/maskmaking" component={() => (<EventOne event={maskMaking} />)} /> 
+               <Route path="/duetdance" component={() => (<EventOne event={duetDance} />)} /> 
+               <Route path="/pictionary" component={() => (<EventOne event={pictionary} />)} /> 
+               <Route path="/drracist" component={() => (<EventOne event={drRacist} />)} /> 
+               <Route path="/blindfill" component={() => (<EventOne event={blindFill} />)} /> 
+               <Route path="/blowball" component={() => (<EventOne event={blowBall} />)} /> 
+               <Route path="/balloonbash" component={() => (<EventOne event={balloonBash} />)} /> 
+               <Route path="/balloonexpress" component={() => (<EventOne event={balloonExpress} />)} /> 
+               <Route path="/queenofsheba" component={() => (<EventOne event={queenOfSheba} />)} /> 
+                <Route path="/quiz" component={() => (<EventOne event={quiz} />)} />
+             
+              <Footer />
+            </div>
+          </BrowserRouter>
+        </div>
+      );
+    }
   }
 }
 

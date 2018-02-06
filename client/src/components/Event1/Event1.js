@@ -26,7 +26,6 @@ class EventOne extends Component{
 		}
 		this.changeCurrent = this.changeCurrent.bind(this)
 	}
-
 	changeCurrent(index){
 		this.setState({
 			current: menuItems[index]
@@ -44,24 +43,26 @@ class EventOne extends Component{
 					<div className="eventOneHeader">
 						{this.props.event.eventName}
 					</div>
-					<div className="eventOneRegister">
-					 REGISTER
-		            </div>
-		            <div className="eventOneBasket">
-			            {
-			            	menuItems.map( function(menuItem, index){
-			            		return(
-				            		<div className={("eventOne"+menuItem.key)} onClick={main.changeCurrent.bind(this,index) } >
-				            			{menuItem.name}
-				            		</div>
-			            		);
-			            	})
-			            }
-			        </div>
-			        <div className="eventDetailContent">
-			        				<div>
-			        					{this.state.current.data}
-			        				</div>
+					<div className="statedThings">
+						<div className="eventOneRegister">
+						 REGISTER
+			            </div>
+			            <div className="eventOneBasket">
+				            {
+				            	menuItems.map( function(menuItem, index){
+				            		return(
+					            		<div className={("eventOne"+menuItem.key)} onClick={main.changeCurrent.bind(this,index) } >
+					            			{menuItem.name}
+					            		</div>
+				            		);
+				            	})
+				            }
+				        </div>
+				        <div className="eventDetailContent">
+				        				<div>
+				        					{this.state.current.data}
+				        				</div>
+				        </div>
 			        </div>
 		    </div>
 		);
