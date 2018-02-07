@@ -4,7 +4,6 @@
 .eventsContainer{
   margin-top: 60px;  
   width: 100%;
-  height: 750px;
 }
 
 .eventsHeader{
@@ -23,22 +22,20 @@
 }
 
 .techAndCult{
-  
-  margin-top: 20px;
-  margin-left: 27%;
+  margin-left: 33%;
   display: inline-flex;
   justify-content: center;
 }
 
 .tech{
-  height: 400px;
-  width: 320px; 
+  height: 338px;
+  width: 225px; 
 }
 
 .cult{
   margin-left: 12%;
-  height: 400px;
-  width: 320px; 
+  height: 338px;
+  width: 225px; 
 }
 
 /* .techFooter{
@@ -61,18 +58,18 @@
 }
 
 .techFooter{
-  margin-left: 230px;
+  margin-left: 430px;
   text-align: center;
-  width: 50%;
+  width: 20%;
 }
 
 .cultFooter{
-  margin-left: 120px;
-  width: 50%;
+  text-align: center;
+  width: 20%;
 }
 
 .division{
   margin-top: 70px;
-  margin-left: 30px;
+  margin-left: 36px;
   border: 1px solid #9d6dcd;
 }
