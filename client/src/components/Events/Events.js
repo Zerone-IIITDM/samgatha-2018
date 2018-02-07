@@ -14,11 +14,11 @@ class Events extends Component {
             </div>
             <div className="techAndCult">
               <Link to='/techeventslist' className="tech" style={styles.links}>
-                <img src={require("../icons/rsz_tech.png")} className="techImage" />
+                <img src={require("../icons/rsz_rsz_tech.png")} className="techImage" />
               </Link>
               <div className="division"></div>
               <Link to='/culteventslist' className="cult" style={styles.links}>
-                <img src={require("../icons/rsz_cult.png")} className="techImage" />
+                <img src={require("../icons/rsz_rsz_cult.png")} className="techImage" />
               </Link>
             </div>
             <div className="footers">
