@@ -84,7 +84,7 @@ class CultEventsList extends Component{
 		            		Balloon Express
 		            	</div></Link>
 		            	<Link to='/queenofsheba' style={styles.links}><div className="cultEventBlock">
-		            		Quuen of Sheba
+		            		Queen of Sheba
 		            	</div></Link>
 	            	</div>
 	            </div>

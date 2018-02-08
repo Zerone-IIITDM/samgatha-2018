@@ -25,26 +25,22 @@ class ContactUs extends Component{
 								</div>
 							</div>
 					</div>
-					{/* <div className="borderBottom"></div>
+					<div className="borderBottom"></div>
 					<div className="content">
-					<div className="clubName">GA</div>
+					<div className="clubName">WebOps</div>
 							<div className="club">
 								<div className="members">
 									<div className="member">
-										<div className="memberPhoto"></div>
-										<div className="memberInfo">Name<br />Mobile Number</div>
+										<img src={require("../icons/pranay.png")} />
+										<div className="memberInfo">Pranay Ankit<br />8839084045</div>
 									</div>
 									<div className="member">
-										<div className="memberPhoto"></div>
-										<div className="memberInfo">Name<br />Mobile Number</div>
-									</div>
-									<div className="member">
-										<div className="memberPhoto"></div>
-										<div className="memberInfo">Name<br />Mobile Number</div>
+										<img src={require("../icons/nipun.jpg")} />
+										<div className="memberInfo">Nipun bharti<br />7889552217</div>
 									</div>
 								</div>
 							</div>
-						</div>*/}
+					</div>
 				</div>
 			</div>
 		);
