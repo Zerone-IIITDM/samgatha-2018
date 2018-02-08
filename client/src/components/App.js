@@ -715,7 +715,7 @@ var tech4help = {
 }
 
 var relayCAD = {
-  eventName:"Relay CAD",
+  eventName:"Relay Design",
   data:[
         `Look at something simple.\
         Something you see every day.\
