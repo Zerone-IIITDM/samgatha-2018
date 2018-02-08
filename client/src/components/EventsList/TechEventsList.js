@@ -12,13 +12,16 @@ class TechEventsList extends Component{
 	            <div className="eventsGrid">
 	            	<div className="blocks">
 		            	<Link to='/chakarvyuh' style={styles.links}><div className="techEventBlock">
-		            		Chakravyuha
+		            		<img src={require("../icons/Chakravyuha.png")} />
+		            		<div className="eventName">Chakravyuha</div>
 		            	</div></Link>
 		            	<Link to='/warofwatts' style={styles.links}><div className="techEventBlock">
-		            		War of Watts
+		            		<img src={require("../icons/WarOfWatts.png")} />
+		            		<div className="eventName">War of Watts</div>
 		            	</div></Link>
 		            	<Link to='/tech4help' style={styles.links}><div className="techEventBlock">
-		            		Tech4Help
+		            		<img src={require("../icons/Tech4Help.png")} />
+		            		<div className="eventName">Tech4Help</div>
 		            	</div></Link>
 	            	</div>
 	            	<div className="blocks">
@@ -26,10 +29,12 @@ class TechEventsList extends Component{
 		            		Designception
 		            	</div></Link>
 		            	<Link to='/relaycad' style={styles.links}><div className="techEventBlock">
-		            		RelayCAD
+		            		<img src={require("../icons/RelayDesign.png")} />
+		            		<div className="eventName">Relay Design</div>
 		            	</div></Link>
 		            	<Link to='/battlezone' style={styles.links}><div className="techEventBlock">
-		            		Battle Zone
+		            		<img src={require("../icons/BattleZone.png")} />
+		            		<div className="eventName">Battle Zone</div>
 		            	</div></Link>
 	            	</div>
 	            	<div className="blocks">
@@ -45,7 +50,8 @@ class TechEventsList extends Component{
 	            	</div>
 	            	<div className="blocks">
 		            	<Link to='/quiz' style={styles.links}><div className="techEventBlock">
-		            		Quiz
+		            		<img src={require("../icons/Quiz.png")}/>
+		            		<div className="eventName">Quiz</div>
 		            	</div></Link>
 	            	</div>
 	            </div>
