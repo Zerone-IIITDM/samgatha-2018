@@ -340,7 +340,7 @@ var blowBall = {
          one. Another glass will be provided  which should be utilised to bring the water from a
           bucket that is placed at a distance of 5-7 Meters.`,
         <br />,<br />,<br />,
-        <b>  HOW TO  PLAY </b>,<br/>,<br/>,
+        <b><u>  HOW TO  PLAY </u></b>,<br/>,<br/>,
         `The player should fill the glass with the ball first and blow the ball to the next glass.
          If the ball has been successfully placed in the adjacent glass, then the player should go
          and fetch  another glass of water and continue the process. If the player fails in transporting
@@ -865,9 +865,9 @@ class App extends Component {
     }
     else{
       return (
-        <div className="container">
+        <div style={{height:'100%'}}>
           <BrowserRouter>
-            <div>
+            <div style={{height:'100%'}}>
               <Header />
                <Route exact={true} path="/" component={Home} />
                <Route path="/events" component={Events} />

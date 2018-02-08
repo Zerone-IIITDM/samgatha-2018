@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 .cultEventsContaier{
-	margin-top: 60px;
+	padding-top: 10%;
 }
 
 .culteventsGrid{
 	width: 100%;
-	height: 1110px;
+	height: 100%;
 }
 
 .cultEventBlock{
