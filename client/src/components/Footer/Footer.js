@@ -6,39 +6,40 @@ import '../font-awesome-4.7.0/css/font-awesome.min.css';
 class Footer extends Component {
 	render() {
 		return (
-			<footer>
-				<nav role='navigation' className="footerNav">
-					<ul className="ul1">
-						<li className="insta"><i className="fa socialIcons fa-instagram fa-2x" style={{ marginTop:'8px',color: "white" }}></i></li>
-						<li className="insta"><i className="fa socialIcons fa-facebook fa-2x" style={{ marginTop:'8px',color: "white" }}> </i></li>
-						<li className="insta"><i className="fa socialIcons fa-twitter fa-2x" style={{ marginTop:'8px',color: "white" }}> </i></li>
-						<li className="insta"><i className="fa socialIcons fa-youtube fa-2x " style={{ marginTop:'8px',color: "white" }}> </i></li>
-					</ul>
-				</nav>
-				<nav role='navigation' className="footerNav">
-					<ul className="ul2">
-						<li>
-							<div className="text1">
-								FAQs
+			<div>
+				<div style={phantom} />
+				<div className="footer">
+					<div className="socialLinks">
+						<div className="icons">
+							<div className="icon1">
+								<a href="https://www.instagram.com/samgatha/"><i className="fa socialIcons fa-instagram fa-2x" style={{color: "white" }}></i></a>
 							</div>
-						</li>
-						<li>
-							<div className="text1">
-								Brochure
+							<div className="icon1">
+								<a href="https://www.facebook.com/samgathaatiiitdm/"><i className="fa socialIcons fa-facebook fa-2x" style={{color: "white" }}></i></a>
 							</div>
-						</li>
-						<li>
-							<div className="text1">
-								<i className="fa fa-copyright" style={{ color: "white" }}></i>
-								WebOps Samgatha
+							<div className="icon1">
+								<a href="https://twitter.com/samgatha"><i className="fa socialIcons fa-twitter fa-2x" style={{color: "white" }}></i></a>
 							</div>
-						</li>
-					</ul>
-				</nav>
-			</footer>
+							<div className="icon1">
+								<a href="https://www.youtube.com/user/SamgathaIIITDM"><i className="fa socialIcons fa-youtube fa-2x" style={{color: "white" }}></i></a>
+							</div>
+						</div>
+					</div>
+					<div className="copyright">
+						<i className="fa copyrightIcon fa-copyright" style={{ color: "white" }}></i>
+						<div className="copyrightText">WebOps, Samgatha</div>
+					</div>
+				</div>
+			</div>
 		);
 	}
 }
 
-
 export default Footer;
+
+var phantom = {
+  display: 'block',
+  padding: '20px',
+  width: '100%',
+  height:'30px'
+}

@@ -2,11 +2,14 @@
 
 .techEventsContaier{
 	margin-top: 60px;
+	padding-bottom: 3%;
+	min-height: 100%;
+	position: relative;
 }
 
 .eventsGrid{
 	width: 100%;
-	height: 1000px;
+	height: 100%;
 }
 
 .techEventBlock{

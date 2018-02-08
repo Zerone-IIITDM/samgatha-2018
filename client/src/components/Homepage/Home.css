@@ -7,12 +7,16 @@
     src: url('../Fonts/Yataghan-Regular.otf');
 }
 
+.mainContainer{
+	padding-top: 3.8%;
+	min-height: 100%;
+}
+
 .headContainer{
 	background: linear-gradient(#332354,#9d6dcd);
 	border: 0.1px solid #332354;
 	height: 615px;
 	width:100%;
-	margin-top: 56px;
 }
 .titleText{
 	margin-top: 150px;

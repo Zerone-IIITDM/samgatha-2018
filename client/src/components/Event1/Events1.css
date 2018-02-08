@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
-.eventOneContainer{	
-	margin-top: 150px;
+.eventOneContainer{
+	padding-top: 10%;
 }
 
 .eventOneHeader{
 	text-align: center;
 	font-size: 50px;
 	font-weight: 700;
-	margin-top:50px;
 	font-family: Yataghan-Regular;
 	color: #9d6dcd;
 }
