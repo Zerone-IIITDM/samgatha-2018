@@ -6,6 +6,8 @@ display: inline-flex;
   background: #332354;
   border-bottom: 4px solid #9d6dcd;
   height: 45px;
+  position: fixed;
+  bottom: 0;
 }
 .mobileFooterNav{
 	width: 100%;
