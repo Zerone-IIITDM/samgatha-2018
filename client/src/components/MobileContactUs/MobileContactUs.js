@@ -4,21 +4,35 @@ class MobileContactUs extends Component{
 	render(){
 		return(
 			<div className="mobilemainPage">
-				<div className="mobileheading">CONTACTS</div>
+				<div className="mobileheading">CONTACT US</div>
 				<div className="mobilecontent">
-					<div className="mobileclubName"><u>QMS</u></div>
+					<div className="mobileclubName">Organisers</div>
 					<div className="mobileclub">
 						<div className="mobilemember">
-							<div className="mobilememberPhoto"></div>
-							<div className="mobilememberInfo">Mainkandan<br />Mob:987654321</div>
+							<img src={require("../icons/omsai.png")} />
+							<div className="mobilememberInfo">Omsai K<br />9941990721</div>
 						</div>
 						<div className="mobilemember">
-							<div className="mobilememberPhoto"></div>
-							<div className="mobilememberInfo">Mainkandan<br />Mob:987654321</div>
+							<img src={require("../icons/dheepika.png")} />
+							<div className="mobilememberInfo">Dheepika K<br />9952035154</div>
 						</div>
 						<div className="mobilemember">
-							<div className="mobilememberPhoto"></div>
-							<div className="mobilememberInfo">Mainkandan<br />Mob:987654321</div>
+							<img src={require("../icons/archana.png")} />
+							<div className="mobilememberInfo">Archana<br />7598492607</div>
+						</div>
+					</div>
+				</div>
+				<div className="borderBottom"></div>
+				<div className="mobilecontent">
+					<div className="mobileclubName">WebOps</div>
+					<div className="mobileclub">
+						<div className="mobilemember">
+							<img src={require("../icons/pranay.png")} />
+							<div className="mobilememberInfo">Pranay Ankit<br />8839084045</div>
+						</div>
+						<div className="mobilemember">
+							<img src={require("../icons/nipun.jpg")} />
+							<div className="mobilememberInfo">Nipun Bharti<br />7889552217</div>
 						</div>
 					</div>
 				</div>

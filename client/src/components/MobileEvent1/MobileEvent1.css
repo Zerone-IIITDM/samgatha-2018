@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.mobileeventOneContainer{
+	padding-top: 30%;
+}
+
+.mobileeventOneHeader{
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: Yataghan-Regular;
+	color: #9d6dcd;
+	border-bottom: 4px solid #9d6dcd;
+    border-top: 4px solid #9d6dcd;
+    background-color: #332354;
+}
+
+.mobileeventOneRegister{
+	margin: 0 auto;
+	cursor: pointer;
+	font-family: 'Lato', sans-serif;
+	border:2px solid #B1FF64;
+	height:30px;
+	width:200px;
+	text-align:center;
+	margin-top: 30px;
+	color: #B1FF64;
+	line-height:30px;	
+}
+
+.mobileeventOneBasket{
+	margin-left: 24.5%;
+	display:inline-flex;
+	margin-top:20px;
+	width: 190px;
+}
+
+.mobileeventOne0{
+	cursor: pointer;
+	font-family: 'Lato', sans-serif;
+}
+
+.mobileeventOne1{
+	cursor: pointer;
+	font-family: 'Lato', sans-serif;
+	margin-left:50px;
+}
+
+.mobileeventOne2{
+	cursor: pointer;
+	font-family: 'Lato', sans-serif;
+	margin-left:50px;
+}
+
+.mobileeventOne3{
+	cursor: pointer;
+	font-family: 'Lato', sans-serif;
+	margin-left:50px;
+}
+
+.mobileeventDetailContent{
+	font-family: 'Lato', sans-serif;
+	font-size:20px;
+	margin: 0 auto;
+	width:70%;
+	margin-top:30px;
+	text-align:center;
+}
+
+.mobilecursor{
+	cursor:pointer;
+}
+
+.mobilestatedThings{
+}

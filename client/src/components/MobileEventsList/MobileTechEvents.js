@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { Link, BrowserRouter, Route } from 'react-router-dom';
 import './MobileTechEvents.css';
 
 class MobileTechEventsList extends Component{
@@ -11,37 +11,42 @@ class MobileTechEventsList extends Component{
 	            </div>
 	            <div className="mobileeventsGrid">
 	            	<div className="mobileblocks">
-		            	<div className="mobiletechEventBlock">
+		            	<Link to='/chakarvyuh' style={styles.links}><div className="mobiletechEventBlock">
 		            		Chakravyuha
-		            	</div>
-		            	<div className="mobiletechEventBlock">
+		            	</div></Link>
+		            	<Link to='/warofwatts' style={styles.links}><div className="mobiletechEventBlock">
 		            		War of Watts
-		            	</div>
-		            	<div className="mobiletechEventBlock">
+		            	</div></Link>
+		            	<Link to='/tech4help' style={styles.links}><div className="mobiletechEventBlock">
 		            		Tech4Help
-		            	</div>
+		            	</div></Link>
 	            	</div>
 	            	<div className="mobileblocks">
-		            	<div className="mobiletechEventBlock">
+		            	<Link to='/designception' style={styles.links}><div className="mobiletechEventBlock">
 		            		Designception
-		            	</div>
-		            	<div className="mobiletechEventBlock">
-		            		RelayCAD
-		            	</div>
-		            	<div className="mobiletechEventBlock">
+		            	</div></Link>
+		            	<Link to='/relaycad' style={styles.links}><div className="mobiletechEventBlock">
+		            		Relay Design
+		            	</div></Link>
+		            	<Link to='/battlezone' style={styles.links}><div className="mobiletechEventBlock">
 		            		Battle Zone
-		            	</div>
+		            	</div></Link>
 	            	</div>
 	            	<div className="mobileblocks">
-		            	<div className="mobiletechEventBlock" style={{fontSize:'15px'}}>
+		            	<Link to='/sbc' style={styles.links}><div className="mobiletechEventBlock" style={{fontSize:'15px'}}>
 		            		Samgatha Business Challenge
-		            	</div>
-		            	<div className="mobiletechEventBlock">
+		            	</div></Link>
+		            	<Link to='/appathon' style={styles.links}><div className="mobiletechEventBlock">
 		            		App-A-thon
-		            	</div>
-		            	<div className="mobiletechEventBlock">
+		            	</div></Link>
+		            	<Link to='/codeauction' style={styles.links}><div className="mobiletechEventBlock">
 		            		Code Auction
-		            	</div>
+		            	</div></Link>
+	            	</div>
+	            	<div className="mobileblocks">
+	            		<Link to='/quiz' style={styles.links}><div className="mobiletechEventBlock">
+		            		Quiz
+		            	</div></Link>
 	            	</div>
 	            </div>
 			</div>
@@ -50,3 +55,10 @@ class MobileTechEventsList extends Component{
 }
 
 export default MobileTechEventsList;
+
+const styles = {
+	links:{
+		textDecoration:'none',
+		color:'white',
+	},
+};

@@ -22,8 +22,7 @@ import MobileTechEventsList from './MobileEventsList/MobileTechEvents';
 import CultEventsList from './EventsList/CultEventsList';
 import MobileCultEventsList from './MobileEventsList/MobileCultEvents';
 import EventOne from './Event1/Event1';
-
-
+import MobileEventOne from './MobileEvent1/MobileEvent1';
 
 var chakarvyuh = {
   eventName:"Chakarvyuh",
@@ -856,7 +855,36 @@ class App extends Component {
               <Route path="/contacts" component={MobileContactUs} />
               <Route path="/socialcause" component={MobileSocialCause} />
               <Route path="/techeventslist" component={MobileTechEventsList} />
-              <Route path="/culteventslist" component={MobileCultEventsList } />           
+              <Route path="/culteventslist" component={MobileCultEventsList } /> 
+              <Route path="/chakarvyuh" component={() => (<MobileEventOne event={chakarvyuh} />)} />
+              <Route path="/warofwatts" component={() => (<MobileEventOne event={warOfWatts} />)} />
+               <Route path="/tech4help" component={() => (<MobileEventOne event={tech4help} />)} />
+               <Route path="/designception" component={() => (<MobileEventOne eventName="Designception" />)} />
+               <Route path="/relaycad" component={() => (<MobileEventOne event={relayCAD} />)} />
+               <Route path="/battlezone" component={() => (<MobileEventOne event={battleZone} />)} />
+               <Route path="/sbc" component={() => (<MobileEventOne eventName="Samgatha Business Challenge" />)} />
+               <Route path="/appathon" component={() => (<MobileEventOne eventName="APP-A-THON" />)} />
+               <Route path="/codeauction" component={() => (<MobileEventOne eventName="Code Auction" />)} /> 
+               <Route path="/beasuperhero" component={() => (<MobileEventOne event={beASuperHero} />)} /> 
+               <Route path="/battleofbands" component={() => (<MobileEventOne event={battleOfBands} />)} /> 
+               <Route path="/dancewars" component={() => (<MobileEventOne eventName="Dance Wars" />)} /> 
+               <Route path="/drishyam" component={() => (<MobileEventOne event={drishyam} />)} /> 
+               <Route path="/eloquent" component={() => (<MobileEventOne eventName="Eloquent" />)} /> 
+               <Route path="/gaming" component={() => (<MobileEventOne eventName="Gaming" />)} /> 
+               <Route path="/mayasrishti" component={() => (<MobileEventOne event={mayasrishti} />)} /> 
+               <Route path="/shutterup" component={() => (<MobileEventOne event={shutterup} />)} /> 
+               <Route path="/samidol" component={() => (<MobileEventOne event={samIdol} />)} /> 
+               <Route path="/impulse" component={() => (<MobileEventOne eventName="Impulse" />)} />
+               <Route path="/maskmaking" component={() => (<MobileEventOne event={maskMaking} />)} /> 
+               <Route path="/duetdance" component={() => (<MobileEventOne event={duetDance} />)} /> 
+               <Route path="/pictionary" component={() => (<MobileEventOne event={pictionary} />)} /> 
+               <Route path="/drracist" component={() => (<MobileEventOne event={drRacist} />)} /> 
+               <Route path="/blindfill" component={() => (<MobileEventOne event={blindFill} />)} /> 
+               <Route path="/blowball" component={() => (<MobileEventOne event={blowBall} />)} /> 
+               <Route path="/balloonbash" component={() => (<MobileEventOne event={balloonBash} />)} /> 
+               <Route path="/balloonexpress" component={() => (<MobileEventOne event={balloonExpress} />)} /> 
+               <Route path="/queenofsheba" component={() => (<MobileEventOne event={queenOfSheba} />)} /> 
+                <Route path="/quiz" component={() => (<MobileEventOne event={quiz} />)} />
               <MobileFooter />
             </div>
           </BrowserRouter>
