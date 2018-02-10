@@ -45,7 +45,6 @@
 
 .comingSoon{
   padding-top: 5%;
-  margin-left: 36%;
 	font-size: 30px;
 	font-family: 'Lato', sans-serif;
 	text-align: center;
@@ -54,6 +53,7 @@
 /* Animations */
 
 .intro {
+  display: inline-flex;
 	font: normal 40px/50px 'Ubuntu', sans-serif;
 	color: white;
 }

@@ -30,19 +30,19 @@ class Home extends Component{
 						</div>
 						<div className="stats">
 							<div className="circle1">
-								<img src={require("../icons/calendar.png")} style={{width:'100px',height:'100px'}} />
+								<img src={require("../icons/calendar.png")} style={{width:'100px',height:'100px'}} alt="stats" />
 								<div className="statName">
 									<CountTo to={40} speed={1500} />+ Events
 								</div>
 							</div>
 							<div className="circle1">
-								<img src={require("../icons/prizes.png")} style={{width:'100px',height:'100px'}} />
+								<img src={require("../icons/prizes.png")} style={{width:'100px',height:'100px'}} alt="stats" />
 								<div className="statName">
 									<CountTo to={3} speed={1000} /> Lakhs+ Prizes
 								</div>
 							</div>
 							<div className="circle1">
-								<img src={require("../icons/rock2.png")} style={{width:'107px',height:'105px'}} />
+								<img src={require("../icons/rock2.png")} style={{width:'107px',height:'105px'}} alt="stats" />
 								<div className="statName" style={{marginTop:'7px'}}>
 									Unlmited Fun!!
 								</div>

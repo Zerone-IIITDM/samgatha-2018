@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, BrowserRouter, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './MobileEvents.css';
 
 class MobileEvents extends Component {
@@ -15,11 +15,11 @@ class MobileEvents extends Component {
               </div>
               <div className="mobiletechAndCult">
                 <Link to='techeventslist' className="mobiletech" style={{textDecoration:'none',color:'black'}}>
-                  <img src={require("../icons/techMobile.png")} />
+                  <img src={require("../icons/techMobile.png")} alt="mobileEventMainPic"/>
                   <div className="techText">Technical Events</div>
                 </Link>
                 <Link to='culteventslist' className="mobilecult" style={{textDecoration:'none',color:'black'}}>
-                  <img src={require("../icons/cultMobile.png")} />
+                  <img src={require("../icons/cultMobile.png")} alt="mobileEventMainPic"/>
                   <div className="techText">Cultural Events</div>
                 </Link>
               </div>

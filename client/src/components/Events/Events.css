@@ -23,9 +23,12 @@
 
 .techAndCult{
   margin-top: 60px; 
-  margin-left: 33%;
-  display: inline-flex;
+  text-align: center;
   justify-content: center;
+}
+
+.techAndCultBlockLine{
+  display: inline-flex;
 }
 
 .tech{
@@ -55,18 +58,19 @@
   width: 100%;
   font-family: Yataghan-Regular;
   font-size: 20px;
+  text-align: center;
+}
+
+.footerLine{
   display: inline-flex;
 }
 
 .techFooter{
-  margin-left: 430px;
-  text-align: center;
-  width: 20%;
+  padding-right: 50px;
 }
 
 .cultFooter{
-  text-align: center;
-  width: 20%;
+  padding-left: 50px ;
 }
 
 .division{

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './Footer.css';
 import '../font-awesome-4.7.0/css/font-awesome.min.css';
 

@@ -35,9 +35,6 @@ class MobileEventOne extends Component{
 	render(){
 		menuItems[0].data = this.props.event.data;
 		menuItems[1].data = this.props.event.contacts;
-
-		const activeStyle = {display: 'block'};
-		const borderStyle = {borderBottom: '2px solid #b1ff64'};
 		return(
 			<div className="mobileeventOneContainer">
 					<div className="mobileeventOneHeader">

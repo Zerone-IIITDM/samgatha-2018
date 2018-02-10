@@ -27,10 +27,12 @@
 }
 
 .eventOneBasket{
-	display:inline-flex;
+	text-align: center;
 	margin-top:20px;
-	margin-left: 43.5%;
-	width: 190px;
+}
+
+.eventOneLine{
+	display: inline-flex;
 }
 
 .eventOne0{

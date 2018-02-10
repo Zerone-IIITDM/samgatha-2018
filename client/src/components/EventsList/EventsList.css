@@ -31,11 +31,10 @@
 	width: 300px;
 }
 
-.blocks{
-	width: 50%;
+.techblocks{
+	width: 100%;
 	margin-top: 20px;
-	display: inline-flex;
-	margin-left: 26%;
+	text-align: center;
 }
 
 .eventName{
@@ -44,4 +43,8 @@
 }
 .techEventBlock:hover .eventName{
 	opacity: 1;
+}
+
+.blockLine{
+	display: inline-flex;
 }

@@ -45,8 +45,6 @@ class WorkshopOne extends Component{
 	}
 
 	render(){
-		const activeStyle = {display: 'block'};
-		const borderStyle = {borderBottom: '2px solid #b1ff64'};
 		return(
 			<div className="workshopOneContainer">
 					<div className="workshopOneHeader">
