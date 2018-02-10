@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link, BrowserRouter, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './MobileTechEvents.css';
 
 class MobileTechEventsList extends Component{

@@ -27,7 +27,7 @@ import MobileEventOne from './MobileEvent1/MobileEvent1';
 var chakarvyuh = {
   eventName:"Chakarvyuh",
   data:`Every day we sleep inside our home enjoying the safety provided by our Indian Soldiers.\
-        They give up family and friends and all their comforts for the security of our nation.\ 
+        They give up family and friends and all their comforts for the security of our nation.
         This event showcases a few such conditions where they work but with an idea of a robot\
         performing these actions rather than a human and thus ensuring life security of such\
         border forces. Join us to form a chakravyuha around our nation.\
@@ -815,7 +815,6 @@ class App extends Component {
   constructor(){
     super();
     this.state = {width: window.innerWidth };
-    this.state = {loading: true};
   }
   
   componentWillMount(){
@@ -824,22 +823,11 @@ class App extends Component {
   componentWillUnmount(){
     window.addEventListener('resize', this.handleWindowSizeChange);
   }
-  componentDidMount(){
-    const ele = document.getElementById('ipl-progress-indicator')
-    if(ele){
-      setTimeout(() => {
-        ele.classList.add('available')
-        setTimeout(() => {
-          ele.outerHTML = ''
-        }, 2000)
-      }, 1000)
-    }
-  }
+  
   handleWindowSizeChange = () => {
     this.setState({ width: window.innerWidth });
   };
   render() {
-    const { loading } = this.state;
     const { width } = this.state;
     const isMobile = width <= 545;
     if(isMobile){
@@ -891,7 +879,6 @@ class App extends Component {
         </div>
       );
     }
-    else{
       return (
         <div style={{height:'100%'}}>
           <BrowserRouter>
@@ -941,7 +928,6 @@ class App extends Component {
           </BrowserRouter>
         </div>
       );
-    }
   }
 }
 

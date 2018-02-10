@@ -30,19 +30,19 @@ class MobileHome extends Component{
 						</div>
 						<div className="mobilestats">
 							<div className="mobilecircle1">
-								<img src={require("../icons/calendar.png")} style={{width:'50px',height:'50px'}} className="mobilecircleStat" />
+								<img src={require("../icons/calendar.png")} style={{width:'50px',height:'50px'}} className="mobilecircleStat" alt="stats" />
 								<div className="mobilestatName">
 									<CountTo to={40} speed={1500} />+ Events
 								</div>
 							</div>
 							<div className="mobilecircle1">
-								<img src={require("../icons/prizes.png")} style={{width:'50px',height:'50px'}} className="mobilecircleStat" />								
+								<img src={require("../icons/prizes.png")} style={{width:'50px',height:'50px'}} className="mobilecircleStat" alt="stats" />						alt="stats" 		
 								<div className="mobilestatName">
 									<CountTo to={3} speed={1000} /> Lakhs+ Prizes
 								</div>
 							</div>
 							<div className="mobilecircle1">
-								<img src={require("../icons/rock2.png")} style={{width:'50px',height:'50px'}} className="mobilecircleStat" />
+								<img src={require("../icons/rock2.png")} style={{width:'50px',height:'50px'}} className="mobilecircleStat" alt="stats" />
 								<div className="mobilestatName">
 									Unlimited Fun!
 								</div>

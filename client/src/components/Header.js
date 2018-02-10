@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Navbar from './MobileNavbar/Navbar';
 import './Header.css';
 
 
@@ -8,7 +7,7 @@ class Header extends Component {
   render() {
       return (
         <header>
-          <nav role='navigation'>
+          <nav >
             <ul>
               <li><Link to="/events">Events</Link></li>
               <li><Link to='/workshops'>Workshops</Link></li>

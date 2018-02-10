@@ -22,10 +22,10 @@ class Sponsors extends Component {
 					</div>
 				</div>*/}
 				<div className="comingSoon">
-					<div class="intro">
-						<div class="introText">
+					<div className="intro">
+						<div className="introText">
 							<b>
-							  <div class="inner-intro">
+							  <div className="inner-intro">
 							    	Sponsors coming soon!<br />
 							    	Watch out<br />
 							    	this space<br />

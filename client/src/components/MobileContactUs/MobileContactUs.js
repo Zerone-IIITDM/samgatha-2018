@@ -9,15 +9,15 @@ class MobileContactUs extends Component{
 					<div className="mobileclubName">Organisers</div>
 					<div className="mobileclub">
 						<div className="mobilemember">
-							<img src={require("../icons/omsai.png")} />
+							<img src={require("../icons/omsai.png")} alt="contactPic" />
 							<div className="mobilememberInfo">Omsai K<br />9941990721</div>
 						</div>
 						<div className="mobilemember">
-							<img src={require("../icons/dheepika.png")} />
+							<img src={require("../icons/dheepika.png")} alt="contactPic" />
 							<div className="mobilememberInfo">Dheepika K<br />9952035154</div>
 						</div>
 						<div className="mobilemember">
-							<img src={require("../icons/archana.png")} />
+							<img src={require("../icons/archana.png")} alt="contactPic" />
 							<div className="mobilememberInfo">Archana<br />7598492607</div>
 						</div>
 					</div>
@@ -27,11 +27,11 @@ class MobileContactUs extends Component{
 					<div className="mobileclubName">WebOps</div>
 					<div className="mobileclub">
 						<div className="mobilemember">
-							<img src={require("../icons/pranay.png")} />
+							<img src={require("../icons/pranay.png")} alt="contactPic" />
 							<div className="mobilememberInfo">Pranay Ankit<br />8839084045</div>
 						</div>
 						<div className="mobilemember">
-							<img src={require("../icons/nipun.jpg")} />
+							<img src={require("../icons/nipun.jpg")} alt="contactPic" />
 							<div className="mobilememberInfo">Nipun Bharti<br />7889552217</div>
 						</div>
 					</div>

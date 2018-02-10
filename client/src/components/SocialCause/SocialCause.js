@@ -9,7 +9,7 @@ class SocialCause extends Component{
 				<div className="scHeader">
 					Social Cause
 				</div>
-				<img src={require("../icons/dep.jpg")} className="depressionClass"/>
+				<img src={require("../icons/dep.jpg")} className="depressionClass" alt="Depression"/>
 				<div className="scContent">
 	              Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. Fortunately, it is also treatable. Depression causes feelings of sadness and/or a loss of interest in activities once enjoyed. It can lead to a variety of emotional and physical problems and can decrease a person’s ability to function at work and at home.
 	      		</div>

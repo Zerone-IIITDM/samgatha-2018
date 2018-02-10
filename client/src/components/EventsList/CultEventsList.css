@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 .cultEventsContaier{
-	padding-top: 10%;
+	padding-top: 5%;
 }
 
 .culteventsGrid{
@@ -32,8 +32,7 @@
 }
 
 .blocks{
+	width: 100%;
 	margin-top: 20px;
-	display: inline-flex;
-	width: 50%;
-	margin-left: 26%;
+	text-align: center;
 }
