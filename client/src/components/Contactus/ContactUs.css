@@ -38,12 +38,21 @@ body{
 	font-size: 50px;
 }
 .member{
+	border: 2px solid white;
 	margin-left: 150px;
+	width: 200px;
+	height: 350px;
+	transition: 0.3s border;
 }
+
+.member:hover{
+	border: 2px solid #b1ff64;
+}
+
 .memberInfo{
 	color: white;
-	font-size: 30px;
-	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-family: Audimat;
 	font-weight: 300;
 }
 .photo{
@@ -59,4 +68,21 @@ body{
 	margin: 30px auto;
 	width: 80%;
 	border-bottom: 1px solid grey;
+}
+
+.socialIconsFacebook{
+	color: white;
+	transition: 0.2s color;
+}
+
+.socialIconsFacebook:hover{
+	color: #b1ff64;
+}
+
+.cardLinks{
+
+}
+
+.cardImage{
+
 }

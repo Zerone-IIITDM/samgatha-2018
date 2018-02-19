@@ -27,11 +27,11 @@ class MobileContactUs extends Component{
 					<div className="mobileclubName">WebOps</div>
 					<div className="mobileclub">
 						<div className="mobilemember">
-							<img src={require("../icons/pranay.png")} alt="contactPic" />
+							<img src={require("../icons/pranay1.PNG")} alt="contactPic" />
 							<div className="mobilememberInfo">Pranay Ankit<br />8839084045</div>
 						</div>
 						<div className="mobilemember">
-							<img src={require("../icons/nipun.jpg")} alt="contactPic" />
+							<img src={require("../icons/nipun.JPG")} alt="contactPic" />
 							<div className="mobilememberInfo">Nipun Bharti<br />7889552217</div>
 						</div>
 					</div>

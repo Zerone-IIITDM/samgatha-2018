@@ -4,6 +4,7 @@
 .eventsContainer{
   padding-top: 9%;
   width: 100%;
+  background:rgb(34,41,49);
 }
 
 .eventsHeader{
@@ -11,7 +12,7 @@
   font-size: 50px;
   font-weight: 700;
   font-family: Yataghan-Regular;
-  color: #9d6dcd;
+  color: #b1ff64;
 }
 
 .eventsContent{
@@ -59,6 +60,7 @@
   font-family: Yataghan-Regular;
   font-size: 20px;
   text-align: center;
+  color: white;
 }
 
 .footerLine{
@@ -76,5 +78,5 @@
 .division{
   margin-top: 70px;
   margin-left: 36px;
-  border: 1px solid #9d6dcd;
+  border: 1px solid #b1ff64;
 }

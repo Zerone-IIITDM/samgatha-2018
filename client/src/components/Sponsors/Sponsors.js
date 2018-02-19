@@ -31,22 +31,10 @@ class Sponsors extends Component {
             </div>
           </div>
           <div className="sponsBox">
-            <div className="inlineBoxes">
-              <div className="box1">
-                <a href="http://www.radiomirchi.com/">
-                  <img src={require("../icons/L&T.PNG")} alt="Sponsor" />
-                </a>
-                <div className="sponsName">
-                  <b>Larsen & Toubro Limited</b>
-                </div>
-              </div>
-              <div className="box2">
                 <img src={require("../icons/saf.jpg")} alt="Sponsor" />
                 <div className="sponsName">
                   <b>Super Auto Forge</b>
                 </div>
-              </div>
-            </div>
             <div className="sponsHeader">
               <i>Events Partner</i>
             </div>
