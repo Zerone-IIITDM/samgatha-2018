@@ -23,15 +23,39 @@ import CultEventsList from './EventsList/CultEventsList';
 import MobileCultEventsList from './MobileEventsList/MobileCultEvents';
 import EventOne from './Event1/Event1';
 import MobileEventOne from './MobileEvent1/MobileEvent1';
+import Battle from './BattleofBands';
 
 var chakarvyuh = {
   eventName:"Chakarvyuh",
-  data:`Every day we sleep inside our home enjoying the safety provided by our Indian Soldiers.\
+  data:[`Every day we sleep inside our home enjoying the safety provided by our Indian Soldiers.\
         They give up family and friends and all their comforts for the security of our nation.
         This event showcases a few such conditions where they work but with an idea of a robot\
         performing these actions rather than a human and thus ensuring life security of such\
         border forces. Join us to form a chakravyuha around our nation.\
         Participating teams need to submit a TDP on or before March 1st 2018.`,
+        <br />,<br />,
+        <b>FAQ</b>,
+        <br />,
+        <b>1) How many members in a group?</b>,
+        <br />,
+        <b>A:</b>, `Four`,
+        <br />,
+        <b>2) Can we use readymade kits?</b>,
+        <br />,
+        <b>A:</b>, `No`,
+        <br />,
+        <b>3) Will the organizers provide battery source?</b>,
+        <br />,
+        <b>A:</b>, `No. the participants need to bring their own.`,
+        <br />,
+        <b>4) How many chances per team?</b>,
+        <br />,
+        <b>A:</b>, `Only one. The organizers deserve the right to change the
+                    rules and take quick decisions under the certain
+                    unexpected situations.`,
+        <br />,
+        ],
+
   
   contacts:[
             "Amrutha Manoharan : 09566186673 (esd15i017@iiitdm.ac.in)",
@@ -50,13 +74,29 @@ var warOfWatts = {
         explored and combined to form deadly combinations.  Do you have what it takes to enter the arena and establish your supremacy? Here Survival\
         is not an option. May the river of electrons come to your aid`,
         <br />,<br />,
-        <b>Event Format: </b>,
-        `No. of rounds: 2`,
+        <b>Event Format: </b>,<br />,
+        `No. of rounds: 2`,<br />,
         <br />,
-        <b>Event Rules: </b>,
+        <b>Event Rules: </b>,<br />,
         `A team can have maximum 2 members, \
         once a team is formed , it cannot be changed, \
-        Quarrelling with judges will lead to disqualification.`
+        Quarrelling with judges will lead to disqualification.`,
+        <br />,<br />,
+        <b>FAQ</b>,
+        <br />,
+        <b>1) Why should I participate in WOW?</b>,
+        <br />,
+        <b>A:</b>, `WOW gives participants a platform to test their limits,and helps to improve ideation.
+`,
+        <br />,
+        <b>2) Who can participate?</b>,
+        <br />,
+        <b>A:</b>, `Students from any college & university with valid ID.`,
+        <br />,
+        <b>3) Can a team have members from different colleges?</b>,
+        <br />,
+        <b>A:</b>, `Yes,Students from different colleges can firm a team.`,
+        <br />,
         ],
   contacts: [
               "Aditya Pharande: 9566219050/8605575742 (edm15b012@iiitdm.ac.in)",
@@ -210,7 +250,7 @@ var drishyam = {
   ONLY 9 OUT of 20 EVENT RULES points are ADDED in SHUTTERUP
 */}
 var shutterup = {
-  eventName:"Shutter Up",
+  eventName:"Hocus Focus",
   data:[
         `Do you think your photos showcase the world in a different light? 
         Can your pictures transcend emotions? Does your photo have an untold story waiting to be heard and explored ? 
@@ -274,7 +314,9 @@ var pictionary = {
         <br />,
         ],
   contacts: [
-             
+             "Sumuki Ravi: mpd15i018@iiitdm.ac.in",
+              <br />,
+              `Manvitha: edm15b041@iiitdm.ac.in`
             ],
 }
 
@@ -300,7 +342,9 @@ var drRacist = {
         <br />,
         ],  
   contacts: [
-             
+             "Sumuki Ravi: mpd15i018@iiitdm.ac.in",
+              <br />,
+              `Manvitha: edm15b041@iiitdm.ac.in`
             ],
 }
 
@@ -324,7 +368,9 @@ var blindFill = {
         <br />,
         ],  
   contacts: [
-             
+             "Sumuki Ravi: mpd15i018@iiitdm.ac.in",
+              <br />,
+              `Manvitha: edm15b041@iiitdm.ac.in`
             ],      
 }
 
@@ -353,7 +399,9 @@ var blowBall = {
         <br />,
         ],  
   contacts: [
-             
+             "Sumuki Ravi: mpd15i018@iiitdm.ac.in",
+              <br />,
+              `Manvitha: edm15b041@iiitdm.ac.in`
             ],      
 }
 
@@ -374,7 +422,9 @@ var balloonBash = {
 
         ],  
   contacts: [
-             
+             "Sumuki Ravi: mpd15i018@iiitdm.ac.in",
+              <br />,
+              `Manvitha: edm15b041@iiitdm.ac.in`
             ],
 }
 
@@ -403,7 +453,9 @@ var balloonExpress = {
         
         ],  
   contacts: [
-             
+             "Sumuki Ravi: mpd15i018@iiitdm.ac.in",
+              <br />,
+              `Manvitha: edm15b041@iiitdm.ac.in`
             ],
 }
 
@@ -433,7 +485,9 @@ var queenOfSheba = {
         
         ],  
   contacts: [
-             
+             "Sumuki Ravi: mpd15i018@iiitdm.ac.in",
+              <br />,
+              `Manvitha: edm15b041@iiitdm.ac.in`
             ],
 }
 
@@ -473,10 +527,10 @@ contacts: [
 var beASuperHero = {
   eventName:"Be A Superhero",
   data:[
-        `Everyone once had a dream of become a superhero ,so here is your chance.\
-        Design the costume that you would wear if u became a superhero`,
+        `Everyone once had a dream of becoming a superhero ,so here is your chance.\
+        Design the costume that you would wear if you want to become a superhero`,
         <br />,<br />,
-        <b>Event Format: </b>,
+        <b>Event Format: </b>,<br />,
         `No. of rounds: 2`,
         <br />,
         `Round 1: Sketching basic ideas`,
@@ -497,7 +551,7 @@ var beASuperHero = {
 }
 
 var battleOfBands = {
-  eventName:"Battle of Bands",
+  eventName:"Sync Geet",
   data:[
         `Music speaks what cannot be expressed, soothes the mind,\
          gives it rest and heals the heart and makes it whole flows from heaven to the soul.\
@@ -701,7 +755,7 @@ var tech4help = {
         <br />,
         `Q. Can a team have members from different colleges?`,
         <br />,
-        `A. Yes,Students from different colleges can firm a team.`,
+        `A. Yes,Students from different colleges can from a team.`,
         <br />,<br />,<br />
         ],
   contacts: [
@@ -724,7 +778,7 @@ var relayCAD = {
         In this event, you will be given a problem statement based on it you have to come up with a product to design/redesign using design software. \
         Show off the best of your imagination as you bring everyday items to a more stylish existence, not compromising on their function along the way.`,
         <br />,<br />,
-        <b>Event Format: </b>,
+        <b>Event Format: </b>,<br />,
         `No. of Rounds: 2`,
         <br />,
         `Round 1: A problem statement will be given on the spot of the event. \
@@ -932,7 +986,8 @@ class App extends Component {
                <Route path="/balloonexpress" component={() => (<EventOne event={balloonExpress} />)} /> 
                <Route path="/queenofsheba" component={() => (<EventOne event={queenOfSheba} />)} /> 
                 <Route path="/quiz" component={() => (<EventOne event={quiz} />)} />
-             
+                <Route path="/battle" component={Battle}/>
+              
               <Footer />
             </div>
           </BrowserRouter>

@@ -8,18 +8,22 @@
 }
 
 .mainContainer{
-	padding-top: 3.8%;
+	padding-top: 9%;
 	min-height: 100%;
 }
 
 .headContainer{
-	background: linear-gradient(#332354,#9d6dcd);
-	border: 0.1px solid #332354;
+	background: linear-gradient(rgb(25,29,34),rgb(30,34,39),rgb(40,47,53));
+
 	height: 615px;
 	width:100%;
 }
+
+.collegeLogo{
+	text-align: center;
+}
+
 .titleText{
-	margin-top: 150px;
 	text-align: center;
 	font-size: 70px;
 	font-family: Yataghan-Regular;
@@ -52,10 +56,10 @@
 	margin-top: 50px;
 	font-size: 40px;
 	font-family: Yataghan-Regular;
-	color: #9d6dcd;
+	color: rgb(23,28,34);
 }
 .rightSideContainerText{
-	font-family: 'Lato', sans-serif;
+	font-family: Audimat;
 	font-size: 20px;
 	width: 600px;
 	margin-left: 50px;
@@ -116,4 +120,11 @@
 	font-size: 25px;
 	color: #b1ff64;
 	text-align: center;
+}
+
+.mainImage{
+	left: 15%;
+	bottom: -3.5%;
+	
+	position: absolute;
 }
