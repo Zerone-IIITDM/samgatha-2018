@@ -57,7 +57,7 @@ class TechEventsList extends Component{
 	            	<div className="techblocks">
 	            		<div className="blockLine">
 			            	<Link to='/quiz' style={styles.links}><div className="techEventBlock">
-			            		<img src={require("../icons/Quiz.png")}alt="contentIcon" />
+			            		<img src={require("../icons/Quiz.png")} style={{marginTop:'-10px'}} alt="contentIcon" />
 			            		<div className="eventName">Quiz</div>
 			            	</div></Link>
 			            </div>

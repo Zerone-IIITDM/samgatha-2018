@@ -7,33 +7,6 @@
   border: 1px solid white;
 }
 
-.con1{
-	display: flex;
-	background-color:;
-	flex-wrap: wrap;
-	height:auto;
-	width: auto;
-	justify-content:center;
-	align-items:center;
-	margin-left: 80px;
-	margin-right: 80px;
-	margin-top: 5px;
-	margin-bottom: 120px;
-}
-
-.con1 > div{
-	background-color: #f1f1f1;
-	width: 300px;
-	height:180px;
-	margin: 10px;
-}
-
-.con1 > div >img{
-	position: relative;
-	width: 300px;
-	height:180px;
-}
-
 .titext{
 	color: #9d6dcd;
 	position: relative;
@@ -43,90 +16,29 @@
   	font-family: Yataghan-Regular;
 }
 
-.comingSoon{
-  padding-top: 5%;
-	font-size: 30px;
-	font-family: 'Lato', sans-serif;
+.sponsors{
 	text-align: center;
 }
 
-/* Animations */
-
-.intro {
-  display: inline-flex;
-	font: normal 40px/50px 'Ubuntu', sans-serif;
-	color: white;
-}
-.intro p {
-  	float: left;
-}
-.intro b {
-  	float: left;
-  	overflow: hidden;
-  	position: relative;
-  	height: 50px;
-}
-.intro .inner-intro {
-  	display: inline-block;
-  	color: #000000;
-  	position: relative;
-  	white-space: nowrap;
-  	top: 0;
-  	left: 0;
-
-
-/*animation*/
--webkit-animation:move 5s;
-   -moz-animation:move 5s;
-    -ms-animation:move 5s;
-     -o-animation:move 5s;
-        animation:move 5s;
-/*animation-iteration-count*/
--webkit-animation-iteration-count:infinite;
-   -moz-animation-iteration-count:infinite;
-    -ms-animation-iteration-count:infinite;
-     -o-animation-iteration-count:infinite;
-        animation-iteration-count:infinite;
-/*animation-delay*/
--webkit-animation-delay:1s;
-   -moz-animation-delay:1s;
-    -ms-animation-delay:1s;
-     -o-animation-delay:1s;
-        animation-delay:1s;
-}
-@keyframes move{
-0%  { top: 0px; }
-20% { top: -50px; }
-40% { top: -100px; }
-60% { top: -150px; }
-80% { top: -200px; }
+.sponsBox{
+	margin-top: 30px;
 }
 
-@-webkit-keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    40% { top: -100px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
+.sponsHeader{
+	font-size: 15px;
+	color: grey;
+	font-family: "Roboto";
 }
-@-moz-keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    40% { top: -100px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
+
+.sponsName{
+	font-size: 20px;
+	font-family: 'Ubuntu';
 }
-@-o-keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    40% { top: -100px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
+
+.box2{
+	padding-left: 50px;
+	margin-top: 95px;
 }
-@keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    40% { top: -100px; }
-    60% { top: -150px; }
-    80% { top: -200px; }
+.inlineBoxes{
+	display: inline-flex;
 }
