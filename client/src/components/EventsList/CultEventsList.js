@@ -47,7 +47,7 @@ class CultEventsList extends Component{
 			            		<div className="eventName">Mayasrishti</div>
 			            	</div></Link>
 			            	<Link to='/shutterup' style={styles.links}><div className="cultEventBlock">
-			            		Shutter Up
+			            		Hocus Focus
 			            	</div></Link>
 			            	<Link to='/samidol' style={styles.links}><div className="cultEventBlock">
 			            		Sam Idol

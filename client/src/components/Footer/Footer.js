@@ -37,6 +37,7 @@ class Footer extends Component {
 export default Footer;
 
 var phantom = {
+	background:'rgb(34,41,49)',
   display: 'block',
   padding: '20px',
   width: '100%',

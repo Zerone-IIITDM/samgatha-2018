@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+
+@font-face {
+    font-family: Audimat;
+    src: url('./Fonts/audimat.ttf');
+}
+.parentBattle{
+	width: 100%;
+	display: inline-flex;
+}
+
+.mainBattle{
+	padding-top: 10%;
+	width: 100%;
+	background: linear-gradient(rgb(25,29,34),rgb(30,34,39),rgb(36,41,47));
+}
+
+.carousal{
+	width: 50%;
+}
+
+.eventOneRegisterBattle{
+	margin: 0 auto;
+	cursor: pointer;
+	font-family: "Roboto";
+	border:2px solid #B1FF64;
+	height:30px;
+	width:200px;
+	text-align:center;
+	margin-top: 30px;
+	color: #B1FF64;
+	line-height:30px;	
+}
+
+.aboutBattle{
+	color: white;
+	width: 50%;
+}
+
+.headerBattle{
+	text-align: center;
+	font-size: 50px;
+
+	font-family: Audimat;
+	color: white;
+}
+
+#big{
+	font-size: 80px;
+	color: #b1ff64;
+}

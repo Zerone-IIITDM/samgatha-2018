@@ -1,68 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
-/* .text1{
-	font-family: Futura, Trebuchet MS, Arial, sans-serif;
-	color:white;
-	display: inline-flex;
-	margin-left: 15px;
-	white-space: nowrap;
-}
-.icons{
-	display: inline-flex;
-}
-footer {
-	display: inline-flex;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: #332354;
-  z-index: 10000;
-  height: 50px;
-}
-.footerNav{
-	width: 100%;
-	height: 100%;
-	display: inline-flex;
-}
-.ul1{
-	margin-left: -20px;
-	letter-spacing: 20px;
-	height: 100%;
-}
-.ul1 li:hover{
-	border-top: 3px solid #b1ff64;
-	color: white;
-  	background-color:#9d6dcd;
-}
-.ul2{
-	margin-left: 45%;
-	height: 100%;
-}
-i{
-	cursor: pointer;
-}
-.insta{
-	border: 2px solid green;
-	transition: background 0.5s;
-	height: 100%;
-}
-
-.socialIcons{
-	margin-left: 20px;
-	width:60%;
-	height: 100%;
-}
-
-a{
-	text-decoration: none;
-} */
-
 .footer{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
 	height: 50px;
-	background: #332354;
+	background: rgb(29,34,39);
 	display: inline-flex;
 	
 }

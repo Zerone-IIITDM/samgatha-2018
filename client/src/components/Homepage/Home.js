@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import CountTo from 'react-count-to';
+import { Carousel } from 'react-responsive-carousel';
 import './Home.css';
 
 class Home extends Component{
@@ -7,6 +8,7 @@ class Home extends Component{
 		return(
 			<div className="mainContainer">
 				<div className="headContainer" id="home-main">
+					<img className="mainImage" src={require("../icons/5.png")} style={{width:'70%',height:'80%'}}/>
 					<div className="titleText">
 						The Magic in Everything
 					</div>
@@ -16,10 +18,20 @@ class Home extends Component{
 				</div>
 				<div className="aboutUs">
 					<div className="leftSide">
-						<div className="leftSideText">
-							WEBSITE<br />STILL UNDER<br />CONSTRUCTION.<br/>
-							More content coming soon.
-						</div>
+						<Carousel showArrows={true} >
+			                <div>
+			                    
+			                    <p className="legend">Legend 1</p>
+			                </div>
+			                <div>
+			                    
+			                    <p className="legend">Legend 2</p>
+			                </div>
+			                <div>
+			                    
+			                    <p className="legend">Legend 3</p>
+			                </div>
+			            </Carousel>
 					</div>
 					<div className="rightSide">
 						<div className="rightSideHeaderText">

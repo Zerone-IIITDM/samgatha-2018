@@ -12,7 +12,7 @@ class Header extends Component {
               <li><Link to="/events">Events</Link></li>
               <li><Link to='/workshops'>Workshops</Link></li>
               <li><Link to="/socialcause">Social Cause</Link></li>
-              <li><Link to="/">Home</Link></li>
+              <li><Link to="/"><img src={require("./icons/samlogo.png")} alt="logo" /></Link></li>
               <li><Link to="/sponsors">Sponsors</Link></li>
               <li><Link to="/contacts">Contacts</Link></li>
               <li><a href="/auth/google">Login/Register</a></li>

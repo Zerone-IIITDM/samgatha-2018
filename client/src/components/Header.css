@@ -8,9 +8,9 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background: #332354;
-  z-index: 10000;
-  height: 56px;
+  background: rgb(25,29,34);
+  z-index: 1;
+  height: 130px;
 }
 
 nav ul {
@@ -63,62 +63,12 @@ nav ul a {
 }
 nav ul a:hover {
   color: #FEFCFB;
-  background: #9d6dcd;
+  background: rgb(36,41,47);
   -webkit-box-shadow: 0px 4px 0px 0px #b1ff64;
           box-shadow: 0px 4px 0px 0px #b1ff64;
 }
 @media all and (min-width: 545px) {
   nav ul a {
     padding: 20px;
-  }
-}
-
-.heart {
-  display: none;
-  margin: 0 auto;
-  padding: 12px 30px;
-}
-@media all and (min-width: 545px) {
-  .heart {
-    display: block;
-    margin: initial;
-  }
-}
-
-.heart-trigger {
-  display: block;
-  -webkit-box-ordinal-group: 0;
-      -ms-flex-order: -1;
-          order: -1;
-  padding: 12px 30px;
-}
-@media all and (min-width: 545px) {
-  .heart-trigger {
-    -webkit-box-ordinal-group: initial;
-        -ms-flex-order: initial;
-            order: initial;
-  }
-}
-
-.visible {
-  display: block;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-
-.fa-heart {
-  font-size: 1.8em;
-  color: #ffc4eb;
-  -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
-.fa-heart:hover {
-  color: #de6e4b;
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
-}
-@media all and (min-width: 545px) {
-  .fa-heart {
-    font-size: 1.2em;
   }
 }
