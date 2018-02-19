@@ -45,15 +45,21 @@ class MobileEventOne extends Component{
 						 REGISTER
 			            </div>
 			            <div className="mobileeventOneBasket">
-				            {
+				            {/* {
 				            	menuItems.map( function(menuItem, index){
 				            		return(
 					            		<div className={("mobileeventOne"+menuItem.key)} onClick={main.changeCurrent.bind(this,index) } >
 					            			{menuItem.name}
 					            		</div>
 				            		);
-				            	})
-				            }
+								})
+							} */}
+							<div className="mobileeventOne0" onClick={main.changeCurrent.bind(this,0)} >
+								ABOUT
+							</div>
+							<div className="mobileeventOne1" onClick={main.changeCurrent.bind(this,1)} >
+								CONTACTS
+							</div>
 				        </div>
 				        <div className="mobileeventDetailContent">
 				        				<div>

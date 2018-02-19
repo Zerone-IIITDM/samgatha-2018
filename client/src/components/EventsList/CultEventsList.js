@@ -12,23 +12,25 @@ class CultEventsList extends Component{
 	            <div className="culteventsGrid">
 	            	<div className="blocks">
 		            	<div className="blockLine">
-			            	<Link to='/beasuperhero' style={styles.links}><div className="cultEventBlock">
-			            		Be a Superhero
+							<Link to='/beasuperhero' style={styles.links}><div className="techEventBlock">
+			            		
+			            		<div className="eventName">Be a Superhero</div>
 			            	</div></Link>
-			            	<Link to='/battleofbands' style={styles.links}>
-			            		<div className="cultEventBlock">
-			            		Battle of Bands
-			            		</div>
-			            	</Link>
-			            	<Link to='/dancewars' style={styles.links}><div className="cultEventBlock">
-			            		Dance Wars
+							<Link to='/battleofbands' style={styles.links}><div className="techEventBlock">
+								<img src={require("../icons/battleOfBands.png")} style={{marginTop:'-10px'}} alt="contentIcon" />
+			            		<div className="eventName">Battle of Bands</div>
+			            	</div></Link>
+			            	<Link to='/dancewars' style={styles.links}><div className="techEventBlock">
+								
+			            		<div className="eventName">Dance Wars</div>
 			            	</div></Link>
 			            </div>
 	            	</div>
 	            	<div className="blocks">
 	            		<div className="blockLine">
-			            	<Link to='/drishyam' style={styles.links}><div className="cultEventBlock">
-			            		Drishyam
+							<Link to='/drishaym' style={styles.links}><div className="techEventBlock">
+								<img src={require("../icons/drishaym.png")} alt="contentIcon" />
+			            		<div className="eventName">Drishyam</div>
 			            	</div></Link>
 			            	<Link to='/eloquent' style={styles.links}><div className="cultEventBlock">
 			            		Eloquent
@@ -40,8 +42,9 @@ class CultEventsList extends Component{
 	            	</div>
 	            	<div className="blocks">
 	            		<div className="blockLine">
-			            	<Link to='/mayasrishti' style={styles.links}><div className="cultEventBlock">
-			            		Mayasrishti
+							<Link to='/mayasrishti' style={styles.links}><div className="techEventBlock">
+								<img src={require("../icons/maya.png")} style={{marginTop:'-10px'}} alt="contentIcon" />
+			            		<div className="eventName">Mayasrishti</div>
 			            	</div></Link>
 			            	<Link to='/shutterup' style={styles.links}><div className="cultEventBlock">
 			            		Shutter Up

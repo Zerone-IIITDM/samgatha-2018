@@ -10,11 +10,12 @@
 }
 
 .cultEventBlock{
+	border-radius: 10px;
 	margin-left:20px;
 	width: 200px;
 	height: 200px;
-	background: black;
-	color: white;
+	background: linear-gradient(#332354,#9d6dcd);
+	color: #b1ff64;
 	font-size: 25px;
 	text-align: center;
 	font-family: Yataghan-Regular;

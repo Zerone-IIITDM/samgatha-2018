@@ -823,7 +823,17 @@ class App extends Component {
   componentWillUnmount(){
     window.addEventListener('resize', this.handleWindowSizeChange);
   }
-  
+  componentDidMount(){
+    const ele = document.getElementById('ipl-progress-indicator')
+    if(ele){
+      setTimeout(() => {
+        ele.classList.add('available')
+        setTimeout(() => {
+          ele.outerHTML = ''
+        }, 2000)
+      }, 1000)
+    }
+  }
   handleWindowSizeChange = () => {
     this.setState({ width: window.innerWidth });
   };
