@@ -11,16 +11,16 @@ class Footer extends Component {
 					<div className="socialLinks">
 						<div className="icons">
 							<div className="icon1">
-								<a href="https://www.instagram.com/samgatha/"><i className="fa socialIcons fa-instagram fa-2x" style={{color: "white" }}></i></a>
+								<a href="https://www.instagram.com/samgatha/"><i className="fa socialIcons fa-instagram fa-2x"></i></a>
 							</div>
 							<div className="icon1">
-								<a href="https://www.facebook.com/samgathaatiiitdm/"><i className="fa socialIcons fa-facebook fa-2x" style={{color: "white" }}></i></a>
+								<a href="https://www.facebook.com/samgathaatiiitdm/"><i className="fa socialIcons fa-facebook fa-2x"></i></a>
 							</div>
 							<div className="icon1">
-								<a href="https://twitter.com/samgatha"><i className="fa socialIcons fa-twitter fa-2x" style={{color: "white" }}></i></a>
+								<a href="https://twitter.com/samgatha"><i className="fa socialIcons fa-twitter fa-2x"></i></a>
 							</div>
 							<div className="icon1">
-								<a href="https://www.youtube.com/user/SamgathaIIITDM"><i className="fa socialIcons fa-youtube fa-2x" style={{color: "white" }}></i></a>
+								<a href="https://www.youtube.com/user/SamgathaIIITDM"><i className="fa socialIcons fa-youtube fa-2x"></i></a>
 							</div>
 						</div>
 					</div>
@@ -37,7 +37,7 @@ class Footer extends Component {
 export default Footer;
 
 var phantom = {
-	background:'rgb(34,41,49)',
+
   display: 'block',
   padding: '20px',
   width: '100%',

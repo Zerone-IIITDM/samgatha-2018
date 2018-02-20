@@ -1,5 +1,4 @@
 import React,{ Component } from 'react';
-import { Carousel } from 'react-responsive-carousel';
 import './Battle.css';
 
 var menuItems = [
@@ -62,7 +61,7 @@ class Battle extends Component{
 				        </div>
 					</div>
 					<div className="carousal">
-			        <img src={require("./icons/61.png")} style={{width:'100%',height:'100%'}} />
+			        <img src={require("./icons/61.png")} style={{width:'100%',height:'100%'}} alt="battleofbands" />
 					</div>
 				</div>
 			</div>

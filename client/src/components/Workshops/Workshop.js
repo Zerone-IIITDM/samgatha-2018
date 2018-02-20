@@ -10,9 +10,14 @@ class Workshop extends Component{
 				<div className="workshopHeader">
 					Workshop
 				</div>
-				<div className="workshopContent">
-	              Coming soon!!
-	            </div>
+				<div className="workshop1">
+					<div>IoT Workshop</div>
+					<img src={require("../icons/ib.jpeg")}alt="workshop" />
+				</div>
+				<div className="workshop1">
+					<div>Simscale Workshop</div>
+					<img src={require("../icons/simscale.jpg")}alt="workshop" />
+				</div>
 	            {/*<div className="workshopList">
 	            	<div className="workshopOne">
 		            	<div className="workshopImage">

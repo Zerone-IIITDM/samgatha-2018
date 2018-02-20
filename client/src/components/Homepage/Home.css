@@ -13,19 +13,30 @@
 }
 
 .headContainer{
-	background: linear-gradient(rgb(25,29,34),rgb(30,34,39),rgb(40,47,53));
-
-	height: 615px;
+	background: radial-gradient(at bottom,rgb(25,29,34),rgb(30,34,39),rgb(40,47,53));
+	height: 700px;
 	width:100%;
 }
-
+.regCont{
+	background: radial-gradient(at bottom,rgb(25,29,34),rgb(30,34,39),rgb(40,47,53));
+	height: 600px;
+	width:100%;
+}
 .collegeLogo{
 	text-align: center;
 }
 
+.SamgathaText{
+	padding-top: 20px;
+	text-align: center;
+	font-family: Yataghan-Regular;
+	font-size: 50px;
+	color: white;
+}
+
 .titleText{
 	text-align: center;
-	font-size: 70px;
+	font-size: 50px;
 	font-family: Yataghan-Regular;
 	color: #b1ff64;
 }
@@ -37,10 +48,10 @@
 .leftSide{
 	width: 50%;
 	min-height: 540px;
-	background-color: lightgrey;
+	background: linear-gradient(to right,#e8e8e8,#ebedee);
 }
 .rightSide{
-	background-color: white;
+	background: linear-gradient(to right,#ebedee,#fdfbfb);
 	width: 50%;
 	min-height: 540px;
 }
@@ -66,10 +77,10 @@
 	margin-top: 50px;
 }
 .stats{
+
 	display: inline-flex;
 	width: 600px;
-	margin-left: 50px;
-	margin-top: 50px;
+	margin-top: 30px;
 }
 .circle1{
 	margin-left: 60px;
@@ -91,28 +102,45 @@
 	margin-right:20px; 
 }
 .joinUs{
-	height: 350px;
-	width: 50%;
+	background: linear-gradient(to left,#e8e8e8,#fdfbfb);
+	text-align: center;
+	height: 1200px;
+	width: 100%;
 }
+
+.carousCont{
+	display: inline-flex;
+}
+.carous{
+	overflow-y: hidden;
+	overflow-x: hidden;
+	width: 800px;
+	height: 533px;
+}
+
 .joinText{
-	color: #9d6dcd;
+	color: rgb(23,28,34);
 	margin-top: 70px;
 	text-align: center;
 	font-size: 40px;
 	font-family: 'Lato', sans-serif;
 }
 .registerBtn{
-	color: #9d6dcd;
+	margin-top: 180px;
+	margin-left: 270px;
+	position: absolute;
+	color: white;
 	width: 200px;
 	height: 50px;
-	border: 2px solid #9d6dcd;
-	margin: auto;
-	margin-top: 30px;
+	border: 2px solid white;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	line-height: 50px;
 	cursor: pointer;
+}
+
+.buttonOnPic{
 }
 
 .lowerTitleText{
@@ -123,8 +151,74 @@
 }
 
 .mainImage{
-	left: 15%;
-	bottom: -3.5%;
-	
+	bottom: -20%;
 	position: absolute;
+}
+
+.iiitLogo{
+	padding-left: 3%;
+	width: 35%;
+	height: 40%;
+	margin-top: -20px;
+}
+
+.collegeStuff{
+	display: inline-flex;
+}
+
+.collegeMotto{
+	white-space: nowrap;
+	padding-left: 5%;
+	font-family: Audimat;
+	padding-top: 12%;
+	font-size: 40px;
+	
+}
+
+#blue{
+	color: rgb(0,78,165);
+}
+
+#green{
+	color: rgb(0,92,102);
+}
+
+#grey{
+	color: rgb(85,85,85);
+}
+
+.pulse {
+  width: 80px;
+  height: 75px;
+  border-radius: 100px;
+  animation: out 1.5s infinite ease-out;
+  background: rgb(145,212,0);
+  position: absolute;
+  top: 91%;
+  left: 39.3%;
+  margin: -25px 0px 0px -25px;
+}
+
+@keyframes out {
+  0% {box-shadow: 0px 0px 0px 0px rgba(177,168,141, 1);} 
+  100% {box-shadow: 0px 0px 0px 100px rgba(177,168,141, 0.0);}
+}
+.mapToReach{
+	text-align: center;
+	padding-bottom: 2%;
+	background: white;
+}
+.map{
+	display: inline-flex;
+}
+.reachText{
+	margin-top: 60px;
+	font-family: Yataghan-Regular;
+	font-size: 40px;
+}
+
+.past{
+	padding-top: 20px;
+	font-family: Yataghan-Regular;
+	font-size: 40px;
 }

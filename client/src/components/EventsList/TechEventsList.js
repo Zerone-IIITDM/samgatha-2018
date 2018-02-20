@@ -12,53 +12,57 @@ class TechEventsList extends Component{
 	            <div className="eventsGrid">
 	            	<div className="techblocks">
 	            		<div className="blockLine">
-			            	<Link to='/chakarvyuh' style={styles.links}><div className="techEventBlock">
-			            		<img src={require("../icons/Chakravyuha.png")} alt="contentIcon" />
+			            	<Link to='/chakarvyuh' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Chakravyuha</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/warofwatts' style={styles.links}><div className="techEventBlock">
-			            		<img src={require("../icons/WarOfWatts.png")} alt="contentIcon" />
-			            		<div className="eventName">War of Watts</div>
+			            	<Link to='/warofwatts' style={styles.links}><div className="cauldron">
+			            		<div className="eventName paddingCont">War of Watts</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/tech4help' style={styles.links}><div className="techEventBlock">
-			            		<img src={require("../icons/Tech4Help.png")} alt="contentIcon" />
+			            	<Link to='/tech4help' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Tech4Help</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>
 	            	</div>
 	            	<div className="techblocks">
 	            		<div className="blockLine">
-			            	<Link to='/designception' style={styles.links}><div className="techEventBlock">
-			            		Designception
+			            	<Link to='/designception' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Designception</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/relaycad' style={styles.links}><div className="techEventBlock">
-			            		<img src={require("../icons/RelayDesign.png")} alt="contentIcon" />
-			            		<div className="eventName">Relay Design</div>
+			            	<Link to='/relaycad' style={styles.links}><div className="cauldron">
+			            		<div className="eventName paddingCont">Relay Design</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/battlezone' style={styles.links}><div className="techEventBlock">
-			            		<img src={require("../icons/BattleZone.png")} alt="contentIcon" />
-			            		<div className="eventName">Battle Zone</div>
-			            	</div></Link>
-			            </div>
-	            	</div>
-	            	<div className="techblocks">
-	            		<div className="blockLine">
-			            	<Link to='/sbc' style={styles.links}><div className="techEventBlock" style={{fontSize:'15px'}}>
-			            		Samgatha Business Challenge
-			            	</div></Link>
-			            	<Link to='/appathon' style={styles.links}><div className="techEventBlock">
-			            		App-A-thon
-			            	</div></Link>
-			            	<Link to='/codeauction' style={styles.links}><div className="techEventBlock">
-			            		Code Auction
+			            	<Link to='/battlezone' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">BattleZone</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>
 	            	</div>
 	            	<div className="techblocks">
 	            		<div className="blockLine">
-			            	<Link to='/quiz' style={styles.links}><div className="techEventBlock">
-			            		<img src={require("../icons/Quiz.png")} style={{marginTop:'-10px'}} alt="contentIcon" />
+			            	<Link to='/sbc' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">SBC</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
+			            	</div></Link>
+			            	<Link to='/appathon' style={styles.links}><div className="cauldron">
+			            		<div className="eventName paddingCont">App-A-thon</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
+			            	</div></Link>
+			            	<Link to='/codeauction' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Code Auction</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
+			            	</div></Link>
+			            </div>
+	            	</div>
+	            	<div className="techblocks">
+	            		<div className="blockLine">
+			            	<Link to='/quiz' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Quiz</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>
 	            	</div>

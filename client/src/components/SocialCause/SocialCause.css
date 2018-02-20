@@ -3,11 +3,13 @@
 
 .scContainer{
 	width: 100%;
-	padding-top: 5%;
+	height: 100%;
+	padding-top: 9%;
+	background:rgb(34,41,49);
 }
 
 .scHeader{
-	color: #9d6dcd;
+	color: #b1ff64;
 	font-family: Yataghan-Regular;
 	text-align: center;
 	font-size: 50px;
@@ -32,11 +34,12 @@
 }
 
 .scContent{
-	width: 70%;
-  font-size: 20px;
+	color: white;
+	width: 55%;
+  font-size: 25px;
   text-align: center;
   margin: 10px auto;
-  font-family: 'Lato', sans-serif;
+  font-family: Audimat;
 }
 
 .depressionClass{

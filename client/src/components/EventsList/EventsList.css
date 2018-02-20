@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
 .techEventsContaier{
-	margin-top: 60px;
-	padding-bottom: 3%;
+	padding-top:11%;
 	min-height: 100%;
 	position: relative;
+	background: radial-gradient(rgb(49,58,66),rgb(40,50,60),rgb(30,40,45));
 }
 
 .eventsGrid{
@@ -37,14 +37,26 @@
 	text-align: center;
 }
 
-.eventName{
-	opacity: 0;
-	transition: opacity 0.3s;
-}
 .techEventBlock:hover .eventName{
 	opacity: 1;
 }
 
 .blockLine{
 	display: inline-flex;
+	padding-bottom: 50px;
+}
+
+.cauldron{
+
+}
+
+.eventName{
+	font-family: Yataghan-Regular;
+	color: white;
+	font-size: 40px;
+}
+
+.paddingCont{
+	padding-right: 150px;
+	padding-left: 150px;
 }

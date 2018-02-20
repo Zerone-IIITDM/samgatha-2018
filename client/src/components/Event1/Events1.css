@@ -3,14 +3,15 @@
 
 .eventOneContainer{
 	padding-top: 10%;
+	height: 100%;
 }
 
 .eventOneHeader{
+	color: white;
 	text-align: center;
 	font-size: 50px;
 	font-weight: 700;
-	font-family: Yataghan-Regular;
-	color: #9d6dcd;
+	font-family: Audimat;
 }
 
 .eventOneRegister{
@@ -27,6 +28,7 @@
 }
 
 .eventOneBasket{
+	color: white;
 	text-align: center;
 	margin-top:20px;
 }
@@ -59,6 +61,7 @@
 }
 
 .eventDetailContent{
+	color: white;
 	font-family: 'Lato', sans-serif;
 	font-size:20px;
 	margin: 0 auto;
@@ -71,5 +74,6 @@
 	cursor:pointer;
 }
 
-.statedThings{
+body{
+	background: linear-gradient(rgb(25,29,34),rgb(30,34,39),rgb(36,41,47));
 }
