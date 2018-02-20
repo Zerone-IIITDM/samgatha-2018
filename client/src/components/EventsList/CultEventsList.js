@@ -116,6 +116,18 @@ class CultEventsList extends Component{
 			            		<div className="eventName paddingCont">Queen of Sheba</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
+			            	<Link to='/lawyerup' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Lawyer Up</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
+			            	</div></Link>
+			            </div>
+	            	</div>
+	            	<div className="blocks">
+	            		<div className="blockLine">
+			            	<Link to='/resonance' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Resonance</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
+			            	</div></Link>
 			            </div>
 	            	</div>
 	            </div>
