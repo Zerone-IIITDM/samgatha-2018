@@ -83,6 +83,14 @@ class MobileCultEventsList extends Component{
 		            	<Link to='/queenofsheba' style={styles.links}><div className="mobiletechEventBlock">
 		            		Queen of Sheba
 		            	</div></Link>
+		            	<Link to='/lawyerup' style={styles.links}><div className="mobiletechEventBlock">
+		            		Lawyer Up
+		            	</div></Link>
+	            	</div>
+	            	<div className="mobileblocks">
+		            	<Link to='/resonance' style={styles.links}><div className="mobiletechEventBlock">
+		            		Resonance
+		            	</div></Link>
 	            	</div>
 	            </div>
 			</div>
