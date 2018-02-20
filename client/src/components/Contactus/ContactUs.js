@@ -200,7 +200,7 @@ class ContactUs extends Component{
 									</div>
 									<div className="member">
 										<div className="cardImage">
-											<img src={require("../icons/nipun.JPG")} alt="contactPic" />
+											<img src={require("../icons/bharti.jpg")} alt="contactPic" />
 										</div>
 										<div className="memberInfo">Nipun Bharti<br />+91-7889552217</div>
 										<div className="cardLinks">

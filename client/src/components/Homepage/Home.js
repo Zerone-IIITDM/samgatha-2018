@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CountTo from 'react-count-to';
+// import CountTo from 'react-count-to';
 import Carousel from '../Carousel';
 import Iframe from 'react-iframe';
 import './Home.css';
@@ -10,7 +10,7 @@ class Home extends Component{
 			<div className="mainContainer">
 				<div className="headContainer" id="home-main">
 					<div className="SamgathaText">SAMGATHA</div>
-					<img className="mainImage" src={require("../icons/MAGICSTICK1.png")} style={{width:'100%',height:'85%'}}/>
+					<img className="mainImage" src={require("../icons/MAGICSTICK1.png")} style={{width:'100%',height:'85%'}} alt="magic" />
 					<div className="pulse"></div>
 					<div className="titleText">
 						The Magic in Everything
@@ -21,7 +21,7 @@ class Home extends Component{
 				</div>
 				<div className="aboutUs">
 					<div className="leftSide">
-						<img src={require("../icons/magic.png")} style={{marginLeft:'6%'}}/>
+						<img src={require("../icons/magic.png")} style={{marginLeft:'6%'}} alt="magic" />
 					</div>
 					<div className="rightSide">
 						<div className="rightSideHeaderText">
@@ -37,6 +37,7 @@ class Home extends Component{
 					</div>
 				</div>
 				<div className="joinUs">
+					<div className="past">Glimpse of past years:</div>
 					<div className="carousCont">
 						<Carousel autoPlayInterval={2000} className="carous">
 						    <div>
@@ -48,9 +49,27 @@ class Home extends Component{
 							<div>
 								<img src={require("../icons/4.JPG")} style={{width:"100%",height:'100%'}} alt="stats" />
 							</div>
+							<div>
+								<img src={require("../icons/5.JPG")} style={{width:"100%",height:'100%'}} alt="stats" />
+							</div>
+							<div>
+								<img src={require("../icons/6.JPG")} style={{width:"100%",height:'100%'}} alt="stats" />
+							</div>
+							<div>
+								<img src={require("../icons/7.JPG")} style={{width:"100%",height:'100%'}} alt="stats" />
+							</div>
+							<div>
+								<img src={require("../icons/8.JPG")} style={{width:"100%",height:'100%'}} alt="stats" />
+							</div>
+							<div>
+								<img src={require("../icons/9.JPG")} style={{width:"100%",height:'100%'}} alt="stats" />
+							</div>
+							<div>
+								<img src={require("../icons/10.JPG")} style={{width:"100%",height:'100%'}} alt="stats" />
+							</div>
 						</Carousel>
 					</div>
-					<div className="joinText">
+					{/*<div className="joinText">
 						Come join us on this<br />fantastical journey...
 					</div>
 					<div className="registerBtn">
@@ -75,8 +94,13 @@ class Home extends Component{
 									Unlmited Fun!!
 								</div>
 							</div>
-						</div>
-					
+						</div>*/}
+				<div className="regCont">
+					<div className="registerBtn">
+						REGISTER
+					</div>
+					<img src={require("../icons/register_last.png")} alt="stats" style={{width:'100%',height:'100%'}} />
+				</div>	
 				</div>
 				<div className="mapToReach">
 					<div className="reachText">Where does the mystery unfold?</div>

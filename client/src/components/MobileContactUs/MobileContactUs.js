@@ -31,7 +31,7 @@ class MobileContactUs extends Component{
 							<div className="mobilememberInfo">Pranay Ankit<br />8839084045</div>
 						</div>
 						<div className="mobilemember">
-							<img src={require("../icons/nipun.JPG")} alt="contactPic" />
+							<img src={require("../icons/bharti.jpg")} alt="contactPic" />
 							<div className="mobilememberInfo">Nipun Bharti<br />7889552217</div>
 						</div>
 					</div>

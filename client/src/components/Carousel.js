@@ -30,8 +30,8 @@ class Carousel extends Component {
 		// this will not be triggered when document.hidden
 		let { slide } = this.state;
 		const count = Children.count(this.props.children);
-		if (slide == count + 1) slide = 1;
-		if (slide == 0) slide = count;
+		if (slide === count + 1) slide = 1;
+		if (slide === 0) slide = count;
 		this.setState({ slide, sliding: false }, () => {
 			this.setTimer();
 			this.props.slideDidChange && this.props.slideDidChange(slide);

@@ -22,7 +22,7 @@ class EventOne extends Component{
 		main = this;
 
 		this.state = {
-			current: '',
+			current: menuItems[0],
 		}
 		this.changeCurrent = this.changeCurrent.bind(this)
 	}

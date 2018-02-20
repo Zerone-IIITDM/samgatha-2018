@@ -11,7 +11,7 @@
 	font-size: 50px;
 	font-weight: 700;
 	font-family: Yataghan-Regular;
-	color: #9d6dcd;
+	color: #b1ff64;
 }
 
 .workshopContent{
@@ -52,4 +52,10 @@
 	margin-top: 40px;
 	margin-left: 50px;
 	font-style: italic;
+}
+
+.workshop1{
+	text-align: center;
+	font-family: Audimat;
+	font-size: 40px;
 }
