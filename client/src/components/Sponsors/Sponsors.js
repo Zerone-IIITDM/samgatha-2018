@@ -51,6 +51,38 @@ class Sponsors extends Component {
             </div>
           </div>
           <div className="sponsBox">
+            <a href="https://www.freshersworld.com/">
+              <img src={require("../icons/fresher.png")} alt="Sponsor" />
+            </a>
+            <div className="sponsName">
+              <b>Freshersworld.com</b>
+            </div>
+          </div>
+          <div className="sponsBox">
+            <a href="http://festpav.com/">
+              <img src={require("../icons/festPav.png")} alt="Sponsor" />
+            </a>
+            <div className="sponsName">
+              <b>festPav.com</b>
+            </div>
+          </div>
+          <div className="sponsBox">
+            <a href="http://www.knowafest.com/college-fests/events">
+              <img src={require("../icons/knowafest.jpg")} alt="Sponsor" />
+            </a>
+            <div className="sponsName">
+              <b>KNOWAFEST.COM</b>
+            </div>
+          </div>
+          <div className="sponsBox">
+            <a href="http://www.brainweave.co.in/">
+              <img src={require("../icons/brain.png")} alt="Sponsor" />
+            </a>
+            <div className="sponsName">
+              <b>BrainWeave</b>
+            </div>
+          </div>
+          <div className="sponsBox">
             <a href="https://www.wisholize.com/">
               <img src={require("../icons/gift.jpg")} alt="Sponsor" />
             </a>

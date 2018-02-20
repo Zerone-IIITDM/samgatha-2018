@@ -102,7 +102,7 @@ class ContactUs extends Component{
 									</div>
 									<div className="member">
 										<div className="cardImage">
-											<div style={{background:"lightgrey",width:'200px',height:'200px'}}></div>
+											<img src={require("../icons/hari.jpg")} alt="contactPic" />
 										</div>
 										<div className="memberInfo">SriHari Naidu<br />+91-9491788436</div>
 										<div className="cardLinks">
