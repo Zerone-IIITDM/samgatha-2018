@@ -7,6 +7,11 @@
     src: url('../Fonts/Yataghan-Regular.otf');
 }
 
+@font-face {
+    font-family: Ethno;
+    src: url('../Fonts/ethnocentric.ttf');
+}
+
 .mainContainer{
 	padding-top: 9%;
 	min-height: 100%;
@@ -29,8 +34,8 @@
 .SamgathaText{
 	padding-top: 20px;
 	text-align: center;
-	font-family: Yataghan-Regular;
-	font-size: 50px;
+	font-family: Ethno;
+	font-size: 40px;
 	color: white;
 }
 
