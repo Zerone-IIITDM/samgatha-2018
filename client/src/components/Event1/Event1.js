@@ -23,7 +23,7 @@ class EventOne extends Component {
 
     this.state = {
       current: menuItems[0],
-      state1: menuItems[0],
+      state1: "Click About to know about the event!",
       state2: "",
       state3: "",
       state4: "",
@@ -42,7 +42,9 @@ class EventOne extends Component {
         state3: this.props.event.problemStatement,
         state4: this.props.event.eventRules,
         state5: this.props.event.judgingCriteria,
-        state6: this.props.event.faq
+		state6: this.props.event.faq,
+		state7: "",
+        state8: "",
       });
     }
     if (index == 1) {
@@ -59,13 +61,14 @@ class EventOne extends Component {
     }
   }
   componentDidMount() {
-    window.scrollTo(0, 0);
+	window.scrollTo(0, 0);
+	this.changeCurrent(0);
   }
   render() {
-    var x = this.props.event.data;
-    var y = this.props.event.contacts;
-    var r = x.concat(y);
-    menuItems[0].data = r;
+	var x = this.props.event.data;
+	var y = ["Click About to know more!"];
+	x = x.concat(y);
+    menuItems[0].data = x;
     return (
       <div className="eventOneContainer">
         <div className="eventOneHeader">{this.props.event.eventName}</div>
@@ -86,12 +89,14 @@ class EventOne extends Component {
             </div>
           </div>
           <div className="eventDetailContent">
-            <div>{this.state.state1.data}</div>
+            <div>{this.state.state1}</div>
             <div className="eventFormat">{this.state.state2}</div>
             <div className="problemStatement">{this.state.state3}</div>
             <div className="eventRules">{this.state.state4}</div>
             <div className="judge">{this.state.state5}</div>
             <div className="faq">{this.state.state6}</div>
+			<div className="clubName">{this.state.state7}</div>
+			<div className="contacts">{this.state.state8}</div>
           </div>
         </div>
       </div>
