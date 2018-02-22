@@ -14,8 +14,8 @@ class MobileCultEventsList extends Component{
 		            	<Link to='/beasuperhero' style={styles.links}><div className="mobiletechEventBlock">
 		            		Be a Superhero
 		            	</div></Link>
-		            	<Link to='/battleofbands' style={styles.links}><div className="mobiletechEventBlock">
-		            		Battle of bands
+		            	<Link to='/syncGeet' style={styles.links}><div className="mobiletechEventBlock">
+		            		SYNC-GEET
 		            	</div></Link>
 		            	<Link to='/dancewars' style={styles.links}><div className="mobiletechEventBlock">
 		            		Dance Wars
@@ -39,8 +39,8 @@ class MobileCultEventsList extends Component{
 		            	<Link to='/shutterup' style={styles.links}><div className="mobiletechEventBlock">
 		            		Shutter Up
 		            	</div></Link>
-		            	<Link to='/samidol' style={styles.links}><div className="mobiletechEventBlock">
-		            		Sam Idol
+		            	<Link to='/gaayak' style={styles.links}><div className="mobiletechEventBlock">
+		            		Gaayak
 		            	</div></Link>
 	            	</div>
 	            	<div className="mobileblocks">
