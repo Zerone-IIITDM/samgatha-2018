@@ -45,7 +45,7 @@ class TechEventsList extends Component{
 	            	<div className="techblocks">
 	            		<div className="blockLine">
 			            	<Link to='/sbc' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">SBC</div>
+			            		<div className="eventName">Samgatha Business Challenge</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            	<Link to='/appathon' style={styles.links}><div className="cauldron">

@@ -17,7 +17,7 @@ class CultEventsList extends Component{
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            	<Link to='/syncGeet' style={styles.links}><div className="cauldron">
-			            		<div className="eventName paddingCont">Battle of Bands</div>
+			            		<div className="eventName paddingCont">Sync Geet</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            	<Link to='/dancewars' style={styles.links}><div className="cauldron">
@@ -53,7 +53,7 @@ class CultEventsList extends Component{
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            	<Link to='/gaayak' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">Gayaak</div>
+			            		<div className="eventName">Gaayak</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>

@@ -822,7 +822,7 @@ var relayCAD = {
 var quiz = {
   eventName:"Quiz",
   data:[
-        `Knowledge is power. This has never rung truer than in the quizzing world. It’s survival of the smartest, so you have got to bring your A 			game. If you know the answers, you hold all the cards, nothing else to it. Feel the adrenalin rushing through your veins!`,
+        `Knowledge is power. This has never rung truer than in the quizzing world. It’s survival of the smartest, so you have got to bring your A       game. If you know the answers, you hold all the cards, nothing else to it. Feel the adrenalin rushing through your veins!`,
         <br />,<br />,
         <b>Event Format: </b>,
         `A team event of 2 members per team.`,
@@ -904,12 +904,12 @@ var codeAuction = {
         <br />,<br />,
         <b>Event Format: </b>,
         `An initial amount of virtual money or credits are given to each contestant before the event starts. 
-		With each keyword used in their solution to the given problem statement, the credits decrease. 
-		Credits are decreased for each keyword used in the code.
-		For example: if-else constructs, looping keywords like while, for etc., switch, break, etc.
-		The event is language independent and the credits are same for the constructs and do not vary by the keyword. 
-		Other languages may have other keywords and credits are assigned based on the mechanism the keyboard. All this is round 1.
-		Round 2 will be thought over soon.`,
+    With each keyword used in their solution to the given problem statement, the credits decrease. 
+    Credits are decreased for each keyword used in the code.
+    For example: if-else constructs, looping keywords like while, for etc., switch, break, etc.
+    The event is language independent and the credits are same for the constructs and do not vary by the keyword. 
+    Other languages may have other keywords and credits are assigned based on the mechanism the keyboard. All this is round 1.
+    Round 2 will be thought over soon.`,
          <br />,<br />,
         <b>Problem Statement: </b>,
         `TBD`, 
@@ -936,7 +936,7 @@ var eloquent = {
         <br />,<br />,
         <b>Event Format: </b>,
         `This event will consist of some off the beaten path events like spin-a-yarn, shipwrecked, and lots more…`,<br />,
-		`Details will be given on the spot.`,
+    `Details will be given on the spot.`,
          <br />,<br />,
         <b>Problem Statement: </b>,
         `Topics will be given on the spot `, 
@@ -948,7 +948,7 @@ var eloquent = {
         `Evaluation for the overall event depends on the following critical parameters:-`,<br />,
         `1) Fluency in the English language`,<br />,
         `2) Organization & Clarity`,<br />,
-        `3) Use of Argument `,<br />,
+        `3) Use of Argument `,<br />,
         `4) Improvisation`,<br />,
         `5) Presentation`,<br />,
         ],
@@ -967,9 +967,9 @@ var lawyerUp = {
         <br />,<br />,
         <b>Event Format: </b>,
         `The event will be spanned by 2 rounds.`,<br />,
-		`Round 1 will see a group discussion .
-		Group size : 5
-		Round 2 will be the final round consisting of the best 6 participants from Round 1. `,
+    `Round 1 will see a group discussion .
+    Group size : 5
+    Round 2 will be the final round consisting of the best 6 participants from Round 1. `,
          <br />,<br />,
         <b>Problem Statement: </b>,
         `Topics will be given on the spot `, 
@@ -981,7 +981,7 @@ var lawyerUp = {
         `Evaluation for the overall event depends on the following critical parameters:-`,<br />,
         `1) Fluency in the English language`,<br />,
         `2) Organization & Clarity`,<br />,
-        `3) Use of Argument `,<br />,
+        `3) Use of Argument `,<br />,
         `4) Use of cross-examination and rebuttal:`,<br />,
         `5) Presentation`,<br />,
         ],
@@ -995,7 +995,7 @@ var lawyerUp = {
 var resonance = {
   eventName:"Resonance",
   data:[
-        `Rediscover yourself  by expressing with the power of the written word. Creativity and 
+        `Rediscover yourself  by expressing with the power of the written word. Creativity and 
         imagination are more important than grammar or spelling. Write your heart out.`,
         <br />,<br />,
         <b>Event Format: </b>,
@@ -1103,7 +1103,7 @@ var designception = {
             ],      
 }
 
-var  samgathaBusinessChallenge= {
+var samgathaBusinessChallenge= {
   eventName:"Samgatha Business Challenge",
   data:[
         `The contestants are expected to come up with a small but viable business idea which will be of interest
@@ -1144,7 +1144,7 @@ var  samgathaBusinessChallenge= {
             ],      
 }
 
-var  syncGeet= {
+var syncGeet= {
   eventName:"Sync Geet",
   data:[
         `Music speaks what cannot be expressed, soothes the mind,\
@@ -1184,8 +1184,8 @@ var  syncGeet= {
             ],
 }
 
-var gayaak = {
-  eventName:"Gayaak",
+var gaayak = {
+  eventName:"Gaayak",
   data:[
         `Music speaks what cannot be expressed, soothes the mind,\
          gives it rest and heals the heart and makes it whole flows from heaven to the soul.\
@@ -1272,7 +1272,7 @@ class App extends Component {
                <Route path="/appathon" component={() => (<MobileEventOne event={appAThon} />)} />
                <Route path="/codeauction" component={() => (<MobileEventOne event={codeAuction} />)} /> 
                <Route path="/beasuperhero" component={() => (<MobileEventOne event={beASuperHero} />)} /> 
-               <Route path="/syncGeet" component={() => (<MobileEventOne event={syncGeet} />)} /> 
+               <Route path="/syncgeet" component={() => (<MobileEventOne event={syncGeet} />)} /> 
                <Route path="/dancewars" component={() => (<MobileEventOne event={eloquent} />)} /> 
                <Route path="/drishyam" component={() => (<MobileEventOne event={drishyam} />)} /> 
                <Route path="/photoon" component={() => (<MobileEventOne event={photoOn} />)} /> 
@@ -1280,7 +1280,7 @@ class App extends Component {
                <Route path="/gaming" component={() => (<MobileEventOne eventName="Gaming" />)} /> 
                <Route path="/mayasrishti" component={() => (<MobileEventOne event={mayasrishti} />)} /> 
                <Route path="/shutterup" component={() => (<MobileEventOne event={shutterup} />)} /> 
-               <Route path="/gayaak" component={() => (<MobileEventOne event={gayaak} />)} /> 
+               <Route path="/gaayak" component={() => (<MobileEventOne event={gaayak} />)} /> 
                <Route path="/impulse" component={() => (<MobileEventOne eventName="Impulse" />)} />
                <Route path="/maskmaking" component={() => (<MobileEventOne event={maskMaking} />)} /> 
                <Route path="/duetdance" component={() => (<MobileEventOne event={duetDance} />)} /> 
@@ -1318,14 +1318,14 @@ class App extends Component {
                <Route path="/chakarvyuh" component={() => (<EventOne event={chakarvyuh} />)} />
                <Route path="/warofwatts" component={() => (<EventOne event={warOfWatts} />)} />
                <Route path="/tech4help" component={() => (<EventOne event={tech4help} />)} />
-               <Route path="/designception" component={() => (<EventOne eventName="Designception" />)} />
+               <Route path="/designception" component={() => (<EventOne event={designception} />)} />
                <Route path="/relaycad" component={() => (<EventOne event={relayCAD} />)} />
                <Route path="/battlezone" component={() => (<EventOne event={battleZone} />)} />
-               <Route path="/sbc" component={() => (<EventOne eventName="Samgatha Business Challenge" />)} />
+               <Route path="/sbc" component={() => (<EventOne event={samgathaBusinessChallenge} />)} />
                <Route path="/appathon" component={() => (<EventOne event={appAThon} />)} />
                <Route path="/codeauction" component={() => (<EventOne event={codeAuction} />)} /> 
                <Route path="/beasuperhero" component={() => (<EventOne event={beASuperHero} />)} /> 
-               <Route path="/battleofbands" component={() => (<EventOne event={battleOfBands} />)} /> 
+               <Route path="/syncgeet" component={() => (<EventOne event={syncGeet} />)} /> 
                <Route path="/dancewars" component={() => (<EventOne eventName="Dance Wars" />)} /> 
                <Route path="/drishyam" component={() => (<EventOne event={drishyam} />)} /> 
                <Route path="/photoon" component={() => (<EventOne event={photoOn} />)} /> 
@@ -1333,7 +1333,7 @@ class App extends Component {
                <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
                <Route path="/mayasrishti" component={() => (<EventOne event={mayasrishti} />)} /> 
                <Route path="/shutterup" component={() => (<EventOne event={shutterup} />)} /> 
-               <Route path="/samidol" component={() => (<EventOne event={samIdol} />)} /> 
+               <Route path="/gaayak" component={() => (<EventOne event={gaayak} />)} /> 
                <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
                <Route path="/maskmaking" component={() => (<EventOne event={maskMaking} />)} /> 
                <Route path="/duetdance" component={() => (<EventOne event={duetDance} />)} /> 
@@ -1344,9 +1344,9 @@ class App extends Component {
                <Route path="/balloonbash" component={() => (<EventOne event={balloonBash} />)} /> 
                <Route path="/balloonexpress" component={() => (<EventOne event={balloonExpress} />)} /> 
                <Route path="/queenofsheba" component={() => (<EventOne event={queenOfSheba} />)} /> 
-                <Route path="/quiz" component={() => (<EventOne event={quiz} />)} />
-                <Route path="/battle" component={Battle}/>
-                <Route path="/lawyerup" component={() => (<EventOne event={lawyerUp} />)} />
+               <Route path="/quiz" component={() => (<EventOne event={quiz} />)} />
+               <Route path="/battle" component={Battle}/>
+               <Route path="/lawyerup" component={() => (<EventOne event={lawyerUp} />)} />
                <Route path="/resonance" component={() => (<EventOne event={resonance} />)} />
               
               <Footer />
