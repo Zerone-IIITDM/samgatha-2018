@@ -25,7 +25,6 @@ import EventOne from './Event1/Event1';
 import MobileEventOne from './MobileEvent1/MobileEvent1';
 import Battle from './BattleofBands';
 
-
 var roboticsClubContacts = 
 	[
 		`Amrutha Manoharan : +91-9566186673 (evd15i020@iiitdm.ac.in)`,	<br/>,
@@ -74,7 +73,7 @@ var ingeniumClubContacts =
 var artClubContacts = 
 	[
 		`Rishikesh M Nandakumar : +91-9791077064 (rishikeshmnandakumar@gmail.com)`,	<br/>,
-		`R Sampath : +91-8754556005 ()`
+		`R Sampath : +91-8754556005 (edm15b036@iiitdm.ac.in)`
 	]
 
 var musicClubContacts = 
@@ -137,7 +136,8 @@ var chakravyuha =
 		[],
 	problemStatement:
 		[
-			<a href = "./Problem_Statements/SAMGATHA_CHAKRAVYUHA.pdf" target = "_blank"> Problem Statement </a>
+			<b>Problem Statement: </b>,	<br/>,<a href = "./Problem_Statements/SAMGATHA_CHAKRAVYUHA.pdf" target = "_blank"> Click to View </a>,
+			<br/>,	<br/>
 		],
 	eventRules:
 		[],
@@ -162,7 +162,7 @@ var chakravyuha =
 			<br/>,
 			<b>A :&emsp;</b>, `Only one. The organizers deserve the right to change the
 						rules and take quick decisions under the certain
-						unexpected situations.`,
+				  		unexpected situations.`,
 			<br/>
 		],
 	club:"Robotics Club",
@@ -191,9 +191,9 @@ var warOfWatts =
 	eventRules:
 		[
 			<b>Event Rules: </b>,	<br/>,
-			`A team can have maximum 2 members, \
-			once a team is formed , it cannot be changed, \
-			Quarrelling with judges will lead to disqualification.`,
+			`1.`,<b>&emsp;</b>,`A team can have maximum 2 members,`,	<br/>,
+			`2.`,<b>&emsp;</b>,`Once a team is formed , it cannot be changed,`,	<br/>,
+			`3.`,<b>&emsp;</b>,`Quarrelling with judges will lead to disqualification.`,
 			<br/>,	<br/>
 		],
 	judgingCriteria:
@@ -224,10 +224,10 @@ var tech4Help =
 	eventName:"Tech 4 Help",
 	data:
 		[
-			`The enormous potential of technology and it’s huge capacity  to impact millions of lives is yet to be explored completely.\
+			`The enormous potential of technology and it’s huge capacity  to impact millions of lives is yet to be explored completely. 
 			Healthcare is one such domain which awaits the genius in you 
-			to tap the unimaginable potentials of technology to serve the mankind better.\
-			Your idea could be a breakthrough, which could eventually change a person’s life.\
+			to tap the unimaginable potentials of technology to serve the mankind better. 
+			Your idea could be a breakthrough, which could eventually change a person’s life. 
 			So tech 4 help is just the best platform for you  to showcase your innovative ideas.`,
 			<br/>,	<br/>
 		],
@@ -255,6 +255,7 @@ var tech4Help =
 	judgingCriteria:
 		[
 			<b>Judging Criteria: </b>,
+			<br/>,
 			`Points will be awarded on the following basis:`,
 			<br/>,
 			`Idea - 30 points`,
@@ -284,6 +285,71 @@ var tech4Help =
 	club:"EDC Club",
 	contacts:edcClubContacts,
 }
+
+var designception = 
+{
+	eventName:"Designception",
+	data:
+		[
+			`It has always been about the`,<br/>,
+			`OUT of the BOX thinking`,<br/>,
+			`This event is all about thinking Out of the Box for a problem that is`,<br/>,
+			`OUT of this WORLD.`,<br/>,	<br/>
+			`Participants are supposed to come up with a CAD model and a power-point 
+			presentation with detailed description and present it to the panel members.`,
+			<br/>,	<br/>
+		],
+	eventFormat:
+		[
+			<b>Event Format: </b>,	<br/>,
+			`Team size : 2 to 3.`,<br/>,
+			`Should Present the CAD model in front of the panel.`,
+			<br/>,	<br/>,
+			`Things needed in powerpoint presentation:`,<br/>,
+			`1.`,<b>&emsp;</b>,`Explain in brief about design approach :`,<br/>,
+			<b>&emsp;&emsp;</b>,`Different concepts developed during the process, source of inspiration, listing of existing products used for reference, etc.`,<br/>,
+			`2.`,<b>&emsp;</b>,`Final concept :`,<br/>,
+			<b>&emsp;&emsp;</b>,`Which concept you chose out of all the concepts mentioned above.`,<br/>,
+			`3.`,<b>&emsp;</b>,`Attach CAD images and explain the working and significance of your model.`,
+			<br/>,	<br/>
+		],
+	problemStatement:
+		[
+			<b>Problem Statement: </b>,	<br/>,
+			`Space junks and wastes has started accumulating around our earth since 1957. And the quantity has reached the saturation point.`,<br/>,
+			`Come up with a solution to recover the space junk and bring it back to earth for recycling and reusing .`,
+			<br/>,	<br/>
+		],
+	eventRules:
+		[],
+	judgingCriteria:
+		[
+			<b>Judging Criteria: </b>,
+			<br/>,
+			`Concept Idea`,<br/>,
+			`Cost effectiveness of the product`,<br/>,
+			`Aesthetics and design of the model`,<br/>,
+			<br/>,	<br/>
+		],
+	faq:
+		[
+			<b>FAQ</b>,
+			<br/>,
+			<b>Q.&emsp;Who can participate?</b>,
+			<br/>,
+			<b>A :&emsp;</b>, `All students with a valid identity card of their respective educational institutes 
+			are eligible to participate in the competition. Students from the stream of Engineering, other research 
+			fields pursuing Bachelors, Master’s Degree and PhD. candidates can participate.`,
+			<br/>,
+			<b>Q.&emsp;How to register?</b>,
+			<br/>,
+			<b>A :&emsp;</b>, `Samgatha registration webpage.`
+			<br/>
+		],
+	club:"IDC Club",
+	contacts:idcClubContacts,
+}
+
 
 class App extends Component {
   constructor(){
@@ -338,6 +404,7 @@ class App extends Component {
 		<Route path="/appAThon" component={() => (<MobileEventOne event={appAThon} />)} />
 		<Route path="/codeAution" component={() => (<MobileEventOne event={codeAution} />)} />
 		<Route path="/samgathaBusinessChallenge" component={() => (<MobileEventOne event={samgathaBusinessChallenge} />)} />
+		<Route path="/pitchPlease" component={() => (<MobileEventOne event={pitchPlease} />)} />
 		<Route path="/beASuperHero" component={() => (<MobileEventOne event={beASuperHero} />)} />
 		<Route path="/battleOfBands" component={() => (<MobileEventOne event={battleOfBands} />)} />
 		<Route path="/syncGeet" component={() => (<MobileEventOne event={syncGeet} />)} />
@@ -383,16 +450,17 @@ class App extends Component {
 		<Route path="/socialcause" component={SocialCause} />
 		<Route path="/techeventslist" component={TechEventsList} />
 		<Route path="/culteventslist" component={CultEventsList} />
-		{/*<Route path="/chakravyuha" component={() => (<EventOne event={chakravyuha} />)} />
+		<Route path="/chakravyuha" component={() => (<EventOne event={chakravyuha} />)} />
 		<Route path="/warOfWatts" component={() => (<EventOne event={warOfWatts} />)} />
 		<Route path="/tech4Help" component={() => (<EventOne event={tech4Help} />)} />
 		<Route path="/designception" component={() => (<EventOne event={designception} />)} />
-		<Route path="/relayDesign" component={() => (<EventOne event={relayDesign} />)} />
+		{/*<Route path="/relayDesign" component={() => (<EventOne event={relayDesign} />)} />
 		<Route path="/battleZone" component={() => (<EventOne event={battleZone} />)} />
 		<Route path="/quiz" component={() => (<EventOne event={quiz} />)} />
 		<Route path="/appAThon" component={() => (<EventOne event={appAThon} />)} />
 		<Route path="/codeAution" component={() => (<EventOne event={codeAution} />)} />
 		<Route path="/samgathaBusinessChallenge" component={() => (<EventOne event={samgathaBusinessChallenge} />)} />
+		<Route path="/pitchPlease" component={() => (<EventOne event={pitchPlease} />)} />
 		<Route path="/beASuperHero" component={() => (<EventOne event={beASuperHero} />)} />
 		<Route path="/battleOfBands" component={() => (<EventOne event={battleOfBands} />)} />
 		<Route path="/syncGeet" component={() => (<EventOne event={syncGeet} />)} />
