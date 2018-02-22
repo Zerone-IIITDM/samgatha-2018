@@ -319,7 +319,7 @@ class App extends Component {
 	<div className="container">
 	  <BrowserRouter>
 	  <div>
-		<Navbar />
+		{/*<Navbar />
 		<Route exact={true} path="/" component={MobileHome} />
 		<Route path="/events" component={MobileEvents} />
 		<Route path="/workshops" component={MobileWorkshops} />
@@ -360,7 +360,7 @@ class App extends Component {
 		 <Route path="/quiz" component={() => (<MobileEventOne event={quiz} />)} />
 		 <Route path="/lawyerup" component={() => (<MobileEventOne event={lawyerUp} />)} />
 		 <Route path="/resonance" component={() => (<MobileEventOne event={resonance} />)} />
-		<MobileFooter />
+		<MobileFooter />*/}
 	  </div>
 	  </BrowserRouter>
 	</div>
@@ -382,8 +382,8 @@ class App extends Component {
 		 <Route path="/culteventslist" component={CultEventsList} />
 		 <Route path="/chakravyuha" component={() => (<EventOne event={chakravyuha} />)} />
 		 <Route path="/warofwatts" component={() => (<EventOne event={warOfWatts} />)} />
-		 <Route path="/tech4help" component={() => (<EventOne event={tech4help} />)} />
-		 <Route path="/designception" component={() => (<EventOne eventName="Designception" />)} />
+		 <Route path="/tech4help" component={() => (<EventOne event={tech4Help} />)} />
+		 {/*<Route path="/designception" component={() => (<EventOne eventName="Designception" />)} />
 		 <Route path="/relaycad" component={() => (<EventOne event={relayCAD} />)} />
 		 <Route path="/battlezone" component={() => (<EventOne event={battleZone} />)} />
 		 <Route path="/sbc" component={() => (<EventOne eventName="Samgatha Business Challenge" />)} />
@@ -412,7 +412,7 @@ class App extends Component {
 		<Route path="/quiz" component={() => (<EventOne event={quiz} />)} />
 		<Route path="/battle" component={Battle}/>
 		<Route path="/lawyerup" component={() => (<EventOne event={lawyerUp} />)} />
-		 <Route path="/resonance" component={() => (<EventOne event={resonance} />)} />
+		 <Route path="/resonance" component={() => (<EventOne event={resonance} />)} />*/}
 		
 		<Footer />
 	  </div>
