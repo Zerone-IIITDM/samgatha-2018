@@ -15,15 +15,15 @@ class CultEventsList extends Component{
 	            <div className="culteventsGrid">
 	            	<div className="blocks">
 		            	<div className="blockLine">
-			            	<Link to='/beasuperhero' style={styles.links}><div className="cauldron">
+			            	<Link to='/beASuperHero' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Be a Superhero</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/battleofbands' style={styles.links}><div className="cauldron">
+			            	<Link to='/battleOfBands' style={styles.links}><div className="cauldron">
 			            		<div className="eventName paddingCont">Battle of Bands</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/dancewars' style={styles.links}><div className="cauldron">
+			            	<Link to='/danceWars' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Dance Wars</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
@@ -39,23 +39,39 @@ class CultEventsList extends Component{
 			            		<div className="eventName paddingCont">Eloquent</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/gaming' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">Gaming</div>
+			            	<Link to='/dota' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Dota</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
+			            	</div></Link>
+			            </div>
+	            	</div>
+					<div className="blocks">
+	            		<div className="blockLine">
+			            	<Link to='/fifa' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">FIFA</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
+			            	</div></Link>
+			            	<Link to='/csgo' style={styles.links}><div className="cauldron">
+			            		<div className="eventName paddingCont">CS:GO</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
+			            	</div></Link>
+			            	<Link to='/miniMilitia' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Mini Militia</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>
 	            	</div>
 	            	<div className="blocks">
 	            		<div className="blockLine">
-			            	<Link to='/mayasrishti' style={styles.links}><div className="cauldron">
+			            	<Link to='/mayaSrishti' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Mayasrishti</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/shutterup' style={styles.links}><div className="cauldron">
+			            	<Link to='/hocusFocus' style={styles.links}><div className="cauldron">
 			            		<div className="eventName paddingCont">Hocus Focus</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/samidol' style={styles.links}><div className="cauldron">
+			            	<Link to='/gaayak' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Gayaak</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
@@ -67,11 +83,11 @@ class CultEventsList extends Component{
 			            		<div className="eventName">Impulse</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/maskmaking' style={styles.links}><div className="cauldron">
+			            	<Link to='/maskMaking' style={styles.links}><div className="cauldron">
 			            		<div className="eventName paddingCont">Mask Making</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/duetdance' style={styles.links}><div className="cauldron">
+			            	<Link to='/duetDance' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Duet Dance</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
@@ -79,7 +95,7 @@ class CultEventsList extends Component{
 	            	</div>
 	            	<div className="blocks">
 	            		<div className="blockLine">
-			            	<Link to='/photoon' style={styles.links}><div className="cauldron">
+			            	<Link to='/photON' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">PhotoOn</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
@@ -87,23 +103,23 @@ class CultEventsList extends Component{
 			            		<div className="eventName paddingCont">Pictionary</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/drracist' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">DR. Racist</div>
+			            	<Link to='/syncGeet' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">SyncGeet</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>
 	            	</div>
 	            	<div className="blocks">
 	            		<div className="blockLine">
-			            	<Link to='/blindfill' style={styles.links}><div className="cauldron">
+			            	<Link to='/blindFill' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Blind Fill</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/blowball' style={styles.links}><div className="cauldron">
+			            	<Link to='/blowBall' style={styles.links}><div className="cauldron">
 			            		<div className="eventName paddingCont">Blow Ball</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/balloonbash' style={styles.links}><div className="cauldron">
+			            	<Link to='/balloonBash' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Balloon Bash</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
@@ -111,15 +127,15 @@ class CultEventsList extends Component{
 	            	</div>
 	            	<div className="blocks">
 	            		<div className="blockLine">
-			            	<Link to='/balloonexpress' style={styles.links}><div className="cauldron">
+			            	<Link to='/balloonExpress' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Balloon Express</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/queenofsheba' style={styles.links}><div className="cauldron">
-			            		<div className="eventName paddingCont">Queen of Sheba</div>
+			            	<Link to='/queenOfSheeba' style={styles.links}><div className="cauldron">
+			            		<div className="eventName paddingCont">Queen of Sheeba</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/lawyerup' style={styles.links}><div className="cauldron">
+			            	<Link to='/lawyerUp' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Lawyer Up</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
