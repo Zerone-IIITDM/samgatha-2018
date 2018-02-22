@@ -16,8 +16,8 @@ class CultEventsList extends Component{
 			            		<div className="eventName">Be a Superhero</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/battleofbands' style={styles.links}><div className="cauldron">
-			            		<div className="eventName paddingCont">Battle of Bands</div>
+			            	<Link to='/syncGeet' style={styles.links}><div className="cauldron">
+			            		<div className="eventName paddingCont">Sync Geet</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            	<Link to='/dancewars' style={styles.links}><div className="cauldron">
@@ -52,8 +52,8 @@ class CultEventsList extends Component{
 			            		<div className="eventName paddingCont">Hocus Focus</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/samidol' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">Gayaak</div>
+			            	<Link to='/gaayak' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Gaayak</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>

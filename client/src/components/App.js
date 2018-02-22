@@ -822,7 +822,7 @@ var relayCAD = {
 var quiz = {
   eventName:"Quiz",
   data:[
-        `Knowledge is power. This has never rung truer than in the quizzing world. It’s survival of the smartest, so you have got to bring your A 			game. If you know the answers, you hold all the cards, nothing else to it. Feel the adrenalin rushing through your veins!`,
+        `Knowledge is power. This has never rung truer than in the quizzing world. It’s survival of the smartest, so you have got to bring your A       game. If you know the answers, you hold all the cards, nothing else to it. Feel the adrenalin rushing through your veins!`,
         <br />,<br />,
         <b>Event Format: </b>,
         `A team event of 2 members per team.`,
@@ -904,12 +904,12 @@ var codeAuction = {
         <br />,<br />,
         <b>Event Format: </b>,
         `An initial amount of virtual money or credits are given to each contestant before the event starts. 
-		With each keyword used in their solution to the given problem statement, the credits decrease. 
-		Credits are decreased for each keyword used in the code.
-		For example: if-else constructs, looping keywords like while, for etc., switch, break, etc.
-		The event is language independent and the credits are same for the constructs and do not vary by the keyword. 
-		Other languages may have other keywords and credits are assigned based on the mechanism the keyboard. All this is round 1.
-		Round 2 will be thought over soon.`,
+    With each keyword used in their solution to the given problem statement, the credits decrease. 
+    Credits are decreased for each keyword used in the code.
+    For example: if-else constructs, looping keywords like while, for etc., switch, break, etc.
+    The event is language independent and the credits are same for the constructs and do not vary by the keyword. 
+    Other languages may have other keywords and credits are assigned based on the mechanism the keyboard. All this is round 1.
+    Round 2 will be thought over soon.`,
          <br />,<br />,
         <b>Problem Statement: </b>,
         `TBD`, 
@@ -936,7 +936,7 @@ var eloquent = {
         <br />,<br />,
         <b>Event Format: </b>,
         `This event will consist of some off the beaten path events like spin-a-yarn, shipwrecked, and lots more…`,<br />,
-		`Details will be given on the spot.`,
+    `Details will be given on the spot.`,
          <br />,<br />,
         <b>Problem Statement: </b>,
         `Topics will be given on the spot `, 
@@ -948,7 +948,7 @@ var eloquent = {
         `Evaluation for the overall event depends on the following critical parameters:-`,<br />,
         `1) Fluency in the English language`,<br />,
         `2) Organization & Clarity`,<br />,
-        `3) Use of Argument `,<br />,
+        `3) Use of Argument `,<br />,
         `4) Improvisation`,<br />,
         `5) Presentation`,<br />,
         ],
@@ -967,9 +967,9 @@ var lawyerUp = {
         <br />,<br />,
         <b>Event Format: </b>,
         `The event will be spanned by 2 rounds.`,<br />,
-		`Round 1 will see a group discussion .
-		Group size : 5
-		Round 2 will be the final round consisting of the best 6 participants from Round 1. `,
+    `Round 1 will see a group discussion .
+    Group size : 5
+    Round 2 will be the final round consisting of the best 6 participants from Round 1. `,
          <br />,<br />,
         <b>Problem Statement: </b>,
         `Topics will be given on the spot `, 
@@ -981,7 +981,7 @@ var lawyerUp = {
         `Evaluation for the overall event depends on the following critical parameters:-`,<br />,
         `1) Fluency in the English language`,<br />,
         `2) Organization & Clarity`,<br />,
-        `3) Use of Argument `,<br />,
+        `3) Use of Argument `,<br />,
         `4) Use of cross-examination and rebuttal:`,<br />,
         `5) Presentation`,<br />,
         ],
@@ -995,7 +995,7 @@ var lawyerUp = {
 var resonance = {
   eventName:"Resonance",
   data:[
-        `Rediscover yourself  by expressing with the power of the written word. Creativity and 
+        `Rediscover yourself  by expressing with the power of the written word. Creativity and 
         imagination are more important than grammar or spelling. Write your heart out.`,
         <br />,<br />,
         <b>Event Format: </b>,
@@ -1052,6 +1052,173 @@ var photoOn = {
             ],
 }
 
+var designception = {
+  eventName:"Designception",
+  data:[
+        `It has always been about the OUT of the BOX thinking .This event is all about thinking Out of the Box
+         for a problem that is OUT of this WORLD.`,
+        <br />,<br />,
+        <b> Event Description: </b>,<br />,
+        `Participants are supposed to come up with a CAD model and a power-point presentation with detailed
+         description and present it to the panel members`,<br />,<br/>,
+        <b>Event Format: </b>,<br />,
+        `Team must consist of minimum of 2 members to a maximum of 3 members.
+
+          Should Present the CAD model in front of the panel.
+
+          Things needed in powerpoint presentation:
+
+          1.Explain in brief about design approach :
+            Different concepts developed during the process , source of inspiration ,
+            listing of existing products used for reference ,etc.
+          2.Final concept :
+            Which concept you chose out of all the concepts mentioned above.
+          3.Attach CAD images and explain the working and significance of your model.`,<br />,
+        <br />,
+        <b>Problem Statement: </b>,<br />,
+        `Space junks and wastes has started accumulating around our earth since 1957. And the quantity has
+         reached the saturation point .Come up with a solution to recover the space junk and bring it back
+          to earth for recycling and reusing .`,
+        <br />,<br />,
+        <b>FAQ</b>,
+        <br />,
+        <b>1) Who can participate?</b>,
+        <br />,
+        <b>A:</b>, `All students with a valid identity card of their respective educational institutes
+                    are eligible to participate in the competition.Students from the stream of Engineering,
+                    other research fields pursuing Bachelors, Master’s Degree and PhD candidates can participate.`,
+        <br />,
+        <br />,
+        <b>2)  How to register?</b>,
+        <br />,
+        <b>A:</b>, `Samgatha webpage registration.`,
+        <br />,
+        ],
+  contacts: [
+              "S.R. Santhosh Kumar: +91-9487493276  (edm15b011@iiitdm.ac.in)",
+              <br />,
+              `P. Rokesh: +91-948723033 (mfd15i011@iiitdm.ac.in)`,
+              <br />,
+              `A. Visnu Priya: +9790707348 (edm15b020@iiitdm.ac.in) `
+            ],      
+}
+
+var samgathaBusinessChallenge= {
+  eventName:"Samgatha Business Challenge",
+  data:[
+        `The contestants are expected to come up with a small but viable business idea which will be of interest
+         and can thrive in Samgatha’s Magical atmosphere.Each team will be allocated a stall around the Campus
+          and are expected to make profits from their business ideas , by providing a service to the Samgatha 
+          Audience`,
+        <br />,<br />,<br />,
+        <b>Event Format: </b>,<br />,<br />,
+        `Round 1 :
+          Each team gets to present their ideas infront of a judging panel. And a handful of teams will be
+          short listed for executing their ideas over a period of 2 days.`,
+          <br />,
+        `Round 2 :
+          Each team gets a Stall for themselves , and starts engaging with the Samgatha Audience.`,<br />,
+        <br />,
+        <b>Problem Statement: </b>,<br />,<br />,
+        ` On spot`,
+        <br />,<br />,
+        <b>Event Rules: </b>,<br />,<br />,
+        `Max investment for each idea : Rs. 3000
+         Each selected team is expected to participate for both the days.
+         The product / service must be viable and tangible.
+         The Team size can range from 2 to 4
+         The winner will be decided based on uniqueness , marketing strategy, profits, business acumen. `,
+         <br />,<br />,
+         <b> TDP(Team description Paper) format: </b>,<br />,
+         `Name`,
+         <br />,
+         `Contact number(of every team member)`,<br />,
+          `Samgatha ID`,
+         <br />,
+        ],
+  contacts: [
+              "Vedant Bassi: 9500094537  (ced15i013@iiitdm.ac.in)",
+              <br />,
+              `Aditya Prakash: 9790729047 (ced15i025@iiitdm.ac.in)`,
+              <br />,
+            ],      
+}
+
+var syncGeet= {
+  eventName:"Sync Geet",
+  data:[
+        `Music speaks what cannot be expressed, soothes the mind,\
+         gives it rest and heals the heart and makes it whole flows from heaven to the soul.\
+         So here’s your chance to hit the right note \
+         and let the musician in you touch thousands of soul \
+         and spread this form of magic to mesmerize the world around you !`,
+        <br />,<br />,
+        <b>Event Format: </b>,<br />,<br />,
+        `This is a group event which involves all walks of singing.\
+         Singers, instrumentalists come together to bring simple music.`,
+        <br />,<br />,
+        <b>Event Rules:</b>,<br />,
+        <br />,
+        `1. A team can have upto 5 members.`,
+        <br />,
+        `2. A team needs to have at least one singer and one instrumentalist.`,
+        <br />,
+        `3. Total time for the performance is 7 minutes (including setup time).`,
+        <br />,
+        `4. Instruments to be brought by participants.`,
+        <br />,
+        `5. Karaokes are not allowed.`,
+        <br />,
+        `6. Pure classical is not allowed.`,
+        <br />,<br />,
+        <b>Judging Criteria:</b>,
+        <br />,<br />,
+        `The top 3 teams will be awarded.`
+        ],
+  contacts: [
+              "Varshitha: 7904787183  (evd15i001@iiitdm.ac.in)",
+              <br />,
+              `Ratnanjali: 9176485934 (mpd15i020@iiitdm.ac.in)`,
+              <br />,
+              `Dharmesh: 9962279625 (esd15i018@iiitdm.ac.in)`
+            ],
+}
+
+var gaayak = {
+  eventName:"Gaayak",
+  data:[
+        `Music speaks what cannot be expressed, soothes the mind,\
+         gives it rest and heals the heart and makes it whole flows from heaven to the soul.\
+         So here’s your chance to hit the right note \
+         and let the musician in you touch thousands of soul \
+         and spread this form of magic to mesmerize the world around you !`,
+        <br />,<br />,
+        <b>Event Format: </b>,<br />,<br />,
+        `This is a solo singing event with full freedom to the participants.`,
+        <br />,<br />,
+        <b>Event Rules:</b>,<br />,
+        <br />,
+        `1. No instruments are allowed.`,
+        <br />,
+        `2. Karaoke may be used if needed.(Have to submit in advance)`,
+        <br />,
+        `3. Total time for the performance is 4 minutes.`,
+        <br />,
+        `4. No pure classical allowed.`,
+        <br />,<br />,
+        <b>Judging Criteria:</b>,<br />,
+        <br />,
+        `The top 3 performances will be awarded.`
+        ],
+  contacts: [
+              "Varshitha: 7904787183 (evd15i001@iiitdm.ac.in)",
+              <br />,
+              `Ratnanjali: 9176485934 (mpd15i020@iiitdm.ac.in)`,
+              <br />,
+              `Dharmesh: 9962279625 (esd15i018@iiitdm.ac.in)`
+            ],
+}
+
 class App extends Component {
   constructor(){
     super();
@@ -1098,14 +1265,14 @@ class App extends Component {
               <Route path="/chakarvyuh" component={() => (<MobileEventOne event={chakarvyuh} />)} />
               <Route path="/warofwatts" component={() => (<MobileEventOne event={warOfWatts} />)} />
                <Route path="/tech4help" component={() => (<MobileEventOne event={tech4help} />)} />
-               <Route path="/designception" component={() => (<MobileEventOne eventName="Designception" />)} />
+               <Route path="/designception" component={() => (<MobileEventOne event={designception} />)} />
                <Route path="/relaycad" component={() => (<MobileEventOne event={relayCAD} />)} />
                <Route path="/battlezone" component={() => (<MobileEventOne event={battleZone} />)} />
-               <Route path="/sbc" component={() => (<MobileEventOne eventName="Samgatha Business Challenge" />)} />
+               <Route path="/sbc" component={() => (<MobileEventOne event={samgathaBusinessChallenge} />)} />
                <Route path="/appathon" component={() => (<MobileEventOne event={appAThon} />)} />
                <Route path="/codeauction" component={() => (<MobileEventOne event={codeAuction} />)} /> 
                <Route path="/beasuperhero" component={() => (<MobileEventOne event={beASuperHero} />)} /> 
-               <Route path="/battleofbands" component={() => (<MobileEventOne event={battleOfBands} />)} /> 
+               <Route path="/syncgeet" component={() => (<MobileEventOne event={syncGeet} />)} /> 
                <Route path="/dancewars" component={() => (<MobileEventOne event={eloquent} />)} /> 
                <Route path="/drishyam" component={() => (<MobileEventOne event={drishyam} />)} /> 
                <Route path="/photoon" component={() => (<MobileEventOne event={photoOn} />)} /> 
@@ -1113,7 +1280,7 @@ class App extends Component {
                <Route path="/gaming" component={() => (<MobileEventOne eventName="Gaming" />)} /> 
                <Route path="/mayasrishti" component={() => (<MobileEventOne event={mayasrishti} />)} /> 
                <Route path="/shutterup" component={() => (<MobileEventOne event={shutterup} />)} /> 
-               <Route path="/samidol" component={() => (<MobileEventOne event={samIdol} />)} /> 
+               <Route path="/gaayak" component={() => (<MobileEventOne event={gaayak} />)} /> 
                <Route path="/impulse" component={() => (<MobileEventOne eventName="Impulse" />)} />
                <Route path="/maskmaking" component={() => (<MobileEventOne event={maskMaking} />)} /> 
                <Route path="/duetdance" component={() => (<MobileEventOne event={duetDance} />)} /> 
@@ -1127,6 +1294,7 @@ class App extends Component {
                <Route path="/quiz" component={() => (<MobileEventOne event={quiz} />)} />
                <Route path="/lawyerup" component={() => (<MobileEventOne event={lawyerUp} />)} />
                <Route path="/resonance" component={() => (<MobileEventOne event={resonance} />)} />
+          
               <MobileFooter />
             </div>
           </BrowserRouter>
@@ -1150,14 +1318,14 @@ class App extends Component {
                <Route path="/chakarvyuh" component={() => (<EventOne event={chakarvyuh} />)} />
                <Route path="/warofwatts" component={() => (<EventOne event={warOfWatts} />)} />
                <Route path="/tech4help" component={() => (<EventOne event={tech4help} />)} />
-               <Route path="/designception" component={() => (<EventOne eventName="Designception" />)} />
+               <Route path="/designception" component={() => (<EventOne event={designception} />)} />
                <Route path="/relaycad" component={() => (<EventOne event={relayCAD} />)} />
                <Route path="/battlezone" component={() => (<EventOne event={battleZone} />)} />
-               <Route path="/sbc" component={() => (<EventOne eventName="Samgatha Business Challenge" />)} />
+               <Route path="/sbc" component={() => (<EventOne event={samgathaBusinessChallenge} />)} />
                <Route path="/appathon" component={() => (<EventOne event={appAThon} />)} />
                <Route path="/codeauction" component={() => (<EventOne event={codeAuction} />)} /> 
                <Route path="/beasuperhero" component={() => (<EventOne event={beASuperHero} />)} /> 
-               <Route path="/battleofbands" component={() => (<EventOne event={battleOfBands} />)} /> 
+               <Route path="/syncgeet" component={() => (<EventOne event={syncGeet} />)} /> 
                <Route path="/dancewars" component={() => (<EventOne eventName="Dance Wars" />)} /> 
                <Route path="/drishyam" component={() => (<EventOne event={drishyam} />)} /> 
                <Route path="/photoon" component={() => (<EventOne event={photoOn} />)} /> 
@@ -1165,7 +1333,7 @@ class App extends Component {
                <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
                <Route path="/mayasrishti" component={() => (<EventOne event={mayasrishti} />)} /> 
                <Route path="/shutterup" component={() => (<EventOne event={shutterup} />)} /> 
-               <Route path="/samidol" component={() => (<EventOne event={samIdol} />)} /> 
+               <Route path="/gaayak" component={() => (<EventOne event={gaayak} />)} /> 
                <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
                <Route path="/maskmaking" component={() => (<EventOne event={maskMaking} />)} /> 
                <Route path="/duetdance" component={() => (<EventOne event={duetDance} />)} /> 
@@ -1176,9 +1344,9 @@ class App extends Component {
                <Route path="/balloonbash" component={() => (<EventOne event={balloonBash} />)} /> 
                <Route path="/balloonexpress" component={() => (<EventOne event={balloonExpress} />)} /> 
                <Route path="/queenofsheba" component={() => (<EventOne event={queenOfSheba} />)} /> 
-                <Route path="/quiz" component={() => (<EventOne event={quiz} />)} />
-                <Route path="/battle" component={Battle}/>
-                <Route path="/lawyerup" component={() => (<EventOne event={lawyerUp} />)} />
+               <Route path="/quiz" component={() => (<EventOne event={quiz} />)} />
+               <Route path="/battle" component={Battle}/>
+               <Route path="/lawyerup" component={() => (<EventOne event={lawyerUp} />)} />
                <Route path="/resonance" component={() => (<EventOne event={resonance} />)} />
               
               <Footer />
