@@ -50,8 +50,8 @@ class TechEventsList extends Component
 	            	</div>
 	            	<div className="techblocks">
 	            		<div className="blockLine">
-			            	<Link to='/sbc' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">SBC</div>
+							<Link to='/quiz' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Quiz</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            	<Link to='/appathon' style={styles.links}><div className="cauldron">
@@ -66,8 +66,8 @@ class TechEventsList extends Component
 	            	</div>
 	            	<div className="techblocks">
 	            		<div className="blockLine">
-			            	<Link to='/quiz' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">Quiz</div>
+							<Link to='/sbc' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">SBC</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>

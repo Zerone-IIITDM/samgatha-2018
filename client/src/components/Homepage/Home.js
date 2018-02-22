@@ -31,7 +31,7 @@ class Home extends Component{
 							About Us
 						</div>
 						<div className="rightSideContainerText">
-							Samgatha is the inter college annual Technical and Cultural fest of Indian Institute of Information Technology, Design and Manufacturing(IIITDM) Kancheepuram which is annually held in the month of March. It is a 3 day event featuring a huge bunch of events including Workshops and Tech Talk. This fest has unique themes for every year, where it was "Save Women, Save India" for Samgatha 2014, "Swachh Bharat Abhiyaan" for Samgatha 2015, "Make in India" for Samgatha 2016, "Education for all" for Samgatha 2017 and it is going to be "Depression is curable" for Samgatha 2018.
+							Samgatha is the inter college annual Technical and Cultural fest of Indian Institute of Information Technology, Design and Manufacturing (IIITDM) Kancheepuram which is annually held in the month of March. It is a 3 day event featuring a huge bunch of events including Workshops and Tech Talks. This fest has unique themes for every year, where it was "Save Women, Save India" for 2014, "Swachh Bharat Abhiyaan" for 2015, "Make in India" for 2016, "Education for all" for 2017 and it is going to be "Depression is curable" for Samgatha 2018.
 						</div>
 						<div className="collegeStuff">
 							<div className="collegeMotto"><span id="blue">Design. </span><span id="green">Create. </span><span id="grey">Innovate.</span></div>
@@ -40,7 +40,7 @@ class Home extends Component{
 					</div>
 				</div>
 				<div className="joinUs">
-					<div className="past">Glimpse of past years:</div>
+					<div className="past">Glimpse of past years</div>
 					<div className="carousCont">
 						<Carousel autoPlayInterval={2000} className="carous">
 						    <div>

@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
 .eventOneContainer{
-	padding-top: 10%;
+	padding-top: 12%;
 	height: 100%;
 }
 
@@ -40,24 +40,34 @@
 .eventOne0{
 	cursor: pointer;
 	font-family: 'Lato', sans-serif;
+	border: 2px solid white;
+	padding: 20px;
+	width: 80px;
+	transition: 0.3s color, 0.3s border, 0.3s box-shadow;
+	border-radius: 10px;
+}
+
+.eventOne0:hover{
+	border: 2px solid #b1ff64;
+	color: #b1ff64;
+	box-shadow: 0px 4px 10px #b1ff64;
 }
 
 .eventOne1{
 	cursor: pointer;
 	font-family: 'Lato', sans-serif;
 	margin-left:50px;
+	border: 2px solid white;
+	padding: 20px;
+	width: 80px;
+	transition: 0.3s color, 0.3s border, 0.3s box-shadow;
+	border-radius: 10px;
 }
 
-.eventOne2{
-	cursor: pointer;
-	font-family: 'Lato', sans-serif;
-	margin-left:50px;
-}
-
-.eventOne3{
-	cursor: pointer;
-	font-family: 'Lato', sans-serif;
-	margin-left:50px;
+.eventOne1:hover{
+	border: 2px solid #b1ff64;
+	color: #b1ff64;
+	box-shadow: 0px 4px 10px #b1ff64;
 }
 
 .eventDetailContent{

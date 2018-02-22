@@ -22,50 +22,25 @@ class EventOne extends Component {
     main = this;
 
     this.state = {
-      current: menuItems[0],
-      state1: menuItems[0],
-      state2: "",
-      state3: "",
-      state4: "",
-      state5: "",
-      state6: "",
-      state7: "",
-      state8: ""
+      current: menuItems[0]
     };
     this.changeCurrent = this.changeCurrent.bind(this);
   }
   changeCurrent(index) {
-    if (index == 0) {
-      this.setState({
-        state1: this.props.event.data,
-        state2: this.props.event.eventFormat,
-        state3: this.props.event.problemStatement,
-        state4: this.props.event.eventRules,
-        state5: this.props.event.judgingCriteria,
-        state6: this.props.event.faq
-      });
-    }
-    if (index == 1) {
-      this.setState({
-        state1: "",
-        state2: "",
-        state3: "",
-        state4: "",
-        state5: "",
-        state6: "",
-        state7: this.props.event.club,
-        state8: this.props.event.contacts
-      });
-    }
+    this.setState({
+      current: menuItems[index]
+    });
   }
+
   componentDidMount() {
     window.scrollTo(0, 0);
   }
   render() {
     var x = this.props.event.data;
     var y = this.props.event.contacts;
+    menuItems[0].data = x;
+    menuItems[1].data = y;
     var r = x.concat(y);
-    menuItems[0].data = r;
     return (
       <div className="eventOneContainer">
         <div className="eventOneHeader">{this.props.event.eventName}</div>
@@ -86,12 +61,22 @@ class EventOne extends Component {
             </div>
           </div>
           <div className="eventDetailContent">
-            <div>{this.state.state1.data}</div>
-            <div className="eventFormat">{this.state.state2}</div>
-            <div className="problemStatement">{this.state.state3}</div>
-            <div className="eventRules">{this.state.state4}</div>
-            <div className="judge">{this.state.state5}</div>
-            <div className="faq">{this.state.state6}</div>
+            <div>{this.state.current.data}</div>
+            {/* <div className="eventFormat">
+											\EVENT FORMAT/
+										</div>
+										<div className="problemStatement">
+											\PROBLEM STATEMENT/
+										</div>
+										<div className="eventRules">
+											\EVENT RULES/
+										</div>
+										<div className="judge">
+											\JUDGE CRITERIA/
+										</div>
+										<div className="faq">
+											\FAQ/
+										</div> */}
           </div>
         </div>
       </div>
