@@ -25,6 +25,7 @@ import EventOne from './Event1/Event1';
 import MobileEventOne from './MobileEvent1/MobileEvent1';
 import Battle from './BattleofBands';
 
+
 var roboticsClubContacts = 
 	[
 		`Amrutha Manoharan : +91-9566186673 (evd15i020@iiitdm.ac.in)`,	<br/>,
@@ -246,9 +247,9 @@ var tech4Help =
 		[
 			<b>Event Rules:</b>,
 			<br/>,
-			`1.`,&emsp;,`A team can have maximum 4 members. Once a team is formed , it cannot be changed.`,
+			`1.`,<b>&emsp;</b>,`A team can have maximum 4 members. Once a team is formed , it cannot be changed.`,
 			<br/>,
-			`2.`,&emsp;,`Quarrelling with judges will lead to disqualification.`,
+			`2.`,<b>&emsp;</b>,`Quarrelling with judges will lead to disqualification.`,
 			<br/>,	<br/>
 		],
 	judgingCriteria:
