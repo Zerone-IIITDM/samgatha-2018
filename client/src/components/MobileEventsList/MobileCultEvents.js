@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 import './MobileTechEvents.css';
 
 class MobileCultEventsList extends Component{
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render(){
 		return(
 			<div className="mobiletechEventsContaier">
 				<div className="mobileeventsHeader">
@@ -61,9 +64,9 @@ class MobileCultEventsList extends Component{
 		            	<Link to='/pictionary' style={styles.links}><div className="mobiletechEventBlock">
 		            		Pictionary
 		            	</div></Link>
-		            	<Link to='/drracist' style={styles.links}><div className="mobiletechEventBlock">
+		            	/*<Link to='/drracist' style={styles.links}><div className="mobiletechEventBlock">
 		            		DR. Racist
-		            	</div></Link>
+		            	</div></Link>*/
 	            	</div>
 	            	<div className="mobileblocks">
 		            	<Link to='/blindfill' style={styles.links}><div className="mobiletechEventBlock">

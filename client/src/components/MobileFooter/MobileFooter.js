@@ -3,7 +3,10 @@ import '../font-awesome-4.7.0/css/font-awesome.min.css';
 import './MobileFooter.css';
 
 class MobileFooter extends Component{
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render(){
 		return(
 			<div>
 				<div style={phantom} />

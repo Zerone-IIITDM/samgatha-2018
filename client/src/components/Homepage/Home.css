@@ -18,7 +18,7 @@
 }
 
 .headContainer{
-	background: radial-gradient(at bottom,rgb(25,29,34),rgb(30,34,39),rgb(40,47,53));
+	background: radial-gradient(at bottom,rgb(39,46,51),rgb(36,41,46),rgb(40,47,53));
 	height: 700px;
 	width:100%;
 }
@@ -145,8 +145,6 @@
 	cursor: pointer;
 }
 
-.buttonOnPic{
-}
 
 .lowerTitleText{
 	font-family: 'Lato', sans-serif;
@@ -161,7 +159,6 @@
 }
 
 .iiitLogo{
-	padding-left: 3%;
 	width: 35%;
 	height: 40%;
 	margin-top: -20px;
@@ -173,11 +170,10 @@
 
 .collegeMotto{
 	white-space: nowrap;
-	padding-left: 5%;
+	padding-left: 2%;
 	font-family: Audimat;
 	padding-top: 12%;
 	font-size: 40px;
-	
 }
 
 #blue{

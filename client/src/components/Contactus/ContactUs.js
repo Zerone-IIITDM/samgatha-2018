@@ -1,7 +1,10 @@
 import React,{Component} from "react";
 import "./ContactUs.css";
 class ContactUs extends Component{
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render(){
 		return(
 			<div>
 				<div className="mainPage">
@@ -47,7 +50,7 @@ class ContactUs extends Component{
 					</div>
 					<div className="borderBottom"></div>
 					<div className="content">
-					<div className="clubName">Public Relations Team</div>
+					<div className="clubName">Public Relations</div>
 							<div className="club">
 								<div className="members">
 									<div className="member">
@@ -76,7 +79,7 @@ class ContactUs extends Component{
 					</div>
 					<div className="borderBottom"></div>
 					<div className="content">
-					<div className="clubName">QMS Team</div>
+					<div className="clubName">Quality Management Services</div>
 							<div className="club">
 								<div className="members">
 									<div className="member">

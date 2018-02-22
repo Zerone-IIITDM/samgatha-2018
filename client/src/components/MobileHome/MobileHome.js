@@ -3,7 +3,10 @@ import CountTo from 'react-count-to';
 import './MobileHome.css';
 
 class MobileHome extends Component{
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render(){
 		return(
 			<div className="mobilemainContainer">
 				<div className="mobileheadContainer">

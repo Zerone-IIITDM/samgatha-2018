@@ -3,7 +3,10 @@ import './MobileSocialCause.css';
 import '../font-awesome-4.7.0/css/font-awesome.min.css';
 
 class MobileSocialCause extends Component{
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render(){
 		return(
 			<div className="mobilescContainer">
 				<div className="mobilescHeader">

@@ -2,8 +2,14 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './EventsList.css';
 
-class TechEventsList extends Component{
-	render(){
+class TechEventsList extends Component
+{
+	componentDidMount ()
+	{
+		window.scrollTo(0, 0)
+    }
+	render()
+    {
 		return(
 			<div className="techEventsContaier">
 				<div className="eventsHeader">
@@ -12,15 +18,15 @@ class TechEventsList extends Component{
 	            <div className="eventsGrid">
 	            	<div className="techblocks">
 	            		<div className="blockLine">
-			            	<Link to='/chakarvyuh' style={styles.links}><div className="cauldron">
+			            	<Link to='/chakravyuha' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Chakravyuha</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/warofwatts' style={styles.links}><div className="cauldron">
+			            	<Link to='/warOfWatts' style={styles.links}><div className="cauldron">
 			            		<div className="eventName paddingCont">War of Watts</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/tech4help' style={styles.links}><div className="cauldron">
+			            	<Link to='/tech4Help' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Tech4Help</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
@@ -32,11 +38,11 @@ class TechEventsList extends Component{
 			            		<div className="eventName">Designception</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/relaycad' style={styles.links}><div className="cauldron">
+			            	<Link to='/relayDesign' style={styles.links}><div className="cauldron">
 			            		<div className="eventName paddingCont">Relay Design</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/battlezone' style={styles.links}><div className="cauldron">
+			            	<Link to='/battleZone' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">BattleZone</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
@@ -44,15 +50,15 @@ class TechEventsList extends Component{
 	            	</div>
 	            	<div className="techblocks">
 	            		<div className="blockLine">
-			            	<Link to='/sbc' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">SBC</div>
+							<Link to='/quiz' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Quiz</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/appathon' style={styles.links}><div className="cauldron">
+			            	<Link to='/appAThon' style={styles.links}><div className="cauldron">
 			            		<div className="eventName paddingCont">App-A-thon</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/codeauction' style={styles.links}><div className="cauldron">
+			            	<Link to='/codeAution' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Code Auction</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
@@ -60,8 +66,12 @@ class TechEventsList extends Component{
 	            	</div>
 	            	<div className="techblocks">
 	            		<div className="blockLine">
-			            	<Link to='/quiz' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">Quiz</div>
+							<Link to='/samgathaBusinessChallenge' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Samgatha Business Challenge</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
+			            	</div></Link>
+							<Link to='/pitchPlease' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Pitch Please</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>
