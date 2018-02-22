@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 import './MobileTechEvents.css';
 
 class MobileTechEventsList extends Component{
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render(){
 		return(
 			<div className="mobiletechEventsContaier">
 				<div className="mobileeventsHeader">

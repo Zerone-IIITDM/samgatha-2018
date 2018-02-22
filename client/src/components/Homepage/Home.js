@@ -5,7 +5,10 @@ import Iframe from 'react-iframe';
 import './Home.css';
 
 class Home extends Component{
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render(){
 		return(
 			<div className="mainContainer">
 				<div className="headContainer" id="home-main">

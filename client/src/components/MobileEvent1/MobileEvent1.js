@@ -32,7 +32,10 @@ class MobileEventOne extends Component{
 		})
 	}
 
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render(){
 		menuItems[0].data = this.props.event.data;
 		menuItems[1].data = this.props.event.contacts;
 		return(

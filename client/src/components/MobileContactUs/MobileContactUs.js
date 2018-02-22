@@ -1,7 +1,10 @@
 import React,{Component} from "react";
 import "./MobileContactUs.css";
 class MobileContactUs extends Component{
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render(){
 		return(
 			<div className="mobilemainPage">
 				<div className="mobileheading">CONTACT US</div>

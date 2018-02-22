@@ -2,8 +2,14 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './EventsList.css';
 
-class TechEventsList extends Component{
-	render(){
+class TechEventsList extends Component
+{
+	componentDidMount ()
+	{
+		window.scrollTo(0, 0)
+    }
+	render()
+    {
 		return(
 			<div className="techEventsContaier">
 				<div className="eventsHeader">
@@ -12,7 +18,7 @@ class TechEventsList extends Component{
 	            <div className="eventsGrid">
 	            	<div className="techblocks">
 	            		<div className="blockLine">
-			            	<Link to='/chakarvyuh' style={styles.links}><div className="cauldron">
+			            	<Link to='/chakravyuha' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Chakravyuha</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>

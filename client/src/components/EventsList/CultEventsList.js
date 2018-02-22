@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 import './CultEventsList.css';
 
 class CultEventsList extends Component{
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render(){
 		return(
 			<div className="cultEventsContaier">
 				<div className="eventsHeader">
@@ -28,7 +31,7 @@ class CultEventsList extends Component{
 	            	</div>
 	            	<div className="blocks">
 	            		<div className="blockLine">
-			            	<Link to='/drishaym' style={styles.links}><div className="cauldron">
+			            	<Link to='/drishyam' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Drishyam</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>

@@ -30,7 +30,10 @@ class Battle extends Component{
 			current: menuItems[index]
 		})
 	}
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+     render(){
 		return(
 			<div className="mainBattle">
 				<div className="headerBattle">

@@ -3,7 +3,10 @@ import "./Sponsors.css";
 import "../font-awesome-4.7.0/css/font-awesome.min.css";
 
 class Sponsors extends Component {
-  render() {
+  componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+  render() {    
     return (
       <div className="out">
         <div className="titext">Sponsors</div>
