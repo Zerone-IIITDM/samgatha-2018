@@ -16,7 +16,15 @@ class TechEventsList extends Component
 	              Technical Events
 	            </div>
 	            <div className="eventsGrid">
-	            	<div className="techblocks">
+					<div className="techblocks">
+	            		<div className="blockLine">
+							<Link to='/samgathaBusinessChallenge' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Samgatha Business Challenge</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
+			            	</div></Link>
+			            </div>
+	            	</div>
+					<div className="techblocks">
 	            		<div className="blockLine">
 			            	<Link to='/chakravyuha' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Chakravyuha</div>
@@ -64,12 +72,8 @@ class TechEventsList extends Component
 			            	</div></Link>
 			            </div>
 	            	</div>
-	            	<div className="techblocks">
+					<div className="techblocks">
 	            		<div className="blockLine">
-							<Link to='/samgathaBusinessChallenge' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">Samgatha Business Challenge</div>
-			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
-			            	</div></Link>
 							<Link to='/pitchPlease' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Pitch Please</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />

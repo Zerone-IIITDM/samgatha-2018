@@ -49,14 +49,23 @@
 	margin-top: 20px;
 }
 
-.speakerAndShit{
-	margin-top: 40px;
-	margin-left: 50px;
-	font-style: italic;
-}
-
 .workshop1{
 	text-align: center;
 	font-family: Audimat;
 	font-size: 40px;
+}
+
+.workshop2{
+	text-align: center;
+	font-family: Audimat;
+	font-size: 40px;
+}
+
+.workshopDetails{
+	font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color:black;
 }

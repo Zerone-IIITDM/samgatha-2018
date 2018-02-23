@@ -21,32 +21,20 @@ class Workshop extends Component{
 					<div>Simscale Workshop</div>
 					<img src={require("../icons/simscale.jpg")}alt="workshop" />
 				</div>
-	            {/*<div className="workshopList">
-	            	<div className="workshopOne">
-		            	<div className="workshopImage">
-		            	</div>
-		            	<div className="workshopDetails">
-		            		<Link to="/WorkshopOne" style={{textDecoration:'none'}}><div className="workshopName">
-		            			AWS Deep Learning Workshop
-		            		</div></Link>
-		            		<div className="speakerAndShit">
-		            			By Speaker<br/>Speaker Qualifications<br />Date<br />Venue
-		            		</div>
-		            	</div>
-		            </div>
-		            <div className="workshopOne">
-		            	<div className="workshopImage">
-		            	</div>
-		            	<div className="workshopDetails">
-		            		<div className="workshopName">
-		            			AWS Deep Learning Workshop
-		            		</div>
-		            		<div className="speakerAndShit">
-		            			By Speaker<br/>Speaker Qualifications<br />Date<br />Venue
-		            		</div>
-		            	</div>
-		            </div>
-	            </div>*/}
+				<div className="workshop2">
+					<div>Urban Dance Workshop</div>
+					<img src={require("../icons/dance.jpg")}alt="workshop" />
+					<div className="workshopDetails">
+					Urban Choreography is a style of dance, community and lifestyle revolving around choreographed pieces and performances by a dancer or a group of dancer.
+					Samgatha 2k18 proudly presents a workshop on "urban Choreography" by Mr. Ravi Varma founder and artistic director of "BFAB dance crew" and "United Grooves school of dance" 
+					Date: March 11, 2018
+					Time: 11:00a.m - 12:30p.m
+					Venue: laboratory block., IIITDM campus
+					Fee: 250 INR
+					paytm: 9962278241
+					Mail the screenshot of receipt to <a href="mailto:urbanchoreo.samgatha@gmail.com" target="_top">"urbanchoreo.samgatha@gmail.com"</a>
+					</div>
+				</div>
 			</div>
 		);
 	}

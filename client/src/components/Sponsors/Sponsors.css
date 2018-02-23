@@ -22,20 +22,20 @@
 	text-align: center;
 }
 
+.sponsGrid{
+	display: inline-flex;
+}
+
 .sponsBox{
-	margin-top: 30px;
 }
 
 .sponsHeader{
-	font-size: 15px;
+	text-align: center;
+	font-size: 18px;
 	color: grey;
 	font-family: "Roboto";
 }
 
-.sponsName{
-	font-size: 20px;
-	font-family: 'Ubuntu';
-}
 
 .box2{
 	padding-left: 50px;
@@ -43,4 +43,34 @@
 }
 .inlineBoxes{
 	display: inline-flex;
+}
+
+.radio{
+	padding-top: 5%;
+}
+
+.radioHeader{
+	margin-top: 13.5%;
+}
+
+.super{
+	padding-left: 4%;
+	margin-top: 17%;
+}
+
+
+.grid2{
+	padding-top: 5%;
+}
+
+.know{
+	margin-left: 2%;
+}
+
+.brain{
+	margin-left: 2%;
+}
+
+.bank{
+	margin-left: -15%;
 }
