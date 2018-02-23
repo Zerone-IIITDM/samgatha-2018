@@ -73,12 +73,8 @@ class EventOne extends Component {
       <div className="eventOneContainer">
         <div className="eventOneHeader">{this.props.event.eventName}</div>
         <div className="statedThings">
-<<<<<<< HEAD
-          <div className="eventOneRegister">REGISTER</div>
-=======
           <div className="eventOneRegister"><a href = {this.props.event.regLink} target = "_blank">REGISTER</a></div>
           {/*<a href = {this.props.event.regLink} target = "_blank"><div className="eventOneRegister">REGISTER</div></a>*/}
->>>>>>> 05156231a324535edac7d39a30e5a6c413f5c6e9
           <div className="eventOneBasket">
             <div className="eventOneLine">
               {menuItems.map(function(menuItem, index) {
@@ -100,7 +96,7 @@ class EventOne extends Component {
             <div className="eventRules">{this.state.state4}</div>
             <div className="judge">{this.state.state5}</div>
             <div className="faq">{this.state.state6}</div>
-			<div className="clubName">{this.state.state7}</div>
+			<div className="clubNAME">{this.state.state7}</div>
 			<div className="contacts">{this.state.state8}</div>
           </div>
         </div>
