@@ -25,16 +25,6 @@ import EventOne from './Event1/Event1';
 import MobileEventOne from './MobileEvent1/MobileEvent1';
 import Battle from './BattleofBands';
 
-<<<<<<< HEAD
-var roboticsClubContacts = 
-	[
-		<br/>,
-		`Amrutha Manoharan : +91-9566186673 (evd15i020@iiitdm.ac.in)`,	<br/>,
-		`Rohan Kumar Panda : +91-8249639668 (mfd15i013@iiitdm.ac.in)`,	<br/>,
-		`Surendra Bharath : +91-9885782381 (mdm15b031@iiitdm.ac.in)`
-	]
-
-=======
 /*EVENT FORMS START HERE*/
 var chakravyuha_form				=	"https://goo.gl/forms/4o7g1PFXsMfyWQR03"
 var warOfWatts_form					=	"https://goo.gl/forms/CMqeSkjbwF8zHCL03"
@@ -82,7 +72,6 @@ var roboticsClubContacts =
 		`Surendra Bharath : +91-9885782381 (mdm15b031@iiitdm.ac.in)`
 	]
 
->>>>>>> 05156231a324535edac7d39a30e5a6c413f5c6e9
 var edcClubContacts = 
 	[
 		<br/>,
