@@ -3,7 +3,10 @@ import './Footer.css';
 import '../font-awesome-4.7.0/css/font-awesome.min.css';
 
 class Footer extends Component {
-	render() {
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render() {
 		return (
 			<div>
 				<div style={phantom} />
@@ -37,7 +40,7 @@ class Footer extends Component {
 export default Footer;
 
 var phantom = {
-
+	background: 'linear-gradient(rgb(25,29,34),rgb(30,34,39),rgb(36,41,47))',
   display: 'block',
   padding: '20px',
   width: '100%',

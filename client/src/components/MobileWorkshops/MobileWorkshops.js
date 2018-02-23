@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import './MobileWorkshops.css';
 
 class MobileWorkshops extends Component{
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render(){
 		return(
 			<div className="mobileOuter">
 					<div className="mobileTitletext">

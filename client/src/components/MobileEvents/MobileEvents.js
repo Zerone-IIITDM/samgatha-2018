@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom';
 import './MobileEvents.css';
 
 class MobileEvents extends Component {
+  componentDidMount () {
+         window.scrollTo(0, 0)
+      }
   render() {
       return (
           <div className="mobileeventsMainContainer">

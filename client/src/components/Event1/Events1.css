@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
+a{
+	text-decoration: none;
+	color: #B1FF64 !important;
+}
+
 .eventOneContainer{
-	padding-top: 10%;
+	padding-top: 12%;
 	height: 100%;
 }
 
@@ -19,12 +24,13 @@
 	cursor: pointer;
 	font-family: 'Lato', sans-serif;
 	border:2px solid #B1FF64;
-	height:30px;
-	width:200px;
+	font-size:30px;
+	height:40px;
+	width:200px; 
 	text-align:center;
-	margin-top: 30px;
+	margin-top: 12px;
 	color: #B1FF64;
-	line-height:30px;	
+	line-height:40px;
 }
 
 .eventOneBasket{
@@ -40,24 +46,34 @@
 .eventOne0{
 	cursor: pointer;
 	font-family: 'Lato', sans-serif;
+	border: 2px solid white;
+	padding: 20px;
+	width: 80px;
+	transition: 0.3s color, 0.3s border, 0.3s box-shadow;
+	border-radius: 10px;
+}
+
+.eventOne0:hover{
+	border: 2px solid #b1ff64;
+	color: #b1ff64;
+	box-shadow: 0px 4px 10px #b1ff64;
 }
 
 .eventOne1{
 	cursor: pointer;
 	font-family: 'Lato', sans-serif;
 	margin-left:50px;
+	border: 2px solid white;
+	padding: 20px;
+	width: 80px;
+	transition: 0.3s color, 0.3s border, 0.3s box-shadow;
+	border-radius: 10px;
 }
 
-.eventOne2{
-	cursor: pointer;
-	font-family: 'Lato', sans-serif;
-	margin-left:50px;
-}
-
-.eventOne3{
-	cursor: pointer;
-	font-family: 'Lato', sans-serif;
-	margin-left:50px;
+.eventOne1:hover{
+	border: 2px solid #b1ff64;
+	color: #b1ff64;
+	box-shadow: 0px 4px 10px #b1ff64;
 }
 
 .eventDetailContent{
@@ -66,7 +82,7 @@
 	font-size:20px;
 	margin: 0 auto;
 	width:70%;
-	margin-top:30px;
+	margin-top:15px;
 	text-align:center;
 }
 
@@ -76,4 +92,9 @@
 
 body{
 	background: linear-gradient(rgb(25,29,34),rgb(30,34,39),rgb(36,41,47));
+}
+
+.clubNAME{
+	color: cyan;
+	font-size: 40px;
 }

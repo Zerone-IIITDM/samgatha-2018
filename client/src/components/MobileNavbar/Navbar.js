@@ -4,7 +4,10 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 class Navbar extends Component{
-	render(){
+	componentDidMount () {
+         window.scrollTo(0, 0)
+      }
+    render(){
 		return(
 			<Menu width={'250px'} isOpen={false} >
 				<Link to='/' style={styles.links}><div id="events" className="menu-item" href="/">HOME</div></Link>
