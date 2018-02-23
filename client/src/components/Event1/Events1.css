@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
+a{
+	text-decoration: none;
+	color: #B1FF64 !important;
+}
+
 .eventOneContainer{
 	padding-top: 12%;
 	height: 100%;
@@ -19,12 +24,13 @@
 	cursor: pointer;
 	font-family: 'Lato', sans-serif;
 	border:2px solid #B1FF64;
-	height:30px;
-	width:200px;
+	font-size:30px;
+	height:40px;
+	width:200px; 
 	text-align:center;
-	margin-top: 30px;
+	margin-top: 12px;
 	color: #B1FF64;
-	line-height:30px;	
+	line-height:40px;
 }
 
 .eventOneBasket{
@@ -76,7 +82,7 @@
 	font-size:20px;
 	margin: 0 auto;
 	width:70%;
-	margin-top:30px;
+	margin-top:15px;
 	text-align:center;
 }
 
@@ -89,5 +95,10 @@ body{
 }
 
 .clubName{
+<<<<<<< HEAD
 	font-size: 20px;
+=======
+	color: cyan;
+	font-size: 40px;
+>>>>>>> 05156231a324535edac7d39a30e5a6c413f5c6e9
 }

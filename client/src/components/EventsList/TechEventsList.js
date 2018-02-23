@@ -18,6 +18,7 @@ class TechEventsList extends Component
 	            <div className="eventsGrid">
 					<div className="techblocks">
 	            		<div className="blockLine">
+<<<<<<< HEAD
 							<Link to='/samgathaBusinessChallenge' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Samgatha Business Challenge</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
@@ -26,6 +27,8 @@ class TechEventsList extends Component
 	            	</div>
 					<div className="techblocks">
 	            		<div className="blockLine">
+=======
+>>>>>>> 05156231a324535edac7d39a30e5a6c413f5c6e9
 			            	<Link to='/chakravyuha' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Chakravyuha</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
@@ -74,6 +77,13 @@ class TechEventsList extends Component
 	            	</div>
 					<div className="techblocks">
 	            		<div className="blockLine">
+<<<<<<< HEAD
+=======
+							<Link to='/samgathaBusinessChallenge' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Samgatha Business Challenge</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
+			            	</div></Link>
+>>>>>>> 05156231a324535edac7d39a30e5a6c413f5c6e9
 							<Link to='/pitchPlease' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Pitch Please</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
