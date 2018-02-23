@@ -96,7 +96,7 @@ class EventOne extends Component {
             <div className="eventRules">{this.state.state4}</div>
             <div className="judge">{this.state.state5}</div>
             <div className="faq">{this.state.state6}</div>
-			<div className="clubName">{this.state.state7}</div>
+			<div className="clubNAME">{this.state.state7}</div>
 			<div className="contacts">{this.state.state8}</div>
           </div>
         </div>
