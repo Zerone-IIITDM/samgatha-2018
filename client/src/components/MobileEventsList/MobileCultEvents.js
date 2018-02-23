@@ -36,8 +36,8 @@ class MobileCultEventsList extends Component{
 		            	<Link to='/mayasrishti' style={styles.links}><div className="mobiletechEventBlock">
 		            		Mayasrishti
 		            	</div></Link>
-		            	<Link to='/shutterup' style={styles.links}><div className="mobiletechEventBlock">
-		            		Shutter Up
+		            	<Link to='/hocusfocus' style={styles.links}><div className="mobiletechEventBlock">
+		            		Hocus Focus
 		            	</div></Link>
 		            	<Link to='/gaayak' style={styles.links}><div className="mobiletechEventBlock">
 		            		Gaayak

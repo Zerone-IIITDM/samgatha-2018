@@ -247,9 +247,9 @@ var drishyam = {
 }
 
 {/*
-  ONLY 9 OUT of 20 EVENT RULES points are ADDED in SHUTTERUP
+  ONLY 9 OUT of 20 EVENT RULES points are ADDED in Hocus Focus
 */}
-var shutterup = {
+var hocusFocus = {
   eventName:"Hocus Focus",
   data:[
         `Do you think your photos showcase the world in a different light? 
@@ -550,7 +550,7 @@ var beASuperHero = {
             ],
 }
 
-var battleOfBands = {
+{/*var battleOfBands = {
   eventName:"Sync Geet",
   data:[
         `Music speaks what cannot be expressed, soothes the mind,\
@@ -584,9 +584,9 @@ var battleOfBands = {
               <br />,
               `Dharmesh: 9962279625 (esd15i018@iiitdm.ac.in)`
             ],
-}
+}*/}
 
-var samIdol = {
+{/* var samIdol = {
   eventName:"Sam Idol",
   data:[
         `Music speaks what cannot be expressed, soothes the mind,\
@@ -617,7 +617,7 @@ var samIdol = {
               <br />,
               `Dharmesh: 9962279625 (esd15i018@iiitdm.ac.in)`
             ],
-}
+}*/}
 
 var battleZone = {
   eventName:"Battle Zone",
@@ -1279,7 +1279,7 @@ class App extends Component {
                <Route path="/eloquent" component={() => (<MobileEventOne event={eloquent} />)} /> 
                <Route path="/gaming" component={() => (<MobileEventOne eventName="Gaming" />)} /> 
                <Route path="/mayasrishti" component={() => (<MobileEventOne event={mayasrishti} />)} /> 
-               <Route path="/shutterup" component={() => (<MobileEventOne event={shutterup} />)} /> 
+               <Route path="/hocusfocus" component={() => (<MobileEventOne event={hocusFocus} />)} /> 
                <Route path="/gaayak" component={() => (<MobileEventOne event={gaayak} />)} /> 
                <Route path="/impulse" component={() => (<MobileEventOne eventName="Impulse" />)} />
                <Route path="/maskmaking" component={() => (<MobileEventOne event={maskMaking} />)} /> 
@@ -1332,7 +1332,7 @@ class App extends Component {
                <Route path="/eloquent" component={() => (<EventOne event={eloquent} />)} /> 
                <Route path="/gaming" component={() => (<EventOne eventName="Gaming" />)} /> 
                <Route path="/mayasrishti" component={() => (<EventOne event={mayasrishti} />)} /> 
-               <Route path="/shutterup" component={() => (<EventOne event={shutterup} />)} /> 
+               <Route path="/hocusfocus" component={() => (<EventOne event={hocusFocus} />)} /> 
                <Route path="/gaayak" component={() => (<EventOne event={gaayak} />)} /> 
                <Route path="/impulse" component={() => (<EventOne eventName="Impulse" />)} />
                <Route path="/maskmaking" component={() => (<EventOne event={maskMaking} />)} /> 
