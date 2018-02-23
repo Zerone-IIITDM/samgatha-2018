@@ -192,7 +192,8 @@ var chakravyuha =
 		[],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,	<br/>,<a href = "./Problem_Statements/SAMGATHA_CHAKRAVYUHA.pdf" target = "_blank"> Click to View </a>,
+			<b>Problem Statement: </b>,	<br/>,
+			<a href = "https://drive.google.com/open?id=1SyKdtaRP4D5B-OoE7T66-6lJSimgT-LG" target = "_blank"> Click to View </a>,
 			<br/>,	<br/>
 		],
 	eventRules:
@@ -2052,7 +2053,7 @@ class App extends Component {
  render() {
  const { width } = this.state;
  const isMobile = width <= 545;
- if(isMobile){
+ /*if(isMobile){
 	return(
 	<div className="container">
 	 <BrowserRouter>
@@ -2107,7 +2108,7 @@ class App extends Component {
 	 </BrowserRouter>
 	</div>
 	);
- }
+ }*/
 	return (
 	<div style={{height:'100%'}}>
 	 <BrowserRouter>
