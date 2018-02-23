@@ -136,7 +136,7 @@ class ContactUs extends Component{
 								<div className="members">
 									<div className="member">
 										<div className="cardImage">
-											<img src={require("../icons/adi.jpeg")} alt="contactPic" />
+											<img src={require("../icons/aditya.PNG")} alt="contactPic" />
 										</div>
 										<div className="memberInfo">Aditya Prakash<br />+91-9790729047</div>
 										<div className="cardLinks">
