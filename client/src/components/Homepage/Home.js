@@ -40,11 +40,7 @@ class Home extends Component{
 					</div>
 				</div>
 				<div className="joinUs">
-<<<<<<< HEAD
-					<div className="past">Glimpse of past years</div>
-=======
 					<div className="past">Glimpse of Yester years</div>
->>>>>>> 05156231a324535edac7d39a30e5a6c413f5c6e9
 					<div className="carousCont">
 						<Carousel autoPlayInterval={2000} className="carous">
 						    <div>

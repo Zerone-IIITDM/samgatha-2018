@@ -96,11 +96,7 @@ class CultEventsList extends Component{
 	            	<div className="blocks">
 	            		<div className="blockLine">
 			            	<Link to='/photON' style={styles.links}><div className="cauldron">
-<<<<<<< HEAD
 			            		<div className="eventName">PhotOn</div>
-=======
-			            		<div className="eventName">PhotoOn</div>
->>>>>>> 05156231a324535edac7d39a30e5a6c413f5c6e9
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            	<Link to='/pictionary' style={styles.links}><div className="cauldron">
@@ -108,11 +104,7 @@ class CultEventsList extends Component{
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            	<Link to='/syncGeet' style={styles.links}><div className="cauldron">
-<<<<<<< HEAD
 			            		<div className="eventName">Sync-Geet</div>
-=======
-			            		<div className="eventName">SyncGeet</div>
->>>>>>> 05156231a324535edac7d39a30e5a6c413f5c6e9
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>
