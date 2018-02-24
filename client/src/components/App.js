@@ -65,6 +65,7 @@ var dota_form						=	""
 var fifa_form						=	""
 var csgo_form						=	""
 var miniMilitia_form				=	""
+var goLogicYourself_form				=	""
 
 /*CLUB CONTACTS START HERE*/
 var roboticsClubContacts = 
@@ -365,7 +366,7 @@ var designception =
 	eventFormat:
 		[
 			<b>Event Format: </b>,	<br/>,
-			`Team size : 2 to 3.`,<br/>,
+			<u>Team size</u>,`: 2 to 3.`,<br/>,
 			`Should Present the CAD model in front of the panel.`,
 			<br/>,	<br/>,
 			`Things needed in powerpoint presentation:`,<br/>,
@@ -768,7 +769,7 @@ var beASuperHero =
 	eventFormat:
 		[
 			<b>Event Format: </b>,<br/>,
-			`No. of rounds: 2`,
+			<u>No. of rounds</u>,`: 2`,
 			<br/>,
 			<u>Round 1:</u>,<b>&emsp;</b>,`Sketching basic ideas`,
 			<br/>,
@@ -1198,11 +1199,11 @@ var mayaSrishti =
 		[
 			<b>Event Rules: </b>,
 			<br/>,
-			`1.`,<b>&emsp;</b>,`Team size: 3-12 member group`,
+			`1.`,<b>&emsp;</b>,<u>Team size</u>,`: 3-12 member group`,
 			<br/>,
-			`2.`,<b>&emsp;</b>,`Language: English, Hindi, Tamil, Telugu.`,
+			`2.`,<b>&emsp;</b>,<u>Language</u>,`: English, Hindi, Tamil, Telugu.`,
 			<br/>,
-			`3.`,<b>&emsp;</b>,`Time limit: For the first round, minimum 5 minutes and maximum 25 minutes. For the second round, it will be decided on the spot.`,
+			`3.`,<b>&emsp;</b>,<u>Time limit</u>,`: For the first round, minimum 5 minutes and maximum 25 minutes. For the second round, it will be decided on the spot.`,
 			<br/>,<br/>
 		],
 	judgingCriteria:
@@ -1218,8 +1219,8 @@ var mayaSrishti =
 		[
 			<b>FAQ</b>,
 			<br/>,
-			<b>Q.&emsp;What if the team size is less than or more than the above 
-			mentioned minimum and maximum team size respectively, or same in the case of team limit?</b>,
+			<b>Q.&emsp;What if the size of our team doesn't adhere to the team size rules and falls out of range?
+			</b>,
 			<br/>,
 			<b>A :&emsp;</b>, `In that case, your team will have to face penalty of a few points, given to you while judging.`,
 			<br/>
@@ -1442,7 +1443,7 @@ var duetDance =
 		[
 			<b>Event Format: </b>,<br/>,
 			`Solo Dancing`,<br/>,
-			<u>Team size:</u>,<b>&ensp;</b>,`ofcourse 2`,
+			<u>Team size:</u>,<b>&ensp;</b>,`ofcourse 2`,<br/>,
 			<u>Time limit:</u>,<b>&ensp;</b>,`3 - 5 minutes`,
 			<br/>, <br/>
 		],
@@ -1824,7 +1825,7 @@ var lawyerUp =
 			`Individual event`,
 			<br/>,
 			`The event will be spanned by 2 rounds.`,<br/>,
-			<u>Round 1</u>,` will see a group discussion.`,<b>&emsp;</b>,` Group size : 5`,
+			<u>Round 1</u>,` will see a group discussion.`,<b>&emsp;</b>,<u>Group size</u>,` : 5`,<br/>,
 			<u>Round 2</u>,` will be the final round consisting of the best 6 participants from Round 1. `,
 			<br/>,<br/>
 		],
@@ -1908,7 +1909,7 @@ var dota =
 	eventRules:
 		[
 			<b>Event Rules: </b>,<br/>,
-			`1.`,<b>&emsp;</b>,`Since this is an amateur tournament, players with Legend 5 or below can only participate.`,<br/>,
+			`1.`,<b>&emsp;</b>,`Since this is an amateur tournament, players with Ancient 5 or below can only participate.`,<br/>,
 			`2.`,<b>&emsp;</b>,`This is an online tournament which happens in the span of a week. The format till semi-finals will be single elimination and followed by double elimination and all the matches are B01, Finals will be played as B03`,<br/>,
 			`3.`,<b>&emsp;</b>,`Teams who have registered must be present in the lobby 5 min before the start of the match, if failed to do so, the team will be eliminated.`,<br/>,
 			`4.`,<b>&emsp;</b>,`Smurf accounts will not be entertained and if a player is found using a smurf account, the whole team gets eliminated from the tournament.`,
@@ -2021,6 +2022,39 @@ var miniMilitia =
 		[],
 	club:"Gaming Club",
 	contacts:gamingClubContacts,
+}
+
+var goLogicYourself = 
+{
+	regLink:goLogicYourself_form,
+	eventName:"Go Logic Yourself",
+	data:
+		[
+			`Empty your mind from emotions and distractions, fill it up with logic and you're welcome for Go Logic Yourself.`,
+			<br/>,<br/>
+		],
+	eventFormat:
+		[
+			<b>Event Format: </b>,<br/>,
+			<u>Event duration:</u>,<b>&emsp;</b>,`2 hours`,<br/>,
+			<u>Number of Questions:</u>,<b>&emsp;</b>,`30`,<br/>,
+			<u>Pre-requisites:</u>,<b>&emsp;</b>,`Math, Logic, Reasoning ability and Basic programming skills`,
+			<br/>,<br/>
+		],
+	problemStatement:
+		[],
+	eventRules:
+		[
+			<b>Event Rules: </b>,<br/>,
+			`Only for the first years/freshers`,
+			<br/>,<br/>
+		],
+	judgingCriteria:
+		[],
+	faq:
+		[],
+	club:"Zerone Club",
+	contacts:zeroneClubContacts,
 }
 
 class App extends Component {
@@ -2165,6 +2199,7 @@ class App extends Component {
 		<Route path="/queenOfSheeba" component={() => (<EventOne event={queenOfSheeba} />)} />
 		<Route path="/lawyerUp" component={() => (<EventOne event={lawyerUp} />)} />
 		<Route path="/resonance" component={() => (<EventOne event={resonance} />)} />
+		<Route path="/goLogicYourself" component={() => (<EventOne event={goLogicYourself} />)} />
 		<Footer />
 	 </div>
 	 </BrowserRouter>
