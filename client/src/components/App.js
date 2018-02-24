@@ -24,6 +24,9 @@ import MobileCultEventsList from './MobileEventsList/MobileCultEvents';
 import EventOne from './Event1/Event1';
 import MobileEventOne from './MobileEvent1/MobileEvent1';
 import Battle from './BattleofBands';
+import { auth } from './FirebaseUi/firebaseConfig';
+import SignIn from './SignIn/SignIn';
+import SignUp from './SignUp/SignUp';
 
 /*EVENT FORMS START HERE*/
 var chakravyuha_form				=	"https://goo.gl/forms/4o7g1PFXsMfyWQR03"
@@ -2037,6 +2040,11 @@ class App extends Component {
  window.addEventListener('resize', this.handleWindowSizeChange);
  }
  componentDidMount(){
+	auth.onAuthStateChanged(authUser => {
+		authUser
+		  ? this.setState(() => ({ authUser }))
+		  : this.setState(() => ({ authUser: null }));
+		});
  const ele = document.getElementById('ipl-progress-indicator')
  if(ele){
 	setTimeout(() => {
@@ -2113,12 +2121,14 @@ class App extends Component {
 	<div style={{height:'100%'}}>
 	 <BrowserRouter>
 	 <div style={{height:'100%'}}>
-		<Header />
+		<Header authUser={this.state.authUser}/>
 		<Route exact={true} path="/" component={Home} />
 		<Route path="/events" component={Events} />
 		<Route path="/workshops" component={Workshop} />
 		<Route path="/sponsors" component={Sponsors} />
 		<Route path="/contacts" component={ContactUs} />
+		<Route path="/login" component={SignIn} />
+        <Route path="/register" component={SignUp} />
 		<Route path="/WorkshopOne" component={WorkshopOneMin} />
 		<Route path="/socialcause" component={SocialCause} />
 		<Route path="/techeventslist" component={TechEventsList} />

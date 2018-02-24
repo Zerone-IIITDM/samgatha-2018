@@ -2,12 +2,8 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": {
-    "/auth/google": {
-      "target": "http://localhost:5000"
-    }
-  },
   "dependencies": {
+    "firebase": "^4.10.1",
     "react": "^16.2.0",
     "react-burger-menu": "^2.2.3",
     "react-count-to": "^0.10.0",

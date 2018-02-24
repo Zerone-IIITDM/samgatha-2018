@@ -2,14 +2,11 @@ const express = require('express');
 const keys = require('./config/keys');
 const passport = require('passport');
 const path = require('path');
-require('./services/passport');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
 
 app.use(passport.initialize());
-
-require('./routes/authRoutes')(app);
 
 if (process.env.NODE_ENV == 'production') {
     // Serve the static react app files
