@@ -12,7 +12,8 @@ class SignUpForm extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: '',
+            firstName: '',
+            lastName: '',
             email: '',
             passwordOne: '',
             passwordTwo: '',
@@ -27,7 +28,8 @@ class SignUpForm extends Component {
         event.preventDefault();
 
         const {
-            name,
+            firstName,
+            lastName,
             email,
             passwordOne,
             passwordTwo,
@@ -59,7 +61,8 @@ class SignUpForm extends Component {
                         sam_id = sam_id + data.val().toString();
                     });
                     db.ref(`/users/${authUser.uid}`).set({
-                        name,
+                        firstName,
+                        lastName,
                         email,
                         college,
                         dob,
@@ -68,7 +71,8 @@ class SignUpForm extends Component {
                     })
                     .then(() => {
                         this.setState({
-                            name: '',
+                            firstName: '',
+                            lastName: '',
                             email: '',
                             passwordOne: '',
                             passwordTwo: '',
@@ -94,7 +98,8 @@ class SignUpForm extends Component {
     }
     render() {
         const {
-            name,
+            firstName,
+            lastName,
             email,
             passwordOne,
             passwordTwo,
@@ -109,57 +114,75 @@ class SignUpForm extends Component {
             email === '';
 
         return(
-            <form onSubmit={this.onSubmit} style={{marginTop: '150px',marginLeft: '150px'}}>
+            <form onSubmit={this.onSubmit} className="signInForm">
+                <div className="signInHeader">
+                    REGISTER
+                </div>
                 <input
                     value={this.state.name}
                     type="text"
-                    placeholder="Name"
-                    name="name"
+                    placeholder="First Name"
+                    name="firstName"
                     onChange={this.handleChange}
-                />
+                    className="emailField"
+                /><br />
+                <input
+                    value={this.state.name}
+                    type="text"
+                    placeholder="Last Name"
+                    name="lastName"
+                    onChange={this.handleChange}
+                    className="emailField"
+                /><br />
                 <input
                     value={this.state.email}
                     type="text"
                     placeholder="Email ID"
                     name="email"
                     onChange={this.handleChange}
-                />
+                    className="emailField"
+                /><br />
                 <input
                     value={this.state.passwordOne}
                     type="password"
                     placeholder="Password"
                     name="passwordOne"
                     onChange={this.handleChange}
-                />
+                    className="emailField"
+                /><br />
                 <input
                     value={this.state.passwordTwo}
                     type="password"
                     placeholder="Confirm Password"
                     name="passwordTwo"
                     onChange={this.handleChange}
-                />
+                    className="emailField"
+                /><br />
                 <input
                     value={this.state.college}
                     type="text"
                     placeholder="College"
                     name="college"
                     onChange={this.handleChange}
-                />
+                    className="emailField"
+                /><br />
                 <input
                     value={this.state.dob}
                     type="text"
                     placeholder="Date of Birth"
                     name="dob"
                     onChange={this.handleChange}
-                />
+                    className="emailField"
+                /><br />
                 <input
                     value={this.state.gender}
                     type="text"
                     placeholder="Gender"
                     name="gender"
                     onChange={this.handleChange}
-                />
-                <button disabled={isInvalid} type="submit">
+                    className="emailField"
+                /><br />
+                <button disabled={isInvalid} type="submit" className="signInButton">
                     Register
                 </button>
             </form>

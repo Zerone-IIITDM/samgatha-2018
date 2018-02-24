@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import { auth } from '../FirebaseUi/firebaseConfig';
+import './SignIn.css';
 
 const SignInPage = ({ history }) => {
     return(
@@ -58,22 +59,27 @@ class SignInForm extends Component {
             password === '' ||
             email === '';
         return (
-            <form onSubmit={this.onSubmit} style={{marginTop: '150px',marginLeft: '150px'}}>
+            <form onSubmit={this.onSubmit} className="signInForm">
+            <div className="signInHeader">
+                LOGIN
+            </div>
             <input
               value={this.state.email}
               onChange={this.handleChange}
               name="email"
               type="text"
               placeholder="Email ID"
-            />
+              className="emailField"
+            /><br />
             <input
               value={this.state.password}
               onChange={this.handleChange}
               name="password"
               type="password"
               placeholder="Password"
-            />
-            <button disabled={isInvalid} type="submit">
+              className="emailField"
+            /><br />
+            <button disabled={isInvalid} type="submit" className="signInButton">
               Sign In
             </button>
             </form>

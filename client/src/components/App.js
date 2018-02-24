@@ -995,7 +995,8 @@ var danceWars =
 			`Who says dance isn't magical? It's time to live your La La Land.
 			Listen to that long forgotten whisper and feel the rise and fall of
 			your breath. Break your shackles. Grab the moment and cast that
-			entrancing spell on us!`,
+			entrancing spell on us! Opportunity dances with those already on the dance floor. Come,
+			grab it. Come, dance to live, to breathe, to be free, to be YOU.`,
 			<br/>, <br/>
 		],
 	eventFormat:
@@ -1008,12 +1009,7 @@ var danceWars =
 			<br/>, <br/>
 		],
 	problemStatement:
-		[
-			<b>Problem Statement: </b>,<br/>,
-			`Opportunity dances with those already on the dance floor. Come,
-			grab it. Come, dance to live, to breathe, to be free, to be YOU.`,
-			<br/>, <br/>
-		],
+		[],
 	eventRules:
 		[
 			<b>Event Rules: </b>,<br/>,
@@ -1046,6 +1042,10 @@ var danceWars =
 	faq:
 		[
 			<b>FAQs:</b>,
+			<br/>,
+			<b>Q.&emsp;Is classical allowed for duet?</b>,
+			<br/>,
+			<b>A :&emsp;</b>, `No. But you're free to do semi-classical.`,
 			<br/>,
 			<b>Q.&emsp;How many prizes will be awarded?</b>,
 			<br/>,
@@ -1320,7 +1320,8 @@ var impulse =
 			`Who says dance isn't magical? It's time to live your La La Land.
 			Listen to that long forgotten whisper and feel the rise and fall of
 			your breath. Break your shackles. Grab the moment and cast that
-			entrancing spell on us!`,
+			entrancing spell on us! Opportunity dances with those already on the dance floor. Come,
+			grab it. Come, dance to live, to breathe, to be free, to be YOU.`,
 			<br/>,	<br/>
 		],
 	eventFormat:
@@ -1333,12 +1334,7 @@ var impulse =
 			<br/>, <br/>
 		],
 	problemStatement:
-		[
-			<b>Problem Statement: </b>,<br/>,
-			`Opportunity dances with those already on the dance floor. Come,
-			grab it. Come, dance to live, to breathe, to be free, to be YOU.`,
-			<br/>, <br/>
-		],
+		[],
 	eventRules:
 		[
 			<b>Event Rules: </b>,<br/>,
@@ -1369,6 +1365,10 @@ var impulse =
 	faq:
 		[
 			<b>FAQs:</b>,
+			<br/>,
+			<b>Q.&emsp;Is classical allowed for duet?</b>,
+			<br/>,
+			<b>A :&emsp;</b>, `No. But you're free to do semi-classical.`,
 			<br/>,
 			<b>Q.&emsp;How many prizes will be awarded?</b>,
 			<br/>,
@@ -1428,13 +1428,14 @@ var maskMaking =
 var duetDance = 
 {
 	regLink:duetDance_form,
-	eventName:"Duet Dance",
+	eventName:"Coupling",
 	data:
 		[
 			`Who says dance isn't magical? It's time to live your La La Land.
 			Listen to that long forgotten whisper and feel the rise and fall of
 			your breath. Break your shackles. Grab the moment and cast that
-			entrancing spell on us!`,
+			entrancing spell on us! Opportunity dances with those already on the dance floor. Come,
+			grab it. Come, dance to live, to breathe, to be free, to be YOU.`,
 			<br/>,	<br/>
 		],
 	eventFormat:
@@ -1446,12 +1447,7 @@ var duetDance =
 			<br/>, <br/>
 		],
 	problemStatement:
-		[
-			<b>Problem Statement: </b>,<br/>,
-			`Opportunity dances with those already on the dance floor. Come,
-			grab it. Come, dance to live, to breathe, to be free, to be YOU.`,
-			<br/>, <br/>
-		],
+		[],
 	eventRules:
 		[
 			<b>Event Rules: </b>,<br/>,

@@ -88,7 +88,7 @@ class CultEventsList extends Component{
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            	<Link to='/duetDance' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">Duet Dance</div>
+			            		<div className="eventName">Coupling</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>
