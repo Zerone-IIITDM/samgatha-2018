@@ -20,25 +20,20 @@ class Sponsors extends Component {
                 <i>Co-Sponsor</i>
               </div>
             </div>
+            <div className="sponsBox symrise">
+              <a href="https://www.symrise.com/">
+                <img src={require("../icons/symrise.jpg")} alt="Sponsor" />
+              </a>
+              <div className="sponsHeader">
+                <i>Co-Sponsor</i>
+              </div>
+            </div>
             <div className="sponsBox radio">
               <a href="http://www.radiomirchi.com/">
                 <img src={require("../icons/radio.jpg")} alt="Sponsor" />
               </a>
               <div className="sponsHeader radioHeader">
                 <i>Radio Partner</i>
-              </div>
-            </div>
-            <div className="innerGrid1">
-              <div className="sponsBox super">
-                <img src={require("../icons/saf.jpg")} alt="Sponsor" />
-                <div className="sponsHeader superHeader">
-                  <i>Events Partner</i>
-                </div>
-              </div>
-              <div className="sponsBox festPav">
-                <a href="http://festpav.com/">
-                  <img src={require("../icons/festPav.png")} alt="Sponsor" />
-                </a>
               </div>
             </div>
           </div>
@@ -77,6 +72,19 @@ class Sponsors extends Component {
               </a>
               <div className="sponsHeader">
                 <i>Gifts Partner</i>
+              </div>
+            </div>
+            <div className="innerGrid1">
+              <div className="sponsBox super">
+                <img src={require("../icons/saf.jpg")} alt="Sponsor" />
+                <div className="sponsHeader superHeader">
+                  <i>Events Partner</i>
+                </div>
+              </div>
+              <div className="sponsBox festPav">
+                <a href="http://festpav.com/">
+                  <img src={require("../icons/festPav.png")} alt="Sponsor" />
+                </a>
               </div>
             </div>
           </div>

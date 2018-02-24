@@ -47,6 +47,7 @@
 
 .radio{
 	padding-top: 5%;
+	padding-left: 2%;	
 }
 
 .radioHeader{
@@ -55,7 +56,6 @@
 
 .super{
 	padding-left: 4%;
-	margin-top: 17%;
 }
 
 
@@ -73,4 +73,9 @@
 
 .bank{
 	margin-left: -15%;
+}
+
+.symrise{
+	margin-top: 10%;
+	margin-left: -2%;
 }

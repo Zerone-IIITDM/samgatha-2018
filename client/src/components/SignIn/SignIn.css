@@ -1,0 +1,45 @@
+.signInForm{
+    padding-top: 11%;
+    text-align: center;
+}
+
+.emailField{
+    color: white;
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Audimat;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ddd;    
+}
+
+.signInHeader{
+    color: white;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 700;
+	font-family: Audimat;
+}
+
+.signInButton{
+    margin-top: 20px;
+    background: transparent;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;  
+}
+
+.signInButton:disabled{
+    border: 2px solid #65cb00;
+    color:#65cb00;
+    cursor: not-allowed;
+}
+
+ .signInButton:enabled{
+    border: 2px solid #b1ff64;
+     color:#b1ff64;
+     cursor: pointer;
+ }

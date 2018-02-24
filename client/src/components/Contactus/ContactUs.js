@@ -166,7 +166,7 @@ class ContactUs extends Component{
 										<div className="cardImage">
 											<img src={require("../icons/gaya.PNG")} alt="contactPic" />
 										</div>
-										<div className="memberInfo">Gayathri<br />+91-7396838577</div>
+										<div className="memberInfo">Gayathri<br />+91-9566181454</div>
 										<div className="cardLinks">
 											<a href="https://www.facebook.com/gayu.nitturu"><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
 											<a href="https://www.instagram.com/_gayathri_nitturu/"><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>&ensp;
@@ -180,6 +180,80 @@ class ContactUs extends Component{
 										<div className="memberInfo">V Divya<br />+91-9952204562</div>
 										<div className="cardLinks">
 											<a href="https://www.facebook.com/divya.venkat.5682"><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+					<div className="borderBottom"></div>
+					<div className="content">
+					<div className="clubName">Graphic Design Club</div>
+							<div className="club">
+								<div className="members">
+									<div className="member">
+										<div className="cardImage">
+											<img src={require("../icons/maytre.PNG")} alt="contactPic" />
+										</div>
+										<div className="memberInfo">Maitreya<br />+91-9790707133</div>
+										<div className="cardLinks">
+											<a href="https://www.facebook.com/maitreya.sid.rybm"><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
+											<a href="https://www.instagram.com/_gayathri_nitturu/"><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>&ensp;
+											<a href="https://www.linkedin.com/in/gayathri-nitturu-a04528159/"><i className="fab socialIconsFacebook fa-linkedin fa-xs"></i></a>
+										</div>
+									</div>
+									<div className="member">
+										<div className="cardImage">
+											<img src={require("../icons/bitra.PNG")} alt="contactPic" />
+										</div>
+										<div className="memberInfo">Kartik Bitra<br />+91-9502372179</div>
+										<div className="cardLinks">
+											<a href="https://www.facebook.com/kartik.bitra"><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
+										</div>
+									</div>
+									<div className="member">
+										<div className="cardImage">
+											<img src={require("../icons/prudhvi.PNG")} alt="contactPic" />
+										</div>
+										<div className="memberInfo">Prudhvi<br />+91-9790707165</div>
+										<div className="cardLinks">
+											<a href="https://www.facebook.com/pruthvi.kasani"><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
+										</div>
+									</div>
+								</div>
+							</div>
+					</div>
+					<div className="borderBottom"></div>
+					<div className="content">
+					<div className="clubName">General Arrangements</div>
+							<div className="club">
+								<div className="members">
+									<div className="member">
+										<div className="cardImage">
+											<img src={require("../icons/harish.PNG")} alt="contactPic" />
+										</div>
+										<div className="memberInfo">Harish<br />+91-7358612531</div>
+										<div className="cardLinks">
+											<a href="https://www.facebook.com/maitreya.sid.rybm"><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
+											<a href="https://www.instagram.com/_gayathri_nitturu/"><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>&ensp;
+											<a href="https://www.linkedin.com/in/gayathri-nitturu-a04528159/"><i className="fab socialIconsFacebook fa-linkedin fa-xs"></i></a>
+										</div>
+									</div>
+									<div className="member">
+										<div className="cardImage">
+											<img src={require("../icons/srinu.PNG")} alt="contactPic" />
+										</div>
+										<div className="memberInfo">Srinu<br />+91-9962286853</div>
+										<div className="cardLinks">
+											<a href="https://www.facebook.com/kartik.bitra"><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
+										</div>
+									</div>
+									<div className="member">
+										<div className="cardImage">
+											<img src={require("../icons/ven.PNG")} alt="contactPic" />
+										</div>
+										<div className="memberInfo">Vennela<br />+91-9492652195</div>
+										<div className="cardLinks">
+											<a href="https://www.facebook.com/pruthvi.kasani"><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
 										</div>
 									</div>
 								</div>
