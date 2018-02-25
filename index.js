@@ -11,8 +11,8 @@ const PORT = process.env.PORT || 5000;
 const options = {
     service: 'SendGrid',
     auth: {
-      api_user: 'pranay414',
-      api_key: 'Pranay414#'
+      api_user: SENDGRID_USERNAME,
+      api_key: SENDGRID_PASSWORD
     }
 };
 
