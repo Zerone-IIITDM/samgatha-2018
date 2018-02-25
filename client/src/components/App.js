@@ -33,10 +33,10 @@ import RegistrationDone from './RegistrationDone/RegistrationDone';
 var chakravyuha_form				=	"https://goo.gl/forms/4o7g1PFXsMfyWQR03"
 var warOfWatts_form					=	"https://goo.gl/forms/CMqeSkjbwF8zHCL03"
 var tech4Help_form					=	"https://goo.gl/forms/VKigsYebsqgqa6t42"
-var designception_form				=	"https://goo.gl/forms/7xd98tO4lLDNcGjH2"
+var cleanTheSpace_form				=	"https://goo.gl/forms/7xd98tO4lLDNcGjH2"
 var relayDesign_form				=	"https://goo.gl/forms/jLEpbEafEo7lyjLz1"
-var battleZone_form					=	"https://goo.gl/forms/AIIbLEEyuZavWVmG3"
-var quiz_form						=	"https://goo.gl/forms/5dyeX0QxOvKzfRPq1"
+var junkyardWars_form				=	"https://goo.gl/forms/AIIbLEEyuZavWVmG3"
+var triviosity_form					=	"https://goo.gl/forms/5dyeX0QxOvKzfRPq1"
 var appAThon_form					=	"https://goo.gl/forms/xfLQs28TLtpJoZ4d2"
 var codeAution_form					=	"https://goo.gl/forms/rA8vNbBXjQd4Sxaz1"
 var samgathaBusinessChallenge_form	=	"https://goo.gl/forms/gGYlBG9P32zOHQUL2"
@@ -52,7 +52,7 @@ var mayaSrishti_form				=	"https://goo.gl/forms/7zoGJ05COg4Hx61Y2"
 var hocusFocus_form					=	"https://goo.gl/forms/vh6uWhiFKa2HMk923"
 var impulse_form					=	"https://goo.gl/forms/FkNm0lFyfBvnvp7C3"
 var maskMaking_form					=	"https://goo.gl/forms/elkLfy5SLMMQlsDh1"
-var duetDance_form					=	"https://goo.gl/forms/dqvIYcffHyRyT10A3"
+var coupling_form					=	"https://goo.gl/forms/dqvIYcffHyRyT10A3"
 var photON_form						=	"https://goo.gl/forms/vT9bBu1GM3aZKdA42"
 var pictionary_form					=	""
 var blindFill_form					=	""
@@ -66,7 +66,7 @@ var dota_form						=	""
 var fifa_form						=	""
 var csgo_form						=	""
 var miniMilitia_form				=	""
-var goLogicYourself_form				=	""
+var goLogicYourself_form			=	""
 
 /*CLUB CONTACTS START HERE*/
 var roboticsClubContacts = 
@@ -194,10 +194,14 @@ var chakravyuha =
 			<br/>,	<br/>
 		],
 	eventFormat:
-		[],
+		[
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,	<br/>,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`Five`,
+			<br/>,	<br/>
+		],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,	<br/>,
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,	<br/>,
 			<a href = "https://drive.google.com/open?id=1SyKdtaRP4D5B-OoE7T66-6lJSimgT-LG" target = "_blank"> Click to View </a>,
 			<br/>,	<br/>
 		],
@@ -207,11 +211,7 @@ var chakravyuha =
 		[],
 	faq:
 		[
-			<b>FAQ</b>,	<br/>,
-			<b>Q.&emsp;How many members in a group?</b>,
-			<br/>,
-			<b>A :&emsp;</b>, `Five`,
-			<br/>,
+			<div style = {{fontSize:"30px"}}><b>FAQs:</b></div>,	<br/>,
 			<b>Q.&emsp;Can we use readymade kits?</b>,
 			<br/>,
 			<b>A :&emsp;</b>, `No`,
@@ -237,7 +237,7 @@ var warOfWatts =
 	eventName:"War of Watts",
 	data:
 		[
-			`In the midst of an ecstatic Fest lies an ancient battle ground, a place where several battles were fought, wars waged, 
+			`In the midst of an ecstatic Fest lies an ancient battle ground, a place where several battles were fought, wars waged, 
 			a place that will test your wits, a place that will test your limits and your command over the legions of components waiting to be 
 			explored and combined to form deadly combinations. Do you have what it takes to enter the arena and establish your supremacy? Here Survival 
 			is not an option. May the river of electrons come to your aid.`,
@@ -245,15 +245,15 @@ var warOfWatts =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,	<br/>,
-			`No. of rounds: 2`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,	<br/>,
+			<u>No. of rounds</u>,` :`,<b>&emsp;</b>,`2`,
 			<br/>,	<br/>
 		],
 	problemStatement:
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,	<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,	<br/>,
 			`1.`,<b>&emsp;</b>,`A team can have maximum 2 members,`,	<br/>,
 			`2.`,<b>&emsp;</b>,`Once a team is formed , it cannot be changed,`,	<br/>,
 			`3.`,<b>&emsp;</b>,`Quarrelling with judges will lead to disqualification.`,
@@ -263,7 +263,7 @@ var warOfWatts =
 		[],
 	faq:
 		[
-			<b>FAQ</b>,
+			<div style = {{fontSize:"30px"}}><b>FAQs:</b></div>,
 			<br/>,
 			<b>Q.&emsp;Why should I participate in WOW?</b>,
 			<br/>,
@@ -297,41 +297,42 @@ var tech4Help =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,	<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,	<br/>,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`4`,<br/>,
 			`Participants must report in the venue with the prototype. They have to showcase the working of the prototype.`,
 			<br/>,	<br/>
 		],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,	<br/>,
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,	<br/>,
 			`Participants should make any electronics prototype for solving health related problem existing in society.`,
 			<br/>,	<br/>
 		],
 	eventRules:
 		[
-			<b>Event Rules:</b>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules:</b></div>,
 			<br/>,
-			`1.`,<b>&emsp;</b>,`A team can have maximum 4 members. Once a team is formed , it cannot be changed.`,
+			`1.`,<b>&emsp;</b>,`Once a team is formed , it cannot be changed.`,
 			<br/>,
 			`2.`,<b>&emsp;</b>,`Quarrelling with judges will lead to disqualification.`,
 			<br/>,	<br/>
 		],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,
 			<br/>,
 			`Points will be awarded on the following basis:`,
 			<br/>,
-			`Idea - 30 points`,
+			<b>&emsp;</b>,`Idea - 30 points`,
 			<br/>,
-			`Working - 40 points`,
+			<b>&emsp;</b>,`Working - 40 points`,
 			<br/>,
-			`Presentation - 30 points`,
+			<b>&emsp;</b>,`Presentation - 30 points`,
 			<br/>,	<br/>
 		],
 	faq:
 		[
-			<b>FAQs:</b>,
+			<div style = {{fontSize:"30px"}}><b>FAQs:</b></div>,
 			<br/>,
 			<b>Q.&emsp;Why should I participate in tech4help?</b>,
 			<br/>,
@@ -350,10 +351,10 @@ var tech4Help =
 	contacts:edcClubContacts,
 }
 
-var designception = 
+var cleanTheSpace = 
 {
-	regLink:designception_form,
-	eventName:"Designception",
+	regLink:cleanTheSpace_form,
+	eventName:"Clean The Space",
 	data:
 		[
 			`It has always been about the`,<br/>,
@@ -366,11 +367,21 @@ var designception =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,	<br/>,
-			<u>Team size</u>,`: 2 to 3.`,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,	<br/>,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`2 to 3`,<br/>,
 			`Should Present the CAD model in front of the panel.`,
 			<br/>,	<br/>,
-			`Things needed in powerpoint presentation:`,<br/>,
+		],
+	problemStatement:
+		[
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,	<br/>,
+			`Space junks and wastes has started accumulating around our earth since 1957. And the quantity has reached the saturation point.`,<br/>,
+			`Come up with a solution to recover the space junk and bring it back to earth for recycling and reusing .`,
+			<br/>,	<br/>
+		],
+	eventRules:
+		[
+			<div style = {{fontSize:"30px"}}><b>Things needed in powerpoint presentation:</b></div>,<br/>,
 			`1.`,<b>&emsp;</b>,`Explain in brief about design approach :`,<br/>,
 			<b>&emsp;&emsp;</b>,`Different concepts developed during the process, source of inspiration, listing of existing products used for reference, etc.`,<br/>,
 			`2.`,<b>&emsp;</b>,`Final concept :`,<br/>,
@@ -378,27 +389,18 @@ var designception =
 			`3.`,<b>&emsp;</b>,`Attach CAD images and explain the working and significance of your model.`,
 			<br/>,	<br/>
 		],
-	problemStatement:
-		[
-			<b>Problem Statement: </b>,	<br/>,
-			`Space junks and wastes has started accumulating around our earth since 1957. And the quantity has reached the saturation point.`,<br/>,
-			`Come up with a solution to recover the space junk and bring it back to earth for recycling and reusing .`,
-			<br/>,	<br/>
-		],
-	eventRules:
-		[],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,
 			<br/>,
-			`Concept Idea`,<br/>,
-			`Cost effectiveness of the product`,<br/>,
-			`Aesthetics and design of the model`,
+			<b>&emsp;</b>,`Concept Idea`,<br/>,
+			<b>&emsp;</b>,`Cost effectiveness of the product`,<br/>,
+			<b>&emsp;</b>,`Aesthetics and design of the model`,
 			<br/>,	<br/>
 		],
 	faq:
 		[
-			<b>FAQ</b>,
+			<div style = {{fontSize:"30px"}}><b>FAQs:</b></div>,
 			<br/>,
 			<b>Q.&emsp;Who can participate?</b>,
 			<br/>,
@@ -408,7 +410,7 @@ var designception =
 			<br/>,
 			<b>Q.&emsp;How to register?</b>,
 			<br/>,
-			<b>A :&emsp;</b>, `Samgatha registration webpage.`,
+			<b>A :&emsp;</b>, `The Register Button below this event name.`,
 			<br/>
 		],
 	club:"IDC Club",
@@ -432,24 +434,23 @@ var relayDesign =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			`No. of Rounds: 2`,
-			<br/>,
-			<u>Round 1:</u>,<b>&emsp;</b>,`Based on the problem statement you have to come up with a conceptual design, with a rough sketch and brief explanation for your design. \
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>No. of Rounds</u>,` :`,<b>&emsp;</b>,`2`,<br/>,
+			<u>Round 1</u>,` :`,<b>&emsp;</b>,`Based on the problem statement you have to come up with a conceptual design, with a rough sketch and brief explanation for your design. \
 			Based on your conceptual design you will be selected for the 2nd round.(There will be some filtration of participants in 1st round)`,
 			<br/>,
-			<u>Round 2:</u>,<b>&emsp;</b>,`In second round you have to make the model that you conceptualised in 1st round in a design software.`,
+			<u>Round 2</u>,` :`,<b>&emsp;</b>,`In second round you have to make the model that you conceptualised in 1st round in a design software.`,
 			<br/>,	<br/>,
 		],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,	<br/>,
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,	<br/>,
 			`Problem statement will be given on the spot.`,
 			<br/>,	<br/>
 		],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
 			`1.`,<b>&emsp;</b>,`A team can have minimum 2 and maximum 3 members.`,
 			<br/>,
 			`2.`,<b>&emsp;</b>,`Computer for making the model in design software is provided by the college itself. Participants are not allowed to bring their laptops.`,
@@ -462,14 +463,14 @@ var relayDesign =
 		],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,
 			<br/>,
 			`Points will be awarded on the basis of conceptual design and 3D modelling`,
 			<br/>,<br/>,
 		],
 	faq:
 		[
-			<b>FAQs:</b>,
+			<div style = {{fontSize:"30px"}}><b>FAQs:</b></div>,
 			<br/>,
 			<b>Q.&emsp;What is time rotation?</b>,
 			<br/>,
@@ -484,76 +485,55 @@ var relayDesign =
 	contacts:idcClubContacts,
 }
 
-var battleZone = 
+var junkyardWars = 
 {
-	regLink:battleZone_form,
-	eventName:"Battle Zone",
+	regLink:junkyardWars_form,
+	eventName:"Junkyard Wars",
 	data:
 		[
-			`In the midst of an ecstatic Fest lies an ancient battle ground, a place where several battles were fought, wars waged, 
-			a place that will test your wits, a place that will test your limits and your command over the legions of components waiting to be 
-			explored and combined to form deadly combinations. Do you have what it takes to enter the arena and establish your supremacy? Here Survival 
-			is not an option. May the river of electrons come to your aid.`,
+			`Let’s build big, bad GUNS!`,
 			<br/>,	<br/>
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,	<br/>,
-			`No. of rounds: 2`,
-			<br/>,	<br/>
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,	<br/>,
+			<u>No. of Rounds</u>,` :`,<b>&emsp;</b>,`2`,<br/>,
+			<u>Round 1</u>,` :`,<b>&emsp;</b>,`Pen and paper based round and a small problem`,
+			<br/>,
+			<u>Round 2</u>,` :`,<b>&emsp;</b>,`The selected teams will be given an on-spot problem statement`,
+			<br/>,	<br/>,
 		],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,	<br/>,
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,	<br/>,
 			`Participants should make any electronics prototype for solving health related problem existing in society.`,
 			<br/>,	<br/>
 		],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
-			`1.`,<b>&emsp;</b>,`A team can have maximum 2 members,`,<br />,
-			`2.`,<b>&emsp;</b>,`Once a team is formed , it cannot be changed`,<br />,
-			`3.`,<b>&emsp;</b>,`Quarrelling with judges will lead to disqualification.`,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
+			`1.`,<b>&emsp;</b>,<u>Maximum team size</u>,` :`,<b>&emsp;</b>,`5`,<br/>,
+			`2.`,<b>&emsp;</b>,`Total number of finalists selected is 8 teams.`,<br/>,
+			`3.`,<b>&emsp;</b>,`Competition will be conducted in league format.`,<br/>,
+			`4.`,<b>&emsp;</b>,<u>Time</u>,` :`,<b>&emsp;</b>,`6 minutes for league matches and 10 for finals.`,<br/>,
+			`5.`,<b>&emsp;</b>,`Construction equipment and materials will be given on site.`,<br/>,
+			`6.`,<b>&emsp;</b>,<u>Number of tennis balls(ammo) per team</u>,` :`,<b>&emsp;</b>,`10`,<br/>,
+			`7.`,<b>&emsp;</b>,`Each team's territory is a circle of radius 10 feet and the team's equipment at the centre.`,<br/>,
+			`8.`,<b>&emsp;</b>,<u>Number of lives per team</u>,` :`,<b>&emsp;</b>,`3`,
 			<br/>,	<br/>
 		],
 	judgingCriteria:
-		[
-			<b>Judging Criteria: </b>,
-			<br/>,
-			`Points will be awarded on the following basis:`,
-			<br/>,
-			`Idea - 30 points`,
-			<br/>,
-			`Working - 40 points`,
-			<br/>,
-			`Presentation - 30 points`,
-			<br/>,	<br/>
-		],
+		[],
 	faq:
-		[
-			<b>FAQ</b>,
-			<br/>,
-			<b>Q.&emsp;Why should I participate in War of Watts?</b>,
-			<br/>,
-			<b>A :&emsp;</b>, `War of Watts gives participants a platform to test their limits,and helps to improve ideation.`,
-			<br/>,
-			<b>Q.&emsp;Who can participate?</b>,
-			<br/>,
-			<b>A :&emsp;</b>, `Students from any college & university with valid ID.`,
-			<br/>,
-			<b>Q.&emsp;Can a team have members from different colleges?</b>,
-			<br/>,
-			<b>A :&emsp;</b>, `Yes,Students from different colleges can firm a team.`,
-			<br/>,	<br />
-		],
+		[],
 	club:"Ingenium Club",
 	contacts:ingeniumClubContacts,
 }	
 
-var quiz = 
+var triviosity = 
 {
-	regLink:quiz_form,
-	eventName:"Quiz",
+	regLink:triviosity_form,
+	eventName:"Triviosity",
 	data:
 		[
 			`Knowledge is power. This has never rung truer than in the quizzing world. It’s survival of the smartest, so you have got to bring your A	  game. If you know the answers, you hold all the cards, nothing else to it. Feel the adrenalin rushing through your veins!`,
@@ -561,12 +541,10 @@ var quiz =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br />,
-			`A team event of 2 members per team.`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br />,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`2 members per team`,
 			<br/>,
-			`Played in two rounds.`,
-			<br/>, 
-			`Prelims and Finals.`,
+			<u>No. of Rounds</u>,` :`,<b>&emsp;</b>,`2`,<b>&emsp;</b>,`(Prelims`,<b>&emsp;</b>,`&`,<b>&emsp;</b>,`Finals)`,
 			<br/>,
 			`The top few teams in the Prelims will be selected for Finals.`,
 			<br/>,
@@ -577,27 +555,25 @@ var quiz =
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br />,
-			`1.`,<b>&emsp;</b>,`A team can consist of maximum 2 members`,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br />,
+			`1.`,<b>&emsp;</b>,`Any number of teams from an institution are allowed`,
 			<br/>,
-			`2.`,<b>&emsp;</b>,`Any number of teams from an institution are allowed`,
+			`2.`,<b>&emsp;</b>,`A pre-registered event`,
 			<br/>,
-			`3.`,<b>&emsp;</b>,`A pre-registered event`,
-			<br/>,
-			`4.`,<b>&emsp;</b>,`Cross college teams are allowed`,
+			`3.`,<b>&emsp;</b>,`Cross college teams are allowed`,
 			<br/>,<br/>,
 		],
 	judgingCriteria:
 		[],
 	faq:
 		[
-			<b>Q.&emsp;Team Description Format (for filling registration form)?</b>,
+			<b>Team Description Format (for filling registration form)?</b>,
 			<br/>,
-			<b>A :&emsp;</b>,`1.`,<b>&emsp;</b>,`Name of the team`,
+			`1.`,<b>&emsp;</b>,`Name of the team`,
 			<br/>,
-			<b>&emsp;</b>,`2.`,<b>&emsp;</b>,`Names of individuals`,
+			`2.`,<b>&emsp;</b>,`Names of individuals`,
 			<br/>,
-			<b>&emsp;</b>,`3.`,<b>&emsp;</b>,`Name of the college`,
+			`3.`,<b>&emsp;</b>,`Name of the college`,
 			<br/>,<br />
 		],
 	club:"Quiz Club",
@@ -616,11 +592,11 @@ var appAThon =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br />,
-			`1)`,<b>&emsp;</b>,`It is team event. Team size limit: 3`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br />,
+			`1.`,<b>&emsp;</b>,<u>Team Size limit</u>,` :`,<b>&emsp;</b>,`3`,
 			<br/>,
-			`2)`,<b>&emsp;</b>,`Duration: 1-week to submit your app.`,
-			 <br/>,<br/>
+			`2.`,<b>&emsp;</b>,<u>Duration</u>,` :`,<b>&emsp;</b>,`1-week to submit your app.`,
+			<br/>,<br/>
 		],
 	problemStatement:
 		[],
@@ -641,31 +617,31 @@ var codeAution =
 	data:
 		[
 			`The event is conducted to bring out the most optimized solution to a problem
-			 statement with minimum amount of simple, neat code.`, <br/>,
-			 `The event puts pressure on the brain of the contestant to make his solution 
-			 optimized to win. `,<br/>,
-			 `Everyone wants simple and elegant code. So Zerone club 
+			 statement with minimum amount of simple, neat code. The event puts pressure on 
+			 the brain of the contestant to make his solution 
+			 optimized to win. Everyone wants simple and elegant code. So Zerone club 
 			 brings this out from it’s participants.`,<br/>,
 			<br/>,<br/>
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br />,
-			`An initial amount of virtual money or credits are given to each contestant before the event starts. 
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br />,
+			<u>No. of Rounds</u>,` :`,<b>&emsp;</b>,`2`,<br/>,
+			<u>Round 1</u>,` :`,<b>&emsp;</b>,`An initial amount of virtual money or credits are given to each contestant before the event starts. 
 			With each keyword used in their solution to the given problem statement, the credits decrease. 
-			Credits are decreased for each keyword used in the code.
-			For example: if-else constructs, looping keywords like while, for etc., switch, break, etc.
-			The event is language independent and the credits are same for the constructs and do not vary by the keyword. 
-			Other languages may have other keywords and credits are assigned based on the mechanism the keyboard. All this is round 1.
-			Round 2 will be thought over soon.`,
+			Credits are decreased for each keyword used in the code.`,<br/>,
+			`For example: if-else constructs, looping keywords like while, for etc., switch, break, etc.`,<br/>,
+			`The event is language independent and the credits are same for the constructs and do not vary by the keyword. 
+			Other languages may have other keywords and credits are assigned based on the mechanism the keyboard.`,<br/>,
+			<u>Round 2</u>,` :`,<b>&emsp;</b>,` Surprise Round.`,
 			<br/>,<br/>
 		],
 	problemStatement:
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br />,
-			`Maximum two members per team`,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br />,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`2`,
 			<br/>,<br/>
 		],
 	judgingCriteria:
@@ -688,7 +664,8 @@ var samgathaBusinessChallenge =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>No. of Rounds</u>,` :`,<b>&emsp;</b>,`2`,<br/>,
 			<u>Round 1:</u>,<b>&emsp;</b>,`Each team gets to present their ideas infront of a judging panel. And a handful of teams will be short listed for executing their ideas over a period of 2 days.`,
 			<br/>,
 			<u>Round 2:</u>,<b>&emsp;</b>,`Each team gets a Stall for themselves , and starts engaging with the Samgatha Audience.`,
@@ -698,14 +675,14 @@ var samgathaBusinessChallenge =
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
-			`1.`,<b>&emsp;</b>,`Max investment for each idea : Rs. 3000`,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
+			`1.`,<b>&emsp;</b>,<u>Max investment for each idea</u>,` :`,<b>&emsp;</b>,`Rs. 3000`,
 			<br/>,
 			`2.`,<b>&emsp;</b>,`Each selected team is expected to participate for both the days.`,
 			<br/>,
 			`3.`,<b>&emsp;</b>,`The product / service must be viable and tangible.`,
 			<br/>,
-			`4.`,<b>&emsp;</b>,`The Team size can range from 2 to 4`,
+			`4.`,<b>&emsp;</b>,<u>Team Size</u>,` :`,<b>&emsp;</b>,`2 to 4`,
 			<br/>,
 			`5.`,<b>&emsp;</b>,`The winner will be decided based on uniqueness, marketing strategy, profits, business acumen.`,
 			<br/>,	<br/>
@@ -730,23 +707,23 @@ var pitchPlease =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>Team Size:</u>,<b>&emsp;</b>,` 3 to 5 members.`,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`3 to 5 members.`,<br/>,
 			`A business scenario will be given to the participants. They have to come up with a creative solution and then pitch the idea to us.`,
 			<br/>,<br/>
 		],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,<br/>,
 			`On the spot`, 
 			<br/>,<br/>
 		],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
-			`1.`,<b>&emsp;</b>,`Time limit to think for the creative solution is 30 minutes.`,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
+			`1.`,<b>&emsp;</b>,`Time limit to think for the creative solution is `,<u>30 minutes</u>,
 			<br/>,
-			`2.`,<b>&emsp;</b>,`Time limit to present the idea is 10 minutes.`,
+			`2.`,<b>&emsp;</b>,`Time limit to present the idea is `,<u>10 minutes</u>,
 			<br/>,	<br/>
 		],
 	judgingCriteria:
@@ -755,6 +732,40 @@ var pitchPlease =
 		[],
 	club:"EPIC Club",
 	contacts:epicClubContacts,
+}
+
+var goLogicYourself = 
+{
+	regLink:goLogicYourself_form,
+	eventName:"Go Logic Yourself",
+	data:
+		[
+			`Empty your mind from emotions and distractions, fill it up with logic and you're welcome 
+			for Go Logic Yourself.`,
+			<br/>,<br/>
+		],
+	eventFormat:
+		[
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>Event duration</u>,` :`,<b>&emsp;</b>,`2 hours`,<br/>,
+			<u>Number of Questions</u>,` :`,<b>&emsp;</b>,`30`,<br/>,
+			<u>Pre-requisites</u>,` :`,<b>&emsp;</b>,`Math, Logic, Reasoning ability and Basic programming skills`,
+			<br/>,<br/>
+		],
+	problemStatement:
+		[],
+	eventRules:
+		[
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
+			`Only for the first years/freshers`,
+			<br/>,<br/>
+		],
+	judgingCriteria:
+		[],
+	faq:
+		[],
+	club:"Zerone Club",
+	contacts:zeroneClubContacts,
 }
 
 var beASuperHero = 
@@ -769,21 +780,17 @@ var beASuperHero =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>No. of rounds</u>,`: 2`,
-			<br/>,
-			<u>Round 1:</u>,<b>&emsp;</b>,`Sketching basic ideas`,
-			<br/>,
-			<u>Round 2:</u>,<b>&emsp;</b>,`Detailed skecting`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>No. of rounds</u>,` :`,<b>&emsp;</b>,`1 :`,<b>&emsp;</b>,`Detailed sketching`,
 			<br/>,	<br/>
 		],
 	problemStatement:
 		[],
 	eventRules:
 		[
-			<b>Event Rules:</b>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules:</b></div>,
 			<br/>,
-			`1.`,<b>&emsp;</b>,`Participants can only use trhe materials provided.`,
+			`1.`,<b>&emsp;</b>,`Participants can only use the materials provided.`,
 			<br/>,
 			`2.`,<b>&emsp;</b>,`Use of mobile phones is strictly prohibited.`,
 			<br/>,	<br/>
@@ -808,27 +815,29 @@ var battleOfBands =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>No. of rounds:</u>,<b>&emsp;</b>,` 2 (inclucive of online video screening)`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>No. of rounds</u>,` :`,<b>&emsp;</b>,` 2 (inclucive of online video screening)`,
 			<br/>,
-			<u>Team Size:</u>,<b>&emsp;</b>,` 5 – 15 (At max 10 onstage)`,
-			<br/>,
+			<u>Band Size</u>,` :`,<b>&emsp;</b>,` 5 – 15 (At max 10 onstage)`,
+			<br/>, <br/>
+		],
+	problemStatement:
+		[],
+	eventRules:
+		[
 			`1.`,<b>&emsp;</b>,`Bands will be shortlisted from video entries.`,
 			<br/>,
-			`2.`,<b>&emsp;</b>,`After registering online on the Samgatha website, a video of the band performing has to be mailed to music.samgatha@gmail.com by 6th March, 2018, 11:59 PM.`,
+			`2.`,<b>&emsp;</b>,`After registering online on the Samgatha website, a video of the band performing has to be mailed to `,
+			<a href = "mailto:music.samgatha@gmail.com"> music.samgatha@gmail.com </a>,
+			` by 6th March, 2018, 11:59 PM.`,
 			<br/>,
 			`3.`,<b>&emsp;</b>,`Tightness of the band and original composition will be given extra weightage.`,
 			<br/>,
 			`4.`,<b>&emsp;</b>,`Instruments provided- 5 piece drum kit.`,
 			<br/>,
 			`5.`,<b>&emsp;</b>,`The choice of genre is left to the band.`,
-			<br/>,<br/>
-		],
-	problemStatement:
-		[],
-	eventRules:
-		[
-			<b>Event Rules:</b>,
+			<br/>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules:</b></div>,
 			<br/>,
 			`1.`,<b>&emsp;</b>,`Bands are required to perform in any Indian languages (including English).`,
 			<br/>,
@@ -867,27 +876,27 @@ var syncGeet =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>No. of rounds:</u>,<b>&emsp;</b>,` 2 (inclucive of online video screening)`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>No. of rounds</u>,` :`,<b>&emsp;</b>,` 2 (inclucive of online video screening)`,
 			<br/>,
-			<u>Team Size:</u>,<b>&emsp;</b>,` 2 - 5`,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,` 2 - 5`,
 			<br/>,
 			`1.`,<b>&emsp;</b>,`Bands will be shortlisted from video entries.`,
 			<br/>,
-			`2.`,<b>&emsp;</b>,`After registering online on the Samgatha website, a video of the band performing has to be mailed to music.samgatha@gmail.com by 6th March, 2018, 11:59 PM.`,
+			`2.`,<b>&emsp;</b>,`After registering online on the Samgatha website, a video of the band performing has to be mailed to `,
+			<a href = "mailto:music.samgatha@gmail.com"> music.samgatha@gmail.com </a>,
+			` by 6th March, 2018, 11:59 PM.`,
 			<br/>,
 			`3.`,<b>&emsp;</b>,`Tightness of the band and original composition will be given extra weightage.`,
 			<br/>,
-			`4.`,<b>&emsp;</b>,`Instruments provided- 5 piece drum kit.`,
-			<br/>,
-			`5.`,<b>&emsp;</b>,`Only Indian Languages (including English).`,
+			`4.`,<b>&emsp;</b>,`Only Indian Languages (including English).`,
 			<br/>,<br/>
 		],
 	problemStatement:
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
 			`1.`,<b>&emsp;</b>,`A person may play for only one band.`,
 			<br/>,
 			`2.`,<b>&emsp;</b>,`At least one instrumentalist should be present. Acappella is not allowed.`,
@@ -929,27 +938,17 @@ var gaayak =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>Team Size:</u>,<b>&emsp;</b>,` Solo`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,` Solo`,
 			<br/>,
-			<u>Time Limit:</u>,<b>&emsp;</b>,` Maximum 5 minutes`,
-			<br/>,
-			`1.`,<b>&emsp;</b>,`Bands will be shortlisted from video entries.`,
-			<br/>,
-			`2.`,<b>&emsp;</b>,`After registering online on the Samgatha website, a video of the band performing has to be mailed to music.samgatha@gmail.com by 6th March, 2018, 11:59 PM.`,
-			<br/>,
-			`3.`,<b>&emsp;</b>,`Tightness of the band and original composition will be given extra weightage.`,
-			<br/>,
-			`4.`,<b>&emsp;</b>,`Instruments provided- 5 piece drum kit.`,
-			<br/>,
-			`5.`,<b>&emsp;</b>,`Only Indian Languages (including English).`,
-			<br/>,<br/>
+			<u>Time Limit</u>,` :`,<b>&emsp;</b>,`	 Maximum 5 minutes`,
+			<br/>,	<br/>
 		],
 	problemStatement:
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
 			`1.`,<b>&emsp;</b>,`College/School ID will be required for verification. Samgatha ID, which can be obtained at hospitality desk, is mandatory for all participants.`,
 			<br/>,
 			`2.`,<b>&emsp;</b>,`Participants can sing in English or Hindi or any other Indian Language.`,
@@ -971,16 +970,12 @@ var gaayak =
 		],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,
-			<br/>,
-			`Pitch`,
-			<br/>,
-			`Rhythm`,
-			<br/>,
-			`Voice modulation`,
-			<br/>,
-			`Overall impact of the song.`,
-			<br/>,	<br/>
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,	<br/>,
+			<b>&emsp;</b>,`Pitch`,	<br/>,
+			<b>&emsp;</b>,`Rhythm`,	<br/>,
+			<b>&emsp;</b>,`Voice modulation`,	<br/>,
+			<b>&emsp;</b>,`Overall impact of the song.`,	<br/>,
+			<br/>
 		],
 	faq:
 		[],
@@ -1003,39 +998,39 @@ var danceWars =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			`Group Event`,<br/>,
-			<u>Time limit:</u>,<b>&ensp;</b>,`8-10 minutes`,
+			<u>Time limit</u>,` :`,<b>&emsp;</b>,`8-10 minutes`,
 			<br/>,
-			<u>Size of the Crew:</u>,<b>&ensp;</b>,`5 - 30`,
+			<u>Size of the Crew</u>,` :`,<b>&emsp;</b>,`5 - 30`,
 			<br/>, <br/>
 		],
 	problemStatement:
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
-			`1.`,<b>&ensp;</b>,`Choreography must be street dance styles (commercial choreography, hip-hop, locking, popping, wacking, dancehall, freestyle, krump, house, etc.)`,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
+			`1.`,<b>&emsp;</b>,`Choreography must be street dance styles (commercial choreography, hip-hop, locking, popping, wacking, dancehall, freestyle, krump, house, etc.)`,
 			<br/>,
-			`2.`,<b>&ensp;</b>,`Clothing that is too short, suggestive or inappropriate for the age of the performer is not allowed.`,
+			`2.`,<b>&emsp;</b>,`Clothing that is too short, suggestive or inappropriate for the age of the performer is not allowed.`,
 			<br/>,
-			`3.`,<b>&ensp;</b>,`Judges decision will be final.`,
+			`3.`,<b>&emsp;</b>,`Judges decision will be final.`,
 			<br/>, <br/>
 		],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,<br/>,
 			`Each team will be evaluated by the judges on the following criteria:`,
 			<br/>,
-			<b>&ensp;</b>,`1.`,<b>&ensp;</b>,`Skills`,
+			<b>&emsp;</b>,`1.`,<b>&emsp;</b>,`Skills`,
 			<br/>,
-			<b>&ensp;</b>,`2.`,<b>&ensp;</b>,`Street presentation`,
+			<b>&emsp;</b>,`2.`,<b>&emsp;</b>,`Street presentation`,
 			<br/>,
-			<b>&ensp;</b>,`3.`,<b>&ensp;</b>,`Musicality`,
+			<b>&emsp;</b>,`3.`,<b>&emsp;</b>,`Musicality`,
 			<br/>,
-			<b>&ensp;</b>,`4.`,<b>&ensp;</b>,`Performance`,
+			<b>&emsp;</b>,`4.`,<b>&emsp;</b>,`Performance`,
 			<br/>,
-			<b>&ensp;</b>,`5.`,<b>&ensp;</b>,`Creativity`,
+			<b>&emsp;</b>,`5.`,<b>&emsp;</b>,`Creativity`,
 			<br/>,
 			`It is particularly important for the participants to stick with street dance
 			styles.`,
@@ -1043,11 +1038,7 @@ var danceWars =
 		],
 	faq:
 		[
-			<b>FAQs:</b>,
-			<br/>,
-			<b>Q.&emsp;Is classical allowed for duet?</b>,
-			<br/>,
-			<b>A :&emsp;</b>, `No. But you're free to do semi-classical.`,
+			<div style = {{fontSize:"30px"}}><b>FAQs:</b></div>,
 			<br/>,
 			<b>Q.&emsp;How many prizes will be awarded?</b>,
 			<br/>,
@@ -1075,31 +1066,30 @@ var drishyam =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,
 			<br/>,
-			`Participants have to send their entries to`,
-			<b>&emsp;</b>, <a href = "mailto:samgatha.photography.2018@gmail.com"> samgatha.photography.2018@gmail.com </a>,
-			<b>&emsp;</b>, `(will be created shortly). 
-			1 round only, there will be screening of the films and the judgement will be done there.`,
+			`Participants have to send their entries to `,
+			<a href = "mailto:samgatha.photography.2018@gmail.com"> samgatha.photography.2018@gmail.com </a>,
+			`(will be created shortly). `,<u>1 round only</u>,` , there will be screening of the films and the judgement will be done there.`,
 			 <br/>,<br/>,
 		],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,
 			<br/>,
 			`Free- themed short film contest.`, 
 			<br/>,<br/>,
 		],
 	eventRules:
 		[
-			<b>Event Rules: </b>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,
 			<br/>,
 			`1.`,<b>&emsp;</b>,` Language: English, Hindi, Malayalam, Tamil, Telugu.`,
 			<br/>,
 			`2.`,<b>&emsp;</b>,` Subtitles are must.`,
 			<br/>,
-			`3.`,<b>&emsp;</b>,` Whichever films that have been produced after January 1 2017 are accepted.
-			Films produced before the above specified date are not accepted.`,
+			`3.`,<b>&emsp;</b>,` Whichever films that have been produced after January 1st, 2017 are accepted.`,<br/>,
+			<b>&emsp;&emsp;</b>,`Films produced before the above specified date are not accepted.`,
 			<br/>,
 			`4.`,<b>&emsp;</b>,` Films should be released in India.`,
 			<br/>,
@@ -1135,32 +1125,32 @@ var eloquent =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			`This event will consist of some off the beaten path events like spin-a-yarn, shipwrecked, and lots more…`,<br/>,
 			`Details will be given on the spot.`,
 			<br/>,<br/>
 		],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,<br/>,
 			`Topics will be given on the spot `, 
 			<br/>,<br/>
 		],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
 			`Individual event`,
 			<br/>,<br/>
 		],
 	judgingCriteria:
 		[
-			<b>Judging Criteria </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,<br/>,
 			`Evaluation for the overall event depends on the following critical parameters:-`,<br/>,
-			`1.`,<b>&emsp;</b>,`Fluency in the English language`,<br/>,
-			`2.`,<b>&emsp;</b>,`Organization & Clarity`,<br/>,
-			`3.`,<b>&emsp;</b>,`Use of Argument `,<br/>,
-			`4.`,<b>&emsp;</b>,`Improvisation`,<br/>,
-			`5.`,<b>&emsp;</b>,`Presentation`,
+			<b>&emsp;</b>,`1.`,<b>&emsp;</b>,`Fluency in the English language`,<br/>,
+			<b>&emsp;</b>,`2.`,<b>&emsp;</b>,`Organization & Clarity`,<br/>,
+			<b>&emsp;</b>,`3.`,<b>&emsp;</b>,`Use of Argument `,<br/>,
+			<b>&emsp;</b>,`4.`,<b>&emsp;</b>,`Improvisation`,<br/>,
+			<b>&emsp;</b>,`5.`,<b>&emsp;</b>,`Presentation`,
 			<br/>,	<br/>
 		],
 	faq:
@@ -1184,13 +1174,13 @@ var mayaSrishti =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,
 			<br/>,
 			`Give a brief description of the round. What will be asked to do in each round?`,
 			<br/>,
-			<u>Round 1:</u>,<b>&emsp;</b>,`Perform on the prepared skit.`,
+			<u>Round 1</u>,` :`,<b>&emsp;</b>,`Perform on the prepared skit.`,
 			<br/>,
-			<u>Round 2:</u>,<b>&emsp;</b>,`Topics will be given on the spot to your team and you will have to 
+			<u>Round 2</u>,` :`,<b>&emsp;</b>,`Topics will be given on the spot to your team and you will have to 
 			prepare a small play on the given topic within given time and perform the same.`,
 			<br/>,	<br/>
 		],
@@ -1198,30 +1188,30 @@ var mayaSrishti =
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,
 			<br/>,
-			`1.`,<b>&emsp;</b>,<u>Team size</u>,`: 3-12 member group`,
+			`1.`,<b>&emsp;</b>,<u>Team size</u>,` :`,<b>&emsp;</b>,`3-12 member group`,
 			<br/>,
-			`2.`,<b>&emsp;</b>,<u>Language</u>,`: English, Hindi, Tamil, Telugu.`,
+			`2.`,<b>&emsp;</b>,<u>Language</u>,` :`,<b>&emsp;</b>,`English, Hindi, Tamil, Telugu.`,
 			<br/>,
-			`3.`,<b>&emsp;</b>,<u>Time limit</u>,`: For the first round, minimum 5 minutes and maximum 25 minutes. For the second round, it will be decided on the spot.`,
+			`3.`,<b>&emsp;</b>,<u>Time limit</u>,` :`,<b>&emsp;</b>,`For the first round, minimum 5 minutes and maximum 25 minutes. For the second round, it will be decided on the spot.`,
 			<br/>,<br/>
 		],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,
 			<br/>,
-			`1.`,<b>&emsp;</b>,`Uniqueness of the skit`,<br/>,
-			`2.`,<b>&emsp;</b>,`Expressions/Acting skill`,<br/>,
-			`3.`,<b>&emsp;</b>,`Involvement of all the actors(If the actor does justice to his/her assigned role)`,
+			<b>&emsp;</b>,`1.`,<b>&emsp;</b>,`Uniqueness of the skit`,<br/>,
+			<b>&emsp;</b>,`2.`,<b>&emsp;</b>,`Expressions/Acting skill`,<br/>,
+			<b>&emsp;</b>,`3.`,<b>&emsp;</b>,`Involvement of all the actors(If the actor does justice to his/her assigned role)`,
 			<br/>,	<br/>
 		],
 	faq:
 		[
-			<b>FAQ</b>,
+			<div style = {{fontSize:"30px"}}><b>FAQs:</b></div>,
 			<br/>,
-			<b>Q.&emsp;What if the size of our team doesn't adhere to the team size rules and falls out of range?
-			</b>,
+			<b>Q.&emsp;What if the team size is less than or more than the above 
+			mentioned minimum and maximum team size respectively, or same in the case of team limit?</b>,
 			<br/>,
 			<b>A :&emsp;</b>, `In that case, your team will have to face penalty of a few points, given to you while judging.`,
 			<br/>
@@ -1246,23 +1236,23 @@ var hocusFocus =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,
 			<br/>,
-			`Participants have to send their entries to`,
-			<b>&emsp;</b>, <a href = "mailto:samgatha.photography.2018@gmail.com"> samgatha.photography.2018@gmail.com </a>,
-			<b>&emsp;</b>, `(will be created shortly). Only 1 round.`,
+			`Participants have to send their entries to `,
+			<a href = "mailto:samgatha.photography.2018@gmail.com"> samgatha.photography.2018@gmail.com </a>,
+			`(will be created shortly). `,<u>Only 1 round.</u>,
 			<br/>,<br/>
 		],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,
 			<br/>,
 			`Free-theme photography event. `, 
 			<br/>,<br/>
 		],
 	eventRules:
 		[
-			<b>Event Rules: </b>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,
 			<br/>,
 			`1.`,<b>&emsp;</b>,`2 pictures you’ve taken should be submitted on or before __/__/2018, __ pm.`,
 			<br/>,
@@ -1328,9 +1318,9 @@ var impulse =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			`Solo Dancing`,<br/>,
-			<u>Time limit:</u>,<b>&ensp;</b>,`3 - 5 minutes`,
+			<u>Time limit</u>,` :`,<b>&emsp;</b>,`3 - 5 minutes`,
 			<br/>,
 			`There will be two rounds in which the second round will be a surprise round.`,
 			<br/>, <br/>
@@ -1339,26 +1329,26 @@ var impulse =
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
-			`1.`,<b>&ensp;</b>,`Clothing that is too short, suggestive or inappropriate for the age of the performer is not allowed.`,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
+			`1.`,<b>&emsp;</b>,`Clothing that is too short, suggestive or inappropriate for the age of the performer is not allowed.`,
 			<br/>,
-			`2.`,<b>&ensp;</b>,`Judges decision will be final.`,
+			`2.`,<b>&emsp;</b>,`Judges decision will be final.`,
 			<br/>, <br/>
 		],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,<br/>,
 			`Each team will be evaluated by the judges on the following criteria:`,
 			<br/>,
-			<b>&ensp;</b>,`1.`,<b>&ensp;</b>,`Skills`,
+			<b>&emsp;</b>,`1.`,<b>&emsp;</b>,`Skills`,
 			<br/>,
-			<b>&ensp;</b>,`2.`,<b>&ensp;</b>,`Street presentation`,
+			<b>&emsp;</b>,`2.`,<b>&emsp;</b>,`Street presentation`,
 			<br/>,
-			<b>&ensp;</b>,`3.`,<b>&ensp;</b>,`Musicality`,
+			<b>&emsp;</b>,`3.`,<b>&emsp;</b>,`Musicality`,
 			<br/>,
-			<b>&ensp;</b>,`4.`,<b>&ensp;</b>,`Performance`,
+			<b>&emsp;</b>,`4.`,<b>&emsp;</b>,`Performance`,
 			<br/>,
-			<b>&ensp;</b>,`5.`,<b>&ensp;</b>,`Creativity`,
+			<b>&emsp;</b>,`5.`,<b>&emsp;</b>,`Creativity`,
 			<br/>,
 			`It is particularly important for the participants to stick with street dance
 			styles.`,
@@ -1366,11 +1356,7 @@ var impulse =
 		],
 	faq:
 		[
-			<b>FAQs:</b>,
-			<br/>,
-			<b>Q.&emsp;Is classical allowed for duet?</b>,
-			<br/>,
-			<b>A :&emsp;</b>, `No. But you're free to do semi-classical.`,
+			<div style = {{fontSize:"30px"}}><b>FAQs:</b></div>,
 			<br/>,
 			<b>Q.&emsp;How many prizes will be awarded?</b>,
 			<br/>,
@@ -1396,11 +1382,11 @@ var maskMaking =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,
 			<br/>,
-			<u>No. of rounds:</u>,<b>&emsp;</b>,` 1`,
+			<u>No. of rounds</u>,` :`,<b>&emsp;</b>,` 1`,
 			<br/>,
-			<u>Team Size:</u>,<b>&emsp;</b>,` maximum 3 members`,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,` maximum 3 members`,
 			<br/>,
 			`Participants will be given the materials for making the masks and
 			they have to come up with creative ideas for their masks.`,
@@ -1410,7 +1396,7 @@ var maskMaking =
 		[],
 	eventRules:
 		[
-			<b>Event Rules:</b>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules:</b></div>,
 			<br/>,
 			`1.`,<b>&emsp;</b>,`Participants can only use the materials provided.`,
 			<br/>,
@@ -1427,9 +1413,9 @@ var maskMaking =
 	contacts:artClubContacts,
 }
 
-var duetDance = 
+var coupling = 
 {
-	regLink:duetDance_form,
+	regLink:coupling_form,
 	eventName:"Coupling",
 	data:
 		[
@@ -1442,36 +1428,35 @@ var duetDance =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			`Solo Dancing`,<br/>,
-			<u>Team size:</u>,<b>&ensp;</b>,`ofcourse 2`,<br/>,
-			<u>Time limit:</u>,<b>&ensp;</b>,`3 - 5 minutes`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>Team size</u>,` :`,<b>&emsp;</b>,`ofcourse 2`,<br/>,
+			<u>Time limit</u>,` :`,<b>&emsp;</b>,`3 - 5 minutes`,
 			<br/>, <br/>
 		],
 	problemStatement:
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
-			`1.`,<b>&ensp;</b>,`Clothing that is too short, suggestive or inappropriate for the age of the performer is not allowed.`,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
+			`1.`,<b>&emsp;</b>,`Clothing that is too short, suggestive or inappropriate for the age of the performer is not allowed.`,
 			<br/>,
-			`2.`,<b>&ensp;</b>,`Judges decision will be final.`,
+			`2.`,<b>&emsp;</b>,`Judges decision will be final.`,
 			<br/>, <br/>
 		],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,<br/>,
 			`Each team will be evaluated by the judges on the following criteria:`,
 			<br/>,
-			<b>&ensp;</b>,`1.`,<b>&ensp;</b>,`Skills`,
+			<b>&emsp;</b>,`1.`,<b>&emsp;</b>,`Skills`,
 			<br/>,
-			<b>&ensp;</b>,`2.`,<b>&ensp;</b>,`Street presentation`,
+			<b>&emsp;</b>,`2.`,<b>&emsp;</b>,`Street presentation`,
 			<br/>,
-			<b>&ensp;</b>,`3.`,<b>&ensp;</b>,`Musicality`,
+			<b>&emsp;</b>,`3.`,<b>&emsp;</b>,`Musicality`,
 			<br/>,
-			<b>&ensp;</b>,`4.`,<b>&ensp;</b>,`Performance`,
+			<b>&emsp;</b>,`4.`,<b>&emsp;</b>,`Performance`,
 			<br/>,
-			<b>&ensp;</b>,`5.`,<b>&ensp;</b>,`Creativity`,
+			<b>&emsp;</b>,`5.`,<b>&emsp;</b>,`Creativity`,
 			<br/>,
 			`It is particularly important for the participants to stick with street dance
 			styles.`,
@@ -1479,7 +1464,7 @@ var duetDance =
 		],
 	faq:
 		[
-			<b>FAQs:</b>,
+			<div style = {{fontSize:"30px"}}><b>FAQs:</b></div>,
 			<br/>,
 			<b>Q.&emsp;Is classical allowed for duet?</b>,
 			<br/>,
@@ -1505,23 +1490,23 @@ var photON =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,
 			<br/>,
-			`Participants have to send their entries to`,
-			<b>&emsp;</b>, <a href = "mailto:samgatha.photography.2018@gmail.com"> samgatha.photography.2018@gmail.com </a>,
-			<b>&emsp;</b>, `(will be created shortly). Only 1 round.`,
+			`Participants have to send their entries to `,
+			<a href = "mailto:samgatha.photography.2018@gmail.com"> samgatha.photography.2018@gmail.com </a>,
+			`(will be created shortly). `,<u>Only 1 round.</u>,
 			<br/>,<br/>
 		],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,
 			<br/>,
 			`A theme will be given by Feb 1. Depending on the theme, the participants should send the entries to the above mentioned mail-id.`,
 			<br/>,<br/>
 		],
 	eventRules:
 		[
-			<b>Event Rules: </b>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,
 			<br/>,
 			`1.`,<b>&emsp;</b>,`2 pictures you’ve taken should be submitted on or before __/__/2018, __ pm.`,
 			<br/>,
@@ -1583,8 +1568,8 @@ var pictionary =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>Team Size:</u>,<b>&emsp;</b>,`2`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`2`,
 			<br/>,
 			`A person chooses one card out of deck of pictionary cards and tries to express the word
 			which is printed on the card. Teammates should try to guess the word, which the drawing
@@ -1595,14 +1580,14 @@ var pictionary =
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
 			`Pictures cannot contain any numbers or letters. Verbal clues and lip movements are not \
 			 entertained.`,
 			<br/>,<br/>
 		],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,<br/>,
 			`Speed and accuracy. The team which guesses the word first will be awarded more points.`,
 			<br/>,<br/>
 		],
@@ -1623,8 +1608,8 @@ var blindFill =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>Team Size:</u>,<b>&emsp;</b>,`5`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`5`,
 			<br/>,
 			`All the members of the team are blindfolded and should sit in a row.
 			One should transfer water through a mug into the mug of the person behind him.
@@ -1638,7 +1623,7 @@ var blindFill =
 		[],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,<br/>,
 			`The team which fills more amount of water in the bucket within given time limit will
 			be awarded more points.`,
 			<br/>,<br/>
@@ -1661,7 +1646,7 @@ var blowBall =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			`5 EMPTY Glasses will be placed in a horizontal row on a table with a ball in the first
 			 one. Another glass will be provided which should be utilised to bring the water from a
 			 bucket that is placed at a distance of 5-7 Meters.`,
@@ -1671,7 +1656,7 @@ var blowBall =
 		[],
 	eventRules:
 		[
-			<b>How to Play? </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>How to Play? </b></div>,<br/>,
 			`The player should fill the glass with the ball first and blow the ball to the next glass.
 			 If the ball has been successfully placed in the adjacent glass, then the player should go
 			 and fetch another glass of water and continue the process. If the player fails in transporting
@@ -1682,7 +1667,7 @@ var blowBall =
 		],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,<br/>,
 			`Player who makes the ball reach the last glass in the least time wins.`,
 			<br/>,<br/>
 		],
@@ -1703,7 +1688,7 @@ var balloonBash =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			`A balloon will be tied to the foot of each participant. He/she will be made to stand with other 
 			 participants on a stage. A participant should burst others’ balloons by stamping and defend their
 			 own for 5 minutes. Points will be awarded for bursting a balloon.`,
@@ -1715,7 +1700,7 @@ var balloonBash =
 		[],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,<br/>,
 			`The player whose balloon sustains till the end will be considered as the winner. If more than one
 			 player remains till the end, the player scoring more points will be considered as the winner.`,
 			<br/>,<br/>
@@ -1737,8 +1722,8 @@ var balloonExpress =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>Team Size:</u>,<b>&emsp;</b>,`5 members`,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`5 members`,<br/>,
 			`A team of 5 members should form a human chain with a balloon in between every two persons.
 			 The balloon should be placed in such a way that, no hands should be touching the balloon. They should
 			 start from a given start point and reach the finish line with a obstacle course in between without 
@@ -1749,7 +1734,7 @@ var balloonExpress =
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
 			`1.`,<b>&emsp;</b>,`One should not touch the balloons with hands.`,<br/>,
 			`2.`,<b>&emsp;</b>,`Loosing or bursting of a balloon is treated as a failure and three such failures 
 				are accepted.The fourth failure leads to the elimination of the team.`,
@@ -1757,7 +1742,7 @@ var balloonExpress =
 		],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,<br/>,
 			`The team reaching the finish line first will be considered as the winner.`,
 			<br/>,<br/>
 		],
@@ -1778,28 +1763,28 @@ var queenOfSheeba =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>Team Size:</u>,<b>&emsp;</b>,`5 members`,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`5 members`,<br/>,
 			`Various tasks will be given to all the teams(For instance bring Headphones of pink colour).
 			 Whichever team completes the maximum number of tasks in the given time will be declared as the winner.`,
 			<br/>,<br/>
 		],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,<br/>,
 			`On the Spot`,
 			<br/>,<br/>
 		],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
 			`All the items that are insisted to be brought should be brought physically during the time of 
 			evaluation of points.`,
 			<br/>,<br/>
 		],
 	judgingCriteria:
 		[
-			<b>Judging Criteria: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,<br/>,
 			`Judging will be based on the number of tasks that the group has completed successfully. 
 			And there may be more points for the difficult tasks.`,
 			<br/>,<br/>
@@ -1822,7 +1807,7 @@ var lawyerUp =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			`Individual event`,
 			<br/>,
 			`The event will be spanned by 2 rounds.`,<br/>,
@@ -1832,7 +1817,7 @@ var lawyerUp =
 		],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,<br/>,
 			`Topics will be given on the spot `, 
 			<br/>,<br/>
 		],
@@ -1840,7 +1825,7 @@ var lawyerUp =
 		[],
 	judgingCriteria:
 		[
-			<b>Judging Criteria </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,<br/>,
 			`Evaluation for the overall event depends on the following critical parameters:-`,<br/>,
 			`1.`,<b>&emsp;</b>,`Fluency in the English language`,<br/>,
 			`2.`,<b>&emsp;</b>,`Organization & Clarity`,<br/>,
@@ -1867,13 +1852,13 @@ var resonance =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			`Individual event`,
 			 <br/>,<br/>
 		],
 	problemStatement:
 		[
-			<b>Problem Statement: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,<br/>,
 			`Topics will be given on the spot `,
 			<br/>,<br/>
 		],
@@ -1898,18 +1883,18 @@ var dota =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>Team Size:</u>,<b>&emsp;</b>,`5 gamers`,<br/>,
-			<u>Entry Fee:</u>,<b>&emsp;</b>,`Rs. 500 per team`,<br/>,
-			<u>Mode:</u>,<b>&emsp;</b>,`Captain’s Draft`,<br/>,
-			<u>Patch:</u>,<b>&emsp;</b>,`Latest Patch as of the match date.`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`5 gamers`,<br/>,
+			<u>Entry Fee</u>,` :`,<b>&emsp;</b>,`Rs. 500 per team`,<br/>,
+			<u>Mode</u>,` :`,<b>&emsp;</b>,`Captain’s Draft`,<br/>,
+			<u>Patch</u>,` :`,<b>&emsp;</b>,`Latest Patch as of the match date.`,
 			<br/>,<br/>
 		],
 	problemStatement:
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
 			`1.`,<b>&emsp;</b>,`Since this is an amateur tournament, players with Ancient 5 or below can only participate.`,<br/>,
 			`2.`,<b>&emsp;</b>,`This is an online tournament which happens in the span of a week. The format till semi-finals will be single elimination and followed by double elimination and all the matches are B01, Finals will be played as B03`,<br/>,
 			`3.`,<b>&emsp;</b>,`Teams who have registered must be present in the lobby 5 min before the start of the match, if failed to do so, the team will be eliminated.`,<br/>,
@@ -1935,15 +1920,15 @@ var fifa =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>Entry Fee:</u>,<b>&emsp;</b>,`Rs. 100 per person`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>Entry Fee</u>,` :`,<b>&emsp;</b>,`Rs. 100 per person`,
 			<br/>,<br/>
 		],
 	problemStatement:
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
 			`1.`,<b>&emsp;</b>,`All the matches till Semi finals are B01. Semi finals are B02 legs and Finals are again B01. In case of any draw, the winner will be decided based on Penalty Shoot out.`,<br/>,
 			`2.`,<b>&emsp;</b>,`Participants are requested to bring the Joysticks on your own.`,<br/>,
 			`3.`,<b>&emsp;</b>,`The format will either be in groups followed by eliminators or direct eliminators depending upon the participants.`,<br/>,
@@ -1969,16 +1954,16 @@ var csgo =
 		],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>Team Size:</u>,<b>&emsp;</b>,`5 gamers`,<br/>,
-			<u>Entry Fee:</u>,<b>&emsp;</b>,`Rs. 500 per team`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`5 gamers`,<br/>,
+			<u>Entry Fee</u>,` :`,<b>&emsp;</b>,`Rs. 500 per team`,
 			<br/>,<br/>
 		],
 	problemStatement:
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
 			`1.`,<b>&emsp;</b>,`This is a LAN tournament which happens during SAMGATHA . The format till semi finals will be single elimination and followed by double elimination and all the matches are B01.`,<br/>,
 			`2.`,<b>&emsp;</b>,`Participants are requested to bring their laptops and other equipment for their own convenience and to save time during the tournament. If anything is required contact the co-ordinators.`,<br/>,
 			`3.`,<b>&emsp;</b>,`No Cheats will be entertained, if found the whole team gets eliminated.`,<br/>,
@@ -2001,19 +1986,19 @@ var miniMilitia =
 		[],
 	eventFormat:
 		[
-			<b>Event Format: </b>,<br/>,
-			<u>Team Size:</u>,<b>&emsp;</b>,`3 gamers`,<br/>,
-			<u>Entry Fee:</u>,<b>&emsp;</b>,`Rs. 150 per team`,
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`3 gamers`,<br/>,
+			<u>Entry Fee</u>,` :`,<b>&emsp;</b>,`Rs. 150 per team`,
 			<br/>,<br/>
 		],
 	problemStatement:
 		[],
 	eventRules:
 		[
-			<b>Event Rules: </b>,<br/>,
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
 			`1.`,<b>&emsp;</b>,`The format of the tournament is either group stage or direct elimination depending upon the number of participants.`,<br/>,
 			`2.`,<b>&emsp;</b>,`Cheats are not allowed. If found so the entire team gets eliminated.`,<br/>,
-			`3.`,<b>&emsp;</b>,`All the matches are b01`,<br/>,
+			`3.`,<b>&emsp;</b>,`All the matches are B01`,<br/>,
 			`4.`,<b>&emsp;</b>,`The duration of the matches are decided on spot.`,
 			<br/>,<br/>
 		],
@@ -2023,39 +2008,6 @@ var miniMilitia =
 		[],
 	club:"Gaming Club",
 	contacts:gamingClubContacts,
-}
-
-var goLogicYourself = 
-{
-	regLink:goLogicYourself_form,
-	eventName:"Go Logic Yourself",
-	data:
-		[
-			`Empty your mind from emotions and distractions, fill it up with logic and you're welcome for Go Logic Yourself.`,
-			<br/>,<br/>
-		],
-	eventFormat:
-		[
-			<b>Event Format: </b>,<br/>,
-			<u>Event duration:</u>,<b>&emsp;</b>,`2 hours`,<br/>,
-			<u>Number of Questions:</u>,<b>&emsp;</b>,`30`,<br/>,
-			<u>Pre-requisites:</u>,<b>&emsp;</b>,`Math, Logic, Reasoning ability and Basic programming skills`,
-			<br/>,<br/>
-		],
-	problemStatement:
-		[],
-	eventRules:
-		[
-			<b>Event Rules: </b>,<br/>,
-			`Only for the first years/freshers`,
-			<br/>,<br/>
-		],
-	judgingCriteria:
-		[],
-	faq:
-		[],
-	club:"Zerone Club",
-	contacts:zeroneClubContacts,
 }
 
 class App extends Component {
@@ -2109,12 +2061,13 @@ class App extends Component {
 		<Route path="/chakravyuha" component={() => (<MobileEventOne event={chakravyuha} />)} />
 		<Route path="/warOfWatts" component={() => (<MobileEventOne event={warOfWatts} />)} />
 		<Route path="/tech4Help" component={() => (<MobileEventOne event={tech4Help} />)} />
-		<Route path="/designception" component={() => (<MobileEventOne event={designception} />)} />
+		<Route path="/cleanTheSpace" component={() => (<MobileEventOne event={cleanTheSpace} />)} />
 		<Route path="/relayDesign" component={() => (<MobileEventOne event={relayDesign} />)} />
-		<Route path="/battleZone" component={() => (<MobileEventOne event={battleZone} />)} />
-		<Route path="/quiz" component={() => (<MobileEventOne event={quiz} />)} />
+		<Route path="/junkyardWars" component={() => (<MobileEventOne event={junkyardWars} />)} />
+		<Route path="/triviosity" component={() => (<MobileEventOne event={triviosity} />)} />
 		<Route path="/appAThon" component={() => (<MobileEventOne event={appAThon} />)} />
 		<Route path="/codeAution" component={() => (<MobileEventOne event={codeAution} />)} />
+		<Route path="/goLogicYourself" component={() => (<MobileEventOne event={goLogicYourself} />)} />
 		<Route path="/samgathaBusinessChallenge" component={() => (<MobileEventOne event={samgathaBusinessChallenge} />)} />
 		<Route path="/pitchPlease" component={() => (<MobileEventOne event={pitchPlease} />)} />
 		<Route path="/beASuperHero" component={() => (<MobileEventOne event={beASuperHero} />)} />
@@ -2132,7 +2085,7 @@ class App extends Component {
 		<Route path="/hocusFocus" component={() => (<MobileEventOne event={hocusFocus} />)} />
 		<Route path="/impulse" component={() => (<MobileEventOne event={impulse} />)} />
 		<Route path="/maskMaking" component={() => (<MobileEventOne event={maskMaking} />)} />
-		<Route path="/duetDance" component={() => (<MobileEventOne event={duetDance} />)} />
+		<Route path="/coupling" component={() => (<MobileEventOne event={coupling} />)} />
 		<Route path="/photON" component={() => (<MobileEventOne event={photON} />)} />
 		<Route path="/pictionary" component={() => (<MobileEventOne event={pictionary} />)} />
 		<Route path="/blindFill" component={() => (<MobileEventOne event={blindFill} />)} />
@@ -2168,12 +2121,13 @@ class App extends Component {
 		<Route path="/chakravyuha" component={() => (<EventOne event={chakravyuha} />)} />
 		<Route path="/warOfWatts" component={() => (<EventOne event={warOfWatts} />)} />
 		<Route path="/tech4Help" component={() => (<EventOne event={tech4Help} />)} />
-		<Route path="/designception" component={() => (<EventOne event={designception} />)} />
+		<Route path="/cleanTheSpace" component={() => (<EventOne event={cleanTheSpace} />)} />
 		<Route path="/relayDesign" component={() => (<EventOne event={relayDesign} />)} />
-		<Route path="/battleZone" component={() => (<EventOne event={battleZone} />)} />
-		<Route path="/quiz" component={() => (<EventOne event={quiz} />)} />
+		<Route path="/junkyardWars" component={() => (<EventOne event={junkyardWars} />)} />
+		<Route path="/triviosity" component={() => (<EventOne event={triviosity} />)} />
 		<Route path="/appAThon" component={() => (<EventOne event={appAThon} />)} />
 		<Route path="/codeAution" component={() => (<EventOne event={codeAution} />)} />
+		<Route path="/goLogicYourself" component={() => (<EventOne event={goLogicYourself} />)} />
 		<Route path="/samgathaBusinessChallenge" component={() => (<EventOne event={samgathaBusinessChallenge} />)} />
 		<Route path="/pitchPlease" component={() => (<EventOne event={pitchPlease} />)} />
 		<Route path="/beASuperHero" component={() => (<EventOne event={beASuperHero} />)} />
@@ -2187,7 +2141,7 @@ class App extends Component {
 		<Route path="/hocusFocus" component={() => (<EventOne event={hocusFocus} />)} />
 		<Route path="/impulse" component={() => (<EventOne event={impulse} />)} />
 		<Route path="/maskMaking" component={() => (<EventOne event={maskMaking} />)} />
-		<Route path="/duetDance" component={() => (<EventOne event={duetDance} />)} />
+		<Route path="/coupling" component={() => (<EventOne event={coupling} />)} />
 		<Route path="/photON" component={() => (<EventOne event={photON} />)} />
 		<Route path="/dota" component={() => (<EventOne event={dota} />)} />
 		<Route path="/fifa" component={() => (<EventOne event={fifa} />)} />
@@ -2201,7 +2155,6 @@ class App extends Component {
 		<Route path="/queenOfSheeba" component={() => (<EventOne event={queenOfSheeba} />)} />
 		<Route path="/lawyerUp" component={() => (<EventOne event={lawyerUp} />)} />
 		<Route path="/resonance" component={() => (<EventOne event={resonance} />)} />
-		<Route path="/goLogicYourself" component={() => (<EventOne event={goLogicYourself} />)} />
 		<Footer />
 	 </div>
 	 </BrowserRouter>

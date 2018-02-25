@@ -90,17 +90,17 @@ class EventOne extends Component {
             </div>
           </div>
           <div className="eventDetailContent">
-            <div className="rightAligned">
+            <div className="centerAligned">
               <div>{this.state.state1}</div>
               <div className="eventFormat">{this.state.state2}</div>
+              <div className="problemStatement">{this.state.state3}</div>
             </div>
             <div className="leftAligned">
-              <div className="problemStatement">{this.state.state3}</div>
               <div className="eventRules">{this.state.state4}</div>
               <div className="judge">{this.state.state5}</div>
               <div className="faq">{this.state.state6}</div>
             </div>
-            <div className="rightAligned">
+            <div className="centerAligned">
               <div className="clubNAME">{this.state.state7}</div>
               <div className="contacts">{this.state.state8}</div>
             </div>

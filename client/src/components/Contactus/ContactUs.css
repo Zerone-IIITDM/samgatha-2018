@@ -1,88 +1,83 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
 
-body{
+body {
   margin: 0px;
 }
 /*div{
 	border:1px solid black;
 }*/
-.mainPage{
-	background: linear-gradient(rgb(25,29,34),rgb(30,34,39),rgb(36,41,47));
-	width:100%;
-	height: 100%;
-	padding-top: 10%;
+.mainPage {
+  background: linear-gradient(
+    rgb(25, 29, 34),
+    rgb(30, 34, 39),
+    rgb(36, 41, 47)
+  );
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
 }
-.heading{
-	text-align: center;
-	font-size: 50px;
-	font-family: Yataghan-Regular;
-	color: #b1ff64;
+.heading {
+  text-align: center;
+  font-size: 50px;
+  font-family: Yataghan-Regular;
+  color: #b1ff64;
 }
-.club{
-	width:100%;
+.club {
+  width: 100%;
 }
-.clubName{
-	color: white;
-	font-family: 'Lato', sans-serif;
+.clubName {
+  color: white;
+  font-family: "Lato", sans-serif;
 }
-.memberPhoto{
-	background: lightgrey;
-	width: 200px;
-	height: 200px;
-	
+.memberPhoto {
+  background: lightgrey;
+  width: 200px;
+  height: 200px;
 }
-.content{
-	margin-top: 30px;
-	text-align: center;
-	font-size: 50px;
+.content {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 50px;
 }
-.member{
-	border: 2px solid white;
-	margin-left: 150px;
-	width: 200px;
-	height: 350px;
-	transition: 0.3s border;
-}
-
-.member:hover{
-	border: 2px solid #b1ff64;
-}
-
-.memberInfo{
-	color: white;
-	font-size: 20px;
-	font-family: Audimat;
-	font-weight: 300;
-}
-.photo{
-	border-radius: 30px;
-}
-.members{
-	margin-top: 20px;
-	margin-right: 130px;
-	display: inline-flex;
+.member {
+  border: 2px solid white;
+  margin-left: 150px;
+  width: 200px;
+  height: 350px;
+  transition: 0.3s border;
 }
 
-.borderBottom{
-	margin: 30px auto;
-	width: 80%;
-	border-bottom: 1px solid grey;
+.member:hover {
+  border: 2px solid #b1ff64;
 }
 
-.socialIconsFacebook{
-	color: white;
-	transition: 0.2s color;
+.memberInfo {
+  color: white;
+  font-size: 20px;
+  font-family: Audimat;
+  font-weight: 300;
+}
+.photo {
+  border-radius: 30px;
+}
+.members {
+  margin-top: 20px;
+  margin-right: 130px;
+  display: inline-flex;
 }
 
-.socialIconsFacebook:hover{
-	color: #b1ff64;
+.borderBottom {
+  margin: 30px auto;
+  width: 80%;
+  border-bottom: 1px solid grey;
 }
 
-.cardLinks{
-
+.socialIconsFacebook {
+  color: white;
+  transition: 0.2s color;
 }
 
-.cardImage{
-
+.socialIconsFacebook:hover {
+  color: #b1ff64;
 }

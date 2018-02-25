@@ -83,7 +83,6 @@ a{
 	margin: 0 auto;
 	width:70%;
 	margin-top:15px;
-	
 }
 
 .cursor{
@@ -102,6 +101,6 @@ body{
 
 }
 
-.rightAligned{
-	text-align: center;
+.centerAligned{
+	text-align:center;
 }
