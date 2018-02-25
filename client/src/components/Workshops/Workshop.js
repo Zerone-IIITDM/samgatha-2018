@@ -22,7 +22,7 @@ class Workshop extends Component{
 					<img src={require("../icons/dance.jpg")}alt="workshop" />
 					<div className="workshopDetails">
 					<div className="workshopInnerText">
-					Urban Choreography is a style of dance, community and lifestyle revolving around choreographed pieces and performances by a dancer or a group of dancer.
+					Urban Choreography is a style of dance, community and lifestyle revolving around choreographed pieces and performances by a dancer or a group of dancers.
 					Samgatha 2k18 proudly presents a workshop on "urban Choreography" by Mr. Ravi Varma founder and artistic director of "BFAB dance crew" and "United Grooves school of dance" 
 					Date: March 11, 2018
 					Time: 11:00a.m - 12:30p.m

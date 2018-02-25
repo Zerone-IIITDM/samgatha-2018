@@ -168,7 +168,7 @@ class SignUpForm extends Component {
                 /><br />
                 <input
                     value={this.state.dob}
-                    type="text"
+                    type="date"
                     placeholder="Date of Birth"
                     name="dob"
                     onChange={this.handleChange}
@@ -181,7 +181,14 @@ class SignUpForm extends Component {
                     name="gender"
                     onChange={this.handleChange}
                     className="emailField"
-                /><br />
+                    list = "data"
+                />
+                    <datalist id="data">
+                        <option value="Male" />
+                        <option value="Female" />
+                        <option value="Others" />
+                    </datalist> 
+                <br />
                 <button disabled={isInvalid} type="submit" className="signInButton">
                     Register
                 </button>
