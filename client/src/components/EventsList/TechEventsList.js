@@ -79,7 +79,7 @@ class TechEventsList extends Component
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>
-						<div className="blockLine">
+						<div className="blockLine" style={{paddingLeft:'30px'}}>
 							<Link to='/goLogicYourself' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Go Logic Yourself</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />

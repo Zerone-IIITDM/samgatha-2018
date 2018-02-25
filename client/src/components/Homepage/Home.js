@@ -12,7 +12,7 @@ class Home extends Component{
 		return(
 			<div className="mainContainer">
 				<div className="headContainer" id="home-main">
-					<div className="SamgathaText">SAMGATHA</div>
+					<div className="SamgathaText">SAMGATHA<span style={{color:'#b1ff64'}}>18</span></div>
 					<img className="mainImage" src={require("../icons/MAGICSTICK1.png")} style={{width:'100%',height:'85%'}} alt="magic" />
 					<div className="pulse"></div>
 					<div className="titleText">
