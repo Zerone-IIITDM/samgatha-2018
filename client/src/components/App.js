@@ -27,6 +27,7 @@ import Battle from './BattleofBands';
 import { auth } from './FirebaseUi/firebaseConfig';
 import SignIn from './SignIn/SignIn';
 import SignUp from './SignUp/SignUp';
+import RegistrationDone from './RegistrationDone/RegistrationDone';
 
 /*EVENT FORMS START HERE*/
 var chakravyuha_form				=	"https://goo.gl/forms/4o7g1PFXsMfyWQR03"
@@ -2159,6 +2160,7 @@ class App extends Component {
 		<Route path="/contacts" component={ContactUs} />
 		<Route path="/login" component={SignIn} />
         <Route path="/register" component={SignUp} />
+		<Route path="/done" component={RegistrationDone} />
 		<Route path="/WorkshopOne" component={WorkshopOneMin} />
 		<Route path="/socialcause" component={SocialCause} />
 		<Route path="/techeventslist" component={TechEventsList} />

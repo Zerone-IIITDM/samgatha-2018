@@ -42,24 +42,40 @@ class SignUpForm extends Component {
             history,
         } = this.props;
 
+        var sam_id = 'SAM18';
+        var id = '';
+        var value = 0;
+        var backend_id = '';
+        let generate_id = db.ref(`totalUsers`);
+        generate_id.transaction((current_value) => {
+            console.log(`current value: ${current_value}`);
+            if (!current_value) {
+                current_value = 0;
+            }
+            return current_value + 1;
+        });
+        let update_id = db.ref(`totalUsers`);
+        update_id.on("value", (data) => {
+            value = data.val();
+            id = value;
+            console.log(`SAM ID before update: ${id}`);
+        });
+
         auth.createUserWithEmailAndPassword(email, passwordOne)
             .then(authUser => {
                 console.log(db);
                 console.log(authUser.uid);
+                // Generate SAM ID
+                let zeroes = 5 - id.toString().length;
+                while (zeroes > 0) {
+                    sam_id = sam_id + '0';
+                    zeroes = zeroes - 1;
+                }
+                sam_id = sam_id + id.toString();
+                console.log(`SAM ID after update: ${id}`);
+                console.log(`Snapshot: ${value}`);
+                console.log(`SAM ID: ${sam_id}`);
                 // Create user in FirebaseDB
-                    let sam_id = 'SAM18';
-                    let generate_id = db.ref(`/totalUsers`);
-                    generate_id.transaction((current_value) => {
-                        return current_value + 1;
-                    });
-                    generate_id.on("value", (data) => {
-                        let zeroes = 5 - data.val().toString().length;
-                        while(zeroes > 0) {
-                            sam_id = sam_id + '0';
-                            zeroes = zeroes - 1;
-                        }
-                        sam_id = sam_id + data.val().toString();
-                    });
                     db.ref(`/users/${authUser.uid}`).set({
                         firstName,
                         lastName,
@@ -70,16 +86,6 @@ class SignUpForm extends Component {
                         sam_id
                     })
                     .then(() => {
-                        this.setState({
-                            firstName: '',
-                            lastName: '',
-                            email: '',
-                            passwordOne: '',
-                            passwordTwo: '',
-                            college: '',
-                            dob: '',
-                            gender: ''
-                        })
                         history.push('/');
                     })
                     .catch(error => {
@@ -89,6 +95,53 @@ class SignUpForm extends Component {
             .catch(error => {
                 alert(error);
                 console.log(error);
+            });
+
+            // send SAM ID to backend
+            let zeroes = 5 - id.toString().length;
+                while (zeroes > 0) {
+                    sam_id = sam_id + '0';
+                    zeroes = zeroes - 1;
+                }
+                sam_id = sam_id + id.toString();
+                console.log(`SAM ID after update: ${id}`);
+                console.log(`Snapshot: ${value}`);
+                console.log(`SAM ID backend: ${sam_id}`);
+            // send POST request to backend for sending email
+            fetch('/sendEmail', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    email: this.state.email,
+                    name: this.state.firstName,
+                    id: sam_id, 
+                })
+            })
+            .then((res) => res.json())
+            .then((resJson) => {
+                if(resJson.success) {
+                    console.log(`Form sent to backend`);
+                }
+                else {
+                    console.log(`Form not sent to backend`);
+                }
+            })
+            .catch((err) => {
+                console.log(`Error: ${err}`);
+            });
+
+            this.setState({
+                firstName: '',
+                lastName: '',
+                email: '',
+                passwordOne: '',
+                passwordTwo: '',
+                college: '',
+                dob: '',
+                gender: ''
             });
     }
     handleChange(event) {
@@ -182,6 +235,7 @@ class SignUpForm extends Component {
                     onChange={this.handleChange}
                     className="emailField"
                     list = "data"
+                    autoComplete="off"
                 />
                     <datalist id="data">
                         <option value="Male" />

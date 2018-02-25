@@ -3,6 +3,15 @@
     text-align: center;
 }
 
+.registrationComplete{
+    padding-top: 25%;
+    text-align: center;
+    color: white;
+	font-size: 35px;
+	font-weight: 700;
+	font-family: Audimat;
+}
+
 .emailField{
     color: white;
     margin-top: 20px;
