@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 // import CountTo from 'react-count-to';
 import Carousel from '../Carousel';
 import Iframe from 'react-iframe';
@@ -12,7 +13,7 @@ class Home extends Component{
 		return(
 			<div className="mainContainer">
 				<div className="headContainer" id="home-main">
-					<div className="SamgathaText">SAMGATHA<span style={{color:'#b1ff64'}}>18</span></div>
+					<div className="SamgathaText">SAMGATHA<span style = {{color:"#B1FF64"}}>18</span></div>
 					<img className="mainImage" src={require("../icons/MAGICSTICK1.png")} style={{width:'100%',height:'85%'}} alt="magic" />
 					<div className="pulse"></div>
 					<div className="titleText">
@@ -99,9 +100,9 @@ class Home extends Component{
 							</div>
 						</div>*/}
 				<div className="regCont">
-					<div className="registerBtn">
+					<Link to = "/register"><div className="registerBtn">
 						REGISTER
-					</div>
+					</div></Link>
 					<img src={require("../icons/register_last.png")} alt="stats" style={{width:'100%',height:'100%'}} />
 				</div>	
 				</div>

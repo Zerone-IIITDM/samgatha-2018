@@ -68,7 +68,7 @@
 }
 .rightSideHeaderText{
 	font-weight: 400;
-	margin-left: 50px;
+	margin-left: 30px;
 	margin-top: 50px;
 	font-size: 40px;
 	font-family: Yataghan-Regular;
@@ -78,8 +78,8 @@
 	font-family: Audimat;
 	font-size: 20px;
 	width: 600px;
-	margin-left: 50px;
-	margin-top: 50px;
+	margin-left: 10px;
+	margin-top: 20px;
 }
 .stats{
 
@@ -161,7 +161,7 @@
 .iiitLogo{
 	width: 35%;
 	height: 40%;
-	margin-top: -20px;
+	margin-top: 0px;
 }
 
 .collegeStuff{
@@ -170,7 +170,7 @@
 
 .collegeMotto{
 	white-space: nowrap;
-	padding-left: 2%;
+	padding-right: 2%;
 	font-family: Audimat;
 	padding-top: 12%;
 	font-size: 40px;
