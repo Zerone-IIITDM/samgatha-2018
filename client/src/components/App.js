@@ -364,12 +364,11 @@ var cleanTheSpace =
 	eventName:"Clean The Space",
 	data:
 		[
-			`It has always been about the`,<br/>,
-			`OUT of the BOX thinking`,<br/>,
-			`This event is all about thinking Out of the Box for a problem that is`,<br/>,
-			`OUT of this WORLD.`,<br/>,	<br/>,
-			`Participants are supposed to come up with a CAD model and a power-point 
-			presentation with detailed description and present it to the panel members.`,
+			<b>"Think OUT of the BOX"</b>,<br/>,
+			`is what people usually ask you to do and here is an opportunity for it !`,<br/>,
+			`All you gotta do for this event is`,<br/>,
+			<b><i>"Think out of die Erde".....</i></b>,<br/>,
+			`Wanna know what it means ??..... check the description below`,
 			<br/>,	<br/>
 		],
 	eventFormat:
@@ -2016,7 +2015,7 @@ var instyle =
 	eventFormat:
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
-			`This is a solo event comprising of three rounds and a finale`,` :`,<b>&emsp;</b>,`ofcourse 2`,<br/>,
+			`This is a solo event comprising of three rounds and a finale`,<br/>,<br/>,
 			<u>First round: MR & MISS FASHION ICON</u>,` :`,<br/>,<b>&emsp;</b>,`Fit into your latest fashion trends and own the ramp with your unique style and charisma.`,<br/>,<br/>,
 			<u>Second round:  MR & MISS WITTY</u>,` :`,<br/>,<b>&emsp;</b>,`Beauty is nothing without brains. If you think you have got the wits and guts to be out there ,this is the best chance to prove yourself.`,<br/>,<br/>,
 			<u>Third round: MR & MISS TALENTED</u>,` :`,<br/>,<b>&emsp;</b>,`Everyone has got their own special talent. Grab your chance to showcase all your talent in just a minute!
