@@ -22,7 +22,7 @@ class SocialCause extends Component{
 	              <span style={{color:'#b1ff64',fontWeight:'700',fontSize:'30px'}}>SAMGATHA 2018's</span> social motivation is to spread awareness about mental health under the theme "Depression is curable". To contribute to this cause, we have come up with an idea to support a foundation, <span style={{fontWeight:'700',fontSize:'30px'}}><a href="https://www.snehaindia.org/" style={{color:'#b1ff64',textDecoration:'none'}}>SNEHA.</a></span>
 	      		</div>
 	      		<div className="scContent">
-	            	SNEHA is a voluntary, non-religious, non-political organisation which runs a 24-hour hotline to help the distressed, depressed and suicidal. They are entirely run by volunteers and operate solely on public donations. Through this fundraiser, we aim to spread the message about both the foundation and our college/fest as a small part of the proceeds will go into funding SAMGATHA.
+	            	SNEHA is a voluntary, non-religious, non-political organisation which runs a 24-hour hotline to help the distressed, depressed and suicidal. They are entirely run by volunteers and operate solely on public donations. Through the fundraiser, we aim to spread the message about both the foundation and our college/fest as a small part of the proceeds will go into funding SAMGATHA.
 	      		</div>
 			</div>
 		);

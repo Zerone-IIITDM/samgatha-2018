@@ -119,8 +119,8 @@ class CultEventsList extends Component{
 			            		<div className="eventName paddingCont">Balloon Bash</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/balloonExpress' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">Balloon Express</div>
+			            	<Link to='/instyle' style={styles.links}><div className="cauldron">
+			            		<div className="eventName">Instyle</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>
@@ -143,8 +143,12 @@ class CultEventsList extends Component{
 	            	</div>
 	            	<div className="blocks">
 	            		<div className="blockLine">
-			            	<Link to='/miniMilitia' style={styles.links}><div className="cauldron">
+			            	<Link to='/miniMilitia' style={styles.links}><div className="cauldron" style={{marginLeft:"0px"}}>
 			            		<div className="eventName">Mini Militia</div>
+			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
+			            	</div></Link>
+							<Link to='/balloonExpress' style={styles.links}><div className="cauldron" style={{marginLeft:"100px"}}>
+			            		<div className="eventName">Balloon Express</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>
