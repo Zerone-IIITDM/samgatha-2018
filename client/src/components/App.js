@@ -1235,7 +1235,8 @@ var hocusFocus =
 			If so, here we give you an exotic chance to let the pixels do the talking. 
 			We present to you the online photography contest. 
 			So dig up the pile of photographs that live on your computer and 
-			let them see the light and embrace the glory! It is a theme based photography event.`,
+			let them see the light and embrace the glory!`,<br/>,
+			`It is a Theme based Photography event.`,
 			<br/>,<br/>
 		],
 	eventFormat:
@@ -1485,7 +1486,7 @@ var photON =
 	eventName:"PhotON",
 	data:
 		[
-			`It is an open theme-based photography contest.`,
+			`It is an OPEN THEMED PHOTOGRAPHY CONTEST.`,
 			<br/>,<br/>
 		],
 	eventFormat:
