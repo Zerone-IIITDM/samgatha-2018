@@ -1074,7 +1074,7 @@ var drishyam =
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,
 			<br/>,
 			`Participants have to send their entries to `,
-			<a href = "mailto:samgatha.photography.2018@gmail.com"> samgatha.photography.2018@gmail.com </a>,
+			<a href = "mailto:drishyam.samgatha@gmail.com"> drishyam.samgatha@gmail.com </a>,
 			`(will be created shortly). `,<u>1 round only</u>,` , there will be screening of the films and the judgement will be done there.`,
 			 <br/>,<br/>,
 		],
@@ -1100,7 +1100,7 @@ var drishyam =
 			<br/>,
 			`5.`,<b>&emsp;</b>,` Once the entry has been submitted it cannot be withdrawn from the fest during the event.`,
 			<br/>,
-			`6.`,<b>&emsp;</b>,` All submissions have to be made at __________.`,
+			`6.`,<b>&emsp;</b>,`All entries should be submitted in the above mail-ID on or before 9-March- 2018, 9 AM.`,
 			<br/>,
 			`7.`,<b>&emsp;</b>,` Maximum size of the video shouldn’t exceed 700 MB.`,
 			<br/>,
@@ -1236,7 +1236,7 @@ var hocusFocus =
 			If so, here we give you an exotic chance to let the pixels do the talking. 
 			We present to you the online photography contest. 
 			So dig up the pile of photographs that live on your computer and 
-			let them see the light and embrace the glory !`,
+			let them see the light and embrace the glory! It is a theme based photography event.`,
 			<br/>,<br/>
 		],
 	eventFormat:
@@ -1244,7 +1244,7 @@ var hocusFocus =
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,
 			<br/>,
 			`Participants have to send their entries to `,
-			<a href = "mailto:samgatha.photography.2018@gmail.com"> samgatha.photography.2018@gmail.com </a>,
+			<a href = "mailto:photography.samgatha2k18@gmail.com"> photography.samgatha2k18@gmail.com </a>,
 			`(will be created shortly). `,<u>Only 1 round.</u>,
 			<br/>,<br/>
 		],
@@ -1252,14 +1252,14 @@ var hocusFocus =
 		[
 			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,
 			<br/>,
-			`Free-theme photography event. `, 
+			`Theme - Magic `, 
 			<br/>,<br/>
 		],
 	eventRules:
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,
 			<br/>,
-			`1.`,<b>&emsp;</b>,`2 pictures you’ve taken should be submitted on or before __/__/2018, __ pm.`,
+			`1.`,<b>&emsp;</b>,`1 picture which you’ve taken should be submitted on or before 12/03/2018, 9 pm.`,
 			<br/>,
 			`2.`,<b>&emsp;</b>,`EDITING the original image is PROHIBITED. The entries will be disqualified in that case.`,
 			<br/>,
@@ -1486,7 +1486,7 @@ var photON =
 	eventName:"PhotON",
 	data:
 		[
-			`It is a theme-based online photography event.`,
+			`It is an open theme-based photography contest.`,
 			<br/>,<br/>
 		],
 	eventFormat:
@@ -1494,22 +1494,17 @@ var photON =
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,
 			<br/>,
 			`Participants have to send their entries to `,
-			<a href = "mailto:samgatha.photography.2018@gmail.com"> samgatha.photography.2018@gmail.com </a>,
+			<a href = "mailto:photography.samgatha2k18@gmail.com"> photography.samgatha2k18@gmail.com </a>,
 			`(will be created shortly). `,<u>Only 1 round.</u>,
 			<br/>,<br/>
 		],
 	problemStatement:
-		[
-			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,
-			<br/>,
-			`A theme will be given by Feb 1. Depending on the theme, the participants should send the entries to the above mentioned mail-id.`,
-			<br/>,<br/>
-		],
+		[],
 	eventRules:
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,
 			<br/>,
-			`1.`,<b>&emsp;</b>,`2 pictures you’ve taken should be submitted on or before __/__/2018, __ pm.`,
+			`1.`,<b>&emsp;</b>,`2 pictures you’ve taken should be submitted on or before 12/03/2018, 9 pm.`,
 			<br/>,
 			`2.`,<b>&emsp;</b>,`EDITING the original image is PROHIBITED. The entries will be disqualified in that case.`,
 			<br/>,
@@ -1533,21 +1528,19 @@ var photON =
 			<br/>,
 			`12.`,<b>&emsp;</b>,`The judges and the organizers reserve the right to cancel or vary the position awarded in case of any discrepancies. `,
 			<br/>,
-			`13.`,<b>&emsp;</b>,`All submissions have to be made at __________.`,
+			`13.`,<b>&emsp;</b>,`Participants are not allowed to tag people on the photographs when it is uploaded on Facebook by the organizers. `,
 			<br/>,
-			`14.`,<b>&emsp;</b>,`Participants are not allowed to tag people on the photographs when it is uploaded on Facebook by the organizers. `,
+			`14.`,<b>&emsp;</b>,`Participants are to submit details of the device used along with the photographs. `,
 			<br/>,
-			`15.`,<b>&emsp;</b>,`Participants are to submit details of the device used along with the photographs. `,
+			`15.`,<b>&emsp;</b>,`Candids and event photos are accepted. Any selfie or group photos wouldn’t be accepted.`,
 			<br/>,
-			`16.`,<b>&emsp;</b>,`Candids and event photos are accepted. Any selfie or group photos wouldn’t be accepted.`,
+			`16.`,<b>&emsp;</b>,`The image should be only in JPEG format.`,
 			<br/>,
-			`17.`,<b>&emsp;</b>,`The image should be only in JPEG format.`,
+			`17.`,<b>&emsp;</b>,`Minimum 5MP. The EXIF data should remain intact.`,
 			<br/>,
-			`18.`,<b>&emsp;</b>,`Minimum 5MP. The EXIF data should remain intact.`,
+			`18.`,<b>&emsp;</b>,`The file size shouldn’t exceed 30 MB.`,
 			<br/>,
-			`19.`,<b>&emsp;</b>,`The file size shouldn’t exceed 30 MB.`,
-			<br/>,
-			`20.`,<b>&emsp;</b>,`No restriction on type of device used.`,
+			`19.`,<b>&emsp;</b>,`No restriction on type of device used.`,
 			<br/>,<br/>
 		],
 	judgingCriteria:
