@@ -40,7 +40,7 @@ var triviosity_form					=	"https://goo.gl/forms/5dyeX0QxOvKzfRPq1"
 var appAThon_form					=	"https://goo.gl/forms/xfLQs28TLtpJoZ4d2"
 var codeAution_form					=	"https://goo.gl/forms/rA8vNbBXjQd4Sxaz1"
 var samgathaBusinessChallenge_form	=	"https://goo.gl/forms/gGYlBG9P32zOHQUL2"
-var pitchPlease_form				=	""
+var pitchPlease_form				=	"https://goo.gl/forms/OFkb5Veo8y6cB1WB3"
 var beASuperHero_form				=	"https://goo.gl/forms/JhFt47ECwvrXhk7s1"
 var battleOfBands_form				=	"https://goo.gl/forms/zjRzxi1E61MpX41r2"
 var syncGeet_form					=	"https://goo.gl/forms/xtthrmxKScuUt2IO2"
@@ -54,19 +54,20 @@ var impulse_form					=	"https://goo.gl/forms/FkNm0lFyfBvnvp7C3"
 var maskMaking_form					=	"https://goo.gl/forms/elkLfy5SLMMQlsDh1"
 var coupling_form					=	"https://goo.gl/forms/dqvIYcffHyRyT10A3"
 var photON_form						=	"https://goo.gl/forms/vT9bBu1GM3aZKdA42"
-var pictionary_form					=	""
-var blindFill_form					=	""
-var blowBall_form					=	""
-var balloonBash_form				=	""
-var balloonExpress_form				=	""
-var queenOfSheeba_form				=	""
+var pictionary_form					=	"https://goo.gl/forms/h53FIdDM4a0SC1o62"
+var blindFill_form					=	"https://goo.gl/forms/kGIZhfWJ2t7qHF9F2"
+var blowBall_form					=	"https://goo.gl/forms/0nbwpDtwsZVeCPLJ3"
+var balloonBash_form				=	"https://goo.gl/forms/sGzx7XAJPLWoGGn52"
+var balloonExpress_form				=	"https://goo.gl/forms/V1PZ2sJZCOLEOH0p1"
+var queenOfSheeba_form				=	"https://goo.gl/forms/6TCo2GQIbcgGou2l1"
 var lawyerUp_form					=	"https://goo.gl/forms/BgVu4EomoGHhRmPC3"
 var resonance_form					=	"https://goo.gl/forms/sITlg6qQPi9X3zEI2"
-var dota_form						=	""
-var fifa_form						=	""
-var csgo_form						=	""
-var miniMilitia_form				=	""
-var goLogicYourself_form			=	""
+var dota_form						=	"https://goo.gl/forms/5XMYTmhFHcx9UZAF2"
+var fifa_form						=	"https://goo.gl/forms/12ywIcl3v965N3U52"
+var csgo_form						=	"https://goo.gl/forms/tEV3AkshCUQll0Bh1"
+var miniMilitia_form				=	"https://goo.gl/forms/VgYqDWvQbchnZZK73"
+var goLogicYourself_form			=	"https://goo.gl/forms/Qw2gb1RjfOqCRBWJ2"
+var instyle_form					=	""
 
 /*CLUB CONTACTS START HERE*/
 var roboticsClubContacts = 
@@ -178,6 +179,12 @@ var photographyClubContacts =
 		`A Aravind: +91-7904787923 (mdm15b033@iiitdm.ac.in)`
 	]
 
+var instyleContacts = 
+	[
+		<br/>,
+		`Lasya: +91-9962286832`,	<br/>,
+		`Kaushik: +91-995917915`
+	]
 /*EVENT DETAILS START HERE*/
 var chakravyuha = 
 {
@@ -989,11 +996,7 @@ var danceWars =
 	eventName:"Dance Wars",
 	data:
 		[
-			`Who says dance isn't magical? It's time to live your La La Land.
-			Listen to that long forgotten whisper and feel the rise and fall of
-			your breath. Break your shackles. Grab the moment and cast that
-			entrancing spell on us! Opportunity dances with those already on the dance floor. Come,
-			grab it. Come, dance to live, to breathe, to be free, to be YOU.`,
+			`Who says dance isn't magical? It's time to live your La La Land. Listen to that long forgotten whisper and feel the rise and fall of your breath. Break your shackles. Grab the moment and and cast that entrancing spell on us!`,
 			<br/>, <br/>
 		],
 	eventFormat:
@@ -1003,6 +1006,8 @@ var danceWars =
 			<u>Time limit</u>,` :`,<b>&emsp;</b>,`8-10 minutes`,
 			<br/>,
 			<u>Size of the Crew</u>,` :`,<b>&emsp;</b>,`5 - 30`,
+			<br/>,<br/>,
+			<b>"Opportunity dances with those already on the dance floor. So come, grab it."</b>,
 			<br/>, <br/>
 		],
 	problemStatement:
@@ -1309,11 +1314,7 @@ var impulse =
 	eventName:"Impulse",
 	data:
 		[
-			`Who says dance isn't magical? It's time to live your La La Land.
-			Listen to that long forgotten whisper and feel the rise and fall of
-			your breath. Break your shackles. Grab the moment and cast that
-			entrancing spell on us! Opportunity dances with those already on the dance floor. Come,
-			grab it. Come, dance to live, to breathe, to be free, to be YOU.`,
+			`Dancing with the feet is one thing, but dancing with the heart is another. So come, dance to live, to breathe, to be free, to be YOU.`,
 			<br/>,	<br/>
 		],
 	eventFormat:
@@ -1323,6 +1324,8 @@ var impulse =
 			<u>Time limit</u>,` :`,<b>&emsp;</b>,`3 - 5 minutes`,
 			<br/>,
 			`There will be two rounds in which the second round will be a surprise round.`,
+			<br/>,<br/>,
+			<b>"If you stumble, make it part of the dance :P"</b>,
 			<br/>, <br/>
 		],
 	problemStatement:
@@ -1419,11 +1422,7 @@ var coupling =
 	eventName:"Coupling",
 	data:
 		[
-			`Who says dance isn't magical? It's time to live your La La Land.
-			Listen to that long forgotten whisper and feel the rise and fall of
-			your breath. Break your shackles. Grab the moment and cast that
-			entrancing spell on us! Opportunity dances with those already on the dance floor. Come,
-			grab it. Come, dance to live, to breathe, to be free, to be YOU.`,
+			`Dance like its a conversation between two people. So, take your chances, dance more dances.`,
 			<br/>,	<br/>
 		],
 	eventFormat:
@@ -1431,6 +1430,8 @@ var coupling =
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			<u>Team size</u>,` :`,<b>&emsp;</b>,`ofcourse 2`,<br/>,
 			<u>Time limit</u>,` :`,<b>&emsp;</b>,`3 - 5 minutes`,
+			<br/>,<br/>,
+			<b>"Limitations only exist if you let them :P"</b>,
 			<br/>, <br/>
 		],
 	problemStatement:
@@ -2010,6 +2011,61 @@ var miniMilitia =
 	contacts:gamingClubContacts,
 }
 
+var instyle = 
+{
+	regLink:instyle_form,
+	eventName:"Instyle",
+	data:
+		[
+			`Fashion is a way of expressing who you are without having to speak .so welcome to this fashion extravaganza to explore your fashion sense and persona.`,
+			<br/>,	<br/>
+		],
+	eventFormat:
+		[
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			`This is a solo event comprising of three rounds and a finale`,` :`,<b>&emsp;</b>,`ofcourse 2`,<br/>,
+			<u>First round: MR & MISS FASHION ICON</u>,` :`,<br/>,<b>&emsp;</b>,`Fit into your latest fashion trends and own the ramp with your unique style and charisma.`,<br/>,<br/>,
+			<u>Second round:  MR & MISS WITTY</u>,` :`,<br/>,<b>&emsp;</b>,`Beauty is nothing without brains. If you think you have got the wits and guts to be out there ,this is the best chance to prove yourself.`,<br/>,<br/>,
+			<u>Third round: MR & MISS TALENTED</u>,` :`,<br/>,<b>&emsp;</b>,`Everyone has got their own special talent. Grab your chance to showcase all your talent in just a minute!
+			(talent – art/music/dance/mimicry/acting etc..,) `,<br/>,<br/>,
+			<u>AND THE FINALE</u>,
+			<br/>, <br/>
+		],
+	problemStatement:
+		[],
+	eventRules:
+		[
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
+			`1.`,<b>&emsp;</b>,`The contestants are free to choose their own costumes.`,
+			<br/>,
+			`2.`,<b>&emsp;</b>,`Use of props like bags, scarves, etc… is permitted; however use of fire, water and any item that could damage the stage or hinder the performance of other teams will lead to disqualification.`,
+			<br/>,
+			`3.`,<b>&emsp;</b>,`For the talent round: The participants should bring their own audio track to be played. Other specific requirements for this round like musical instruments, etc. should be brought by the participant.`,
+			<br/>,
+			`4.`,<b>&emsp;</b>,`The registration fee for this event is – Rs 100`,
+			<br/>, <br/>
+		],
+	judgingCriteria:
+		[
+			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,<br/>,
+			`The participants will be judged on their:`,
+			<br/>,
+			<b>&emsp;</b>,`1.`,<b>&emsp;</b>,`Spontaneity`,
+			<br/>,
+			<b>&emsp;</b>,`2.`,<b>&emsp;</b>,`Style`,
+			<br/>,
+			<b>&emsp;</b>,`3.`,<b>&emsp;</b>,`Presentation`,
+			<br/>,
+			<b>&emsp;</b>,`4.`,<b>&emsp;</b>,`Confidence`,
+			<br/>, <br/>
+		],
+	faq:
+		[
+		],
+	club:"",
+	contacts:instyleContacts,
+}
+
 class App extends Component {
  constructor(){
  super();
@@ -2155,6 +2211,7 @@ class App extends Component {
 		<Route path="/queenOfSheeba" component={() => (<EventOne event={queenOfSheeba} />)} />
 		<Route path="/lawyerUp" component={() => (<EventOne event={lawyerUp} />)} />
 		<Route path="/resonance" component={() => (<EventOne event={resonance} />)} />
+		<Route path="/instyle" component={() => (<EventOne event={instyle} />)} />
 		<Footer />
 	 </div>
 	 </BrowserRouter>
