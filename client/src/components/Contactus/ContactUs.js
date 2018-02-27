@@ -71,7 +71,7 @@ class ContactUs extends Component{
 										<div className="memberInfo">Gajraj Gajapathi<br />+91-9952204562</div>
 										<div className="cardLinks">
 											<a href="https://m.facebook.com/gajaraj.gajapathi" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
-											<a href="www.instagram.com/gajaraj_gajapathi" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>&ensp;
+											<a href="www.instagram.com/gajaraj_gajapathi" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>
 										</div>
 									</div>
 								</div>
@@ -100,7 +100,7 @@ class ContactUs extends Component{
 										<div className="memberInfo">Sanjana Shankar<br />+91-9840184190</div>
 										<div className="cardLinks">
 											<a href="https://facebook.com/sanjanaluvzchoco" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
-											<a href="https://www.instagram.com/sanjana_sankar/" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>&ensp;
+											<a href="https://www.instagram.com/sanjana_sankar/" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>
 										</div>
 									</div>
 									<div className="member">
@@ -139,7 +139,7 @@ class ContactUs extends Component{
 										<div className="memberInfo">Aditya Prakash<br />+91-9790729047</div>
 										<div className="cardLinks">
 											<a href="https://www.facebook.com/aproxx" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
-											<a href="https://www.instagram.com/aaahditya" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>&ensp;
+											<a href="https://www.instagram.com/aaahditya" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>
 										</div>
 									</div>
 									<div className="member">
@@ -149,7 +149,7 @@ class ContactUs extends Component{
 										<div className="memberInfo">Shruti Purohit<br />+91-9962279055</div>
 										<div className="cardLinks">
 											<a href="https://www.facebook.com/people/Shruti-Purohit/100009390774033" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
-											<a href="https://www.instagram.com/_the_lazy_dreamer_/?hl=en" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>&ensp;
+											<a href="https://www.instagram.com/_the_lazy_dreamer_/?hl=en" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>
 										</div>
 									</div>
 								</div>
@@ -177,7 +177,7 @@ class ContactUs extends Component{
 										</div>
 										<div className="memberInfo">V Divya<br />+91-9487575247</div>
 										<div className="cardLinks">
-											<a href="https://www.facebook.com/divya.venkat.5682" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
+											<a href="https://www.facebook.com/divya.venkat.5682" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>
 										</div>
 									</div>
 								</div>
@@ -194,7 +194,7 @@ class ContactUs extends Component{
 										</div>
 										<div className="memberInfo">Harish<br />+91-7358612531</div>
 										<div className="cardLinks">
-											<a href="https://www.facebook.com/harish.elusuri" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
+											<a href="https://www.facebook.com/harish.elusuri" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>
 										</div>
 									</div>
 									<div className="member">
@@ -243,7 +243,7 @@ class ContactUs extends Component{
 										</div>
 										<div className="memberInfo">Kartik Bitra<br />+91-9502372179</div>
 										<div className="cardLinks">
-											<a href="https://www.facebook.com/kartik.bitra" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
+											<a href="https://www.facebook.com/kartik.bitra" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>
 										</div>
 									</div>
 									<div className="member">
@@ -335,7 +335,7 @@ class ContactUs extends Component{
 										<div className="memberInfo">Anakha Suresh<br />+91-9445677042</div>
 										<div className="cardLinks">
 											<a href="https://www.facebook.com/anakha.suresh.31" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
-											<a href="https://www.instagram.com/pointless_strokes" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>&ensp;
+											<a href="https://www.instagram.com/pointless_strokes" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>
 										</div>
 									</div>
 									<div className="member">
