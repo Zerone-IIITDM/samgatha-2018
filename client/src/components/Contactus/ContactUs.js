@@ -321,7 +321,7 @@ class ContactUs extends Component{
 								<div className="members">
 									<div className="member">
 										<div className="cardImage">
-											<div className="memberPhoto"></div>
+											<img src={require("../icons/Jeff.jpg")} alt="contactPic" />
 										</div>
 										<div className="memberInfo">Jeffrey Jacob<br />+91-9677440972</div>
 										<div className="cardLinks">
@@ -332,7 +332,7 @@ class ContactUs extends Component{
 									</div>
 									<div className="member">
 										<div className="cardImage">
-											<div className="memberPhoto"></div>
+											<img src={require("../icons/anakha.jpg")} alt="contactPic" />
 										</div>
 										<div className="memberInfo">Anakha Suresh<br />+91-9445677042</div>
 										<div className="cardLinks">

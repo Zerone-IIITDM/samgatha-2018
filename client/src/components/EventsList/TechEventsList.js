@@ -86,10 +86,10 @@ class TechEventsList extends Component
 	            	</div>
 	            	<div className="techblocks">
 	            		<div className="blockLine">
-							<a href = "https://drive.google.com/file/d/1hdhhKtjK5S8dOav4tJnnqaTX86ONrATg/view" target = "_blank"><div className="cauldron">
+							<Link to='/paperPresentation' style={styles.links}><div className="cauldron">
 			            		<div className="eventName">Technical Paper Presentation</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
-			            	</div></a>
+			            	</div></Link>
 			            </div>
 	            	</div>
 	            </div>

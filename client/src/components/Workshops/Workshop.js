@@ -14,10 +14,6 @@ class Workshop extends Component{
 					Workshop
 				</div>
 				<div className="workshop1">
-					<div>IoT Workshop</div>
-					<img src={require("../icons/ib.jpeg")}alt="workshop" />
-				</div>
-				<div className="workshop1">
 					<div>Reboot-Invited Tech Talk</div>
 					<img src={require("../icons/reboot.png")}alt="workshop" />
 				</div>
@@ -36,6 +32,10 @@ class Workshop extends Component{
 						&emsp;Mail the screenshot of receipt to <a href="mailto:urbanchoreo.samgatha@gmail.com" target="_top"> urbanchoreo.samgatha@gmail.com </a>
 						</div>
 					</div>
+				</div>
+				<div className="workshop1">
+					<div>IoT Workshop</div>
+					<img src={require("../icons/ib.jpeg")}alt="workshop" />
 				</div>
 			</div>
 		);
