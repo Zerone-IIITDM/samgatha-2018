@@ -652,7 +652,7 @@ var codeAution =
 			Credits are decreased for each keyword used in the code.`,<br/>,
 			`For example: if-else constructs, looping keywords like while, for etc., switch, break, etc.`,<br/>,
 			`The event is language independent and the credits are same for the constructs and do not vary by the keyword. 
-			Other languages may have other keywords and credits are assigned based on the mechanism the keyboard.`,<br/>,
+			Other languages may have other keywords and credits are assigned based on the mechanism of the keyword.`,<br/>,
 			<u>Round 2</u>,` :`,<b>&emsp;</b>,` Surprise Round.`,
 			<br/>,<br/>
 		],
