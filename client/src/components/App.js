@@ -67,7 +67,8 @@ var fifa_form						=	"https://goo.gl/forms/12ywIcl3v965N3U52"
 var csgo_form						=	"https://goo.gl/forms/tEV3AkshCUQll0Bh1"
 var miniMilitia_form				=	"https://goo.gl/forms/VgYqDWvQbchnZZK73"
 var goLogicYourself_form			=	"https://goo.gl/forms/Qw2gb1RjfOqCRBWJ2"
-var instyle_form					=	""
+var instyle_form					=	"https://goo.gl/forms/5srtF2rKn30dSJ0H3"
+var paperPresentation_form			=	"https://goo.gl/forms/6kckmM3tpcMivP7v2"
 
 /*CLUB CONTACTS START HERE*/
 var roboticsClubContacts = 
@@ -147,15 +148,15 @@ var danceClubContacts =
 var dramaClubContacts = 
 	[
 		<br/>,
-		`Yutika Kulwe: +91-9920289853 (ced15i017@iiitdm.ac.in)`,	<br/>,
-		`R Sowbarnika: +91-7200030983 (edm15b040@iiitdm.ac.in)`
+		`Yutika Kulwe : +91-9920289853 (ced15i017@iiitdm.ac.in)`,	<br/>,
+		`R Sowbarnika : +91-7200030983 (edm15b040@iiitdm.ac.in)`
 	]
 
 var funClubContacts = 
 	[
 		<br/>,
-		`Sumuki Ravi: +91-9444581985 (mpd15i018@iiitdm.ac.in)`,	<br/>,
-		`Manvitha: +91-9494497393 (edm15b041@iiitdm.ac.in)`
+		`Sumuki Ravi : +91-9444581985 (mpd15i018@iiitdm.ac.in)`,	<br/>,
+		`Manvitha : +91-9494497393 (edm15b041@iiitdm.ac.in)`
 	]
 
 var litClubContacts = 
@@ -175,16 +176,23 @@ var gamingClubContacts =
 var photographyClubContacts = 
 	[
 		<br/>,
-		`Vishal Nayak: +91-7382327624 (edm15b017@iiitdm.ac.in)`,	<br/>,
-		`A Aravind: +91-7904787923 (mdm15b033@iiitdm.ac.in)`
+		`Vishal Nayak : +91-7382327624 (edm15b017@iiitdm.ac.in)`,	<br/>,
+		`A Aravind : +91-7904787923 (mdm15b033@iiitdm.ac.in)`
 	]
 
 var instyleContacts = 
 	[
 		<br/>,
-		`Lasya: +91-9962286832`,	<br/>,
-		`Kaushik: +91-995917915`
+		`Lasya : +91-9962286832`,	<br/>,
+		`Kaushik : +91-9959179715`
 	]
+
+var paperPresentationContacts = 
+	[
+		<br/>,
+		`Shaarada Yamini : +91-9791131362`
+	]
+
 /*EVENT DETAILS START HERE*/
 var chakravyuha = 
 {
@@ -364,12 +372,11 @@ var cleanTheSpace =
 	eventName:"Clean The Space",
 	data:
 		[
-			`It has always been about the`,<br/>,
-			`OUT of the BOX thinking`,<br/>,
-			`This event is all about thinking Out of the Box for a problem that is`,<br/>,
-			`OUT of this WORLD.`,<br/>,	<br/>,
-			`Participants are supposed to come up with a CAD model and a power-point 
-			presentation with detailed description and present it to the panel members.`,
+			<b>"Think OUT of the BOX"</b>,<br/>,
+			`is what people usually ask you to do and here is an opportunity for it !`,<br/>,
+			`All you gotta do for this event is`,<br/>,
+			<b><i>"Think out of die Erde".....</i></b>,<br/>,
+			`Wanna know what it means ??..... check the description below`,
 			<br/>,	<br/>
 		],
 	eventFormat:
@@ -473,7 +480,7 @@ var relayDesign =
 			<div style = {{fontSize:"30px"}}><b>Judging Criteria: </b></div>,
 			<br/>,
 			`Points will be awarded on the basis of conceptual design and 3D modelling`,
-			<br/>,<br/>,
+			<br/>,<br/>
 		],
 	faq:
 		[
@@ -498,35 +505,41 @@ var junkyardWars =
 	eventName:"Junkyard Wars",
 	data:
 		[
-			`Let’s build big, bad GUNS!`,
+			<div style = {{fontSize:"25px"}}><b>Let’s build big, bad GUNS! </b></div>,
 			<br/>,	<br/>
 		],
 	eventFormat:
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,	<br/>,
-			<u>No. of Rounds</u>,` :`,<b>&emsp;</b>,`2`,<br/>,
-			<u>Round 1</u>,` :`,<b>&emsp;</b>,`Pen and paper based round and a small problem`,
-			<br/>,
-			<u>Round 2</u>,` :`,<b>&emsp;</b>,`The selected teams will be given an on-spot problem statement`,
-			<br/>,	<br/>,
+			<u>No. of Rounds</u>,` :`,<b>&emsp;</b>,`2`,<br/>, <br/>,
+			<u>Round 1</u>,` :`,<b>&emsp;</b>,<br/>,`An on spot round where teams will be asked to build a working model(related to projectiles), they'll be judged on basic physics,mechanics and engineering.`,
+			<br/>, <br/>,
+			<u>Round 2</u>,` :`,<b>&emsp;</b>,<u>A Mechathon round</u>,<br/>,
+			`Teams need to build a launcher on the spot (materials should be brought by the participants).`,
+			<br/>, <br/>
 		],
 	problemStatement:
 		[
 			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,	<br/>,
-			`Participants should make any electronics prototype for solving health related problem existing in society.`,
+			`This projectile will be used to launch projectiles (ping pong balls) in the “enemy territory” .`,
+			<br/>,	<br/>,
+			<div>
+				<img src={require("./icons/junkyard.png")} alt="Problem Blueprint" />
+			</div>,
 			<br/>,	<br/>
 		],
 	eventRules:
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
-			`1.`,<b>&emsp;</b>,<u>Maximum team size</u>,` :`,<b>&emsp;</b>,`5`,<br/>,
-			`2.`,<b>&emsp;</b>,`Total number of finalists selected is 8 teams.`,<br/>,
-			`3.`,<b>&emsp;</b>,`Competition will be conducted in league format.`,<br/>,
-			`4.`,<b>&emsp;</b>,<u>Time</u>,` :`,<b>&emsp;</b>,`6 minutes for league matches and 10 for finals.`,<br/>,
-			`5.`,<b>&emsp;</b>,`Construction equipment and materials will be given on site.`,<br/>,
-			`6.`,<b>&emsp;</b>,<u>Number of tennis balls(ammo) per team</u>,` :`,<b>&emsp;</b>,`10`,<br/>,
-			`7.`,<b>&emsp;</b>,`Each team's territory is a circle of radius 10 feet and the team's equipment at the centre.`,<br/>,
-			`8.`,<b>&emsp;</b>,<u>Number of lives per team</u>,` :`,<b>&emsp;</b>,`3`,
+			`1.`,<b>&emsp;</b>,<u>Maximum team size</u>,` :`,<b>&emsp;</b>,`4`,<br/>,
+			`2.`,<b>&emsp;</b>,<u>Ammo provided (ping pong balls)</u>,` :`,<b>&emsp;</b>,`10 per team`,<br/>,
+			`3.`,<b>&emsp;</b>,`Each team has `,<u>3 lives.</u>,<br/>,
+			`4.`,<b>&emsp;</b>,`Teams lose a life if projectile lands directly in their territory. Opposing team is awarded 10 points for each life lost and five points for indirect hits. However, no life is lost on indirect hit(basic dart system type points allocation).`,<br/>,
+			`5.`,<b>&emsp;</b>,`Game ends when both teams exhaust their ammo/ one team loses all lives.`,<br/>,
+			`6.`,<b>&emsp;</b>,`Winner is judged on the basis of points if both teams retain at least one life otherwise the team losing all lives loses.`,<br/>,
+			`7.`,<b>&emsp;</b>,`Competition will be held on a knockout basis.`,<br/>,
+			`8.`,<b>&emsp;</b>,`Organizers reserve the right to disqualify teams based on conduct.`,<br/>,
+			`9.`,<b>&emsp;</b>,`Organizers decision is final under all circumstances.`,
 			<br/>,	<br/>
 		],
 	judgingCriteria:
@@ -825,7 +838,7 @@ var battleOfBands =
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			<u>No. of rounds</u>,` :`,<b>&emsp;</b>,` 2 (inclucive of online video screening)`,
 			<br/>,
-			<u>Band Size</u>,` :`,<b>&emsp;</b>,` 5 – 15 (At max 10 onstage)`,
+			<u>Band Size</u>,` :`,<b>&emsp;</b>,` 3 – 15 (At max 10 onstage)`,
 			<br/>, <br/>
 		],
 	problemStatement:
@@ -886,7 +899,7 @@ var syncGeet =
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			<u>No. of rounds</u>,` :`,<b>&emsp;</b>,` 2 (inclucive of online video screening)`,
 			<br/>,
-			<u>Team Size</u>,` :`,<b>&emsp;</b>,` 2 - 5`,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,` 2 - 6`,
 			<br/>,
 			`1.`,<b>&emsp;</b>,`Bands will be shortlisted from video entries.`,
 			<br/>,
@@ -946,9 +959,9 @@ var gaayak =
 	eventFormat:
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
-			<u>Team Size</u>,` :`,<b>&emsp;</b>,` Solo`,
+			<u>Team Size</u>,` :`,<b>&emsp;</b>,`Solo`,
 			<br/>,
-			<u>Time Limit</u>,` :`,<b>&emsp;</b>,`	 Maximum 5 minutes`,
+			<u>Time Limit</u>,` :`,<b>&emsp;</b>,`Maximum 5 minutes`,
 			<br/>,	<br/>
 		],
 	problemStatement:
@@ -1236,7 +1249,8 @@ var hocusFocus =
 			If so, here we give you an exotic chance to let the pixels do the talking. 
 			We present to you the online photography contest. 
 			So dig up the pile of photographs that live on your computer and 
-			let them see the light and embrace the glory! It is a theme based photography event.`,
+			let them see the light and embrace the glory!`,<br/>,
+			`It is a Theme based Photography event.`,
 			<br/>,<br/>
 		],
 	eventFormat:
@@ -1316,6 +1330,7 @@ var impulse =
 		[
 			`Dancing with the feet is one thing, but dancing with the heart is another. So come, dance to live, to breathe, to be free, to be YOU.`,
 			<br/>,	<br/>
+
 		],
 	eventFormat:
 		[
@@ -1486,7 +1501,7 @@ var photON =
 	eventName:"PhotON",
 	data:
 		[
-			`It is an open theme-based photography contest.`,
+			`It is an OPEN THEMED PHOTOGRAPHY CONTEST.`,
 			<br/>,<br/>
 		],
 	eventFormat:
@@ -2010,16 +2025,16 @@ var instyle =
 	eventName:"Instyle",
 	data:
 		[
-			`Fashion is a way of expressing who you are without having to speak .so welcome to this fashion extravaganza to explore your fashion sense and persona.`,
+			`Fashion is a way of expressing who you are without having to speak. So, Welcome to this fashion extravaganza to explore your fashion sense and persona.`,
 			<br/>,	<br/>
 		],
 	eventFormat:
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
-			`This is a solo event comprising of three rounds and a finale`,` :`,<b>&emsp;</b>,`ofcourse 2`,<br/>,
-			<u>First round: MR & MISS FASHION ICON</u>,` :`,<br/>,<b>&emsp;</b>,`Fit into your latest fashion trends and own the ramp with your unique style and charisma.`,<br/>,<br/>,
-			<u>Second round:  MR & MISS WITTY</u>,` :`,<br/>,<b>&emsp;</b>,`Beauty is nothing without brains. If you think you have got the wits and guts to be out there ,this is the best chance to prove yourself.`,<br/>,<br/>,
-			<u>Third round: MR & MISS TALENTED</u>,` :`,<br/>,<b>&emsp;</b>,`Everyone has got their own special talent. Grab your chance to showcase all your talent in just a minute!
+			`This is a solo event comprising of three rounds and a finale`,<br/>,<br/>,
+			<u>First round : MR & MISS FASHION ICON</u>,<br/>,<b>&emsp;</b>,`Fit into your latest fashion trends and own the ramp with your unique style and charisma.`,<br/>,<br/>,
+			<u>Second round :  MR & MISS WITTY</u>,<br/>,<b>&emsp;</b>,`Beauty is nothing without brains. If you think you have got the wits and guts to be out there ,this is the best chance to prove yourself.`,<br/>,<br/>,
+			<u>Third round : MR & MISS TALENTED</u>,<br/>,<b>&emsp;</b>,`Everyone has got their own special talent. Grab your chance to showcase all your talent in just a minute!
 			(talent – art/music/dance/mimicry/acting etc..,) `,<br/>,<br/>,
 			<u>AND THE FINALE</u>,
 			<br/>, <br/>
@@ -2053,10 +2068,75 @@ var instyle =
 			<br/>, <br/>
 		],
 	faq:
-		[
-		],
+		[],
 	club:"",
 	contacts:instyleContacts,
+}
+
+var paperPresentation = 
+{
+	regLink:paperPresentation_form,
+	eventName:"Technical Paper Presentation",
+	data:
+		[
+			`It is the time to unleash the technical fundamental knowledge and the talent within you. All you need to do is to
+			fuel your brain to ideate the ideas that never existed. The stage has been set to listen to your words. Speak
+			clearly, if you speak at all. Carve every word before you let it fall. Take up the challenge to drive home your
+			genuine ideas and understanding. Who knows this could be your first step to fame and glory.`,<br/>,
+			<br/>,
+			`"Let your mind write the paper!!! Not your hand!!! "`,
+			<br/>,	<br/>
+		],
+	eventFormat:
+		[
+			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
+			`This event consists of `,<u>2 rounds</u>,`.`,<br/>,<br/>,
+			<u>Round 1 (Short listing the finalists)</u>,` :`,<br/>,<b>&emsp;</b>,
+			`The abstracts sent by the participants are filtered and worthy participants are shortlisted for the final
+			round. The finalists will be intimated about the same at the earliest.`,<br/>,<br/>,
+			<u>Round 2 (Paper presentation)</u>,` :`,<br/>,<b>&emsp;</b>,
+			`The selected participants will be presenting on their topics. Each team will be given 10 minutes for the
+			presentation. Teams are expected to present using PPT.`,
+			<br/>, <br/>
+		],
+	problemStatement:
+		[
+			<div style = {{fontSize:"30px"}}><b>Topics: </b></div>,<br/>,
+			<a href = "https://drive.google.com/file/d/1hdhhKtjK5S8dOav4tJnnqaTX86ONrATg/view" target = "_blank"> For Topics read this </a>,
+			<br/>,	<br/>
+		],
+	eventRules:
+		[
+			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
+			`1.`,<b>&emsp;</b>,`Every member participating in the event should have a valid SAMGATHA ID`,<br/>,
+			`2.`,<b>&emsp;</b>,`Usage of electronic gadgets is strictly prohibited`,<br/>,
+			`3.`,<b>&emsp;</b>,`Maximum number of participants in a team is 3`,<br/>,
+			`4.`,<b>&emsp;</b>,`Participants are expected to submit the abstract before March 3, 2018​, for preliminary evaluation`,<br/>,
+			`5.`,<b>&emsp;</b>,`Papers should strictly adhere to the IEEE format​ and can be submitted on the day of the event`,<br/>,
+			`6.`,<b>&emsp;</b>,`Abstract should not exceed 250 words​ and Paper should not exceed 10 pages`,<br/>,
+			`7.`,<b>&emsp;</b>,`The mail should be sent to `,
+			<a href = "mailto:samgatha.scifair@gmail.com"> samgatha.scifair@gmail.com </a>,
+			` and should contain the name of the paper​ as the subject of the email`,<br/>,
+			`8.`,<b>&emsp;</b>,`Persons from different institutions can be a part of the same team. However, one person may not be a part of multiple teams for the same event`,<br/>,
+			`9.`,<b>&emsp;</b>,`The mail with submissions should contain:`,
+				<ul>
+					<li>&emsp;Title- theme of the paper</li>
+					<li>&emsp;Name of the participants</li>
+					<li>&emsp;Mobile Number of the participants</li>
+					<li>&emsp;College name and district</li>
+					<li>&emsp;E-mail id of the participants</li>
+				</ul>,
+			`10.`,<b>&emsp;</b>,`After you have submitted the abstract, a panel of judges will go through your material and if you are shortlisted to give the presentation, you will be notified through mail​.`,<br/>,
+			`11.`,<b>&emsp;</b>,`The decision of judges will be final and no arguments or appeal will be entertained`,<br/>,
+			`12.`,<b>&emsp;</b>,`If any team is found to be performing any sort of malpractice, that particular team will be rusticated from the event`,
+			<br/>, <br/>
+		],
+	judgingCriteria:
+		[],
+	faq:
+		[],
+	club:"",
+	contacts:paperPresentationContacts,
 }
 
 class App extends Component {
@@ -2205,6 +2285,7 @@ class App extends Component {
 		<Route path="/lawyerUp" component={() => (<EventOne event={lawyerUp} />)} />
 		<Route path="/resonance" component={() => (<EventOne event={resonance} />)} />
 		<Route path="/instyle" component={() => (<EventOne event={instyle} />)} />
+		<Route path="/paperPresentation" component={() => (<EventOne event={paperPresentation} />)} />
 		<Footer />
 	 </div>
 	 </BrowserRouter>

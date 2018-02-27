@@ -127,28 +127,28 @@ class CultEventsList extends Component{
 	            	</div>
 	            	<div className="blocks">
 	            		<div className="blockLine">
-			            	<Link to='/dota' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">Dota 2</div>
+			            	<Link to='/miniMilitia' style={styles.links,{paddingRight:'70px'}}><div className="cauldron">
+			            		<div className="eventName">Mini Militia</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            	<Link to='/fifa' style={styles.links}><div className="cauldron">
 			            		<div className="eventName paddingCont">FIFA</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-			            	<Link to='/csgo' style={styles.links}><div className="cauldron">
-			            		<div className="eventName">CS:GO</div>
+			            	<Link to='/balloonExpress' style={styles.links,{paddingLeft:'70px'}}><div className="cauldron">
+			            		<div className="eventName">Balloon Express</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>
 	            	</div>
 	            	<div className="blocks">
 	            		<div className="blockLine">
-			            	<Link to='/miniMilitia' style={styles.links}><div className="cauldron" style={{marginLeft:"0px"}}>
-			            		<div className="eventName">Mini Militia</div>
+			            	<Link to='/dota' style={styles.links}><div className="cauldron" style={{marginLeft:"0px"}}>
+			            		<div className="eventName">Dota 2</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
-							<Link to='/balloonExpress' style={styles.links}><div className="cauldron" style={{marginLeft:"100px"}}>
-			            		<div className="eventName">Balloon Express</div>
+							<Link to='/csgo' style={styles.links}><div className="cauldron" style={{marginLeft:"100px"}}>
+			            		<div className="eventName">CS:GO</div>
 			            		<img src={require("../icons/garba.png")} alt="contentIcon" />
 			            	</div></Link>
 			            </div>

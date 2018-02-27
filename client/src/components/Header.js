@@ -22,7 +22,7 @@ const HeaderAuth = () => {
             <li><Link to="/"><img src={require("./icons/samlogo.png")} alt="logo" /></Link></li>
             <li><Link to="/sponsors">Sponsors</Link></li>
             <li><Link to="/contacts">Contacts</Link></li>
-            <li><SignOut/></li>
+            <li style={{paddingLeft:'30px'}}><SignOut/></li>
           </ul>
         </nav>
   </header>
