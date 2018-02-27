@@ -829,8 +829,7 @@ var battleOfBands =
 	eventName:"Battle of Bands",
 	data:
 		[
-			`Music speaks what cannot be expressed, soothes the mind, gives it rest and heals the heart and makes it whole flows from heaven to the soul .
-			So here’s your chance to hit the right note and let the musician in you touch thousands of soul and spread this form of magic to mesmerize the world around you ! `,
+			`The bands that infuses an irresistibly dance-able atmosphere bringing in an extremely coordinated effort of various instruments to produce some fascinating piece of art and getting that  rush of excitement through you body ! If you are carzzy about popular music like Jazz, pop or Rock, this is the place for you to be this Summer . So bring out the musical beast in you and make some noise !`,
 			<br/>,	<br/>
 		],
 	eventFormat:
@@ -952,8 +951,7 @@ var gaayak =
 	eventName:"Gaayak",
 	data:
 		[
-			`Music speaks what cannot be expressed, soothes the mind, gives it rest and heals the heart and makes it whole flows from heaven to the soul .
-			So here’s your chance to hit the right note and let the musician in you touch thousands of soul and spread this form of magic to mesmerize the world around you !`,
+			`If a thing isn't worth saying, Sing it !`,
 			<br/>,<br/>
 		],
 	eventFormat:
@@ -961,7 +959,7 @@ var gaayak =
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			<u>Team Size</u>,` :`,<b>&emsp;</b>,`Solo`,
 			<br/>,
-			<u>Time Limit</u>,` :`,<b>&emsp;</b>,`Maximum 5 minutes`,
+			<u>Time Limit</u>,` :`,<b>&emsp;</b>,`Maximum 4 minutes`,
 			<br/>,	<br/>
 		],
 	problemStatement:
@@ -1086,9 +1084,10 @@ var drishyam =
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,
 			<br/>,
-			`Participants have to send their entries to `,
+			`Participants have to send their entries(MP4 file) to drishyam.samgatha@gmail.com `,
 			<a href = "mailto:drishyam.samgatha@gmail.com"> drishyam.samgatha@gmail.com </a>,
-			`(will be created shortly). `,<u>1 round only</u>,` , there will be screening of the films and the judgement will be done there.`,
+			`along with the screenshot of Rs250(registration fees) PAYTM paid to +917904787923 on or before 9-March-2018, 9AM .`,<br/>,
+			<u>1 round only</u>,` , there will be screening of the films and the judgement will be done there.`,
 			 <br/>,<br/>,
 		],
 	problemStatement:
@@ -1145,15 +1144,27 @@ var eloquent =
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			`This event will consist of some off the beaten path events like spin-a-yarn, shipwrecked, and lots more…`,<br/>,
-			`Details will be given on the spot.`,
+			`First round details are given in the link below.`,<br/>,
+			<div class="container interior">
+				<a class="btn" href="#open-modal">Click for the Topics</a>,
+			</div>,
+			<div id="open-modal" class="modal-window">
+				<div>
+					<a href="#modal-close" title="Close" class="modal-close">Close</a>
+					<h1>Topics for first round: </h1>
+					<div>
+						Coming Up Soon
+						{/*
+						<ol>
+							<li>topic</li>
+						</ol>*/}
+					</div>
+				</div>
+			</div>,
 			<br/>,<br/>
 		],
 	problemStatement:
-		[
-			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,<br/>,
-			`Topics will be given on the spot `, 
-			<br/>,<br/>
-		],
+		[],
 	eventRules:
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
@@ -1184,8 +1195,8 @@ var mayaSrishti =
 	data:
 		[
 			`It's time to munch on some Chocolate frogs, drink a few butter beers, 
-			wield the Elder wand and use the Quick quotes Quill to create magic on stage!
-			Welcome to MayaSrishti, the dramatics event of Samgatha 2018. 
+			wield the Elder wand and use the Quick quotes Quill to create magic on stage!`,<br/>,<br/>,
+			`Welcome to MayaSrishti, the dramatics event of Samgatha 2018. 
 			It will be the crème de la crème of the opportunities to come, 
 			showcase the dramatist in you and create an exotic world on stage`,
 			<br/>,	<br/>
@@ -1194,12 +1205,14 @@ var mayaSrishti =
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,
 			<br/>,
-			`Give a brief description of the round. What will be asked to do in each round?`,
+			<div style = {{fontSize:"20px",color:"#00A896"}}><b>No Registration Fee</b></div>,
 			<br/>,
-			<u>Round 1</u>,` :`,<b>&emsp;</b>,`Perform on the prepared skit.`,
-			<br/>,
-			<u>Round 2</u>,` :`,<b>&emsp;</b>,`Topics will be given on the spot to your team and you will have to 
-			prepare a small play on the given topic within given time and perform the same.`,
+			<div style = {{textAlign:"left"}}>
+				<u>Round 1</u> :<b>&emsp;</b>Perform your prepared skit.
+				<br/>
+				<u>Round 2</u> :<b>&emsp;</b>Topics will be given on the spot to your team and you will have to 
+				prepare a small play on the given topic within given time and perform the same.
+			</div>,
 			<br/>,	<br/>
 		],
 	problemStatement:
@@ -1208,11 +1221,13 @@ var mayaSrishti =
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,
 			<br/>,
-			`1.`,<b>&emsp;</b>,<u>Team size</u>,` :`,<b>&emsp;</b>,`3-12 member group`,
+			`1.`,<b>&emsp;</b>,<u>Team size</u>,` :`,<b>&emsp;</b>,`3 - 12 member group`,
 			<br/>,
 			`2.`,<b>&emsp;</b>,<u>Language</u>,` :`,<b>&emsp;</b>,`English, Hindi, Tamil, Telugu.`,
 			<br/>,
 			`3.`,<b>&emsp;</b>,<u>Time limit</u>,` :`,<b>&emsp;</b>,`For the first round, minimum 5 minutes and maximum 25 minutes. For the second round, it will be decided on the spot.`,
+			<br/>,
+			`4.`,<b>&emsp;</b>,<u>Type of play</u>,` :`,<b>&emsp;</b>,`All kind of drama from Mime and skit to dance drama are allowed.`, 
 			<br/>,<br/>
 		],
 	judgingCriteria:
@@ -1225,15 +1240,7 @@ var mayaSrishti =
 			<br/>,	<br/>
 		],
 	faq:
-		[
-			<div style = {{fontSize:"30px"}}><b>FAQs:</b></div>,
-			<br/>,
-			<b>Q.&emsp;What if the team size is less than or more than the above 
-			mentioned minimum and maximum team size respectively, or same in the case of team limit?</b>,
-			<br/>,
-			<b>A :&emsp;</b>, `In that case, your team will have to face penalty of a few points, given to you while judging.`,
-			<br/>
-		],
+		[],
 	club:"Drama Club",
 	contacts:dramaClubContacts,
 }
@@ -1297,21 +1304,19 @@ var hocusFocus =
 			<br/>,
 			`12.`,<b>&emsp;</b>,`The judges and the organizers reserve the right to cancel or vary the position awarded in case of any discrepancies. `,
 			<br/>,
-			`13.`,<b>&emsp;</b>,`All submissions have to be made at __________.`,
+			`13.`,<b>&emsp;</b>,`Participants are not allowed to tag people on the photographs when it is uploaded on Facebook by the organizers. `,
 			<br/>,
-			`14.`,<b>&emsp;</b>,`Participants are not allowed to tag people on the photographs when it is uploaded on Facebook by the organizers. `,
+			`14.`,<b>&emsp;</b>,`Participants are to submit details of the device used along with the photographs. `,
 			<br/>,
-			`15.`,<b>&emsp;</b>,`Participants are to submit details of the device used along with the photographs. `,
+			`15.`,<b>&emsp;</b>,`Candids and event photos are accepted. Any selfie or group photos wouldn’t be accepted.`,
 			<br/>,
-			`16.`,<b>&emsp;</b>,`Candids and event photos are accepted. Any selfie or group photos wouldn’t be accepted.`,
+			`16.`,<b>&emsp;</b>,`The image should be only in JPEG format.`,
 			<br/>,
-			`17.`,<b>&emsp;</b>,`The image should be only in JPEG format.`,
+			`17.`,<b>&emsp;</b>,`Minimum 5MP. The EXIF data should remain intact.`,
 			<br/>,
-			`18.`,<b>&emsp;</b>,`Minimum 5MP. The EXIF data should remain intact.`,
+			`18.`,<b>&emsp;</b>,`The file size shouldn’t exceed 30 MB.`,
 			<br/>,
-			`19.`,<b>&emsp;</b>,`The file size shouldn’t exceed 30 MB.`,
-			<br/>,
-			`20.`,<b>&emsp;</b>,`No restriction on type of device used.`,
+			`19.`,<b>&emsp;</b>,`No restriction on type of device used.`,
 			<br/>,<br/>
 		],
 	judgingCriteria:
@@ -1360,16 +1365,11 @@ var impulse =
 			<br/>,
 			<b>&emsp;</b>,`1.`,<b>&emsp;</b>,`Skills`,
 			<br/>,
-			<b>&emsp;</b>,`2.`,<b>&emsp;</b>,`Street presentation`,
+			<b>&emsp;</b>,`2.`,<b>&emsp;</b>,`Creativity`,
 			<br/>,
 			<b>&emsp;</b>,`3.`,<b>&emsp;</b>,`Musicality`,
 			<br/>,
 			<b>&emsp;</b>,`4.`,<b>&emsp;</b>,`Performance`,
-			<br/>,
-			<b>&emsp;</b>,`5.`,<b>&emsp;</b>,`Creativity`,
-			<br/>,
-			`It is particularly important for the participants to stick with street dance
-			styles.`,
 			<br/>, <br/>
 		],
 	faq:
@@ -1378,7 +1378,7 @@ var impulse =
 			<br/>,
 			<b>Q.&emsp;How many prizes will be awarded?</b>,
 			<br/>,
-			<b>A :&emsp;</b>, `Two`,
+			<b>A :&emsp;</b>, `Three`,
 			<br/>,	<br/>
 		],
 	club:"Dance Club",
@@ -1443,7 +1443,7 @@ var coupling =
 	eventFormat:
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
-			<u>Team size</u>,` :`,<b>&emsp;</b>,`ofcourse 2`,<br/>,
+			<u>Team size</u>,` :`,<b>&emsp;</b>,`2 (any combination allowed)`,<br/>,
 			<u>Time limit</u>,` :`,<b>&emsp;</b>,`3 - 5 minutes`,
 			<br/>,<br/>,
 			<b>"Limitations only exist if you let them :P"</b>,
@@ -1466,16 +1466,11 @@ var coupling =
 			<br/>,
 			<b>&emsp;</b>,`1.`,<b>&emsp;</b>,`Skills`,
 			<br/>,
-			<b>&emsp;</b>,`2.`,<b>&emsp;</b>,`Street presentation`,
+			<b>&emsp;</b>,`2.`,<b>&emsp;</b>,`Creativity`,
 			<br/>,
 			<b>&emsp;</b>,`3.`,<b>&emsp;</b>,`Musicality`,
 			<br/>,
 			<b>&emsp;</b>,`4.`,<b>&emsp;</b>,`Performance`,
-			<br/>,
-			<b>&emsp;</b>,`5.`,<b>&emsp;</b>,`Creativity`,
-			<br/>,
-			`It is particularly important for the participants to stick with street dance
-			styles.`,
 			<br/>, <br/>
 		],
 	faq:
@@ -1820,14 +1815,12 @@ var lawyerUp =
 			`Individual event`,
 			<br/>,
 			`The event will be spanned by 2 rounds.`,<br/>,
-			<u>Round 1</u>,` will see a group discussion.`,<b>&emsp;</b>,<u>Group size</u>,` : 5`,<br/>,
-			<u>Round 2</u>,` will be the final round consisting of the best 6 participants from Round 1. `,
-			<br/>,<br/>
+			<br/>
 		],
 	problemStatement:
 		[
 			<div style = {{fontSize:"30px"}}><b>Problem Statement: </b></div>,<br/>,
-			`Topics will be given on the spot `, 
+			`Case studies will be given to individuals on the spot.`, 
 			<br/>,<br/>
 		],
 	eventRules:

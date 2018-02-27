@@ -57,7 +57,7 @@ class ContactUs extends Component{
 										<div className="cardImage">
 											<img src={require("../icons/anirudh.png")} alt="contactPic" />
 										</div>
-										<div className="memberInfo">Gunda Anirudh<br />+91-9441126454</div>
+										<div className="memberInfo">Gunda Sai Anirudh<br />+91-9441126454</div>
 										<div className="cardLinks">
 											<a href="https://www.facebook.com/GUNDASAIANIRUDH" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
 											<a href="https://www.instagram.com/i_gsa/" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>&ensp;
@@ -68,7 +68,7 @@ class ContactUs extends Component{
 										<div className="cardImage">
 											<img src={require("../icons/gaja.jpg")} alt="contactPic" />
 										</div>
-										<div className="memberInfo">Gajraj Gajapathi<br />+91-9952204562</div>
+										<div className="memberInfo">Gajaraj Gajapathi<br />+91-9952204562</div>
 										<div className="cardLinks">
 											<a href="https://m.facebook.com/gajaraj.gajapathi" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
 											<a href="www.instagram.com/gajaraj_gajapathi" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>
