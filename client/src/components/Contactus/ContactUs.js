@@ -109,9 +109,7 @@ class ContactUs extends Component{
 										</div>
 										<div className="memberInfo">SriHari Naidu<br />+91-9491788436</div>
 										<div className="cardLinks">
-											<a href="https://www.facebook.com/samgathaatiiitdm/" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>&ensp;
-											<a href="https://www.facebook.com/samgathaatiiitdm/" target="_blank" ><i className="fab socialIconsFacebook fa-instagram fa-xs"></i></a>&ensp;
-											<a href="https://www.facebook.com/samgathaatiiitdm/" target="_blank" ><i className="fab socialIconsFacebook fa-linkedin fa-xs"></i></a>
+											<a href="https://www.facebook.com/profile.php?id=100007983617251" target="_blank" ><i className="fab socialIconsFacebook fa-facebook fa-xs"></i></a>
 										</div>
 									</div>
 								</div>
