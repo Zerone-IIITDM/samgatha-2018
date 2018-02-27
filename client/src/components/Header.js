@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import SignOut from './SignOut/SignOut';
 
+document.title="SAMGATHA'18";
 const Header = ({ authUser }) => {
   if(authUser) {
     return(<HeaderAuth />);
