@@ -652,7 +652,7 @@ var codeAution =
 			Credits are decreased for each keyword used in the code.`,<br/>,
 			`For example: if-else constructs, looping keywords like while, for etc., switch, break, etc.`,<br/>,
 			`The event is language independent and the credits are same for the constructs and do not vary by the keyword. 
-			Other languages may have other keywords and credits are assigned based on the mechanism the keyboard.`,<br/>,
+			Other languages may have other keywords and credits are assigned based on the mechanism of the keyword.`,<br/>,
 			<u>Round 2</u>,` :`,<b>&emsp;</b>,` Surprise Round.`,
 			<br/>,<br/>
 		],
@@ -1144,9 +1144,15 @@ var eloquent =
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Format: </b></div>,<br/>,
 			`This event will consist of some off the beaten path events like spin-a-yarn, shipwrecked, and lots more…`,<br/>,
-			`First round details are given in the link below.`,<br/>,
-			<div class="container interior">
-				<a class="btn" href="#open-modal">Click for the Topics</a>,
+			`First round details are given in the link below.`,
+			<br/>,<br/>
+		],
+	problemStatement:
+		[	
+			<div className="outerContainer">
+				<div class="container interior">
+					<a class="btn" href="#open-modal">Click for the Topics</a>
+				</div>
 			</div>,
 			<div id="open-modal" class="modal-window">
 				<div>
@@ -1163,8 +1169,6 @@ var eloquent =
 			</div>,
 			<br/>,<br/>
 		],
-	problemStatement:
-		[],
 	eventRules:
 		[
 			<div style = {{fontSize:"30px"}}><b>Event Rules: </b></div>,<br/>,
