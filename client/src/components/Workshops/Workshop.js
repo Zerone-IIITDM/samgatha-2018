@@ -17,6 +17,10 @@ class Workshop extends Component{
 					<div>Reboot-Invited Tech Talk</div>
 					<img src={require("../icons/reboot.png")}alt="workshop" />
 				</div>
+				<div className="workshop1">
+					<div>The Anonymous Writer</div>
+					<img src={require("../icons/anonymous.jpg")}alt="workshop" />
+				</div>
 				<div className="workshop2">
 					<div>Urban Dance Workshop</div>
 					<img src={require("../icons/dance.jpg")}alt="workshop" />
