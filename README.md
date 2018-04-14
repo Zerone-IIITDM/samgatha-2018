@@ -18,6 +18,11 @@
 ### `client/src` directory
 * `components` - react components used in app
 
+## TODO
+* Add `MySQL` integration.(Note: this involves removing Firebase completely and using MySQL instead of that)
+* Add user authentication using `passport-js`.(Feel free to suggest some other packages for authentication)
+* Add React Mobile components.(Have a look at this: https://foundation.zurb.com/)
+
 ## License
 MIT License
 
